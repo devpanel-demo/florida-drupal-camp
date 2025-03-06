@@ -1,0 +1,19 @@
+favicon:
+  use_default: 0
+  path: themes/pubsub/favicon.svg
+  mimetype: image/svg+xml
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: 1
+  node_user_picture: 0
+logo:
+  use_default: 0
+  path: ''
+third_party_settings:
+  shortcut:
+    module_link: true
+mobile_menu_all_widths: 0
+site_branding_bg_color: default
+_core:
+  default_config_hash: Ylohp6sdrL1dU4v-KcXzXTP-U8BAMgh4NWJA9eGHtO4

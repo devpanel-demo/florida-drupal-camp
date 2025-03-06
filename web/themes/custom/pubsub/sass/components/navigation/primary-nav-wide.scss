@@ -1,0 +1,143 @@
+@import "../../global/variables";
+
+@media ($wide-nav) {
+  .primary-nav {
+    position: relative;
+    z-index: 102; // Appear below Gin Horizontal toolbar, which has value of 103.
+  }
+
+  .primary-nav__menu--level-1 {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    padding: 10px;
+
+    > * {
+      margin: 20px 0;
+    }
+  }
+
+  .primary-nav__menu--level-1 {
+    color: var(--color--ocean-10);
+    font-size: 16px;
+  }
+
+  .primary-nav__menu-item {
+    position: relative; // Anchor submenu.
+  }
+
+  .primary-nav__menu-link {
+    text-decoration: none;
+  }
+
+  .primary-nav__menu-link--level-1 {
+    display: block; // Necessary for <a> tags.
+    font-weight: 700;
+    padding: 20px 16px;
+  }
+
+  .primary-nav__menu-link--button {
+    &.primary-nav__menu-link--has-children {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+
+      /* Chevron icon for desktop navigation. */
+      .primary-nav__menu-link-icon {
+        position: relative;
+        width: 16px;
+        aspect-ratio: 1;
+        background-color: var(--secondary);
+        color: var(--text-on-secondary);
+
+        &:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          width: 6px;
+          height: 6px;
+          margin-block-start: -2px;
+          transform: translate(-50%, -50%) rotate(45deg);
+          border-top: 0;
+          border-right: solid 2px currentColor;
+          border-bottom: solid 2px currentColor;
+        }
+      }
+
+      &[aria-expanded="true"] {
+        background-color: var(--neutral-dark);
+        color: var(--text-on-neutral-dark);
+
+        .primary-nav__menu-link-icon {
+          background-color: var(--pink-light);
+          scale: -1;
+        }
+      }
+    }
+  }
+
+  // Submenus
+  .primary-nav__menu--level-2 {
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background: var(--neutral-dark);
+    list-style: none;
+    padding: var(--sp2) 8px var(--sp);
+    margin: 0;
+
+    &.is-active-menu-parent,
+    html:not(.js) .primary-nav__menu-item--level-1:focus-within &,
+    html:not(.js) .primary-nav__menu-item--level-1:hover & {
+      visibility: visible;
+    }
+  }
+
+  .primary-nav__menu-item--level-2 {
+    margin-bottom: var(--sp);
+  }
+
+  .primary-nav__menu-link--level-2 {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    color: var(--text-on-neutral-dark);
+
+    &:hover {
+      background: var(--secondary);
+      color: var(--text-on-secondary);
+    }
+  }
+
+  // Only shows for authenticated users.
+  .account-menu-item {
+    border-left: solid 1px var(--color--ocean-55);
+    padding: 0;
+
+    button {
+      min-width: 60px;
+      padding: 0;
+      text-indent: -999px;
+      overflow: hidden;
+
+      &:after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: currentColor;
+        mask-image: url('../../../images/user.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+        mask-size: 18px;
+      }
+
+      .primary-nav__menu-link-icon {
+        display: none !important;
+      }
+    }
+  }
+}

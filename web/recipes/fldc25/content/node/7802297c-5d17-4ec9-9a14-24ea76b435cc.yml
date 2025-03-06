@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7802297c-5d17-4ec9-9a14-24ea76b435cc
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    8eb3d99b-f195-4b33-996a-5542ddac9585: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    99030c72-dce0-484c-a208-1776a0ae2093: taxonomy_term
+    b4d816ba-3dc5-420d-9d20-bda985a7a122: file
+    90dc52d7-941d-4661-afd0-0dd0abce6be7: user
+    54a015b4-e99e-4a11-bfde-9cdb72b4ec5a: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8eb3d99b-f195-4b33-996a-5542ddac9585
+  title:
+    -
+      value: "Weekend at Drupal 7's: Still Partying Past EOL"
+  created:
+    -
+      value: 1731948380
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/weekend-drupal-7s-still-partying-past-eol
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p><strong>Picture this: </strong>It's February 2025, and while Drupal 7 was supposed to be having its final farewell tour, it's somehow still crowd-surfing through thousands of websites. Like the tech world's most persistent party guest, it just won't take \"time to go home\" for an answer, and honestly, that might be a good thing.</p><p>Welcome to the real world of post-EOL Drupal 7, where thousands of sites are doing the digital equivalent of running with scissors. But before you panic-migrate your way into next Tuesday, let's talk about how to turn this potential disaster into your next success story.</p><p><strong>In this session, we'll cover:</strong></p><ul><li>Why your Drupal 7 site is like that one friend who's still using a Hotmail address (functional but concerning)</li><li>How to transform your \"technical debt\" into \"technical dividends\" (yes, we're making that a thing)</li><li>The art of keeping your site secure when official support has left the building</li><li>Why HeroDevs is basically your site's designated driver through the afterparty</li></ul><p>Perfect for: digital strategists putting off difficult conversations, developers tired of explaining why \"just migrate it\" isn't always the answer, managers wondering why their weekend plans keep involving security patches, and anyone who's ever had to make legacy software work well past its expiration date.</p><p>Leave knowing not just why your Drupal 7 site can survive, but how to make it thrive. Because sometimes the best parties happen after the lights are supposed to go out.</p><p>Warning: This talk may contain excessive metaphors, actual solutions, and at least one reference to how supporting Drupal 7 is like keeping a Tamagotchi alive in 2025—surprisingly possible and weirdly satisfying.</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: 99030c72-dce0-484c-a208-1776a0ae2093
+  field_social_media_card:
+    -
+      entity: b4d816ba-3dc5-420d-9d20-bda985a7a122
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 8eb3d99b-f195-4b33-996a-5542ddac9585
+    -
+      entity: 90dc52d7-941d-4661-afd0-0dd0abce6be7
+  field_time_slot:
+    -
+      entity: 54a015b4-e99e-4a11-bfde-9cdb72b4ec5a

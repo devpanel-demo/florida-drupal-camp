@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fbf1ff17-1aab-4473-9d6f-fcdc291ebb06
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    0b0c2020-8ec0-4ef4-b6b6-49a3880b86ad: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: Droptica
+  created:
+    -
+      value: 1705336503
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/droptica
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Droptica: Your experienced Drupal Certified Partner in Poland, trusted by US companies. Elevate your projects with our skilled, reliable team.</p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 0b0c2020-8ec0-4ef4-b6b6-49a3880b86ad
+      alt: 'Droptica Logo'
+      title: ''
+      width: 1345
+      height: 350
+  field_website_address:
+    -
+      uri: 'https://www.droptica.com/drupal-agency/?utm_source=fldrupal.camp&utm_medium=referral&utm_campaign=florida-drupal-camp-2025'
+      title: ''
+      options: {  }

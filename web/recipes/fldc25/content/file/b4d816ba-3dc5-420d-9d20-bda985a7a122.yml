@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b4d816ba-3dc5-420d-9d20-bda985a7a122
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_hbaillio_jddoesdev.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_hbaillio_jddoesdev.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59910
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049752

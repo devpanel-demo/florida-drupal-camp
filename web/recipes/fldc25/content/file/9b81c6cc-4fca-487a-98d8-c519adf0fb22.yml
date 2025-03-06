@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b81c6cc-4fca-487a-98d8-c519adf0fb22
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: drupaleasy-logo-for-fldc.png
+  uri:
+    -
+      value: 'public://2022-12/drupaleasy-logo-for-fldc.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 52167
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670922725

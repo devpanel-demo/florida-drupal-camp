@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e9313a44-e9d2-4d11-a0f3-eca50b328925
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    7b91d29c-db46-4e7c-8735-4d870aafbe86: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: 'The Weekly Drop'
+  created:
+    -
+      value: 1639332237
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/weekly-drop
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Get the best Drupal news, tutorials, and articles once a week without hours of browsing.<br />\r\n&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 7b91d29c-db46-4e7c-8735-4d870aafbe86
+      alt: 'The Weekly Drop logo'
+      title: ''
+      width: 432
+      height: 360
+  field_website_address:
+    -
+      uri: 'http://www.theweeklydrop.com/'
+      title: ''
+      options: {  }

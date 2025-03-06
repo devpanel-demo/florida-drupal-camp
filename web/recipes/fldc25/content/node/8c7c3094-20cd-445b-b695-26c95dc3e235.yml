@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8c7c3094-20cd-445b-b695-26c95dc3e235
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    f5366e40-1fdd-4a7a-b942-a93317069a8c: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'ITT Digital'
+  created:
+    -
+      value: 1672344205
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/itt-digital
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>ITTDigital is a rapidly growing global technology start-up that offers next-generation Digital Transformation and Digital Learning experiences.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: f5366e40-1fdd-4a7a-b942-a93317069a8c
+      alt: 'ITT Digital logo'
+      title: ''
+      width: 600
+      height: 137
+  field_website_address:
+    -
+      uri: 'https://www.ittdigital.com/'
+      title: ''
+      options: {  }

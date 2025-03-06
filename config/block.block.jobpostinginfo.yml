@@ -1,0 +1,30 @@
+uuid: 2130e841-737f-4339-8adc-6a3859672df1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0494773d-8857-4aa0-8104-6eda9fc628d4'
+  module:
+    - block_content
+    - system
+  theme:
+    - pubsub
+id: jobpostinginfo
+theme: pubsub
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:0494773d-8857-4aa0-8104-6eda9fc628d4'
+settings:
+  id: 'block_content:0494773d-8857-4aa0-8104-6eda9fc628d4'
+  label: 'Job Posting Info'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /job-listings

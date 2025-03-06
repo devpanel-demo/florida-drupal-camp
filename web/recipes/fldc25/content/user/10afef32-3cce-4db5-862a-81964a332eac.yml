@@ -1,0 +1,79 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 10afef32-3cce-4db5-862a-81964a332eac
+  default_langcode: en
+  depends:
+    479bb9c2-d14a-4c26-b9f1-46e6c3421826: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ultrabob
+  pass:
+    -
+      value: $2y$10$vwibRxm0hhLf00Lgn/ERUe.OGcSJonPLqrMEkOkzh.GMKm1WCI/CK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: bob@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702337485
+  access:
+    -
+      value: 1732560454
+  login:
+    -
+      value: 1732120680
+  init:
+    -
+      value: bob@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/ultrabob
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Bob recently moved to Canada after 20+ years working in Web Development in Japan. When not working with Drupal, he enjoys personal coding projects, woodworking, and 3D Printing.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/ultrabob'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Bob
+  field_last_name:
+    -
+      value: McDonald
+  field_organization:
+    -
+      value: Kalamuna
+  field_title:
+    -
+      value: 'Senior Drupal Architect'
+  user_picture:
+    -
+      entity: 479bb9c2-d14a-4c26-b9f1-46e6c3421826
+      alt: ''
+      title: ''
+      width: 280
+      height: 280

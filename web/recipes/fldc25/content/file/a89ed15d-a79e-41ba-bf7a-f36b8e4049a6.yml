@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a89ed15d-a79e-41ba-bf7a-f36b8e4049a6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 'Hayden Headshot Febuary (1).png'
+  uri:
+    -
+      value: 'public://pictures/2024-11/Hayden Headshot Febuary (1).png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1796624
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731947295

@@ -1,0 +1,103 @@
+cleantalk.admin:
+  path: '/admin/config/cleantalk'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Antispam by Cleantalk'
+  requirements:
+    _permission: 'change cleantalk settings'
+
+cleantalk.settings:
+  path: '/admin/config/cleantalk/cleantalk_settings_form'
+  defaults:
+    _form: '\Drupal\cleantalk\Form\CleantalkSettingsForm'
+    _title: 'Settings'
+  requirements:
+    _permission: 'change cleantalk settings'
+  options:
+    _admin_route: TRUE
+
+cleantalk.check_users:
+  path: '/admin/config/cleantalk/cleantalk_check_users_form'
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:view'
+    _title: 'Checking users for spam'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+cleantalk.check_users_clear:
+  path: '/admin/config/cleantalk/cleantalk_check_users_clear'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:clear'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+cleantalk.check_users_check:
+  path: '/admin/config/cleantalk/cleantalk_check_users_check'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:check'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+cleantalk.check_users_delete:
+  path: '/admin/config/cleantalk/cleantalk_check_users_form/delete'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:delete'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+    
+cleantalk.delete_selected_users:
+  path: '/admin/config/cleantalk/cleantalk_delete_selected_users'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:deleteSelected'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+    
+cleantalk.delete_all_users:
+  path: '/admin/config/cleantalk/cleantalk_delete_all_users'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\CheckUsersController:deleteAll'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+cleantalk.check_comments:
+  path: '/admin/config/cleantalk/cleantalk_check_comments_form'
+  defaults:
+    _form: '\Drupal\cleantalk\Form\CleantalkCheckCommentsForm'
+    _title: 'Check spam comments'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
+
+cleantalk.set_alt_cookies:
+  path: '/admin/config/cleantalk/set_alt_cookies'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\SetAltCookiesController:setCookies'
+  requirements:
+    _permission: 'access content'
+
+cleantalk.check_spam_external_forms:
+  path: '/admin/config/cleantalk/check_spam_external_forms'
+  methods:  [POST]
+  defaults:
+    _controller: '\Drupal\cleantalk\Controller\ExternalFormsController:check'
+  requirements:
+    _permission: 'access content'

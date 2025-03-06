@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 295e710b-0891-4f06-ac4d-dca9dff3ebc9
+  default_langcode: en
+  depends:
+    9b10594c-5d6c-4c6c-9c89-f73107e34f26: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: imrodmartin
+  pass:
+    -
+      value: $2y$10$fIzRhIM7Tsjtqipg7oSd0.5Dc8xmXGiNuIV8PbE7FbIhH4KLEuOTK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: rod@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669754025
+  access:
+    -
+      value: 1733767361
+  login:
+    -
+      value: 1733493585
+  init:
+    -
+      value: rod@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/imrodmartin
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "It's been my privilege to introduce Drupal to almost 50,000 people in the past 13 years through live training globally and video courses at OSTraining, LinkedIn and Acquia Academy.\r\n\r\nBorn in Australia, raised in Canada, living in the United States.  I’ve been blessed to live in three countries and have traveled to many more. \r\n\r\nI play ice hockey two or three times a week, ride my motorcycle anywhere and everywhere I can and find a lot of joy in my family. \r\n\r\nI love when the light goes on over someone’s head - and they “get it”."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/imrodmartin'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: 'Rod '
+  field_home_town:
+    -
+      value: 'Dillsboro IN'
+  field_last_name:
+    -
+      value: Martin
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/imrodmartin/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: DrupalHelps
+  field_personal_website_link:
+    -
+      uri: 'https://drupalhelps.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Lead Trainer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/imrodmartin'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 9b10594c-5d6c-4c6c-9c89-f73107e34f26
+      alt: ''
+      title: ''
+      width: 1125
+      height: 1503

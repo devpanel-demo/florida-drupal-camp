@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 927d6355-050d-47d0-b08e-86bedbe7d852
+  bundle: job_listing
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    e6d13a89-0d47-4dcf-a9cf-0dfe9384eb01: node
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Website Business Analyst'
+  created:
+    -
+      value: 1704966916
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /job/kanopi-studios/website-business-analyst
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<div class="styles--2BkR3" data-ui="job-description"><div><p>We are currently seeking a highly skilled and motivated <strong>Website Business Analyst </strong>to join our team. As a Website Business Analyst, you will play a critical role in bridging the gap between business needs and technical solutions to successfully deliver web-based projects by understanding and defining requirements, facilitating communication between stakeholders, and ensuring the development solution aligns with business goals.&nbsp;</p><p>As a successful Website Business Analyst, you will possess a strong analytical mindset, excellent communication skills, and a deep understanding of web technologies and business processes. You will be data-driven and will use that data to develop and guide a strategy that will be the foundation of the web development solution.</p><p>&nbsp;</p><h3>Responsibilities</h3><ul><li>Requirements Gathering<ul><li>Collaborate with business stakeholders to elicit, analyze, and document business requirements for web-based projects.</li><li>Act as liaison between client stakeholders and internal departments to ensure a clear understanding of needs, requirements,&nbsp; and key performance indicators (KPIs)</li><li>Collaborate with the strategy team’s research and analysis to understand the business context and objectives, and help to develop a clear and actionable plan for the development team to follow</li></ul></li><li>Data Analysis<ul><li>Review web analytics findings to derive insights and make data-driven recommendations for improving user experience and achieving business goals.</li><li>Review research and data to better understand target audiences.</li><li>Understand and effectively communicate key performance indicators (KPIs) to all parties.</li><li>Identify business-specific user needs that can aid in the creation of development solutions.</li></ul></li><li>User Experience (UX) Analysis<ul><li>Using data gathered in the data analysis stage, ensure that user needs are the guiding principle of the design and development processes.</li><li>Collaborate with UX/UI designers to understand deliverables and plan for their implementation in development..</li></ul></li><li>Technical Planning<ul><li>Facilitate the functional requirements-gathering process by organizing and collaborating with key stakeholders.</li><li>Develop a detailed project plan that outlines functional requirements,&nbsp; backlog tasks and required resources for development.&nbsp;</li><li>Work closely with project managers, the project’s technical lead, and other internal stakeholders to create and maintain project documentation, including backlogs, technical documentation, and other supporting materials.</li></ul></li><li>Communication and Collaboration<ul><li>Facilitate communication between stakeholders and the development team to ensure a clear understanding of project requirements.</li><li>Collaborate with developers, designers, and other stakeholders to ensure the successful delivery of a website that is aligned with overall business strategy and goals.</li><li>Monitor the progress of the project, proactively identifying and resolving issues that may arise.</li></ul></li><li>Quality Assurance<ul><li>Support in the creation of test plans to validate that web applications meet specified requirements.</li><li>Work with QA Engineer in the identification and documentation of defects and work with development teams to ensure timely resolution.</li></ul></li><li>Process Improvement<ul><li>Identify opportunities for process improvement and efficiency gains in web-related workflows.</li><li>Work closely with cross-functional teams to streamline business processes and enhance overall performance.</li><li>Monitor industry trends and best practices so that the web design and development team output is of the best possible standard.</li></ul></li></ul><p>&nbsp;</p><p><strong>ABOUT THE COMPENSATION &amp; WORK REQUIREMENTS</strong></p><p><em>This is a full-time position. The salary range for this position is $75,400 - $100,426 - the range is broad, but it is commensurate with experience, aligned with current members of our team with similar experience, and may shift a bit depending on your geographic location. This is a 100% remote role, but you must live and be able to work in the US or Canada.</em></p><p>NOW... LET''S TALK ABOUT YOU!</p></div></div><div class="styles--2kg4_" data-ui="job-requirements"><h4>Requirements</h4><div><ul><li>Bachelor''s degree in Business Administration, Information Technology, or related field.</li><li>Proven experience as a Business Analyst in web development projects.</li><li>Strong analytical and problem-solving skills.</li><li>Familiarity with Drupal and WordPress.</li><li>Excellent communication and interpersonal skills.</li><li>Familiarity with web technologies, development methodologies, and project management practices.</li><li>Proficiency in using project management tools and web analytics platforms.</li><li>Knowledge of UX/UI principles and usability testing.</li><li>Bonus: Understanding of the agency sales lifecycle.</li></ul><p>&nbsp;</p><h3>Preferred Qualifications</h3><ul><li>Experience working with open source content management systems like WordPress and Drupal.</li><li>Certification in Business Analysis (e.g., CBAP).</li><li>Experience with Agile/Scrum methodologies.</li><li>Familiarity with online marketing concepts.</li></ul><p>&nbsp;</p><p><strong>At Kanopi, we believe a variety of backgrounds, experiences, and voices make for a better workplace. We strongly and enthusiastically encourage people of color, individuals who identify within and beyond the LGBTQ+ spectrum, women, and people with disabilities to apply.</strong></p></div></div>'
+      format: full_html
+      summary: ''
+  field_company:
+    -
+      entity: e6d13a89-0d47-4dcf-a9cf-0dfe9384eb01
+  field_location:
+    -
+      value: Remote
+  field_url:
+    -
+      uri: 'https://apply.workable.com/kanopi/j/AFEA521A3F/'
+      title: ''
+      options: {  }

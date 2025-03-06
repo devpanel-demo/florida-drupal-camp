@@ -1,0 +1,133 @@
+/**
+ * @file
+ * Text Content.
+ */
+
+@import "../global/variables";
+
+.text-content {
+  color: var(--color--gray-10);
+  line-height: var(--sp1-5);
+
+  & a:where(:not(.button)) {
+    color:  var(--text-on-neutral-primary);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
+    text-decoration-color: var(--text-on-neutral-primary);
+    overflow-wrap: break-word;
+    transition: all 0.2s;
+
+    &:hover {
+      text-underline-offset: 6px;
+    }
+  }
+
+  & ul,
+  & ol {
+    margin-top: var(--sp2);
+    margin-bottom: var(--sp2);
+  }
+
+  & li {
+    margin-bottom: var(--sp0-5);
+
+    &::marker {
+      color: var(--text-on-neutral-primary);
+    }
+  }
+
+  & p {
+    margin-block-start: var(--sp);
+    margin-block-end: var(--sp);
+
+    &:first-child {
+      margin-block-start: 0;
+    }
+
+    &:last-child {
+      margin-block-end: 0;
+    }
+
+    @media ($md) {
+      margin-block-start: var(--sp2);
+      margin-block-end: var(--sp2);
+    }
+  }
+
+  & code {
+    background-color: var(--color--night-90);
+  }
+
+  & pre code {
+    display: block;
+    overflow: auto;
+    padding-block: var(--sp);
+    padding-inline-start: var(--sp);
+    padding-inline-end: var(--sp);
+  }
+
+  & blockquote {
+    position: relative;
+    margin-block: var(--sp2);
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: var(--sp4);
+    letter-spacing: -0.01em;
+    font-family: var(--font-serif);
+    font-size: 21px;
+    line-height: 1.5;
+    color: var(--color--night-30);
+
+    &:before {
+      position: absolute;
+      inset-block-start: -10px;
+      inset-inline-start: -10px;
+      font-family: 'georgia';
+      content: "“";
+      color: var(--color--sun-90);
+      font-size: 150px;
+      line-height: 1;
+    }
+
+    &:after {
+      position: absolute;
+      inset-block-end: 0;
+      inset-inline-start: 10px;
+      width: var(--sp0-5);
+      height: calc(100% - 70px);
+      margin-inline-start: 4px;
+      content: "";
+      background: var(--color--sun-90);
+    }
+
+    @media ($grid-md) {
+      font-size: 32px;
+    }
+  }
+
+  @media ($grid-md) {
+    font-size: 18px;
+    line-height: var(--sp2);
+  }
+}
+
+/**
+ * Special colors for footer that has a dark background.
+ */
+.site-footer .text-content {
+  color: inherit;
+
+  & * {
+    color: inherit;
+  }
+
+  & a {
+    text-decoration: underline;
+    color: var(--text-on-neutral-dark-secondary);
+
+    &:hover {
+      text-decoration: none;
+      color: var(--text-on-neutral-dark-primary);
+    }
+  }
+}

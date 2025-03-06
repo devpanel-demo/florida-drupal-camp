@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4b919385-94b4-47ed-9817-e126d519d386
+  default_langcode: en
+  depends:
+    38131a02-0ba4-4d40-a464-d1f3e8bbd25f: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: tekNorah
+  pass:
+    -
+      value: $2y$10$zzLaO6Ek0PdSR7g.HnTtzOVTyxGYlhLMjx6JrhwnlLN/aT8jZS0gS
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: Norah@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1729644564
+  access:
+    -
+      value: 1729650030
+  login:
+    -
+      value: 1729645302
+  init:
+    -
+      value: Norah@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/teknorah
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Senior Technical Project Manager @<a href="https://www.teknorah.com" target="_blank">tekNorah</a> and Founder of the <a href="https://www.digitalcareersandbox.com/" target="_blank">Digital Career Sandbox</a></p><p>Meet <a href="https://about.me/tekNorah" target="_blank">tekNorah</a>, a seasoned pro with <a href="https://www.linkedin.com/in/teknorah/" target="_blank">15+ years</a> in software development and process improvement, excelling in education, government, and legal sectors.</p><p>A dedicated remote worker and mentor, tekNorah contributes to <a href="https://www.codementor.io/@teknorah" target="_blank">Codementor/Arc</a>, the <a href="https://www.drupal.org/u/teknorah" target="_blank">Drupal</a> <a href="https://drupal.slack.com/"  target="_blank">Slack</a> workspace, <a href="https://www.midcamp.org/"  target="_blank">MidCamp</a> leadership, and intern coordination at <a href="https://drupal4gov.us/" target="_blank">Drupal4Gov</a>, the fiscal host for <a href="https://www.drupalgovcon.org/" target="_blank">Drupal GovCon</a>. Their focus on collaboration and ideation boosts organizational performance.</p><p>Passionate about innovation, tekNorah''s meticulous approach to systems design and change management <a href="https://www.teknorah.com/resume" target="_blank">stands out</a>. Crafting <a href="https://www.behance.net/tekNorah" target="_blank">tailored solutions</a> and facilitating teams towards value-driven <a href="https://www.linkedin.com/in/teknorah/details/projects/" target="_blank">strategic initiatives</a>, their excellence is evident.</p>'
+      format: restricted_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/teknorah'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Norah
+  field_home_town:
+    -
+      value: 'Mokena, IL'
+  field_last_name:
+    -
+      value: Medlin
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@tekNorah'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'tekNorah and the Digital Career Sandbox'
+  field_personal_website_link:
+    -
+      uri: 'https://tekNorah.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Strategic Technical Operations Consultant'
+  field_twitter_profile_link:
+    -
+      uri: 'https://x.com/tekNorah'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 38131a02-0ba4-4d40-a464-d1f3e8bbd25f
+      alt: ''
+      title: ''
+      width: 1000
+      height: 1000

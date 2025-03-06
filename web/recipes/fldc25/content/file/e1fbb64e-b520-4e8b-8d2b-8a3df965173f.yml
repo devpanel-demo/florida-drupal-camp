@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e1fbb64e-b520-4e8b-8d2b-8a3df965173f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 400x400.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-11/400x400.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 80800
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637140328

@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 10c67baa-513c-48d3-beb9-bbc140dedb44
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    104cbd69-16db-4c4b-9f4f-5800d7a1b872: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    65433506-a8f1-40a4-bcf7-b4fefaa7ce33: file
+    705a37f2-6aa8-4e18-8f2e-4d94b930ecfa: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 104cbd69-16db-4c4b-9f4f-5800d7a1b872
+  title:
+    -
+      value: 'Get off your SASS and use native CSS'
+  created:
+    -
+      value: 1732220915
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/get-your-sass-and-use-native-css
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p><span>With the introduction of Single Directory Components and the ability to have CSS bound to a component, it is not as necessary to have your design system “built”. One can use native CSS (and JS) in each component and not need to compile into a single stylesheet. Additionally, the ecosystems of Webpack, Vite, and whatever 12 other systems have popped up since you started reading this paragraph, are constantly changing or deprecating. In this talk we will go over the killer features of SASS and how you can use native CSS to replace them. Also may go over moving off of an old design system into Single Directory Components. If time permits we can go over PostCSS and the how it assists.</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: 65433506-a8f1-40a4-bcf7-b4fefaa7ce33
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 104cbd69-16db-4c4b-9f4f-5800d7a1b872
+  field_time_slot:
+    -
+      entity: 705a37f2-6aa8-4e18-8f2e-4d94b930ecfa

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 25d82706-948c-4ca3-9855-585752fb3724
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: logo-tdt-dark.png
+  uri:
+    -
+      value: 'public://2023-01/logo-tdt-dark.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2988
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673359412

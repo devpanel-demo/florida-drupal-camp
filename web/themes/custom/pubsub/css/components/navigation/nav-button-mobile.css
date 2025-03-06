@@ -1,0 +1,130 @@
+/**
+ * @file
+ * Mobile navigation disclosure button.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.mobile-nav-button {
+  --mobile-nav-button--highlight-color: var(--pink-dark);
+  --mobile-nav-button--line-color: var(--color--white);
+  position: relative;
+  z-index: 110;
+  /* Appear above mobile nav. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.5rem;
+  width: 6.5rem;
+  margin-right: -3vw;
+  padding-block: 0;
+  cursor: pointer;
+  border: none;
+  background: var(--mobile-nav-button--highlight-color);
+  color: var(--color--white);
+  -webkit-appearance: none;
+          appearance: none;
+}
+.mobile-nav-button:focus {
+  border-radius: 0;
+  outline-offset: -4px;
+  outline-color: var(--mobile-nav-button--line-color);
+}
+.mobile-nav-button:active {
+  color: var(--color--white);
+  /* Override Safari's default UA styles. */
+}
+@media (min-width: 37.5rem) {
+  .mobile-nav-button:active {
+    color: inherit;
+  }
+}
+@media (min-width: 37.5rem) {
+  .mobile-nav-button[aria-expanded=true] {
+    color: var(--mobile-nav-button--highlight-color);
+  }
+}
+@media (min-width: 31.25rem) {
+  .mobile-nav-button {
+    width: auto;
+    padding: 0 var(--sp2);
+  }
+}
+@media (min-width: 37.5rem) {
+  .mobile-nav-button {
+    --mobile-nav-button--line-color: var(--mobile-nav-button--highlight-color);
+    display: inline-flex;
+    margin-right: calc(-1 * var(--sp2));
+    padding: 0 var(--sp2) 0 var(--sp2);
+    background: transparent;
+    color: inherit;
+  }
+}
+@media (min-width: 68.75rem) {
+  .mobile-nav-button {
+    display: none;
+  }
+}
+
+/* Text that says "menu". */
+.mobile-nav-button__label {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  word-wrap: normal;
+}
+@media (min-width: 31.25rem) {
+  .mobile-nav-button__label {
+    position: static;
+    overflow: visible;
+    clip: auto;
+    width: auto;
+    height: auto;
+    margin-inline-end: 0.75rem;
+    letter-spacing: 0.05em;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+}
+
+.mobile-nav-button__icon {
+  position: relative;
+  display: block;
+  width: var(--sp2);
+  height: 0.1875rem;
+  background-color: var(--mobile-nav-button--line-color);
+}
+.mobile-nav-button__icon:before {
+  position: absolute;
+  inset-block-start: -0.5rem;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 0.1875rem;
+  content: "";
+  transition: all 0.2s;
+  background-color: var(--mobile-nav-button--line-color);
+}
+.mobile-nav-button__icon:after {
+  position: absolute;
+  inset-block: auto -0.5rem;
+  inset-inline-start: 0;
+  width: 100%;
+  height: 0.1875rem;
+  content: "";
+  transition: all 0.2s;
+  background-color: var(--mobile-nav-button--line-color);
+}
+
+.mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon {
+  background-color: transparent;
+}
+.mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon:before {
+  inset-block-start: 0;
+  transform: rotate(-45deg);
+}
+.mobile-nav-button[aria-expanded=true] .mobile-nav-button__icon:after {
+  inset-block-start: 0;
+  transform: rotate(45deg);
+}

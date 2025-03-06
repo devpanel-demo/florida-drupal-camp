@@ -1,0 +1,54 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a34a176c-cb59-4c18-977a-c631a0ccd9df
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    51fa43f2-e750-45b4-90c5-2c8451057dee: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: DesignHammer
+  created:
+    -
+      value: 1636287384
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 51fa43f2-e750-45b4-90c5-2c8451057dee
+      alt: DesignHammer
+      title: ''
+      width: 800
+      height: 300
+  field_website_address:
+    -
+      uri: 'http://ow.ly/Qe4q50DxaOu'
+      title: ''
+      options: {  }

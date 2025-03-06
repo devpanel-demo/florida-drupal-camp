@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 617d1370-fde9-4085-8391-cd3ae755f5ad
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    ba1939d7-a91b-4a1a-8966-d33ef1af182b: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: ba1939d7-a91b-4a1a-8966-d33ef1af182b
+  title:
+    -
+      value: 'The Neurodivergency SuperPower - How Diverse Teams Function Better'
+  created:
+    -
+      value: 1732466547
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/neurodivergency-superpower-how-diverse-teams-function-better
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p><span>In today's rapidly evolving work environment, successful teams embrace diversity in all its forms, especially neurodiversity. Neurodivergent individuals—those with ADHD, autism, dyslexia, and other cognitive differences—bring unique perspectives, creativity, and problem-solving skills that can supercharge team performance.</span><br><br><span>This engaging talk will explore how neurodivergent team members enhance collaboration and innovation by leveraging their strengths. From heightened attention to detail to out-of-the-box thinking, neurodivergent minds offer invaluable assets that drive productivity and foster a culture of inclusion. Attendees will learn how to create environments that support all employees, encouraging each team member to contribute fully.</span><br><br><span>Drawing from personal experiences and research, we’ll dive into practical strategies for building neuro-inclusive teams and how embracing cognitive diversity can lead to better outcomes, greater empathy, and long-term success.</span><br><br><span>What will you learn?</span></p><ul><li><span>The unique strengths neurodivergent individuals bring to teams—such as creativity, problem-solving, and attention to detail—and how these qualities can boost overall team performance.</span></li><li><span>Practical strategies for fostering neuro-inclusive environments, including how to create spaces and workflows that accommodate different cognitive styles to ensure all team members can thrive.</span></li><li><span>The importance of empathy and patience when collaborating with neurodivergent colleagues, and how understanding diverse perspectives leads to stronger communication and more effective teamwork.</span></li></ul>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_speakers:
+    -
+      entity: ba1939d7-a91b-4a1a-8966-d33ef1af182b

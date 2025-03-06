@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ef4df36d-e434-4a44-8317-0462429dedbf
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_asgorobets_jmolivas.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_asgorobets_jmolivas.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 63172
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734047225

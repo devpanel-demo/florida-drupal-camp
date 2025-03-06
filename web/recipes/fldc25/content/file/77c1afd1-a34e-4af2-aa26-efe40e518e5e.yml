@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 77c1afd1-a34e-4af2-aa26-efe40e518e5e
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Florida_Realtors_logo.jpeg
+  uri:
+    -
+      value: 'public://2021-11/Florida_Realtors_logo.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 105515
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636287658

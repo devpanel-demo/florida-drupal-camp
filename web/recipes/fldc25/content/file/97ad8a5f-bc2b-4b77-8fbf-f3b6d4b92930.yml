@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 97ad8a5f-bc2b-4b77-8fbf-f3b6d4b92930
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: MikeHerchel-001--cropped.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-05/MikeHerchel-001--cropped.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 301852
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621439768

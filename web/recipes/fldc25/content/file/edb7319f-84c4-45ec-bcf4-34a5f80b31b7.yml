@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: edb7319f-84c4-45ec-bcf4-34a5f80b31b7
+  default_langcode: en
+  depends:
+    11f502cb-f087-404f-b96e-efac763055ee: user
+default:
+  uid:
+    -
+      entity: 11f502cb-f087-404f-b96e-efac763055ee
+  filename:
+    -
+      value: 71D65743-3C71-4CAE-8CCA-F765F89B340C.png
+  uri:
+    -
+      value: 'public://pictures/2022-02/71D65743-3C71-4CAE-8CCA-F765F89B340C.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 5795206
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1644892662

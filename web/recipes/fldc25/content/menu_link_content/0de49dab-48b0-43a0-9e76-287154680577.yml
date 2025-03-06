@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 0de49dab-48b0-43a0-9e76-287154680577
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    ab1e9ff4-2d22-4934-8ab1-781b4dd996d4: menu_link_content
+    02552842-3430-4f5b-8386-102478215740: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: FAQ
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 02552842-3430-4f5b-8386-102478215740
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:ab1e9ff4-2d22-4934-8ab1-781b4dd996d4'
+  revision_translation_affected:
+    -
+      value: true

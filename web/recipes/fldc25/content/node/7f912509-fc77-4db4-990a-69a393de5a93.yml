@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7f912509-fc77-4db4-990a-69a393de5a93
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    9358283f-491c-482e-9ee9-bdef45360da4: file
+default:
+  revision_uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: Opensource.com
+  created:
+    -
+      value: 1670014506
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/opensourcecom
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Opensource.com is a premier, daily publication focused on open source and Linux tutorials, stories, and resources.</p>\r\n\r\n<p>We're&nbsp;<a href=\"https://opensource.com/opensourcecom-team\">a diverse and inviting group</a>, made up of staff editors, Correspondents, contributors, and readers.&nbsp;We value differences in skills, talents, backgrounds, and experiences. There are a few different ways to&nbsp;<a href=\"https://opensource.com/participate\">get involved as a reader or a writer</a>.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 9358283f-491c-482e-9ee9-bdef45360da4
+      alt: 'opensource.com dandelion logo'
+      title: ''
+      width: 1682
+      height: 1612
+  field_website_address:
+    -
+      uri: 'https://opensource.com/'
+      title: ''
+      options:
+        attributes: {  }

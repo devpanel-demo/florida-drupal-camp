@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e0bfd91a-258f-4280-8d74-550735900e4e
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    629a2eb1-9fd7-4e2d-baac-143d8e03758f: file
+    295e710b-0891-4f06-ac4d-dca9dff3ebc9: user
+    b152a9a0-9074-4342-838d-661c0a769945: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  title:
+    -
+      value: "Absolute Beginner's Guide to Drupal"
+  created:
+    -
+      value: 1730773624
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/absolute-beginners-guide-drupal
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: "<h2>Are you new to Drupal? Then the Absolute Beginner's Guide to Drupal is the class for you.</h2><p>In this training, you'll learn all of the key concepts you need to understand, navigate, and use a Drupal site. You'll learn how to build a Drupal 11 site, from content and user organization to working with modules and themes. You'll also receive our \"Site Building Guide\" that will help you as you move forward with Drupal.</p><p>This class will be entirely hands-on. You'll have a Drupal site in front of you and will be actively working and learning throughout the class. We'll also spend time exploring Drupal CMS - the next evolution of Drupal that will have just launched!</p><h3>Who is the ideal audience member, the person who would get the most out of this training?</h3><p>People new to Drupal - absolute beginners!</p><h3>What will attendees take away from this training?</h3><p>The training is completely hands-on. Attendees will not only participate in the training, but after registering will get a discount to access all our online Drupal training.</p><h3>What kind of technical knowledge do people need going into this training?</h3><p>None.</p>"
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: true
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_social_media_card:
+    -
+      entity: 629a2eb1-9fd7-4e2d-baac-143d8e03758f
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 295e710b-0891-4f06-ac4d-dca9dff3ebc9
+  field_time_slot:
+    -
+      entity: b152a9a0-9074-4342-838d-661c0a769945

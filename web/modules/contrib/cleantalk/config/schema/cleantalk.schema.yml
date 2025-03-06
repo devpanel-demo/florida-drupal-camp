@@ -1,0 +1,56 @@
+cleantalk.settings:
+  type: mapping
+  label: Settings
+  mapping:
+    cleantalk_authkey:
+      type: string
+    cleantalk_check_comments:
+      type: boolean
+    cleantalk_check_comments_automod:
+      type: boolean
+    cleantalk_check_comments_min_approved:
+      type: integer
+    cleantalk_check_register:
+      type: boolean
+    cleantalk_check_webforms:
+      type: boolean
+    cleantalk_check_contact_forms:
+      type: boolean
+    cleantalk_check_forum_topics:
+      type: boolean
+    cleantalk_check_search_form:
+      type: boolean
+    cleantalk_url_exclusions:
+      type: string
+    cleantalk_url_regexp:
+      type: boolean
+    cleantalk_fields_regexp:
+      type: boolean
+    cleantalk_fields_exclusions:
+      type: string
+    cleantalk_roles_exclusions:
+        type: mapping
+    cleantalk_add_search_noindex:
+      type: boolean
+    cleantalk_search_noindex:
+      type: boolean
+    cleantalk_set_cookies:
+      type: boolean
+    cleantalk_alternative_cookies_session:
+      type: boolean
+    cleantalk_check_added_content:
+      type: boolean
+    cleantalk_check_ccf:
+      type: boolean
+    cleantalk_link:
+      type: boolean
+    cleantalk_bot_detector:
+      type: boolean
+    cleantalk_sfw:
+      type: boolean
+    cleantalk_sfw_ac:
+      type: boolean
+    cleantalk_sfw_antiflood:
+      type: boolean
+    cleantalk_sfw_antiflood_limit:
+      type: integer

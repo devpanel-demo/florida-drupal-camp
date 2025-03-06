@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 23bfe385-d2d8-4372-a235-df6315c80d7d
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    6920489c-3748-4ecd-b447-1cf59d88cee5: file
+    88e4c62d-3f10-41be-84af-c2ff3a61dedf: user
+    6febf1c9-b585-4219-8385-6bcdd6313993: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'From Chatbots to Content Magic: The AI-Driven Future of Drupal'
+  created:
+    -
+      value: 1733944217
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/chatbots-content-magic-ai-driven-future-drupal
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Integration of artificial intelligence functionality with Drupal has been on a blistering pace over the past year. From countless individual contributed modules taking initial tentative steps to the rapidly-becoming-a-best-practice AI module ecosystem, the Drupal community has largely embraced the possibilities of leveraging AI on user, site-builder, and developer levels.</p><p>This presentation will provide an overview of where we are, where we've been, and where we're heading with a focus on the AI module ecosystem as well as AI integration with Drupal CMS. Several live demos will showcase existing functionality that you can add to your Drupal sites today.</p>"
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: 6920489c-3748-4ecd-b447-1cf59d88cee5
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+    -
+      entity: 88e4c62d-3f10-41be-84af-c2ff3a61dedf
+  field_time_slot:
+    -
+      entity: 6febf1c9-b585-4219-8385-6bcdd6313993

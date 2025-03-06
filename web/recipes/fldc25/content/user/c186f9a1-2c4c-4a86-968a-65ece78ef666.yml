@@ -1,0 +1,98 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c186f9a1-2c4c-4a86-968a-65ece78ef666
+  default_langcode: en
+  depends:
+    a16f46a7-5ccc-4001-8028-671418eebec2: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: alexei.gorobet
+  pass:
+    -
+      value: $2y$10$PqTejnIFg6PEw.lqDzcaaup0eerPGczLF3NE2iohf1/orUkiiPbSi
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: alexei.gorobet@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733266949
+  access:
+    -
+      value: 1733339252
+  login:
+    -
+      value: 1733267134
+  init:
+    -
+      value: alexei.gorobet@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/alexeigorobet
+      langcode: en
+      pathauto: 1
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/asgorobets.com'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/asgorobets'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Alexei
+  field_home_town:
+    -
+      value: 'Winter Springs, FL'
+  field_last_name:
+    -
+      value: Gorobet
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/asgorobets'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: JAKALA
+  field_personal_website_link:
+    -
+      uri: 'https://asgorobets.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Director of Engineering'
+  field_twitter_profile_link:
+    -
+      uri: 'https://x.com/asgorobets'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: a16f46a7-5ccc-4001-8028-671418eebec2
+      alt: ''
+      title: ''
+      width: 512
+      height: 512

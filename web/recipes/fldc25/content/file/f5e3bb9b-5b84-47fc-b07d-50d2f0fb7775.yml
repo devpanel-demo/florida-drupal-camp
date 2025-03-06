@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f5e3bb9b-5b84-47fc-b07d-50d2f0fb7775
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: ew-logo-full-coloured.png
+  uri:
+    -
+      value: 'public://2023-12/ew-logo-full-coloured.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 32051
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702975285

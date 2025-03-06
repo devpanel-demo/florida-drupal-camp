@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4fe3fec0-1c14-4e55-8ff8-8937ec826cc2
+  default_langcode: en
+  depends:
+    6a2fe9fc-082d-4d5c-82b6-6c86e53d8819: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: swirt
+  pass:
+    -
+      value: $2y$10$r6uBwuthETNlXZqkNHdxgOMCJgi2uEW437t2BjE9bVYIf0HaYPIBe
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: steve@demo.us
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1640046545
+  access:
+    -
+      value: 1732739006
+  login:
+    -
+      value: 1732654774
+  init:
+    -
+      value: steve@demo.us
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/swirt
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "<p>I have been working in Drupal for over 17 years and in Federal Gov't website and application building for 11 yrs. &nbsp;</p>"
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/swirt'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Steve
+  field_home_town:
+    -
+      value: 'Nokomis FL'
+  field_last_name:
+    -
+      value: Wirt
+  field_organization:
+    -
+      value: CivicActions
+  field_title:
+    -
+      value: Engineer
+  user_picture:
+    -
+      entity: 6a2fe9fc-082d-4d5c-82b6-6c86e53d8819
+      alt: ''
+      title: ''
+      width: 280
+      height: 280

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a6a55b10-1c80-4a95-a485-deaa7217cb9c
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_camoa.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_camoa.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58057
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734048084

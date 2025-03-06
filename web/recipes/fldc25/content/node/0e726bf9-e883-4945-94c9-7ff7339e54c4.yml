@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0e726bf9-e883-4945-94c9-7ff7339e54c4
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    3259bc7a-0c5f-4f24-9da5-853a8fdf93a5: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Promet Source'
+  created:
+    -
+      value: 1674574069
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/promet-source
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Delivering sophisticated, mission specific open source websites and mobile applications.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 3259bc7a-0c5f-4f24-9da5-853a8fdf93a5
+      alt: 'Promet Source logo'
+      title: ''
+      width: 600
+      height: 148
+  field_website_address:
+    -
+      uri: 'https://www.prometsource.com'
+      title: ''
+      options: {  }

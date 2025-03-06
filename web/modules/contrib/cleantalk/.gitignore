@@ -1,0 +1,14 @@
+/.idea/
+/vendor
+/node_modules
+/lib/**/composer.json
+/lib/**/.gitignore
+/lib/**/LICENSE
+/lib/**/README.MD
+/lib/**/tests
+composer.lock
+package-lock.json
+/cleantalk_fw_files/
+/lib/Cleantalk/Common/Antispam/.github/
+/lib/Cleantalk/Common/Helper/.github/
+/lib/Cleantalk/Common/*/.github/

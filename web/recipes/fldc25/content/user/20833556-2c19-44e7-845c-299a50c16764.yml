@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 20833556-2c19-44e7-845c-299a50c16764
+  default_langcode: en
+  depends:
+    42137b32-c542-4e45-9bcc-9016adcc27c0: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: weekbeforenext
+  pass:
+    -
+      value: $2y$10$2RexGAwwUvTLKgSnKd7Gte4K9PU69riddZIeNrShmroLixEn7Tg3q
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: weekbeforenext@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670623089
+  access:
+    -
+      value: 1730321630
+  login:
+    -
+      value: 1730303421
+  init:
+    -
+      value: weekbeforenext@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/weekbeforenext
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "April has over a decade of experience with Drupal web development. Her journey has taken her from higher education and federal government roots to agency and big tech opportunities.\r\n\r\nAlong the way, she's been involved in the Drupal community as lead organizer of Drupal Camp Asheville and a Drupal Community Working Group Community Health Team member. She often attends and speaks at Drupal events in North America and helps organize the Accessibility Talks virtual meetup.\r\n\r\nApril is passionate about connecting people in the community as well as providing knowledge and resources for new developers to grow professionally and personally.\r\n\r\nOutside of work and volunteering, April enjoys collecting LEGO Harry Potter, watching Star Wars and Marvel media, and going on adventures with her step-grandchild."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/weekbeforenext'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: April
+  field_home_town:
+    -
+      value: 'Asheville, NC'
+  field_last_name:
+    -
+      value: Sides
+  field_organization:
+    -
+      value: 'Red Hat'
+  field_title:
+    -
+      value: 'Principal Software Engineer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/weekbeforenext'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 42137b32-c542-4e45-9bcc-9016adcc27c0
+      alt: ''
+      title: ''
+      width: 2288
+      height: 2860

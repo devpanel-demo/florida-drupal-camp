@@ -1,0 +1,31 @@
+uuid: 7faaad47-26cc-46a6-b1a3-f09ac7c212ee
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - filter.format.webform_default
+    - node.type.session
+  module:
+    - field_permissions
+    - file
+    - filter
+    - node
+    - system
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'delete own files'
+  - 'edit own session content'
+  - 'use text format basic_html'
+  - 'use text format webform_default'
+  - 'view field_r'
+  - 'view field_time_slot'
+  - 'view field_youtube_video'
+  - 'view own field_youtube_video'

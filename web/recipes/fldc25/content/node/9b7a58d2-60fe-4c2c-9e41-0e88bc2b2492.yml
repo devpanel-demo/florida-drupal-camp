@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9b7a58d2-60fe-4c2c-9e41-0e88bc2b2492
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    d683c067-8263-4017-8590-fff9ce3f4ee7: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: Acquia
+  created:
+    -
+      value: 1637350444
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/acquia
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Acquia is the open source digital experience company. We provide the world’s most ambitious brands with technology that allows them to embrace innovation and create customer moments that matter. At Acquia, we believe in the power of community - giving our customers the freedom to build tomorrow on their terms. To learn more, visit acquia.com.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: d683c067-8263-4017-8590-fff9ce3f4ee7
+      alt: Acquia
+      title: ''
+      width: 1195
+      height: 249
+  field_website_address:
+    -
+      uri: 'https://www.acquia.com/'
+      title: ''
+      options: {  }

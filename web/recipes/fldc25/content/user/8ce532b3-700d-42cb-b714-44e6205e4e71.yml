@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8ce532b3-700d-42cb-b714-44e6205e4e71
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: jwitkowski79
+  pass:
+    -
+      value: $2y$10$Ua7CW3WGD35ETHJdGUDq3egzvSOeUMswGpfBiyfw1kVJWy6wTz5/q
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: jen@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732212542
+  access:
+    -
+      value: 1732632029
+  login:
+    -
+      value: 1732212583
+  init:
+    -
+      value: jen@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/jwitkowski79
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/jwitkowski79'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Jen
+  field_last_name:
+    -
+      value: Witkowski
+  field_organization:
+    -
+      value: Lullabot
+  field_title:
+    -
+      value: 'Associate Design Director'

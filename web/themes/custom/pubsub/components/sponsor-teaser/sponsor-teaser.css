@@ -1,0 +1,101 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.sponsor-teaser {
+  display: grid;
+  align-items: center;
+  transition: filter 0.2s;
+}
+.sponsor-teaser:hover {
+  filter: drop-shadow(0 0 0.3125rem var(--color--sky-80));
+}
+:is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) {
+  background-color: var(--color--sky-86);
+  border-radius: 0 1rem 0 0;
+}
+:is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .sponsor-teaser__link {
+  grid-template-columns: 1fr;
+  grid-column-gap: var(--grid-gap);
+}
+@media (min-width: 37.5rem) {
+  :is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .sponsor-teaser__link {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 50rem) {
+  :is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .sponsor-teaser__link {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 37.5rem) {
+  :is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .sponsor-teaser__first {
+    border-radius: 0;
+  }
+}
+:is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .field--name-body {
+  display: flex;
+  align-items: center;
+  padding: var(--grid-gap);
+  line-height: var(--sp2);
+}
+@media (min-width: 37.5rem) {
+  :is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .field--name-body {
+    padding-left: 0;
+  }
+}
+@media (min-width: 50rem) {
+  :is(.job-listing-full .sponsor-teaser, .page-node-type-sponsor .region--content .sponsor-teaser, .views-all-sponsors__sponsor.Platinum .sponsor-teaser) .field--name-body {
+    grid-column: 2/-1;
+  }
+}
+.sponsor-teaser .field--name-body {
+  display: none;
+}
+
+.sponsor-teaser__link {
+  display: grid;
+  align-self: stretch;
+  flex-basis: 100%;
+  text-decoration: none;
+  color: var(--color--night-30);
+}
+.sponsor-teaser__link:hover {
+  color: var(--color--night-30);
+}
+
+.sponsor-teaser__first {
+  position: relative;
+  display: grid;
+  align-items: center;
+  background-color: var(--color--white);
+  border: solid 1px var(--color--sky-86);
+  border-radius: 0 1rem 0 0;
+}
+.sponsor-teaser__first:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.375rem;
+  background-color: var(--pink-dark);
+  transform: scalex(0);
+  transform-origin: left;
+  transition: transform 0.3s;
+}
+.sponsor-teaser__link:hover .sponsor-teaser__first:after {
+  transform: scalex(1);
+}
+
+.sponsor-teaser__img-wrapper {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: var(--grid-gap);
+  aspect-ratio: 256/200;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+}
+.sponsor-teaser__link:hover .sponsor-teaser__img-wrapper {
+  filter: grayscale(0%);
+}

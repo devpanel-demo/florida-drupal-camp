@@ -1,0 +1,34 @@
+apbct-functions:
+  version: 2.x
+  js:
+    js/apbct-functions.js: {}
+
+apbct-public:
+  version: 2.x
+  js:
+    js/apbct-public.js: {}
+  dependencies:
+    - cleantalk/apbct-functions
+
+apbct-external:
+  version: 2.x
+  js:
+    js/apbct-external.js: {}
+  dependencies:
+    - core/jquery
+
+apbct-admin-styles:
+  version: 2.x
+  css:
+    layout:
+      css/apbct-admin-styles.css: {}
+
+apbct-admin-scripts:
+  version: 2.x
+  js:
+    js/apbct-admin-scripts.js: {}
+
+apbct-bot-detector:
+  version: 2.x
+  js:
+    'https://moderate.cleantalk.org/ct-bot-detector-wrapper.js': {type: external}

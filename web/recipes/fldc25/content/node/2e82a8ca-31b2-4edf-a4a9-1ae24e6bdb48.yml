@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e82a8ca-31b2-4edf-a4a9-1ae24e6bdb48
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    8c77022d-4e70-41de-9be5-59b3d6a0c815: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: OSTraining
+  created:
+    -
+      value: 1672684917
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/ostraining
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>We have trained over 100,000 students on web development via our online video courses, books, online live classes, &amp; live classrooms!</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 8c77022d-4e70-41de-9be5-59b3d6a0c815
+      alt: 'OSTraining.com logo'
+      title: ''
+      width: 1500
+      height: 1500
+  field_website_address:
+    -
+      uri: 'https://ostraining.com'
+      title: ''
+      options: {  }

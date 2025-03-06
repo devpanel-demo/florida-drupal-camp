@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f8d4d919-60f8-4a61-b877-472d4b84dd14
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: newkat.png
+  uri:
+    -
+      value: 'public://2024-10/newkat.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 220003
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730236409

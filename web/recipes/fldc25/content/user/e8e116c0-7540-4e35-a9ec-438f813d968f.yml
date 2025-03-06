@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: e8e116c0-7540-4e35-a9ec-438f813d968f
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: bernardm28
+  pass:
+    -
+      value: $2y$10$KO5ZX79PV5M25qPJon.bAulM53Z8JspDfqfEmx7l9xx7dji2fNFPu
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: israelm28@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730733522
+  access:
+    -
+      value: 1733249409
+  login:
+    -
+      value: 1732121865
+  init:
+    -
+      value: israelm28@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/bernardm28
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/bernardm28'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Bernardo
+  field_last_name:
+    -
+      value: Martinez

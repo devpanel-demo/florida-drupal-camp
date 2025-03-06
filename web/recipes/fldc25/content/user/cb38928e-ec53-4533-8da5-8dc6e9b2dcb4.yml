@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: cb38928e-ec53-4533-8da5-8dc6e9b2dcb4
+  default_langcode: en
+  depends:
+    4cc5086f-3e44-4cbc-b9a9-b9a65f2305a0: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: cosmicdreams
+  pass:
+    -
+      value: $2y$10$Y4MC/mZiRPr28OjOyXE2POAXr4Bti.FFLboIYgkV/jujsZILWzG96
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: christopher.m.weber@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669830874
+  access:
+    -
+      value: 1733937231
+  login:
+    -
+      value: 1733936688
+  init:
+    -
+      value: christopher.m.weber@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/cosmicdreams
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Drupal developer, advocate of wild ideas.'
+      format: plain_text
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/chris-m-weber.bsky.social'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/cosmicdreams'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Chris
+  field_home_town:
+    -
+      value: 'Minneapolis, MN'
+  field_last_name:
+    -
+      value: Weber
+  field_organization:
+    -
+      value: Velir
+  field_title:
+    -
+      value: 'Drupal Support Manager'
+  user_picture:
+    -
+      entity: 4cc5086f-3e44-4cbc-b9a9-b9a65f2305a0
+      alt: ''
+      title: ''
+      width: 512
+      height: 512

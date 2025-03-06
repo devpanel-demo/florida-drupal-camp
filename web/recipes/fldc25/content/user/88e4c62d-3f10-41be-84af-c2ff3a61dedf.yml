@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 88e4c62d-3f10-41be-84af-c2ff3a61dedf
+  default_langcode: en
+  depends:
+    598fd50e-470c-4ecf-9e25-4b01ebd238b6: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: mandclu
+  pass:
+    -
+      value: $2y$10$lSDvO0hWgsnhFIskMseAF./vQ9Gw.NqG56F2p0m.ETvYfqgRLL7q.
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mandclu@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670544597
+  access:
+    -
+      value: 1731445177
+  login:
+    -
+      value: 1731445177
+  init:
+    -
+      value: mandclu@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/mandclu
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Martin started his Drupal journey in 2005, with version 4.6. Since then, he has demonstrated his passion for the community in his frequent participation at Drupal user groups, local Drupalcamps, and Drupalcons, often as a speaker. He recently appeared on the Talking Drupal podcast as a guest and host and most recently as host of the "Module of the Week" segment, and has blogs published on OpenSource.com and a handful of other sites. In his current role as a Senior Solutions Engineer at Acquia, he is able to evangelize Drupal to a wide variety or organizations, from local nonprofits to multinational corporations. He also maintains a number of contrib modules, including Smart Date, Search Overrides, and a number of others.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/mandclu'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Martin
+  field_home_town:
+    -
+      value: 'London, Ontario, Canada'
+  field_last_name:
+    -
+      value: Anderson-Clutz
+  field_organization:
+    -
+      value: Acquia
+  field_personal_website_link:
+    -
+      uri: 'https://www.mandclu.com/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Senior Solutions Engineer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/mandclu'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 598fd50e-470c-4ecf-9e25-4b01ebd238b6
+      alt: ''
+      title: ''
+      width: 895
+      height: 895

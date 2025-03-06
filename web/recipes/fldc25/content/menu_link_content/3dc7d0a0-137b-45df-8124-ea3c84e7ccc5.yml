@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3dc7d0a0-137b-45df-8124-ea3c84e7ccc5
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    99ba9fc9-61f5-44a7-818d-29064c311171: menu_link_content
+    a6db2012-1b1a-4b18-82be-fd892a05b4cf: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Hotel Information'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: a6db2012-1b1a-4b18-82be-fd892a05b4cf
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -47
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:99ba9fc9-61f5-44a7-818d-29064c311171'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 3d913755-3e9d-4ae1-aadb-195f56eb7dd7
+  default_langcode: en
+  depends:
+    f34abf97-1787-4723-a65e-6b2d6001d507: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: brianperry
+  pass:
+    -
+      value: $2y$10$ZJiWE8k3l4ZSJL03KLG6C.VmjNbXfcKXWEmL1MYABqZkm7gqfOd4m
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: heybrianperry@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639596832
+  access:
+    -
+      value: 1732380512
+  login:
+    -
+      value: 1732283539
+  init:
+    -
+      value: heybrianperry@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/brianperry
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Brian is a versatile developer with experience building complex, interactive web applications in support of large-scale localized sites. Recently he has focused his efforts on evolving Drupal front-end development practices, decoupled Drupal, and design systems and has spoken on the topic at various Drupal events. Brian was a coordinator of Drupal's Decoupled Menus Initiative and loves all things Nintendo."
+      format: plain_text
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/brianperry.dev'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/brianperry'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Brian
+  field_home_town:
+    -
+      value: 'Chicago, IL'
+  field_last_name:
+    -
+      value: Perry
+  field_organization:
+    -
+      value: 'Chapter Three'
+  field_personal_website_link:
+    -
+      uri: 'https://www.brianperry.dev/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Sr. Front End Developer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/bricomedy'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: f34abf97-1787-4723-a65e-6b2d6001d507
+      alt: ''
+      title: ''
+      width: 2048
+      height: 1365

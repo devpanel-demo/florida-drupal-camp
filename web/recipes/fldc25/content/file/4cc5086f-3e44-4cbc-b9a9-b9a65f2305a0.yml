@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4cc5086f-3e44-4cbc-b9a9-b9a65f2305a0
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: T02P7THL04T-U02RA1QGXK2-0ef728efc496-512.jpeg
+  uri:
+    -
+      value: 'public://pictures/2022-11/T02P7THL04T-U02RA1QGXK2-0ef728efc496-512.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 63720
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669830874

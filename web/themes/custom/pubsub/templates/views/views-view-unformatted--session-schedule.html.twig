@@ -1,0 +1,13 @@
+{{ attach_library('pubsub/view-session-schedule') }}
+
+{% if title %}
+  {% set clean_title = 'slot-' ~ title|striptags %}
+
+  <hr class="view-session-schedule__divider">
+  <h2 id="{{ clean_title|clean_class }}" class="view-session-schedule__title">{{ title }}</h2>
+{% endif %}
+{% for row in rows %}
+  <div class="view-session-schedule__item">
+    {{- row.content -}}
+  </div>
+{% endfor %}

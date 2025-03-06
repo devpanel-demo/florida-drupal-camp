@@ -1,0 +1,42 @@
+<div class="layout-container">
+  {{ include('pubsub:site-header', {
+    primary_menu: page.primary_menu,
+    camp_details,
+  }, with_context = false) }}
+
+  {{ page.highlighted }}
+
+  {% if is_front %}
+    {% include 'pubsub:site-hero-25' %}
+    {% include 'pubsub:site-stats' %}
+  {% endif %}
+
+  {{ page.content_above }}
+
+  {% if page.sidebar %}
+    {{ attach_library('pubsub/sidebar') }}
+    <div class="layout-sidebar container grid">
+  {% endif %}
+
+    <main class="site-main {{ page.sidebar ? '' : 'container' }}">
+      <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+      {{ page.content }}
+    </main>
+
+  {% if page.sidebar %}
+    {{ page.sidebar }}
+    </div>
+  {% endif %}
+
+
+
+  <footer class="site-footer" >
+    {{ page.footer }}
+  </footer>
+
+  {% if page.modal %}
+    {{ page.modal }}
+  {% endif %}
+
+  <div class="overlay" data-drupal-selector="overlay"></div>
+</div>{# /.layout-container #}

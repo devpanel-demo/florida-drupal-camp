@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6e4cb15c-69e3-4a92-9d8d-8b2d49a6f8f5
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: morgan2-1024x1024.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-11/morgan2-1024x1024.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 112144
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731349128

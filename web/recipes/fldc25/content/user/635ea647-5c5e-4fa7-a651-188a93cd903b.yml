@@ -1,0 +1,89 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  default_langcode: en
+  depends:
+    8f3e59d2-f759-4341-98e2-d44ece0dcda4: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: adamvarn
+  pass:
+    -
+      value: $2y$10$mbFFJDrBOrho8pmEeB6I2OlWG9lOO5j0JkgoPzL/0vEHzDAfCGmPm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: adamvarn@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621440948
+  access:
+    -
+      value: 1734970369
+  login:
+    -
+      value: 1734968877
+  init:
+    -
+      value: adamvarn@demo.com
+  roles:
+    -
+      target_id: speaker
+    -
+      target_id: administrator
+  path:
+    -
+      alias: /u/adamvarn
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "<p>Adam Varn is a front-end Developer who built his first website in 1997 when he launched “Adam’s Game Reviews” for a local ISP’s portal. The ISP paid him in video games. To earn actual money for his work, he started building other sites in HTML and Cold Fusion.</p>\r\n\r\n<p>In 2008, he began creating his first Drupal themes, learning the ins and outs of Drupal site-building and configuration. Before joining Lullabot, he ran his own Drupal development company where he helped solve problems for non-profits, advocacy organizations, local government, and educational institutions.</p>\r\n"
+      format: full_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/hot_sauce'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Adam
+  field_home_town:
+    -
+      value: 'Tampa, FL'
+  field_last_name:
+    -
+      value: Varn
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@hotsauce'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Lullabot
+  field_title:
+    -
+      value: 'Senior Front-end Developer'
+  user_picture:
+    -
+      entity: 8f3e59d2-f759-4341-98e2-d44ece0dcda4
+      alt: ''
+      title: ''
+      width: 287
+      height: 287

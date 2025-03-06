@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3c34fa1f-ff29-4cbf-8a7a-c091bdd1646f
+  bundle: page
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: 'Contribution Day'
+  created:
+    -
+      value: 1636464981
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /contribution-day
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>Contribution day&nbsp;will be in the afternoon of Sunday, February 23rd from 1:00 until 4:00pm ET.</p><h2>What is Contribution Day?</h2><p>A contribution or code sprint is when people get together to work on one particular goal. In this case, we’re working on various Drupal issues.</p><h2>What will we be working on?</h2><p>Check back soon for more info about the plan for Florida DrupalCamp 2025</p><h2>First-time contributor?</h2><p>Is this your first time contributing? Not a coder? That’s perfectly fine! There will be mentors available for those who need a little help to get started.&nbsp;</p><p>We will have a few tables dedicated to mentoring not only novices but novices to the issue queue. There will be help&nbsp;setting up the necessary tools, understanding which types of issues to work on, and even some live demos of the complete contribution&nbsp;process.</p><p>Not everyone who works on open source projects is a developer. Smaller tasks help the less experienced gain confidence and experience, which, in turn, leads to more contributions. Code is very important, but so are all the other parts.</p><h2>Be prepared to have a good time…</h2><p>Trust us, it’s a lot of fun when you get into it. It’s an excellent opportunity to meet other contributors, help collaborate and brainstorm, and move the Drupal project forward.</p><p>Honestly, it''s a pretty good time.</p><h2>Do you have more questions?</h2><p><a class="button button--primary" href="https://www.fldrupal.camp/contact">Email us!</a></p>'
+      format: full_html
+      summary: ''

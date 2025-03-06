@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 94dceb10-2eb9-47f4-bb1a-26ae7ad3963e
+  default_langcode: en
+  depends:
+    104cbd69-16db-4c4b-9f4f-5800d7a1b872: user
+default:
+  uid:
+    -
+      entity: 104cbd69-16db-4c4b-9f4f-5800d7a1b872
+  filename:
+    -
+      value: IMG_0526.png
+  uri:
+    -
+      value: 'public://pictures/2021-11/IMG_0526.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7741934
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636994556

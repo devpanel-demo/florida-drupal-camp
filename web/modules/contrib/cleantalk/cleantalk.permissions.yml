@@ -1,0 +1,4 @@
+change cleantalk settings:
+  title: 'Changing CleanTalk settings'
+  description: 'Allow user to manage CleanTalk Anti-Spam module settings.'
+  restrict access: TRUE

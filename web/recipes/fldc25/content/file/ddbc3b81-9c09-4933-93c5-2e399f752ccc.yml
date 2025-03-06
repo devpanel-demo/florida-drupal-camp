@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ddbc3b81-9c09-4933-93c5-2e399f752ccc
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: DigitalPolygon-RGB_.png
+  uri:
+    -
+      value: 'public://2023-01/DigitalPolygon-RGB_.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 109722
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673796249

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 738428a0-594a-4be4-a03e-47f97d6cf4d0
+  default_langcode: en
+  depends:
+    2b12d595-b93e-4e44-8727-9ba3413a9435: user
+default:
+  uid:
+    -
+      entity: 2b12d595-b93e-4e44-8727-9ba3413a9435
+  filename:
+    -
+      value: 1000027484.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-02/1000027484.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6660833
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1707233514

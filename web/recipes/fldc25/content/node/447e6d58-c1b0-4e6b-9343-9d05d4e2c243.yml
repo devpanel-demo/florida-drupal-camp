@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 447e6d58-c1b0-4e6b-9343-9d05d4e2c243
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    83ca7e93-73e4-4d0f-8c48-b943b01ef416: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    5595450d-ce19-412b-aaf8-13f0d3c4330d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Sunday Lunch 🍕🥗'
+  created:
+    -
+      value: 1642349788
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/sunday-lunch
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Sunday lunch is typically pizzas, salads, and soft drinks from a local pizza restaurant. We'll be sure to accommodate any vegetarian and vegan needs.</p>\r\n"
+      format: full_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 83ca7e93-73e4-4d0f-8c48-b943b01ef416
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_speakers:
+    -
+      target_id: 4
+  field_time_slot:
+    -
+      entity: 5595450d-ce19-412b-aaf8-13f0d3c4330d

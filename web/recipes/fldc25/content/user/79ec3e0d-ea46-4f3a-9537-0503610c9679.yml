@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 79ec3e0d-ea46-4f3a-9537-0503610c9679
+  default_langcode: en
+  depends:
+    d3993231-9a2f-4c7a-aed8-ef2b96818707: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: jcandan
+  pass:
+    -
+      value: $2y$10$cvI3.OBn0IjNOyOsqpE8W.w4xBRBcYY5C9oAvksBzufAJqhbYYr32
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: james.candan@demo.dev
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730993802
+  access:
+    -
+      value: 1731105136
+  login:
+    -
+      value: 1730998322
+  init:
+    -
+      value: james.candan@demo.dev
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/jcandan
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "A self-taught PHP programmer turned Drupal developer circa 2012. His artistic talents met his technical prowess when life circumstances pushed him to nail down a career change in just 3 months. Since that first job in the industry, he's reached milestone after milestone leading teams in enterprise software development. He has taught students spanning from beginner to advanced. A consistent open source contributor and speaker, James has a talent for organizing students' understanding of complex subjects. He brings a passion to teaching that is founded in his deeply held personal belief that self-directed education is both an imperative personal journey as well as a responsibility we have to guide others to desire."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/jcandan'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: James
+  field_home_town:
+    -
+      value: 'Jacksonville, FL, by way of Chattanooga, TN, by way of Los Angeles, CA'
+  field_last_name:
+    -
+      value: Candan
+  field_organization:
+    -
+      value: 'Stack Elevate'
+  field_personal_website_link:
+    -
+      uri: 'https://www.stackelevate.dev/instructors/james-candan'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Lead Instructor'
+  user_picture:
+    -
+      entity: d3993231-9a2f-4c7a-aed8-ef2b96818707
+      alt: ''
+      title: ''
+      width: 751
+      height: 751

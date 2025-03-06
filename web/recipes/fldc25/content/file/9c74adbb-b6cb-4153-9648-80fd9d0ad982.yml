@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9c74adbb-b6cb-4153-9648-80fd9d0ad982
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: 'SearchStax - Vertical Logo.png'
+  uri:
+    -
+      value: 'public://2021-12/SearchStax - Vertical Logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 15242
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639467836

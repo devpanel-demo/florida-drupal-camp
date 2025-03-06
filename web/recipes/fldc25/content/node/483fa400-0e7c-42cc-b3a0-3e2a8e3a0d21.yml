@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 483fa400-0e7c-42cc-b3a0-3e2a8e3a0d21
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    0b19c606-2b99-44f7-803b-4f1510db6d7b: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Sevaa Group'
+  created:
+    -
+      value: 1641927618
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/sevaa-group
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>We work with businesses and organizations that demand reliability. In 2001, we saw a need for high quality, reliable hosting for our own web development projects, so we started Sevaa Group and never looked back. Now we’re a team of six, building powerful websites and offering reliable hosting to businesses and nonprofits all over the world. Here in Atlanta, we serve local businesses and nonprofits by acting as on-call CTOs available for IT management, cloud set up, network security and more.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: 0b19c606-2b99-44f7-803b-4f1510db6d7b
+      alt: 'Sevaa Group logo'
+      title: ''
+      width: 127
+      height: 150
+  field_website_address:
+    -
+      uri: 'https://sevaa.com'
+      title: ''
+      options: {  }

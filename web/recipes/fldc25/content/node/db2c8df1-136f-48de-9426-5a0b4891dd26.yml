@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: db2c8df1-136f-48de-9426-5a0b4891dd26
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    ed42963b-0eaa-4781-a0f7-3461ecfe6477: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: ed42963b-0eaa-4781-a0f7-3461ecfe6477
+  title:
+    -
+      value: 'Hello DrupalForge.org - #1 way to Develop, Demo, and Distribute Drupal Apps'
+  created:
+    -
+      value: 1731880459
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/hello-drupalforgeorg-1-way-develop-demo-and-distribute-drupal-apps
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p><span>Discover how DrupalForge.org is changing the way developers create, showcase, and share Drupal applications. This practical session introduces a new game-changing platform that eliminates the complexities of local development while opening new opportunities for Drupal developers and agencies.&nbsp;</span></p><p><span>Through live demonstrations, you'll see how DrupalForge.org enables you to:</span></p><ul><li><span>Launch new Drupal sites instantly with zero local setup</span></li><li><span>Access powerful cloud development environments that are ready to use in 3 seconds</span></li><li><span>Share development environments with clients and team members for real-time collaboration</span></li><li><span>Create and distribute your own Drupal templates and recipes</span></li><li><span>Deploy production-ready sites to any VPS provider</span></li><li><span>Monetize your expertise through support and hosting services</span></li></ul><p><span>Whether you're a solo developer looking to streamline your workflow, an agency seeking efficient client collaboration tools, or a Drupal expert wanting to share your solutions with the community, this session will show you how DrupalForge.org can transform your Drupal development journey.</span></p><p><span>Level: Beginner to Intermediate</span></p><p><span>Target Audience: Developers, Agency Teams, Site Builders, Technical Decision Makers</span></p><p><span>Prerequisites: Basic familiarity with Drupal</span></p><p><span>Join us and say hello to the future of Drupal development.</span></p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_speakers:
+    -
+      entity: ed42963b-0eaa-4781-a0f7-3461ecfe6477

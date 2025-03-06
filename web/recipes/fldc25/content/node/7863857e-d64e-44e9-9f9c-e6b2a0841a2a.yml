@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7863857e-d64e-44e9-9f9c-e6b2a0841a2a
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    10afef32-3cce-4db5-862a-81964a332eac: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 10afef32-3cce-4db5-862a-81964a332eac
+  title:
+    -
+      value: 'Streamlining Multi-Host Drupal Deployments with GitHub Actions: a One-Size-Fits-Most Solution'
+  created:
+    -
+      value: 1732120939
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/streamlining-multi-host-drupal-deployments-github-actions-one-size-fits-most-solution
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p dir="ltr"><span>For developers managing multiple Drupal projects across different hosting platforms, configuring separate GitHub Actions workflows for each host can be time-consuming and error-prone. This session presents a flexible, dynamic GitHub Actions setup that adapts automatically to various hosting environments, including Pantheon, Acquia, Platform.sh, and more.</span></p><p dir="ltr"><span>We’ll explore how this solution auto-detects the hosting environment and dynamically configures key settings, such as Composer and Node.js build locations, etc.&nbsp; The workflow manages host-specific tasks such as moving the document root for Acquia and PR-triggered MultiDev management for Pantheon.</span></p><p dir="ltr"><span>You will leave with a ready-to-use GitHub Actions template, detailed instructions on how to customize it for your projects, and an understanding of how to use overrides to fit specific host and site needs. We’ll also explore handling Drupal settings per environment, avoiding unnecessary local rebuilds, and how this workflow simplifies deployments, saving teams time and effort.</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_speakers:
+    -
+      entity: 10afef32-3cce-4db5-862a-81964a332eac

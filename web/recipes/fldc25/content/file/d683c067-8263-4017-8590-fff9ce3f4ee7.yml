@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d683c067-8263-4017-8590-fff9ce3f4ee7
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: Acquia_no_tagline.png
+  uri:
+    -
+      value: 'public://2021-11/Acquia_no_tagline.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 16962
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637350453

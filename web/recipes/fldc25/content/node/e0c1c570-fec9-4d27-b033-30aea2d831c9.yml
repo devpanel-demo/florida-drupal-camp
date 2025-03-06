@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e0c1c570-fec9-4d27-b033-30aea2d831c9
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    ba1939d7-a91b-4a1a-8966-d33ef1af182b: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+    8aa6de9c-e620-4920-9689-01b17ac1fdc2: file
+    511b544f-a420-4adf-9f7d-813e764b6d47: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: ba1939d7-a91b-4a1a-8966-d33ef1af182b
+  title:
+    -
+      value: 'My NeuroDivergent Brain: Insights and Strategies for Inclusive Design'
+  created:
+    -
+      value: 1733093862
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/my-neurodivergent-brain-insights-and-strategies-inclusive-design
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p><strong>Abstract:</strong></p><p>Neurodiversity encompasses a range of differences in thinking, learning, and interacting with the world. This presentation will explore the lived experience of being neurodivergent and its implications for community engagement, universal design, and workplace inclusion. Drawing on personal stories and evidence-based insights, the session highlights practical strategies to foster environments where neurodiverse individuals can thrive. Attendees will leave with actionable tools to better understand neurodivergent perspectives and implement thoughtful accommodations, benefiting all.</p><p>&nbsp;</p><p><strong>Learning Objectives:</strong></p><p>1. Define neurodiversity and understand its importance in fostering inclusive environments.</p><p>2. Identify common challenges faced by neurodivergent individuals in personal and professional settings.</p><p>3. Implement universal design principles to create accessible and welcoming spaces for neurodiverse people.</p><p>&nbsp;</p><p><strong>Target Audience:</strong></p><p>• Community organizers</p><p>• Educators and trainers</p><p>• Workplace leaders and HR professionals</p><p>• Developers and UX designers interested in accessibility</p><p>&nbsp;</p><p><strong>Key Highlights from the Session:</strong></p><p>1.<span> &nbsp;</span><strong>Personal Narratives:</strong> Sharing impactful moments from the speaker’s journey as a neurodivergent individual.</p><p>2. <strong>Understanding Neurodivergence:</strong> Exploring conditions such as autism, ADHD, and dyslexia through real-life examples.</p><p>3. <strong>Universal Design in Practice:</strong> Practical advice, such as leveraging low-light environments or strategies to address time blindness and sensory sensitivities.</p><p>4. <strong>Call to Action:</strong> Encouraging empathy, patience, and kindness in professional and community spaces.</p><p>&nbsp;</p><p><strong>Speaker Bio:</strong></p><p>J. Matthew Saunders brings nearly two decades of experience as a leader in the Drupal community, including roles as a founder and chair of Drupal Colorado Inc, Drupal Association Board Member, and a founder of the Drupal Event Organizers Working Group. He combines his expertise in technology and advocacy to champion neurodiversity awareness and inclusion. As a Director at Pfizer and creator of the “My NeuroDivergent Brain” YouTube series, Matthew bridges personal insights with professional expertise to inspire and educate.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_social_media_card:
+    -
+      entity: 8aa6de9c-e620-4920-9689-01b17ac1fdc2
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: ba1939d7-a91b-4a1a-8966-d33ef1af182b
+  field_time_slot:
+    -
+      entity: 511b544f-a420-4adf-9f7d-813e764b6d47

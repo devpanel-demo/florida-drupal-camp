@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: de43939e-e2f6-486b-a79d-0d2a10e94fc2
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_Mike_Anello_trainings.jpg
+  uri:
+    -
+      value: 'public://2024-11/2025_FLDC_Mike_Anello_trainings.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 42236
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731969651

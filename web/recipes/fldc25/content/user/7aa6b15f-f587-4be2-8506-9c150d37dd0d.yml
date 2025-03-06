@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 7aa6b15f-f587-4be2-8506-9c150d37dd0d
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: dinarcon
+  pass:
+    -
+      value: $2y$10$jRgcOrGG2bnxHl0lDuZFIOCy5d8ESJzjo0HQ5DrLS1Fg5hIbaM2dO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mauricio@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730823969
+  access:
+    -
+      value: 1730824736
+  login:
+    -
+      value: 1730824736
+  init:
+    -
+      value: mauricio@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/dinarcon
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/dinarcon'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Mauricio
+  field_last_name:
+    -
+      value: Dinarte

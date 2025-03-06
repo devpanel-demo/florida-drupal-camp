@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 1a1e888d-e0f7-4d20-ba26-a88ddd10d763
+  default_langcode: en
+  depends:
+    3185eb42-84f6-4c3d-b06a-564416afa4c1: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: laryn
+  pass:
+    -
+      value: $2y$10$AEMupde3pU/uMfITLhkpmeadXrDOLcKT2Ayw/RafRpXSv.13k5mTC
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: laryn@kdemo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733171186
+  access:
+    -
+      value: 1733502841
+  login:
+    -
+      value: 1733171730
+  init:
+    -
+      value: laryn@kdemo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/laryn
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Laryn is a senior developer at <a href="https://atendesigngroup.com/">Aten Design Group</a> where he is focused particularly on <a href="https://backdropcms.org/">Backdrop CMS</a> development. He is a core committer for the Backdrop project and also maintains a variety of contrib modules for Backdrop.</p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/laryn'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Laryn
+  field_home_town:
+    -
+      value: 'Memphis, TN'
+  field_last_name:
+    -
+      value: 'Kragt Bakker'
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/larynkragtbakker/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://mastodon.social/@laryn'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'Aten Design Group'
+  field_title:
+    -
+      value: 'Senior Developer'
+  user_picture:
+    -
+      entity: 3185eb42-84f6-4c3d-b06a-564416afa4c1
+      alt: ''
+      title: ''
+      width: 1200
+      height: 1200

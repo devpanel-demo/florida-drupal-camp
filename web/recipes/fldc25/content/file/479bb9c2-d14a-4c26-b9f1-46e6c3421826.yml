@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 479bb9c2-d14a-4c26-b9f1-46e6c3421826
+  default_langcode: en
+  depends:
+    10afef32-3cce-4db5-862a-81964a332eac: user
+default:
+  uid:
+    -
+      entity: 10afef32-3cce-4db5-862a-81964a332eac
+  filename:
+    -
+      value: 'Picture 110463 1567479019.jpg'
+  uri:
+    -
+      value: 'public://pictures/2023-12/Picture 110463 1567479019.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 11992
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702341467

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 95b68e82-73d1-46aa-9368-107812fecf6a
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: EPAM_LOGO_Primary.png
+  uri:
+    -
+      value: 'public://2023-01/EPAM_LOGO_Primary.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 30663
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673105222

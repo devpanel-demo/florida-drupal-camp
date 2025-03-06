@@ -1,0 +1,93 @@
+<div class="apbct__header">
+    <h2>Total count of users: <span id="apbct-total-users">{{ template_data.total_users }}</span>.</h2>
+    <p class="apbct__title">Spammers found <span id="apbct-total-spammers">{{ template_data.total_spammers }}</span></p>
+    <div class="apbct-start-panel">
+        <button type="button" class="button button--primary" id="apbct-start-check-users">
+            Start Check
+        </button>
+        <div class="lds-ripple"><div></div><div></div></div>
+
+        <label for="exclude-user-with-articles">
+            <input type="checkbox" name="exclude_user_with_articles" id="exclude-user-with-articles">
+            Exclude users who have approved articles
+        </label>
+    </div>
+    {% if template_data.spammers %}
+        <div class="apbct-start-panel">
+            <button type="button" class="button button--primary" id="apbct-delete-selected-users">
+                Delete selected
+            </button>
+
+            <button type="button" class="button button--primary" id="apbct-delete-all-users">
+                Delete all
+            </button>
+        </div>
+    {% endif %}
+</div>
+
+<table class="views-table views-view-table cols-4 responsive-enabled" id="apbct-spammers-table">
+    <thead>
+        <tr>
+            <th id="view-name-table-column" class="views-field views-field-name" scope="col">
+                <input type="checkbox" value="" class="apbct-selected-all-user-to-delete">
+            </th>
+            <th id="view-name-table-column" class="views-field views-field-name" scope="col">
+                User name
+            </th>
+            <th class="priority-low views-field views-field-status" id="view-status-table-column" scope="col">
+                Status
+            </th>
+            <th class="priority-low views-field views-field-created is-active" id="view-created-table-column" scope="col">
+                Registered on the website
+            </th>
+            <th id="view-operations-table-column" class="views-field views-field-operations" scope="col">
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for spammer in template_data.spammers %}
+            <tr>
+                <td class="views-field apbct-form-field-select-user">
+                    <input type="checkbox" value="{{ spammer.uid }}" name="selected_users[]" class="apbct-selected-user-to-delete">
+                </td>
+                <td class="views-field views-field-user-bulk-form">
+                    <a href="/user/{{ spammer.uid }}">{{ spammer.name }}</a>
+                </td>
+                <td headers="view-name-table-column" class="views-field views-field-name">
+                    {% if spammer.status == 1 %}
+                        Active
+                    {% else %}
+                        Not active
+                    {% endif %}
+                </td>
+                <td class="priority-low views-field views-field-created is-active" headers="view-created-table-column">
+                    {{ spammer.created|date("m/d/Y") }}
+                </td>
+                <td headers="view-operations-table-column" class="views-field views-field-operations">
+                    <form action="/admin/config/cleantalk/cleantalk_check_users_form/delete" method="post">
+                        <input type="hidden" name="user_id" value="{{ spammer.uid }}">
+                        <button type="submit">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+{% if template_data.count_pages %}
+<ul class="pager__items js-pager__items" id="apbct-spammers-pagination">
+    <li class="pager__item">
+        <a href="/admin/config/cleantalk/cleantalk_check_users_form">
+            1
+        </a>
+    </li>
+    {% for i in 2..template_data.count_pages %}
+        <li class="pager__item">
+            <a href="/admin/config/cleantalk/cleantalk_check_users_form?page={{ i }}">
+                {{ i }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+{% endif %}

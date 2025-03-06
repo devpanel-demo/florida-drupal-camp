@@ -1,0 +1,36 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.archive-sites-menu {
+  background-color: var(--neutral-dark);
+  background-image: url("../../../images/archive-site-menu-arrows.svg");
+  background-position: center right 10px;
+  height: 2.5rem;
+  width: 16rem;
+  max-width: 100%;
+  padding: 0 var(--sp2) 0 var(--sp);
+  border: solid 1px #94BFCC;
+  color: var(--text-on-neutral-dark);
+  font-size: 1rem;
+  line-height: var(--sp1-5);
+  transition: border-color 0.2s;
+}
+@media (forced-colors: active) {
+  .archive-sites-menu {
+    background-image: none;
+    -webkit-appearance: listbox;
+            appearance: listbox;
+    /* Default <select> appearance value for modern browsers. */
+  }
+  @supports ((-webkit-appearance: revert) or (appearance: revert)) {
+    .archive-sites-menu {
+      -webkit-appearance: revert;
+              appearance: revert;
+    }
+  }
+}
+.archive-sites-menu:focus {
+  outline-offset: 2px;
+}
+.archive-sites-menu:hover {
+  border-color: var(--color--white);
+}

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: ba1939d7-a91b-4a1a-8966-d33ef1af182b
+  default_langcode: en
+  depends:
+    356cc666-bce1-42dc-be8c-b992783d5b18: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: MatthewS
+  pass:
+    -
+      value: $2y$10$oFrHa8N6TS1BtAYvxvlXxOCAvldXPdTlDAemePEcrLceaD6pkh9yC
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: matthew@demo.org
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732466076
+  access:
+    -
+      value: 1733509222
+  login:
+    -
+      value: 1732466236
+  init:
+    -
+      value: matthew@demo.org
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/matthews
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Matthew began working on the Web in '95 with an experimental dance company in Ottawa, Canada, sparking a passion for cutting-edge technologies. His extensive experience as a project manager & Web application architect led him to join the Drupal community in 2007. Matthew has spoken at tech conferences, was on the Drupalcon Denver committee, directs Drupalcamp Colorado, and co-founded the Drupal Event Organizing Working Group. He now works at Pfizer as an Analyst and advocates for neurodiversity."
+      format: plain_text
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/jmatthews.bsky.social'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/matthews'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Matthew
+  field_home_town:
+    -
+      value: Littleton
+  field_last_name:
+    -
+      value: Saunders
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/jmsaunders/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://mastodon.cloud/@Creech'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Pfizer
+  user_picture:
+    -
+      entity: 356cc666-bce1-42dc-be8c-b992783d5b18
+      alt: ''
+      title: ''
+      width: 3024
+      height: 4032

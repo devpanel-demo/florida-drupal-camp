@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 64667164-146a-469a-b4c1-f2b20416b054
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Day 1 Schedule Info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<div class="highlight-box">Day 1 of Florida DrupalCamp brings a mix half and full day trainings. You must register for trainings during the camp registration process.</div>'
+      format: basic_html
+      summary: ''

@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c42f1c47-3702-4d32-9698-fe56fabb2b21
+  bundle: featured_speaker
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    1f763b16-7a8c-4cf1-8e06-09c12e09e2b8: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Lauri Timmanee'
+  created:
+    -
+      value: 1729027591
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /featured-speaker/lauri-timmanee
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>A Product Manager for Drupal Core at Acquia, Timmanee has been involved with Drupal since 2013 and has been a core committer since 2017. He is currently a product manager overseeing Starshot and Experience Builder.</p>'
+      format: full_html
+      summary: ''
+  field_badge:
+    -
+      value: 'Featured Speaker'
+  field_cta_link:
+    -
+      uri: 'internal:/u/lauriii'
+      title: ''
+      options: {  }
+  field_image:
+    -
+      entity: 1f763b16-7a8c-4cf1-8e06-09c12e09e2b8
+      alt: 'Lauri Timmanee in Sunglasses'
+      title: ''
+      width: 296
+      height: 289
+  field_weight:
+    -
+      value: 10

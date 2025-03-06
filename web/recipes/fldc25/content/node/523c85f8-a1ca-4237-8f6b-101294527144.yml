@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 523c85f8-a1ca-4237-8f6b-101294527144
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    92c4b580-01cb-4cae-b5d4-a2c4a32e1995: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Plan Left'
+  created:
+    -
+      value: 1706456433
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/plan-left
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Since 2012, Plan Left has worked closely with many private, public, non-profit, and government organizations to produce custom software, websites, and high-performing marketing initiatives. Our tailored, partnership-focused approach allows us to integrate with teams of every size and accommodate needs that scale from one-person, part-time departments or organizations all the way up to enterprise.</p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: 92c4b580-01cb-4cae-b5d4-a2c4a32e1995
+      alt: 'Plan Left Digital Partner'
+      title: ''
+      width: 600
+      height: 115
+  field_website_address:
+    -
+      uri: 'https://planleft.com/'
+      title: ''
+      options: {  }

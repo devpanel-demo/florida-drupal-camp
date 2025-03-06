@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9358283f-491c-482e-9ee9-bdef45360da4
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  filename:
+    -
+      value: 'Opensource.com Digital Dandelion.png'
+  uri:
+    -
+      value: 'public://2022-12/Opensource.com Digital Dandelion.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 106402
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670014527

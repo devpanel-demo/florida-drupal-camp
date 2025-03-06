@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 51fa43f2-e750-45b4-90c5-2c8451057dee
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: dh-logo-card.png
+  uri:
+    -
+      value: 'public://2021-11/dh-logo-card.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 24057
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636287496

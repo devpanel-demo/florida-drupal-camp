@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2a49d5fc-9f2a-47d9-9980-ffc31b24209e
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_ixlr8.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_ixlr8.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 51451
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734048433

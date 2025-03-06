@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4d607f10-0afb-4d45-b780-c293da1a60f6
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    983d0205-87c8-469b-9ada-ec7474d93f56: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    becb1f38-1ae9-40a4-84e7-e6fd194d5a19: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    4933be4b-fb6f-432e-8348-32647949f6ff: file
+    d88d416b-fd24-40ba-8b47-67992c633f5d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 983d0205-87c8-469b-9ada-ec7474d93f56
+  title:
+    -
+      value: 'Understanding “The Why” with Accessibility'
+  created:
+    -
+      value: 1731482197
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/understanding-why-accessibility
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>If you or someone you work with has ever asked you these types of questions:</p><ul><li>Why do we work to make things accessible?</li><li>What's the point of making this change only to be accessible?</li><li>Why can't I just make that accessibility fix later?</li></ul><p>...or anything similar, this talk is right for you.</p><p>What is \"the why\" you may ask? It's knowing how and why our accessibility improvements make the web better for users with disabilities. It's always a good thing to understand why we do what we do to make things accessible. Let's explore how we can build empathy into our teams by showing them \"the why\".&nbsp;</p><p>I'll do this with demos! We'll look at various Assistive Technologies (AT) &nbsp;and Adaptive Strategies to explore what it's like for users with disabilities to navigate and experience the web. Not everyone has experienced a screen reader, screen magnifier, switch device, text-to-speech, TTY (phone communication), etc., and that's our challenge. Challenge accepted!</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: becb1f38-1ae9-40a4-84e7-e6fd194d5a19
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: 4933be4b-fb6f-432e-8348-32647949f6ff
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 983d0205-87c8-469b-9ada-ec7474d93f56
+  field_time_slot:
+    -
+      entity: d88d416b-fd24-40ba-8b47-67992c633f5d

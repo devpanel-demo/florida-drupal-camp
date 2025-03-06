@@ -1,0 +1,41 @@
+/**
+ * @file
+ * Skip link
+ *
+ * Allows keyboard users to quickly skip to the main content of the page.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.skip-link {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: var(--sp1-5) var(--sp2);
+  text-decoration: none;
+  color: var(--color--white);
+  background-color: var(--color--ocean-30);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.skip-link:hover {
+  color: var(--color--white);
+}
+.skip-link svg {
+  margin-left: 0.3125rem;
+  transition: transform 0.2s;
+}
+.skip-link:hover svg {
+  transform: translatex(0.3125rem);
+}
+
+.skip-link.focusable:focus {
+  position: absolute !important;
+  /* Override position from module file. */
+  z-index: 503;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  outline: solid 2px currentColor;
+  outline-offset: -4px;
+  border-radius: 0;
+}

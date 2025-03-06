@@ -1,0 +1,73 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 45a7cb8a-2458-4b74-95c7-4bf88b132eb5
+  default_langcode: en
+  depends:
+    e76923f2-0476-4dd6-a1f4-08c94b08f672: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: skyriter
+  pass:
+    -
+      value: $2y$10$CwrhVHRmqYLnGuDnd.z5NufabZjXcwUtm02Z5zbnmWFlSbntJNUCG
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: christian@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732656127
+  access:
+    -
+      value: 1732656547
+  login:
+    -
+      value: 1732656547
+  init:
+    -
+      value: christian@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/skyriter
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "A long-time Drupalist working primarily with non-profits, higher education, and the federal government, Christian loves to work on and talk about changes in technology, society, and culture. With masters degrees in poetry and IT, he is given to talking about the latest thing he's read, listened to or watched. When not talking, he is most at home on a bike or in the water. He also likes to fall down mountains on his skis."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/skyriter'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Christian
+  field_last_name:
+    -
+      value: Burk
+  user_picture:
+    -
+      entity: e76923f2-0476-4dd6-a1f4-08c94b08f672
+      alt: ''
+      title: ''
+      width: 1183
+      height: 1183

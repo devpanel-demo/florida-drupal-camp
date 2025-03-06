@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: e3ca0f18-fc88-463f-8ed6-ca4d276c233f
+  default_langcode: en
+  depends:
+    004c5b92-f751-40be-9d6b-73a90b19ac92: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: hectoriribarne@demo.com
+  pass:
+    -
+      value: $2y$10$M/CS1n.TIRud7b4KNFpO4OhbeqSV992fnl5dZ4/fpkcVRE59IU5fS
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: hectoriribarne@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1729809920
+  access:
+    -
+      value: 1731079690
+  login:
+    -
+      value: 1730925352
+  init:
+    -
+      value: hectoriribarne@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/hectoriribarnedemocom
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Hector Iribarne is a distinguished software developer with a deep-rooted passion for open-source technologies and a wealth of experience in the Drupal ecosystem. With over a decade of expertise, Hector has become a respected figure in the world of Drupal development, known for his innovative solutions and commitment to community collaboration.\r\n\r\nCurrently, Hector is leveraging his skills at Acquia, a leading provider of digital experience solutions, where he plays a pivotal role in helping organizations harness the power of Drupal to create compelling, scalable, and secure digital platforms. In his role at Acquia, Hector focuses on optimizing performance and enhancing the capabilities of Drupal deployments, drawing on the company's cutting-edge cloud infrastructure and services.\r\n\r\nHector's journey into the world of Drupal began as a web developer, where he quickly recognized the platform's flexibility and potential for creating robust web solutions. His proficiency in PHP, JavaScript, and frontend technologies has enabled him to innovate and refine the Drupal experience, establishing Hector as a go-to expert in the community.\r\n\r\nIn addition to his technical acumen, Hector is a dedicated mentor and an engaging speaker. He has conducted numerous workshops and presentations at tech conferences globally, including sessions on best practices for Drupal configuration management, performance tuning, and leveraging Acquia's tools for maximum impact.\r\n\r\nAs an active contributor to various open-source initiatives, Hector has worked alongside development teams to enhance and release key Drupal modules, empowering organizations across different sectors to advance their digital strategies. His dedication to quality and his collaborative spirit have earned him recognition and respect within the community.\r\n\r\nAt this DrupalCamp, Hector is excited to connect with fellow Drupal enthusiasts, exchange insights, and explore the latest trends shaping the future of web development. Whether you're a developer, designer, or site administrator, Hector's sessions promise actionable insights that can elevate your Drupal projects.\r\n\r\nOutside the realm of technology, Hector enjoys sailing, photography, and exploring the confluence of technology and art. He advocates for a holistic balance between professional growth and personal pursuits, fostering both community engagement and personal enrichment.\r\n\r\n"
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/iribarne'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Hector
+  field_home_town:
+    -
+      value: 'Pembroke Pines, FL'
+  field_last_name:
+    -
+      value: Iribarne
+  field_organization:
+    -
+      value: Acquia
+  field_title:
+    -
+      value: 'Senior Technical Account Manager'
+  field_twitter_profile_link:
+    -
+      uri: 'https://x.com/hectoriribarne'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 004c5b92-f751-40be-9d6b-73a90b19ac92
+      alt: ''
+      title: ''
+      width: 178
+      height: 218

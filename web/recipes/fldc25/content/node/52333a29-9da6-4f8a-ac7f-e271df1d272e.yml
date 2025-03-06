@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 52333a29-9da6-4f8a-ac7f-e271df1d272e
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    83ca7e93-73e4-4d0f-8c48-b943b01ef416: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    6b92fcb1-9a6b-49d7-bec5-38d13e846b7a: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Drupal Coffee Exchange! ☕️'
+  created:
+    -
+      value: 1704465216
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/drupal-coffee-exchange
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Many of us in the Drupal community enjoy coffee, and the Drupal Coffee Exchange is a way to celebrate the magic elixir that many of us use to fuel our days.</p><p>Our quarterly coffee exchanges and periodic BoFs at Drupal events are a way for community members to stay caffeinated and share their favorite coffees between enthusiasts. It’s unique, it’s fun, and it’s become a creative and complementary way to participate in our community....a reminder our community goes well beyond the commits.</p>'
+      format: full_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 83ca7e93-73e4-4d0f-8c48-b943b01ef416
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_speakers:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  field_time_slot:
+    -
+      entity: 6b92fcb1-9a6b-49d7-bec5-38d13e846b7a

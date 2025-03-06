@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a3116da0-de85-400b-a3bb-b830562e29f5
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: best_western_plus.jpg
+  uri:
+    -
+      value: 'public://2022-11/best_western_plus.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 32548
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1667583968

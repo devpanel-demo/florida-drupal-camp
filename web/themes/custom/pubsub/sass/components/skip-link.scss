@@ -1,0 +1,43 @@
+/**
+ * @file
+ * Skip link
+ *
+ * Allows keyboard users to quickly skip to the main content of the page.
+ */
+
+@import "../global/variables";
+
+.skip-link {
+  display: block;
+  width: fit-content;
+  padding: var(--sp1-5) var(--sp2);
+  text-decoration: none;
+  color: var(--color--white);
+  background-color: var(--color--ocean-30);
+  opacity: 0;
+  transition: opacity 0.2s;
+
+  &:hover {
+    color: var(--color--white);
+  }
+
+  svg {
+    margin-left: 5px;
+    transition: transform 0.2s;
+  }
+
+  &:hover svg {
+    transform: translatex(5px);
+  }
+}
+
+.skip-link.focusable:focus {
+  position: absolute !important; /* Override position from module file. */
+  z-index: 503;
+  display: flex;
+  align-items: center;
+  opacity: 1;
+  outline: solid 2px currentColor;
+  outline-offset: -4px;
+  border-radius: 0;
+}

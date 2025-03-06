@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 07c862f5-13ad-476e-a6d9-d1fa6c653247
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: 'My Mesothelioma Logo 1000px.png'
+  uri:
+    -
+      value: 'public://2023-01/My Mesothelioma Logo 1000px.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 17232
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1674001555

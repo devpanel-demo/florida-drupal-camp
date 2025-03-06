@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 81de656d-81e2-494a-ad1f-2cdac012e336
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    99ba9fc9-61f5-44a7-818d-29064c311171: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Miracle For Max'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'https://www.gofundme.com/f/maxs-miracle-searching-for-a-cure-for-tbcd'
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -44
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:99ba9fc9-61f5-44a7-818d-29064c311171'
+  revision_translation_affected:
+    -
+      value: true

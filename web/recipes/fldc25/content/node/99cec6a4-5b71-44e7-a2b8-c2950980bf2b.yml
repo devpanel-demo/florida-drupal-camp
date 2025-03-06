@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 99cec6a4-5b71-44e7-a2b8-c2950980bf2b
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    4ab6fe1b-bb9d-4368-ade9-9a2d0de25f27: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: AddWebSolution
+  created:
+    -
+      value: 1638456423
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/addwebsolution
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>A leading IT development &amp; outsourcing company with 9+ years of experience accompanied by proud alliances with some esteemed IT companies.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 4ab6fe1b-bb9d-4368-ade9-9a2d0de25f27
+      alt: AddWebSolution
+      title: ''
+      width: 3000
+      height: 3000
+  field_website_address:
+    -
+      uri: 'https://addwebsolution.com/drupal-development-services?utm_source=referral&utm_campaign=fldrupalcamp'
+      title: ''
+      options: {  }

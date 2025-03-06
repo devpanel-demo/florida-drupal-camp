@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 73ed91ff-1b59-4f43-a0ad-4d2673b38e6f
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_ultrabob.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_ultrabob.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58518
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049123

@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: fb25457a-3727-4e10-99e1-a231440ebaeb
+  default_langcode: en
+  depends:
+    d1992a85-4d54-42d7-8a89-52c75fb8e624: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: starshaped
+  pass:
+    -
+      value: $2y$10$7b/myR41koIDRuvvWcBlfulHSw2ZGE4F1.hjbPyNJFcuITwrvd51m
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: aubrey@demo.org
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670946843
+  access:
+    -
+      value: 1734370627
+  login:
+    -
+      value: 1734109971
+  init:
+    -
+      value: aubrey@demo.org
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/starshaped
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Aubrey Sambor is a <span>Lead Engineer</span> who loves creating accessible websites using clean and modern CSS. She&nbsp;initially learned to code in the late 90s when her high school friends told her about this cool website called Geocities. She decided she wanted a site of her own, so she bought an HTML 4 book and taught herself the ways of code.&nbsp;</p><p>Aubrey graduated from Indiana University with a Bachelors degree in computer science and started her career building custom PHP web portals for clients, eventually discovering Drupal in 2008. She&nbsp;is passionate about design systems, accessibility, and the latest and greatest CSS techniques.</p><p dir="ltr">In her spare time, Aubrey loves to knit, spin her own yarn on one of her two spinning wheels, and walk on the many trails and paths throughout Massachusetts. She''s left-handed and has always disliked it when her classmates took all the left-handed scissors in art class.&nbsp;</p>'
+      format: basic_html
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/star-shaped.org'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://drupal.org/u/starshaped'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Aubrey
+  field_home_town:
+    -
+      value: Massachusetts
+  field_last_name:
+    -
+      value: Sambor
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/aubreysambor/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://labyrinth.social/@starshaped'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Lullabot
+  field_personal_website_link:
+    -
+      uri: 'https://star-shaped.org'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Lead Engineer'
+  user_picture:
+    -
+      entity: d1992a85-4d54-42d7-8a89-52c75fb8e624
+      alt: ''
+      title: ''
+      width: 512
+      height: 512

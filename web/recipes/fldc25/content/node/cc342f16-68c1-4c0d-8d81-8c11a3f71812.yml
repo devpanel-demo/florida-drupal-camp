@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: cc342f16-68c1-4c0d-8d81-8c11a3f71812
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    79ec3e0d-ea46-4f3a-9537-0503610c9679: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    8a1be429-f5c4-4f79-b8db-e586c0de119e: file
+    a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 79ec3e0d-ea46-4f3a-9537-0503610c9679
+  title:
+    -
+      value: 'Off On the Right Foot with Drupal'
+  created:
+    -
+      value: 1731004650
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/right-foot-drupal
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: "<p>Often when embarking on a new technology project, your first attempt feels good when you deliver it, but you look at it later and think, that could have been done better. Sometimes, that means it ends up being rebuilt from scratch.</p><p>It helps to know what resources you can pull together to get started--to get off on the right foot. This session is perfect for those who have been through a Drupal In-One-Day training or other beginner trainings and are looking to <em>begin</em> their journey to a production deployed Drupal website.</p><p>Whether spinning up your first or wanting to do it better next, this session should help you lay the ground work for a more successful Drupal project launch in your near future.&nbsp;<br><br>We'll go over&nbsp;</p><ul><li>project initiation concerns,&nbsp;</li><li>local and remote development environment options,</li><li>available production hosting resources,&nbsp;</li><li>content structure theory, and&nbsp;</li><li>theme selection considerations.</li></ul><p>We'll also introduce resources for non-developers who want to realize their project without custom theming and development. My hope is, you launch a nice looking, functional, and productive CMS to production when you apply the opinions and follow the steps laid out in this session.</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_social_media_card:
+    -
+      entity: 8a1be429-f5c4-4f79-b8db-e586c0de119e
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 79ec3e0d-ea46-4f3a-9537-0503610c9679
+  field_time_slot:
+    -
+      entity: a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c

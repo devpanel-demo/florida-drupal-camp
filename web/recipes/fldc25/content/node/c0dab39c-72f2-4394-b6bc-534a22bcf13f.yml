@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: c0dab39c-72f2-4394-b6bc-534a22bcf13f
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    7c154072-db70-4d0a-b845-f86441f4393b: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Mediacurrent
+  created:
+    -
+      value: 1642520589
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/mediacurrent
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Mediacurrent is a full-service digital agency that implements world class open source software development, strategy, and design.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 7c154072-db70-4d0a-b845-f86441f4393b
+      alt: 'Mediacurrent logo'
+      title: ''
+      width: 900
+      height: 762
+  field_website_address:
+    -
+      uri: 'https://www.mediacurrent.com'
+      title: ''
+      options: {  }

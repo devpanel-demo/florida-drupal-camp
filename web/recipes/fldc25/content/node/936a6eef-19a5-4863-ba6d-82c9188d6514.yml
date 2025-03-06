@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 936a6eef-19a5-4863-ba6d-82c9188d6514
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    10afef32-3cce-4db5-862a-81964a332eac: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    73ed91ff-1b59-4f43-a0ad-4d2673b38e6f: file
+    511b544f-a420-4adf-9f7d-813e764b6d47: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 10afef32-3cce-4db5-862a-81964a332eac
+  title:
+    -
+      value: 'Braving the Search Wilderness: Navigating Drupal’s Search'
+  created:
+    -
+      value: 1732121187
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/braving-search-wilderness-navigating-drupals-search
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: '<p dir="ltr"><span>Site search was already challenging, and AI has only added layers of complexity. From deciding which fields to scan and in what format, to ensuring your search tool properly tokenizes content across languages, there’s no shortage of decisions to make. Prioritizing certain types of content or favoring recent updates? The options are endless. And then there are facets—those magical filters that help users refine their searches, provided you can get them right. But what if you need search to work seamlessly with Layout Builder or other page-building tools? It’s easy to get lost in the labyrinth of configurations, and now AI has introduced even more levels to the quest.</span></p><p dir="ltr"><span>Fear not, brave Drupal adventurer! I’m an old hand at navigating the murky waters of Drupal site search, and have cleared a trail through the new AI options that have emerged. I''m here to serve as your guide through this narrow, treacherous path to success. Together, we’ll explore Search API, Solr, AI-powered tools, and other alternatives, showing you how to configure them effectively. Plus, I''ll demonstrate how to get search running on your local environment just like it does in production. Take my hand, and together we’ll tame the search beast, ensuring your users can find exactly what they need—without falling into the abyss of overwhelming configurations.</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_social_media_card:
+    -
+      entity: 73ed91ff-1b59-4f43-a0ad-4d2673b38e6f
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 10afef32-3cce-4db5-862a-81964a332eac
+  field_time_slot:
+    -
+      entity: 511b544f-a420-4adf-9f7d-813e764b6d47

@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Responsive styles for views grid vertical layout.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+:root {
+  --views-grid-layout-gap: var(--sp);
+}

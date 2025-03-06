@@ -1,0 +1,84 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 5354a1d6-e0d6-4f8f-9581-47d06f42a791
+  default_langcode: en
+  depends:
+    6e4cb15c-69e3-4a92-9d8d-8b2d49a6f8f5: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: morgangiosa
+  pass:
+    -
+      value: $2y$10$wRf.NLvcVNt49zj5uJOQY.gAuBr9MvVTzkf.wF9QbW591UPFyYzxW
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: morgangiosa@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731349128
+  access:
+    -
+      value: 1731350130
+  login:
+    -
+      value: 1731349187
+  init:
+    -
+      value: morgangiosa@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/morgangiosa
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Morgan Giosa has studied Drupal web development and computer science extensively with Dr. Mark A. Friedman, a Drupal specialist who taught at both Trinity College and Central Connecticut State University. Morgan has also been employed as subcontractor for Redfin Solutions and has developed websites independently for his clients using both Drupal and WordPress, including Andres Forero, who is currently drumming in the Broadway musical, Hamilton. He is also an accomplished blues guitarist and visual artist, who has recorded and released multiple albums of original music, his latest of which, “Feelin’ Fine Today”, has received airplay on college radio stations throughout New England including WESU 88.1 FM and WCNI 90.9 FM, and has performed at blues clubs throughout New England, including the prestigious Black-Eyed Sally’s in downtown Hartford, CT. He also produced and created an autobiographical documentary film, "Outside the Box", which has been screened in New Haven International Film Festival and Mystic Film Festival in 2019, and has exhibited his paintings and photographs in galleries throughout Connecticut.</p><p>For more information on Morgan or to see his work, please visit the following websites:</p><p>temperasolutions.com (partial Drupal/WordPress portfolio)</p><p>morgangiosa.com (visual art/music website)</p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/mgiosa729'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Morgan
+  field_home_town:
+    -
+      value: 'Windsor, CT'
+  field_last_name:
+    -
+      value: Giosa
+  field_organization:
+    -
+      value: 'Tempera Solutions'
+  field_personal_website_link:
+    -
+      uri: 'https://temperasolutions.com'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 6e4cb15c-69e3-4a92-9d8d-8b2d49a6f8f5
+      alt: ''
+      title: ''
+      width: 1024
+      height: 1024

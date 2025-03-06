@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fc79dc78-6e3c-4f2f-8584-b068bc422fba
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: rickard.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-11/rickard.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40766
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730837053

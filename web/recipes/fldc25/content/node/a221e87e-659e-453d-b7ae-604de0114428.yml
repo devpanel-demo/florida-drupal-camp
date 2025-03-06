@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a221e87e-659e-453d-b7ae-604de0114428
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8e6ee9f1-611d-4a64-ac62-7eebf30fb872: taxonomy_term
+    b0f2e130-1c13-4529-bf62-6c93fef21451: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Pantheon
+  created:
+    -
+      value: 1636287388
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/pantheon
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Pantheon is the WebOps platform where marketers and developers drive results, reaching billions globally with dynamic WordPress and Drupal sites.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8e6ee9f1-611d-4a64-ac62-7eebf30fb872
+  field_sponsor_logo:
+    -
+      entity: b0f2e130-1c13-4529-bf62-6c93fef21451
+      alt: Pantheon
+      title: ''
+      width: 1200
+      height: 620
+  field_website_address:
+    -
+      uri: 'https://pantheon.io/'
+      title: ''
+      options: {  }

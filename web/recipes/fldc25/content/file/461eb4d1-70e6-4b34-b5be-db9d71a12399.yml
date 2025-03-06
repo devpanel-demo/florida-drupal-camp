@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 461eb4d1-70e6-4b34-b5be-db9d71a12399
+  default_langcode: en
+  depends:
+    ed42963b-0eaa-4781-a0f7-3461ecfe6477: user
+default:
+  uid:
+    -
+      entity: ed42963b-0eaa-4781-a0f7-3461ecfe6477
+  filename:
+    -
+      value: Untitled1030_20240723205054.png
+  uri:
+    -
+      value: 'public://pictures/2024-11/Untitled1030_20240723205054.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1187139
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731875345

@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  default_langcode: en
+  depends:
+    45cbe732-1c01-4074-b929-d67684274341: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ultimike
+  pass:
+    -
+      value: $2y$10$ldeOPCK6U8.d6vXDqAsb5O.N6Bu.wRDXgK9UZQJhHwOu4eEmQT8r.
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: ultimike@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636986063
+  access:
+    -
+      value: 1734977289
+  login:
+    -
+      value: 1734962116
+  init:
+    -
+      value: ultimike@demo.com
+  roles:
+    -
+      target_id: speaker
+    -
+      target_id: administrator
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_biography:
+    -
+      value: 'Michael Anello (@ultimike) is a Drupal developer and trainer with DrupalEasy. He is the lead instructor for Drupal Career Online, a beginner-focused 12-week, 3x/week online Drupal training program and the 15-week, 2x/week Professional Module Development course. Mike is very active in the Drupal community as an organizer, code and documentation contributor, and often speaking at Drupal events around the world.'
+      format: restricted_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/ultimike'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Michael
+  field_home_town:
+    -
+      value: 'Cocoa, Florida'
+  field_last_name:
+    -
+      value: Anello
+  field_organization:
+    -
+      value: DrupalEasy
+  field_personal_website_link:
+    -
+      uri: 'https://www.drupaleasy.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Developer, trainer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/ultimike'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 45cbe732-1c01-4074-b929-d67684274341
+      alt: ''
+      title: ''
+      width: 446
+      height: 446

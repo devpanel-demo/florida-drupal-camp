@@ -1,0 +1,162 @@
+/**
+ * @file
+ * Buttons.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.button {
+  --button-color-bg: var(--color--white);
+  --button-color-primary: var(--pink-dark);
+  --button-color-primary-dark: var(--pink-dark);
+  --button-border-radius: 0.1875rem;
+  --button-line-height: 1.125rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--sp3);
+  margin-block: var(--sp1);
+  margin-inline-start: 0;
+  margin-inline-end: var(--sp1);
+  padding: 1px var(--sp1-5);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-color-primary);
+  border: solid 2px var(--button-color-primary);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-color-bg);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: var(--button-line-height);
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+}
+.button:where(:hover), .button:where(:focus) {
+  text-decoration: none;
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.button:where(:active) {
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.button:where(:disabled), .button.is-disabled {
+  cursor: default;
+  color: var(--color--gray-70);
+  border-color: var(--color--gray-70);
+}
+
+/* No margin if is part of a menu. */
+.menu .button {
+  margin-block: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.button--primary {
+  --button-color-bg: var(--color--white);
+  --button-color-primary: var(--pink-dark);
+  --button-color-primary-dark: var(--pink-dark);
+  --button-border-radius: 0.1875rem;
+  --button-line-height: 1.125rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--sp3);
+  margin-block: var(--sp1);
+  margin-inline-start: 0;
+  margin-inline-end: var(--sp1);
+  padding: 1px var(--sp1-5);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-color-primary);
+  border: solid 2px var(--button-color-primary);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-color-bg);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: var(--button-line-height);
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  --button-color-bg: var(--pink-dark);
+  --button-color-primary: var(--color-white);
+  --button-color-primary-dark: var(--pink-light);
+}
+.button--primary:where(:hover), .button--primary:where(:focus) {
+  text-decoration: none;
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.button--primary:where(:active) {
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.button--primary:where(:disabled), .button--primary.is-disabled {
+  cursor: default;
+  color: var(--color--gray-70);
+  border-color: var(--color--gray-70);
+}
+.button--primary:where(:hover), .button--primary:where(:focus) {
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  background-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 80%);
+  color: var(--button-color-primary);
+  filter: saturate(400%);
+}
+.button--primary:where(:active) {
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  background-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: var(--button-color-primary);
+  filter: saturate(200%);
+}
+
+.button--action,
+.button--highlight {
+  background-color: var(--secondary);
+  color: var(--text-on-secondary);
+  border-color: transparent;
+}
+.button--action:where(:hover),
+.button--highlight:where(:hover) {
+  border-color: transparent;
+}
+
+.button--icon-back {
+  display: inline-flex;
+  align-items: center;
+}
+.button--icon-back:before {
+  display: block;
+  width: 0.5em;
+  height: 0.5em;
+  margin-inline-end: 0.5em;
+  content: "";
+  transform: rotate(45deg);
+  /* LTR */
+  border-block-end: solid 2px currentColor;
+  border-inline-start: solid 2px currentColor;
+}
+
+.button--small {
+  height: var(--sp2-5);
+  padding-inline: var(--sp);
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.button--large {
+  height: var(--sp4);
+  font-size: 1.25rem;
+  line-height: normal;
+}
+.button--large .arrow-right {
+  margin-left: 0.625rem;
+}

@@ -1,0 +1,124 @@
+@import "../../sass/global/variables";
+@import "../../sass/global/mixins";
+
+$stats-layout-switch: $grid-md;
+$stats-label-layout-switch: $md;
+
+.site-stats {
+  container-type: inline-size;
+}
+
+.site-stats__inner[class] {
+  --color-background: var(--neutral-dark);
+  --color-text: var(--text-on-neutral-dark);
+  --color-subtext: var(--text-on-neutral-dark-primary);
+
+  position: relative; // Anchor the tree.
+  padding-block: 64px;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  border-image-source: linear-gradient(var(--color-background), var(--color-background));
+  border-image-outset: 0 50vw;
+  border-image-slice: fill 0;
+
+  @media ($stats-layout-switch) {
+    padding-block: 72px;
+  }
+
+  // Tree
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: calc(100% - 2px);
+    right: 42.5%;
+    width: 15%;
+    aspect-ratio: 209 /280;
+    mask-image: url('images/palm-tree.svg');
+    mask-repeat: 0;
+    mask-position: center bottom;
+    mask-size: contain;
+    background-color: var(--color-background);
+    pointer-events: none;
+
+    @container (#{$hero_break}) {
+      right: 15%;
+    }
+  }
+}
+
+.site-stats__label[class] {
+  @media ($stats-label-layout-switch) {
+    grid-row: 1;
+    grid-column: 10 / span 3;
+  }
+}
+
+.site-stats__title[class] {
+  @include left-border-title;
+  color: inherit;
+
+  @media ($stats-layout-switch) {
+    margin-top: 39px;
+  }
+}
+
+.site-stats__list[class] {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  @media ($stats-layout-switch) {
+    display: flex;
+    gap: var(--grid-gap);
+
+    > * {
+      flex: 1;
+    }
+  }
+
+  @media ($stats-label-layout-switch) {
+    grid-row: 1;
+    grid-column: 1 / span 9;
+  }
+
+  @media ($grid-max) {
+    grid-column: 2 / span 8;
+  }
+}
+
+.site-stats__item[class] {
+  display: flex;
+  gap: var(--grid-gap);
+  flex-wrap: wrap;
+  padding: var(--sp2) 0;
+  border-bottom: solid 2px var(--color--sky-86);
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  > * {
+    flex: 1;
+  }
+
+  @media ($stats-layout-switch) {
+    display: block;
+    border-bottom: none;
+  }
+}
+
+.site-stats__stat[class] {
+  margin-bottom: var(--sp);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 56px;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+}
+
+.site-stats__desc[class] {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: var(--sp1-5);
+  color: var(--color-subtext);
+}

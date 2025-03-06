@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 33e61402-b681-410b-a04c-0ed7fb96ef56
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    db601997-f506-4efb-886e-0e18a8ed4da0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    aa9ce6a2-96bf-4b4f-894f-b85444aa046c: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    d56cfa9d-5dde-4c33-8176-ffbb5a5533ca: file
+    511b544f-a420-4adf-9f7d-813e764b6d47: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: db601997-f506-4efb-886e-0e18a8ed4da0
+  title:
+    -
+      value: 'How to add Tugboat Previews to your Drupal Module or Theme'
+  created:
+    -
+      value: 1732134522
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/how-add-tugboat-previews-your-drupal-module-or-theme
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p>If you are maintaining a Drupal module or theme on drupal.org, did you know that you can get <a href="https://www.drupal.org/case-study/drupalorg-integration-with-tugboatqa-for-live-previews-on-core-issues">automated previews of any Merge Request</a>? In this talk, we will walk through adding a Tugboat config.yml to a contrib module or theme. We should also have time to help a lucky member of the audience with <em>their</em> module or theme!</p><p>&nbsp;</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: aa9ce6a2-96bf-4b4f-894f-b85444aa046c
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: d56cfa9d-5dde-4c33-8176-ffbb5a5533ca
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: db601997-f506-4efb-886e-0e18a8ed4da0
+  field_time_slot:
+    -
+      entity: 511b544f-a420-4adf-9f7d-813e764b6d47

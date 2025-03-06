@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9f85d21c-5cdc-4c84-8e0c-8e6971b819ab
+  bundle: job_listing
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    9b7a58d2-60fe-4c2c-9e41-0e88bc2b2492: node
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Come work with us!'
+  created:
+    -
+      value: 1707558616
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /job/acquia/come-work-us
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Although we don't currently have any open positions, please complete this form so we can contact you when one becomes available!</p>"
+      format: full_html
+      summary: ''
+  field_company:
+    -
+      entity: 9b7a58d2-60fe-4c2c-9e41-0e88bc2b2492
+  field_location:
+    -
+      value: Remote
+  field_url:
+    -
+      uri: 'https://app.greenhouse.io/e/urnaby'
+      title: ''
+      options: {  }

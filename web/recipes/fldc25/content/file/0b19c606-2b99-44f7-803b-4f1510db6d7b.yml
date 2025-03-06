@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0b19c606-2b99-44f7-803b-4f1510db6d7b
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: 'Sevaa Group - Vertical - With Tagline-small_0_0.png'
+  uri:
+    -
+      value: 'public://2022-01/Sevaa Group - Vertical - With Tagline-small_0_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 13130
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1641927785

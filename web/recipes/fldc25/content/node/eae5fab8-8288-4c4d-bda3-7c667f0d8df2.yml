@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eae5fab8-8288-4c4d-bda3-7c667f0d8df2
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    04872ada-b78a-429d-8afd-0bc2a3d4b492: file
+    da1afa61-02a1-42b5-99e3-d7f621872828: user
+    7f4acfe4-a619-4249-923d-d74dc6028293: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  title:
+    -
+      value: 'Learn Laravel: Intro for Drupal Developers'
+  created:
+    -
+      value: 1730829696
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/learn-laravel-intro-drupal-developers
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: "<h2>Learn to build web apps with Laravel</h2><p>Laravel development is very complementary to Drupal development. This will be a quick intro to Laravel, learning the basics that will allow you to build apps from scratch.</p><p>We'll work through bootcamp.laravel.com using Blade (Laravel's templating language, like Twig in Drupal) as a front-end, build the Chirper app together, ask questions, and learn where to go for more info.</p><p>We will cover Database generation with migrations, Database queries with Eloquent, database seeding, front-end with Blade, Laravel routing system, Laravel controllers, Laravel middleware, Laravel authentication, etc.</p><h3>Who is the ideal audience member, the person who would get the most out of this training?</h3><ul><li>Any Drupal developer that writes PHP.</li><li>Front-end developers that are interested in learning more about Back-end development.</li><li>Developers at any level are welcome.</li></ul><h3>What will attendees take away from this training?</h3><ul><li>An understanding of Laravel basics.</li><li>When to use Laravel over Drupal.</li></ul><h3>What kind of technical knowledge do people need going into this training?</h3><ul><li>Some familiarity with the command line and Git.</li><li>Can build a local Drupal site using Lando or DDEV.&nbsp;</li><li>Basic understanding of PHP.</li></ul><h3>Before attending the training</h3><p>Please have the following downloaded and installed on your laptop:</p><ol><li>PhpStorm or Visual Studio Code</li><li>Docker Desktop and Lando</li></ol>"
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: true
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: 04872ada-b78a-429d-8afd-0bc2a3d4b492
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: da1afa61-02a1-42b5-99e3-d7f621872828
+  field_time_slot:
+    -
+      entity: 7f4acfe4-a619-4249-923d-d74dc6028293

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 562f40ba-b770-49df-bf04-ea4ff3260b2e
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: gauravtechie
+  pass:
+    -
+      value: $2y$10$wKmeb0B2S34nU0ISR1uq/uMpo5M9niz/u3QjqRis/cFI8JmT7voIu
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: gaurav.mishra@demo.io
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702924054
+  access:
+    -
+      value: 1731694535
+  login:
+    -
+      value: 1731694280
+  init:
+    -
+      value: gaurav.mishra@demo.io
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/gauravtechie
+      langcode: en
+      pathauto: 1
+  field_first_name:
+    -
+      value: Gaurav
+  field_home_town:
+    -
+      value: 'West New York, NJ'
+  field_last_name:
+    -
+      value: Mishra
+  field_organization:
+    -
+      value: MaterialPlus

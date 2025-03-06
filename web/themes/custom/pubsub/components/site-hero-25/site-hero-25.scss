@@ -1,0 +1,201 @@
+@import "../../sass/global/variables";
+
+@property --hero-cover-percent {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+
+@property --hero-color-opacity {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+
+@keyframes hero-heading-fill {
+  0% {
+    --hero-color-opacity: 1;
+    --hero-cover-percent: 66%;
+  }
+  100% {
+    --hero-color-opacity: 0.5;
+    --hero-cover-percent: 0%;
+  }
+}
+
+.site-hero {
+  container-type: inline-size;
+}
+
+.site-hero__container {
+  margin-bottom: 3%;
+  background: var(--neutral-white);
+  color: var(--text-on-neutral-white);
+
+  @container (#{$hero_break}) {
+    position: relative; // Anchor video;
+    margin-bottom: 176px;
+  }
+}
+
+.site-hero__title[class] {
+  --color-bright: rgba(231, 0, 119, var(--hero-color-opacity));
+  --hero-cover-percent: 66%;
+
+  font-size: clamp(64px, 40px + 10vw, 208px);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(to top, black var(--hero-cover-percent), var(--color-bright) var(--hero-cover-percent));
+  background-clip: text;
+
+  @container (#{$hero_break}) {
+    position: relative;
+    z-index: 4; // Appear above video 'play' button.
+    grid-column: 2 / -2;
+    pointer-events: none;
+  }
+
+  @supports (animation-timeline: scroll()) {
+    background:
+      linear-gradient(to top, black var(--hero-cover-percent), var(--color-bright) var(--hero-cover-percent)),
+      url('images/trees.webp');
+    background-size: auto, cover;
+    background-clip: text;
+    animation-timeline: view();
+    animation-range-start: exit -30%;
+    animation-range-end: exit 50%;
+    animation-name: hero-heading-fill;
+    animation-fill-mode: both;
+    animation-duration: 1ms;
+    animation-timing-function: linear;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    animation-name: none;
+  }
+}
+
+.site-hero__cta[class] {
+  @container (#{$hero_break}) {
+    grid-column: 2 / span 5;
+  }
+
+  a {
+    display: inline-flex;
+    gap: 8px;
+    margin-block: auto -5px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 2;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--text-on-neutral-white);
+  }
+}
+
+.site-hero__media-cta-icon {
+  display: flex;
+  width: 32px;
+  aspect-ratio: 1;
+  background-color: var(--secondary);
+  color: var(--text-on-secondary);
+
+  &:after {
+    content: "";
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    mask-image: url('images/arrow-right.svg');
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    background-color: currentColor;
+  }
+}
+
+.site-hero__media {
+  position: relative;
+
+  @container (#{$hero_break}) {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    aspect-ratio: 1;
+    overflow: clip;
+  }
+
+  img,
+  video {
+    width: 100%;
+
+    @container (#{$hero_break}) {
+      position: absolute;
+      inset: 0;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--teal), var(--pink-light));
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+.site-hero__play-pause {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  height: 80px;
+  width: 80px;
+  background: hsla(194, 66%, 80%, 0.8);
+  border: solid 2px transparent;
+  text-indent: -999px;
+  overflow: hidden;
+  transition: background 0.2s;
+
+  &:hover {
+    background: rgba(white, 0.8);
+  }
+
+  &:focus {
+    outline: solid 2px currentColor;
+    border-radius: 0;
+    outline-offset: -6px;
+  }
+
+  &[aria-pressed="true"]:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    margin-left: 1px;
+    border-left: solid 15px currentColor;
+    border-top: solid 10px transparent;
+    border-bottom: solid 10px transparent;
+  }
+
+  &[aria-pressed="false"]:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    transform: translate(-50%, -50%);
+    border-left: solid 4px currentColor;
+    border-right: solid 4px currentColor;
+  }
+}

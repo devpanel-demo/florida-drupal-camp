@@ -1,0 +1,199 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+@property --hero-cover-percent {
+  syntax: "<percentage>";
+  inherits: true;
+  initial-value: 0%;
+}
+@property --hero-color-opacity {
+  syntax: "<number>";
+  inherits: true;
+  initial-value: 1;
+}
+@keyframes hero-heading-fill {
+  0% {
+    --hero-color-opacity: 1;
+    --hero-cover-percent: 66%;
+  }
+  100% {
+    --hero-color-opacity: 0.5;
+    --hero-cover-percent: 0%;
+  }
+}
+.site-hero {
+  container-type: inline-size;
+}
+
+.site-hero__container {
+  margin-bottom: 3%;
+  background: var(--neutral-white);
+  color: var(--text-on-neutral-white);
+}
+@container (min-width: 700px) {
+  .site-hero__container {
+    position: relative;
+    margin-bottom: 11rem;
+  }
+}
+
+.site-hero__title[class] {
+  --color-bright: rgba(231, 0, 119, var(--hero-color-opacity));
+  --hero-cover-percent: 66%;
+  font-size: clamp(4rem, 2.5rem + 10vw, 13rem);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(to top, black var(--hero-cover-percent), var(--color-bright) var(--hero-cover-percent));
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+@container (min-width: 700px) {
+  .site-hero__title[class] {
+    position: relative;
+    z-index: 4;
+    grid-column: 2/-2;
+    pointer-events: none;
+  }
+}
+@supports (animation-timeline: scroll()) {
+  .site-hero__title[class] {
+    background: linear-gradient(to top, black var(--hero-cover-percent), var(--color-bright) var(--hero-cover-percent)), url("images/trees.webp");
+    background-size: auto, cover;
+    -webkit-background-clip: text;
+            background-clip: text;
+    animation-timeline: view();
+    animation-range-start: exit -30%;
+    animation-range-end: exit 50%;
+    animation-name: hero-heading-fill;
+    animation-fill-mode: both;
+    animation-duration: 1ms;
+    animation-timing-function: linear;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .site-hero__title[class] {
+    animation-name: none;
+  }
+}
+
+@container (min-width: 700px) {
+  .site-hero__cta[class] {
+    grid-column: 2/span 5;
+  }
+}
+.site-hero__cta[class] a {
+  display: inline-flex;
+  gap: 0.5rem;
+  margin-block: auto -0.3125rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 2;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-on-neutral-white);
+}
+
+.site-hero__media-cta-icon {
+  display: flex;
+  width: 2rem;
+  aspect-ratio: 1;
+  background-color: var(--secondary);
+  color: var(--text-on-secondary);
+}
+.site-hero__media-cta-icon:after {
+  content: "";
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  -webkit-mask-image: url("images/arrow-right.svg");
+          mask-image: url("images/arrow-right.svg");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  background-color: currentColor;
+}
+
+.site-hero__media {
+  position: relative;
+}
+@container (min-width: 700px) {
+  .site-hero__media {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    aspect-ratio: 1;
+    overflow: clip;
+  }
+}
+.site-hero__media img,
+.site-hero__media video {
+  width: 100%;
+}
+@container (min-width: 700px) {
+  .site-hero__media img,
+.site-hero__media video {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.site-hero__media:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, var(--teal), var(--pink-light));
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.site-hero__play-pause {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  height: 5rem;
+  width: 5rem;
+  background: rgba(170, 222, 238, 0.8);
+  border: solid 2px transparent;
+  text-indent: -62.4375rem;
+  overflow: hidden;
+  transition: background 0.2s;
+}
+.site-hero__play-pause:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+.site-hero__play-pause:focus {
+  outline: solid 2px currentColor;
+  border-radius: 0;
+  outline-offset: -6px;
+}
+.site-hero__play-pause[aria-pressed=true]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  margin-left: 1px;
+  border-left: solid 15px currentColor;
+  border-top: solid 10px transparent;
+  border-bottom: solid 10px transparent;
+}
+.site-hero__play-pause[aria-pressed=false]:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  transform: translate(-50%, -50%);
+  border-left: solid 4px currentColor;
+  border-right: solid 4px currentColor;
+}

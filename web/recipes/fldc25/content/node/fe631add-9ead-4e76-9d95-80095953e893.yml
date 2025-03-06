@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fe631add-9ead-4e76-9d95-80095953e893
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    de16b637-6202-4a68-b99d-95851ed86dab: file
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ' Specbee'
+  created:
+    -
+      value: 1636287392
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Specbee enables businesses achieve their digital ambitions with Drupal.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: de16b637-6202-4a68-b99d-95851ed86dab
+      alt: ' Specbee'
+      title: ''
+      width: 400
+      height: 100
+  field_website_address:
+    -
+      uri: 'https://www.specbee.com/'
+      title: ''
+      options: {  }

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: da1be79f-47fb-4ae8-a745-2fcbe07d50ec
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: kat-profile-img.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-12/kat-profile-img.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 70262
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639601881

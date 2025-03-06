@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 17cfd681-218e-4e7e-be13-95a90bdb3b0c
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    f187f5ae-ce27-48e3-bf18-d5e58a89c3d7: menu_link_content
+default:
+  enabled:
+    -
+      value: false
+  title:
+    -
+      value: 'Job Listings'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/job-listings'
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:f187f5ae-ce27-48e3-bf18-d5e58a89c3d7'
+  revision_translation_affected:
+    -
+      value: true

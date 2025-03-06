@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: ed42963b-0eaa-4781-a0f7-3461ecfe6477
+  default_langcode: en
+  depends:
+    461eb4d1-70e6-4b34-b5be-db9d71a12399: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: sklakhani
+  pass:
+    -
+      value: $2y$10$4fQY0rUnDyjlf3DD6Ib7bOaU20Y7tC4FUdLlDvvsRDkR0OHQc65Ra
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: sl@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730946518
+  access:
+    -
+      value: 1731880661
+  login:
+    -
+      value: 1731875059
+  init:
+    -
+      value: sl@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/sklakhani
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Salim Lakhani is the co-founder of DevPanel, a SaaS dashboard that lets you develop, deploy, and manage your sites on your own cloud providers like AWS, Digital Ocean, and Azure. Salim has 20+ years of experience in DevOps and has extensive experience with Kubernetes and Cloud Native technologies. He is on the board of Drupal Colorado, and a founding member of DrupalForge.org, a 501(c)(3) non-profit organization.</p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.com/u/salimlakhani'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Salim
+  field_home_town:
+    -
+      value: 'Denver, CO'
+  field_last_name:
+    -
+      value: Lakhani
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/sklakhani/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'DevPanel / Drupal Forge'
+  field_personal_website_link:
+    -
+      uri: 'https://devpanel.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: Co-Founder
+  field_twitter_profile_link:
+    -
+      uri: 'https://x.com/salimlakhani'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 461eb4d1-70e6-4b34-b5be-db9d71a12399
+      alt: ''
+      title: ''
+      width: 1000
+      height: 1000

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ea9b5119-5030-4818-acb2-e8586ed5cbcd
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    77c1afd1-a34e-4af2-aa26-efe40e518e5e: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: ' Florida Realtors Association'
+  created:
+    -
+      value: 1636287390
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/florida-realtors-association
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>The mission of Florida Realtors is to advance Florida’s real estate industry by shaping public policy on real property issues; encouraging, promoting and teaching consistent standards for ethical practice and professionalism; and building on the efforts of local Boards/Associations to provide the information and tools members need to succeed.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 77c1afd1-a34e-4af2-aa26-efe40e518e5e
+      alt: ' Florida Realtors Association'
+      title: ''
+      width: 816
+      height: 194
+  field_website_address:
+    -
+      uri: 'https://www.floridarealtors.org'
+      title: ''
+      options: {  }

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2b261956-701b-46fe-b63e-59296c1076a9
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    80b130ea-1075-469a-8626-3fc724e11450: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Mindgrub
+  created:
+    -
+      value: 1643665208
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/mindgrub
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>At Mindgrub, we aspire to build technology that unlocks human potential. Our mission is to produce work that makes lives better, jobs easier, and helps businesses thrive.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 80b130ea-1075-469a-8626-3fc724e11450
+      alt: 'Mindgrub logo'
+      title: ''
+      width: 1500
+      height: 1500
+  field_website_address:
+    -
+      uri: 'https://www.mindgrub.com'
+      title: ''
+      options: {  }

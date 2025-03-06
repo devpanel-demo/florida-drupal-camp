@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 643f0607-508e-4b38-920f-fc05bae9253f
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: 'Kalamuna Logo - vertical@2x.png'
+  uri:
+    -
+      value: 'public://2021-11/Kalamuna Logo - vertical@2x.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 38423
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637945833

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8b5af1e1-637f-43a9-94c4-fe1fa10d388b
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 'Chris DeLuca.jpg'
+  uri:
+    -
+      value: 'public://pictures/2024-11/Chris DeLuca.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 517465
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732813271

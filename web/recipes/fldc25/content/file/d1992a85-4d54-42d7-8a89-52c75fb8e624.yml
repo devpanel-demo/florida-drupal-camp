@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d1992a85-4d54-42d7-8a89-52c75fb8e624
+  default_langcode: en
+  depends:
+    fb25457a-3727-4e10-99e1-a231440ebaeb: user
+default:
+  uid:
+    -
+      entity: fb25457a-3727-4e10-99e1-a231440ebaeb
+  filename:
+    -
+      value: T024KETL7-UNFGRFU75-8525944c33c5-512.jpeg
+  uri:
+    -
+      value: 'public://pictures/2023-12/T024KETL7-UNFGRFU75-8525944c33c5-512.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 66979
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701881778

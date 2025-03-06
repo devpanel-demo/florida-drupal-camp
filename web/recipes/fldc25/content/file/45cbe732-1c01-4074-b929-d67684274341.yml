@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 45cbe732-1c01-4074-b929-d67684274341
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: mike_2013_square.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-11/mike_2013_square.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 48872
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636986063

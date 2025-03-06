@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ae43d28c-240d-4dd2-9d98-6f76545e76f3
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_bronzehedwick.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_bronzehedwick.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 40808
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734047345

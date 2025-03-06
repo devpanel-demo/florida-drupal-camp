@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 65eeaf52-03d4-47da-8757-45bfd755c99c
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: agiledrop_logo.png
+  uri:
+    -
+      value: 'public://2024-12/agiledrop_logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 66523
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733843734

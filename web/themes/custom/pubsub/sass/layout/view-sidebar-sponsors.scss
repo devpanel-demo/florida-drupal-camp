@@ -1,0 +1,40 @@
+@import "../global/variables";
+@import "../global/mixins";
+
+
+
+.view-sponsors-sidebar {
+  padding: var(--sp3);
+  background-color: var(--color--sky-94);
+  box-shadow: 50vw 0 0 var(--color--sky-94), -50vw 0 0 var(--color--sky-94);
+
+  @media ($grid-md) {
+    padding: var(--sp);
+    box-shadow: none;
+  }
+
+  @media (min-width: 800px) {
+    padding: var(--sp2);
+  }
+
+  @media ($lg) {
+    padding: var(--sp3);
+  }
+
+  .sponsor-teaser {
+    margin-bottom: var(--grid-gap);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.view-sponsors-sidebar__title {
+  @include left-border-title;
+  margin: var(--sp3) 0 var(--grid-gap);
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}

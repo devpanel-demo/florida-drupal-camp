@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ef8f710b-c34e-4b2e-83f0-3fec83b87b64
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    f6285662-cd29-4ac3-a26d-7b14ea889f5c: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Moonraft
+  created:
+    -
+      value: 1642083090
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/moonraft
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Moonraft is a Digital Innovation &amp; Customer Experience firm. Our design-driven approach delivers digital experiences that drive business outcomes.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: f6285662-cd29-4ac3-a26d-7b14ea889f5c
+      alt: 'Moonraft logo'
+      title: ''
+      width: 1263
+      height: 227
+  field_website_address:
+    -
+      uri: 'https://moonraft.com/home'
+      title: ''
+      options: {  }

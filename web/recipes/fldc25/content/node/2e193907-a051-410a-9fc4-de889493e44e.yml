@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2e193907-a051-410a-9fc4-de889493e44e
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    e20c7acb-4d97-4a04-a49a-cc103d41f355: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'IXP Community Initiative: Using Contribution Credits to encourage organizations to hire new Drupal talent'
+  created:
+    -
+      value: 1732724518
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/ixp-community-initiative-using-contribution-credits-encourage-organizations-hire-new-drupal
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p style="-webkit-text-stroke-width:0px;caret-color:rgb(0, 0, 0);color:rgb(0, 0, 0);font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:auto;text-align:start;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:auto;word-spacing:0px;" dir="ltr">The IXP-Fellowship, a Drupal community initiative for onboarding inexperienced developers has its initial goal of using Drupal''s contribution credit system as an incentive for Drupal organizations to hire new and inexperienced Drupal developers.&nbsp;</p><p style="-webkit-text-stroke-width:0px;caret-color:rgb(0, 0, 0);color:rgb(0, 0, 0);font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:auto;text-align:start;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:auto;word-spacing:0px;" dir="ltr">One of the major challenges for new Drupal developers is landing their first paid gig. As a community, we can''t expect Drupal to grow if there are limited ways for new, inexperienced Drupal developers to gain that important initial experience.</p><p style="-webkit-text-stroke-width:0px;caret-color:rgb(0, 0, 0);color:rgb(0, 0, 0);font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:auto;text-align:start;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:auto;word-spacing:0px;" dir="ltr">Over the past year, the IXP community initiative has worked to define and implement a process to utilize&nbsp;<em>existing drupal.org functionality</em> to incentivize Drupal agencies and other organizations to hire trained, inexperienced developers in exchange for drupal.org commit credits.</p><p style="-webkit-text-stroke-width:0px;caret-color:rgb(0, 0, 0);color:rgb(0, 0, 0);font-style:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:auto;text-align:start;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:auto;word-spacing:0px;" dir="ltr">In this session, you''ll learn about the overall scope of the initiative, its current status, and how you and/or your organization can get involved.</p>'
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: e20c7acb-4d97-4a04-a49a-cc103d41f355
+  field_speakers:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c

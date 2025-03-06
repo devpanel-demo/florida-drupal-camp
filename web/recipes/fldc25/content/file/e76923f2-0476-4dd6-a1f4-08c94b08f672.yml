@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: e76923f2-0476-4dd6-a1f4-08c94b08f672
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: christian-burk-headshot-2024-drupalcon-square.jpeg
+  uri:
+    -
+      value: 'public://pictures/2024-11/christian-burk-headshot-2024-drupalcon-square.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 342246
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732656127

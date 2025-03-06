@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d26c662d-2505-41ce-89ae-d2ab608848aa
+  bundle: session
+  default_langcode: en
+  depends:
+    562f40ba-b770-49df-bf04-ea4ff3260b2e: user
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    99030c72-dce0-484c-a208-1776a0ae2093: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e
+  title:
+    -
+      value: 'The Future of SEO: Embracing Change and Innovation'
+  created:
+    -
+      value: 1731694595
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/future-seo-embracing-change-and-innovation
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p><span>In an era where digital landscapes are ever-changing, SEO has transformed from a mere keyword-centric practice into a sophisticated, holistic strategy. This talk will explore how the digital marketing realm demands adaptable and forward-thinking approaches to remain relevant and effective.</span><br><br><span>In the talk, we'd look at the LLMO Framework:</span><br><br><span>Language: Discover the critical shift from focusing solely on keywords to understanding user intent and context. This change underscores the importance of creating content that is not only relevant but also highly useful to the audience.</span><br><br><span>Learning: Uncover the power of machine learning in dissecting user data, which provides deeper customer insights and enables personalized user experiences.</span><br><br><span>Modeling: Learn how predictive models can foresee user needs, allowing marketers to enhance their content targeting strategies effectively.</span><br><br><span>Optimization: Embrace continuous improvement through strategies like A/B testing and analytics, ensuring your digital marketing efforts are always at their peak performance.</span><br><br><span>Beyond SEO</span><br><span>As we conclude, it's crucial to recognize that SEO is no longer just about climbing search engine rankings. It's about crafting comprehensive, user-centric experiences. Businesses must adopt future-proofing strategies to stay competitive amidst these emerging trends. Join us as we navigate this exciting journey into the future of digital marketing.</span></p><p><span>Utilizing Schema.org: Attendees would understand the role of Schema.org in optimizing for AI lead search, including a demonstration of implementing Speakable schema and other vital schemas for Voice Search Optimization (VSO).</span><br><br><span>Case Studies: Analyze real-world examples of websites that excel in AI search rankings, providing practical insights into successful strategies.</span><br><br><span>Learn the LLMO framework and apply it on the projects they'll develop.</span></p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 99030c72-dce0-484c-a208-1776a0ae2093
+  field_speakers:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e

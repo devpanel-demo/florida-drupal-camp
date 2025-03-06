@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3817d18-1251-4c7c-915e-1f118d9ac0c9
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: keg.jpeg
+  uri:
+    -
+      value: 'public://2024-02/keg.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1124884
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1708798777

@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 066bea75-9a82-4164-8b21-d46322d88a27
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    3ff8dc04-c5fb-492b-a4ff-2f82c59b3062: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    e3bfdf81-29af-4921-a035-4a77afd08412: file
+    54a015b4-e99e-4a11-bfde-9cdb72b4ec5a: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 3ff8dc04-c5fb-492b-a4ff-2f82c59b3062
+  title:
+    -
+      value: 'Out of the Shadows & into the Light: making custom Web Components reusable, Front-end developer friendly, SEO friendly and Accessible'
+  created:
+    -
+      value: 1733167954
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/out-shadows-light-making-custom-web-components-reusable-front-end-developer-friendly-seo
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: "<p>Web Components are native browser implementations of of custom HTML elements that were first introduced in 2011, and are currently supported by all current major browsers. &nbsp;They're a popular approach when there's a need for a micro component that can enhance usability, without having to resort to a heavy-handed framework like React.</p><p>Web Components are not without their gotchas, mainly surrounding the use of the Shadow DOM. &nbsp;If not done correctly, you can create a Web Component that functions, but:</p><ul><li>Cannot be styled effectively for the look and feel of the site in which it's implemented</li><li>Isn't SEO friendly</li><li>Introduces Accessibiity issues into your site</li></ul><p>In this session we'll discuss the architectural premises of Web Components, and include some tips on effectively leveraging the power of the Shadow DOM to encapsulate functionality without compromising SEO or Accessibility, and driving your Front End developers insane.</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: e3bfdf81-29af-4921-a035-4a77afd08412
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 3ff8dc04-c5fb-492b-a4ff-2f82c59b3062
+  field_time_slot:
+    -
+      entity: 54a015b4-e99e-4a11-bfde-9cdb72b4ec5a

@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0b776ebf-2c1a-4826-b24b-f72c6cd4be20
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    9126d2d6-d3e5-47d7-9d05-4297f6c99372: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    6a0863de-c2ae-4005-9fe3-8cce1afc3c4b: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 9126d2d6-d3e5-47d7-9d05-4297f6c99372
+  title:
+    -
+      value: 'EditTogether: Transforming Your Drupal Site with Real-Time Collaboration'
+  created:
+    -
+      value: 1733170909
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/edittogether-transforming-your-drupal-site-real-time-collaboration
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p dir="ltr"><span>As workflows for web-based content creation continue to evolve, Drupal adopters are increasingly looking to external tools for concurrent editing. EditTogether addresses this shift by bringing form-level real-time collaboration to Drupal, enabling users to create, review, approve, and publish content all in one place.</span></p><p dir="ltr"><span>With multi-field collaboration, threaded commenting, integrations with existing Drupal workflows, and a plugin-based open-source architecture, EditTogether provides a variety of options for building seamless editorial workflows that start and end in Drupal. All that’s left is to set it up!</span></p><p dir="ltr"><span>In this workshop, we’ll walk through:</span></p><ul><li dir="ltr"><span>How to install EditTogether to enable real-time collaboration on your Drupal site</span></li><li dir="ltr"><span>How to procure the services required to facilitate real-time collaboration</span></li><li dir="ltr"><span>How to configure EditTogether to suit your site’s particular concurrent editing needs</span></li><li dir="ltr"><span>(For developers) How to extend EditTogether with new features using the plugin API</span></li></ul><p>Afterwards, we''ll have a Q&amp;A for general, site-specific, and development-related questions and comments. By the end, you''ll know how to set up and manage real-time collaborative editing on your Drupal site!</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_speakers:
+    -
+      entity: 9126d2d6-d3e5-47d7-9d05-4297f6c99372
+    -
+      entity: 6a0863de-c2ae-4005-9fe3-8cce1afc3c4b

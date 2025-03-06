@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 598fd50e-470c-4ecf-9e25-4b01ebd238b6
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: Sunglasses.jpeg
+  uri:
+    -
+      value: 'public://pictures/2022-12/Sunglasses.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 106812
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1670544597

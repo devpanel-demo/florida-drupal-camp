@@ -1,0 +1,10 @@
+name: YouTube Field
+type: module
+description: 'Defines a YouTube video and thumbnail field type.'
+package: Field types
+core_version_requirement: ^10 || ^11
+dependencies:
+  - drupal:field
+  - drupal:image
+  - drupal:file
+configure: youtube.settings

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8b89c0fc-95e9-4735-bcf3-83644212cad9
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Speaker Info'
+  created:
+    -
+      value: 1621447073
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /speaker-info
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Important Dates</h2><ul><li>October 15th, 2024: Session submissions starts</li><li>December 3rd, 2024: Session submissions end</li><li>December 16th, 2024: Speaker acceptance emails</li><li>December 23rd, 2024: Last day for speakers to confirm</li><li>February 21st, 2025: Beginning of conference/training classes</li><li>February 22nd, 2025: Conference sessions</li><li>February 23th, 2025: Lightning sessions / contribution day</li></ul><h2>Speaker FAQ</h2><p><em><strong>Will I get my ticket comp'd?&nbsp;</strong></em></p><p>Yes, if your session is chosen, we will give you a coupon code for a free ticket, or refund your previously purchased ticket.</p><p><em><strong>When will accepted sessions be announced?</strong></em></p><p>Many sessions (but not all) will be accepted on a rolling basis. This means you are more likely to get your session accepted, if you submit it early!</p><p><em><strong>How long are sessions?</strong></em></p><p>General sessions are 45 minutes and may include 10-15 minutes for audience Q+A.</p><p><em><strong>How can I help improve my session's visibility in the community?</strong></em></p><p>Once you've submitted a session, promote it! Community comments help our selection teams better know what our attendees are interested in seeing at Florida DrupalCamp.</p><p><em><strong>Will my session be recorded?</strong></em></p><p>Yes! We're planning on recording all of the sessions. We will also provide captioning and transcriptions for all recorded sessions.</p><p><em><strong>What permissions do I need to present?</strong></em></p><p>Ensure you have explicit permission to share your company/client information, or at what level is appropriate to share. Proposing a session without permission is grounds for session cancellation.</p><p>&nbsp;</p>"
+      format: basic_html
+      summary: ''

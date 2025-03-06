@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: fefbd69a-7e21-4357-937d-e480b8464eff
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    74aac801-c068-4a99-992b-3c722a13a975: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Orlando PHP'
+  created:
+    -
+      value: 1707322303
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/orlando-php
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p><em><i style="-webkit-text-stroke-width:0px;caret-color:rgb(34, 34, 34);color:rgb(34, 34, 34);font-family:Arial, Helvetica, sans-serif;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:auto;text-align:start;text-decoration:none;text-indent:0px;text-transform:none;white-space:normal;widows:auto;word-spacing:0px;">The Orlando PHP Meetup is an in-person user group for anyone interested in the PHP programming language, the foundation of development tools like Laravel, Symfony, WordPress, and Drupal, used for web application and website development.</i></em></p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 74aac801-c068-4a99-992b-3c722a13a975
+      alt: 'Orlando PHP'
+      title: ''
+      width: 507
+      height: 594
+  field_website_address:
+    -
+      uri: 'https://www.meetup.com/orlandophp/'
+      title: ''
+      options: {  }

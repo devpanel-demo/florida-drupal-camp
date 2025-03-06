@@ -1,0 +1,69 @@
+/**
+ * @file
+ * Select input elements.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+select {
+  --form-element-select-icon: url("../../images/chevron-down.svg");
+  --form-element-select-border-color: var(--form-element-border);
+  --form-element-select-bg: var(--color--white);
+  --form-element-select-disabled-bg: var(--color--night-90);
+  max-width: 100%;
+  height: var(--sp3);
+  padding-block: 0;
+  padding-inline-start: var(--sp);
+  padding-inline-end: var(--sp3);
+  color: var(--color--gray-0);
+  border: 1px solid var(--form-element-select-border-color);
+  border-radius: var(--border-radius);
+  background-color: var(--form-element-select-bg);
+  background-image: var(--form-element-select-icon);
+  background-repeat: no-repeat;
+  background-position: right var(--sp) center;
+  /* LTR */
+  font-family: inherit;
+  font-size: inherit;
+  -webkit-appearance: none;
+          appearance: none;
+  /* Necessary to show chevron in forced colors mode in modern browsers. */
+}
+select[disabled] {
+  color: var(--form-element-select-border-color);
+  background-color: var(--form-element-select-disabled-bg);
+}
+select.error {
+  border: solid 2px var(--color--red);
+}
+select.error:focus {
+  outline-color: var(--color--red);
+}
+select[multiple] {
+  height: auto;
+  padding: var(--sp0-5);
+  background-image: none;
+  line-height: 1;
+  /* Needed by non-Chromium based MS Edge browsers. */
+}
+select[multiple] option {
+  padding: var(--sp0-5);
+}
+select.form-element--small {
+  height: var(--sp2-5);
+}
+@media (forced-colors: active) {
+  select {
+    padding-inline-end: var(--sp);
+    background-image: none;
+    -webkit-appearance: listbox;
+            appearance: listbox;
+    /* Default <select> appearance value for modern browsers. */
+    /* Lets browser set <select> appearance to whatever the browser's default is. */
+  }
+  @supports ((-webkit-appearance: revert) or (appearance: revert)) {
+    select {
+      -webkit-appearance: revert;
+              appearance: revert;
+    }
+  }
+}

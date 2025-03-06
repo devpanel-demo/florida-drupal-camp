@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 9a8d58bc-fdb5-4216-8e57-3dd968b79179
+  default_langcode: en
+  depends:
+    aeb1b6b2-4bc8-4c9a-ba01-584214d51cc0: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: kesmith
+  pass:
+    -
+      value: $2y$10$IPtnORgYdkXcj94W3TZ.zuoXT/2iXxWH5MeLJdHg5b5eE4RaIp7xy
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: kelly.smith@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732656111
+  access:
+    -
+      value: 1734561866
+  login:
+    -
+      value: 1734561866
+  init:
+    -
+      value: kelly.smith@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/kesmith
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>I’m based in Riverview, FL where I live with my husband, Kerry. At CivicActions I am an Associate Director of Design and I work on the DITAP Refresh project as a Senior UX designer. I’ve been in the design arena for over 10 years and prior to that was an educational trainer and high school French teacher. When not working, I spend time attending baseball games, hockey games, and boating. And every other year Kerry and I travel to St. John’s, Newfoundland for vacation.</p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/kesmith'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Kelly
+  field_home_town:
+    -
+      value: 'Riverview, FL'
+  field_last_name:
+    -
+      value: Smith
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/kellysmith1008/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: CivicActions
+  field_title:
+    -
+      value: 'Associate Director of Design'
+  user_picture:
+    -
+      entity: aeb1b6b2-4bc8-4c9a-ba01-584214d51cc0
+      alt: ''
+      title: ''
+      width: 468
+      height: 438

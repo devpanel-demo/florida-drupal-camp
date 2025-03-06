@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8f29c33a-73e8-49ab-8ab6-6ff02931ee16
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    95b68e82-73d1-46aa-9368-107812fecf6a: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: EPAM
+  created:
+    -
+      value: 1673105122
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/epam
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Since 1993, EPAM Systems, Inc. has leveraged its advanced&nbsp;software engineering heritage to become the foremost global digital&nbsp;transformation services provider.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 95b68e82-73d1-46aa-9368-107812fecf6a
+      alt: 'EPAM logo'
+      title: ''
+      width: 2459
+      height: 866
+  field_website_address:
+    -
+      uri: 'https://www.epam.com/'
+      title: ''
+      options: {  }

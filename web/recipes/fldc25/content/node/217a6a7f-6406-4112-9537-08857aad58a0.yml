@@ -1,0 +1,62 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 217a6a7f-6406-4112-9537-08857aad58a0
+  bundle: featured_speaker
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    f8d4d919-60f8-4a61-b877-472d4b84dd14: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Kat Shaw'
+  created:
+    -
+      value: 1730233905
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /featured-speaker/kat-shaw
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Kat is a Lead Engineer and CPACC-certified Web Accessibility Specialist at Lullabot. She has worked on several accessibility projects including assisting with testing for the Olivero and Claro themes, and testing for the Drupal Toolbar Redesign.</p>'
+      format: full_html
+      summary: ''
+  field_badge:
+    -
+      value: 'Featured Speaker'
+  field_cta_link:
+    -
+      uri: 'internal:/u/katannshaw'
+      title: ''
+      options: {  }
+  field_image:
+    -
+      entity: f8d4d919-60f8-4a61-b877-472d4b84dd14
+      alt: 'Kat Shaw'
+      title: ''
+      width: 500
+      height: 500
+  field_weight:
+    -
+      value: 11

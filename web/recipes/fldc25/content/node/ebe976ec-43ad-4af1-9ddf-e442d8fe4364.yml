@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ebe976ec-43ad-4af1-9ddf-e442d8fe4364
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    de43939e-e2f6-486b-a79d-0d2a10e94fc2: file
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    b152a9a0-9074-4342-838d-661c0a769945: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  title:
+    -
+      value: 'Drupal CMS Preview'
+  created:
+    -
+      value: 1730830696
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/drupal-cms-preview
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Drupal CMS has the potential to reset the perception of Drupal, and is arguably, one of the most important projects undertaken by the Drupal community. Helping folks get a better understanding of Drupal CMS will help participants have a positive first impression, lead to informed word-of-mouth and help perceptions and in turn increase adoption. The course will provide a hearty introduction to some of Drupal CMS' main functionality with highly hands-on demonstrations and exercises. Aspects of Drupal CMS that will be highlighted through the workshop will include installation, project browser, recipes, AI integration, as well as a preview of Experience Builder.</p><h2>Learning objectives:</h2><ul><li>Running a local or personal version of Drupal CMS</li><li>Understanding installation options</li><li>Understanding Project browser</li><li>Understanding recipes</li><li>Applying recipes</li><li>Understanding and using AI functionality</li><li>Understanding how Experience builder will change the way site are built</li></ul><h2>Syllabus/agenda:</h2><ul><li>Instructor and student introductions</li><li>Student local/personal environment setup (including AI service API keys)</li><li>Why Drupal CMS?</li><li>Overview and demo of installation options</li><li>Overview and demo of Project browser</li><li>What is a Recipe?</li><li>Applying and exploring recipes</li><li>Overview of the Drupal CMS AI functionality</li><li>Experience builder demo</li><li>Launching your first Drupal CMS site</li><li>Q&amp;A with a Drupal CMS developer</li></ul><h2>Who will gain the most from this training?</h2><ul><li>Drupal site builders who are looking to get a leg up on building and supporting Drupal CMS sites.</li></ul><h2>Prerequisites for this workshop:</h2><ul><li>An up-and-running local/personal *AMP stack with a fresh Drupal CMS install with the ability to add additional modules&nbsp;</li></ul><p>or</p><ul><li>A free option for a temporary Drupal CMS site hosted in a remote environment will be made available</li><li>A valid API key for a yet-to-be-decided 3rd-party AI service (likely to be either OpenAI or Claude.)</li><li>A basic understanding of Drupal's information architecture</li></ul>"
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: true
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: de43939e-e2f6-486b-a79d-0d2a10e94fc2
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  field_time_slot:
+    -
+      entity: b152a9a0-9074-4342-838d-661c0a769945

@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: de9ae22b-ee3a-4c0a-94dc-b56c249e87c8
+  bundle: session
+  default_langcode: en
+  depends:
+    4c48cc55-dde4-4f55-a581-4420bc29a704: user
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 4c48cc55-dde4-4f55-a581-4420bc29a704
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4c48cc55-dde4-4f55-a581-4420bc29a704
+  title:
+    -
+      value: 'Comparing Configuration Management in Backdrop CMS and Drupal: Two Paths to the Same Goal'
+  created:
+    -
+      value: 1732330730
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/comparing-configuration-management-backdrop-cms-and-drupal-two-paths-same-goal
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<h3><strong>Session Description</strong></h3><p>Backdrop CMS and Drupal tackle configuration management in surprisingly different ways, despite their shared roots. Backdrop uses JSON, while Drupal uses YAML. Backdrop offers file-based active configuration by default, with the flexibility to store it in the database since version 1.28. Drupal ties configuration to a UUID for site-specific workflows, but perhaps limits portability without extra effort.</p><p>As someone who works with both systems—and more than occasionally edits configuration files manually—I’ll share insights into their strengths, challenges, and quirks. We’ll explore the tools and workflows each platform provides, comparing how they handle configuration management and what these differences mean for real-world projects.<br><br><strong>Key Takeaways</strong></p><ol><li>Key differences between Backdrop and Drupal configuration management.</li><li>Practical tips for working with configuration in both systems.</li><li>Lessons learned from frequent manual editing of configuration files.</li></ol><h3><strong>Target Audience</strong></h3><p>This session is for developers and site builders who work with Drupal, Backdrop, or both.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_speakers:
+    -
+      entity: 4c48cc55-dde4-4f55-a581-4420bc29a704

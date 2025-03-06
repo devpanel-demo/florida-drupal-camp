@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: fe05ac85-95a7-4da4-835c-df0c4eb4e29b
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_bernardm28.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_bernardm28.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 58791
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734048569

@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3a1c675d-3c4b-42e1-9679-403657586393
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    e3ca0f18-fc88-463f-8ed6-ca4d276c233f: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    34043be6-e5a0-48b5-9172-dd1190010725: file
+    d88d416b-fd24-40ba-8b47-67992c633f5d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e3ca0f18-fc88-463f-8ed6-ca4d276c233f
+  title:
+    -
+      value: 'Adopting Fortune 500 Scaling Tactics from Day One'
+  created:
+    -
+      value: 1730925536
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/adopting-fortune-500-scaling-tactics-day-one
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: "<p>Learn how to propel your website's growth by implementing proven scaling strategies used by Fortune 500 companies right from the outset. This presentation will cover:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Infrastructure choices for scalable architecture<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Techniques for robust performance optimization<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Do's and Don'ts with examples from Fortune 500 companies that use Drupal<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Best practices for load handling and traffic management<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Insights into industry leaders' scaling frameworks<br>&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;Steps to future-proof your website from day one</p><p>Discover how to lay a strong foundation for your site by adopting these tactics, ensuring your web presence is engineered for long-term success.</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: 34043be6-e5a0-48b5-9172-dd1190010725
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: e3ca0f18-fc88-463f-8ed6-ca4d276c233f
+  field_time_slot:
+    -
+      entity: d88d416b-fd24-40ba-8b47-67992c633f5d

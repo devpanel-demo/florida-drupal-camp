@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b0e1157c-8766-4109-b919-228b03a7c72d
+  bundle: page
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  revision_uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: COVID-19
+  created:
+    -
+      value: 1636464508
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /covid
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Every year, Florida Technical College graciously provides their campus for the full use of Florida DrupalCamp.</p>\r\n\r\n<p>As such, we are required to follow - at a minimum - their requirements for health and safety protocols related to COVID-19 while on their campus. You may <a href=\"https://www.ftccollege.edu/coronavirus/\">read their full policy here</a> and please note that these policies are subject to change at any time without notice.</p>\r\n\r\n<h2>Florida DrupalCamp Policies</h2>\r\n\r\n<p>Florida DrupalCamp's top priority remains the health and safety of our attendees, organizers, and sponsors. Therefore, in accordance with our policies, U.S. government regulations, and our ongoing commitment to prioritizing the health and safety of our associates, their families, and the community at large, <em>we encourage all attendees to wear masks during indoor activities.</em></p>\r\n\r\n<p>&nbsp;*Masks will be available for free onsite at the event if needed.</p>\r\n\r\n<p>We reserve the right to update the above policy multiple times, based on overall conditions. We are consistently monitoring CDC, regional and local guidelines and will continue to do so.&nbsp;</p>\r\n\r\n<h2>Florida Technical College Policies</h2>\r\n\r\n<p><strong>Effective: August 19, 2022</strong><br />\r\nAs of 8/19/2022, Dave School, DeLand School and Orlando Campus have MEDIUM COVID 19 community levels. Any employee, student and/or visitor at the campus may opt not to wear a facemask.</p>\r\n\r\n<p>We will continue monitoring the weekly reports provided by the CDC and will publish those every week. The campuses will post signs at all points of entry to inform of the facemask requirement status.</p>\r\n\r\n<p><a href=\"https://www.ftccollege.edu/coronavirus/\">The full Florida Technical College COVID policy can be found here.</a></p>\r\n\r\n<p>You may contact their Human Resources Department should you have any questions to 407-483-5642.</p>\r\n\r\n<h3>HELP US STOP THE SPREAD</h3>\r\n\r\n<p>As stated by the CDC, vaccination is the leading prevention strategy to protect individuals from COVID-19 disease and end the COVID-19 pandemic. Our institution supports the CDC campaign to stop the spread. For information about vaccination centers please visit <a href=\"floridahealthcovid19.gov/vaccines/vaccine-locator/.\">floridahealthcovid19.gov/vaccines/vaccine-locator/.</a><br />\r\n​<br />\r\nQuestions? Email us at&nbsp;<a href=\"mailto:info@fldrupalcamp.org\">info@fldrupalcamp.org</a>, tweet us at&nbsp;<a href=\"https://twitter.com/fldrupalcamp\">@fldrupalcamp</a>, post to us on Facebook at&nbsp;<a href=\"https://www.facebook.com/FLDrupalCamp/\">FLDrupalcamp</a>, or you can use the contact form <a href=\"https://dev-fldc22.pantheonsite.io/contact\">here</a>.</p>\r\n"
+      format: full_html
+      summary: ''

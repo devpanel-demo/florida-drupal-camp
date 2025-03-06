@@ -1,0 +1,75 @@
+<?php
+
+/**
+ * @file
+ * Install and uninstall functions, schema definition for the CleanTalk module.
+ */
+require_once dirname(__FILE__) . '/lib/autoload.php';
+use Cleantalk\Custom\Cron\Cron;
+use Cleantalk\Custom\Db\Schema;
+use Cleantalk\Common\Mloader\Mloader;
+use Cleantalk\Custom\Updater\Updater;
+
+/**
+ * Implements hook_schema().
+ */
+function cleantalk_schema() {
+
+  $schema['cleantalk_timelabels'] = Schema::getStructureSchemas()['cleantalk_timelabels'];
+
+  $schema['cleantalk_sfw'] = Schema::getStructureSchemas()['cleantalk_sfw'];
+
+  $schema['cleantalk_sfw_logs'] = Schema::getStructureSchemas()['cleantalk_sfw_logs'];
+
+  $schema['cleantalk_ac_logs'] = Schema::getStructureSchemas()['cleantalk_ac_logs'];
+
+  $schema['cleantalk_ua_bl'] = Schema::getStructureSchemas()['cleantalk_ua_bl'];
+
+  $schema['cleantalk_sessions'] = Schema::getStructureSchemas()['cleantalk_sessions'];
+
+  return $schema;
+
+}
+
+/**
+ * Implements hook_install().
+ */
+function cleantalk_install()
+{
+  Updater::setVersionFromPlugin(\Drupal\cleantalk\CleantalkFuncs::$version);
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function cleantalk_uninstall() {
+  /** @var \Cleantalk\Common\Cron\Cron $cron_class */
+  $cron_class = Mloader::get('Cron');
+  $cron = new $cron_class();
+  \Drupal::state()->delete('cleantalk_sfw_last_send_log');
+  \Drupal::state()->delete('cleantalk_sfw_last_check');
+  \Drupal::state()->delete('cleantalk_work_url');
+  \Drupal::state()->delete('cleantalk_server_ttl');
+  \Drupal::state()->delete('cleantalk_server_changed');
+  \Drupal::state()->delete('cleantalk_api_show_notice');
+  \Drupal::state()->delete('cleantalk_api_renew');
+  \Drupal::state()->delete('cleantalk_api_trial');
+  \Drupal::state()->delete('cleantalk_api_user_token');
+  \Drupal::state()->delete('cleantalk_api_spam_count');
+  \Drupal::state()->delete('cleantalk_api_moderate');
+  \Drupal::state()->delete('cleantalk_api_moderate_ip');
+  \Drupal::state()->delete('cleantalk_api_show_review');
+  \Drupal::state()->delete('cleantalk_api_service_id');
+  \Drupal::state()->delete('cleantalk_api_license_trial');
+  \Drupal::state()->delete('cleantalk_api_account_name_ob');
+  \Drupal::state()->delete('cleantalk_api_ip_license');
+  \Drupal::state()->delete('cleantalk_show_renew_banner');
+  \Drupal::state()->delete('cleantalk_remote_calls');
+  \Drupal::state()->delete('apbct_fw_stats');
+  \Drupal::state()->delete('sfw_update_queue');
+  \Drupal::state()->delete('cleantalk_cron_last_start');
+  \Drupal::state()->delete('cleantalk_cron_pid');
+  \Drupal::state()->delete($cron->getCronOptionName());
+  \Drupal::state()->delete('cleantalk_debug_data');
+  \Drupal::state()->delete('cleantalk_state');
+}

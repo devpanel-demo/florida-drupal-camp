@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5a9020b4-008a-4dcd-a3eb-5778e70ef86a
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4fe3fec0-1c14-4e55-8ff8-8937ec826cc2: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    36007a0c-13f4-49f1-8812-6c3c9c3af15c: file
+    45a7cb8a-2458-4b74-95c7-4bf88b132eb5: user
+    9a8d58bc-fdb5-4216-8e57-3dd968b79179: user
+    a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4fe3fec0-1c14-4e55-8ff8-8937ec826cc2
+  title:
+    -
+      value: 'Sum of a Batch!!!'
+  created:
+    -
+      value: 1732655521
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/sum-batch
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p>Altering thousands of Nodes, either by moving content from Node fields into separate Paragraphs, populating metatags on existing content or re-tagging everything can be a challenge. &nbsp;It is hard to do these kinds of large operations reliably, &nbsp;smoothly, and log it all at the same time. This session explores easier and more reliable ways to do large scale batch operations on big sites. See how the Department of Veterans Affairs and Centers for Medicare and Medicaid Services contributed a module so everyone can make big changes more reliably, on the record and with less effort.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: 36007a0c-13f4-49f1-8812-6c3c9c3af15c
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 4fe3fec0-1c14-4e55-8ff8-8937ec826cc2
+    -
+      entity: 45a7cb8a-2458-4b74-95c7-4bf88b132eb5
+    -
+      entity: 9a8d58bc-fdb5-4216-8e57-3dd968b79179
+  field_time_slot:
+    -
+      entity: a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c

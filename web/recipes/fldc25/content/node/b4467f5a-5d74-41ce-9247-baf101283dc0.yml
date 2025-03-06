@@ -1,0 +1,49 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b4467f5a-5d74-41ce-9247-baf101283dc0
+  bundle: mini_session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    20833556-2c19-44e7-845c-299a50c16764: user
+    bedc88b1-8ede-4e60-b43c-60124875cde5: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 20833556-2c19-44e7-845c-299a50c16764
+  title:
+    -
+      value: 'Replace regex with a PHP DOM approach'
+  created:
+    -
+      value: 1673378171
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /mini-session/replace-regex-php-dom-approach
+      langcode: en
+      pathauto: 1
+  field_length:
+    -
+      entity: bedc88b1-8ede-4e60-b43c-60124875cde5
+  field_mini_session_description:
+    -
+      value: 'When processing data for migrations, indexing, etc. we often want to do things like removing elements (with or without removing their content), changing elements types, etc. Using PHP DOM can be a more efficient approach than "regex-fu". I''ll show a couple of examples of how to get started.'
+  field_speakers:
+    -
+      entity: 20833556-2c19-44e7-845c-299a50c16764

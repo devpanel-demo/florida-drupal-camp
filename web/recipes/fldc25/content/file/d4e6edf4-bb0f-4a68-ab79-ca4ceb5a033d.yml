@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d4e6edf4-bb0f-4a68-ab79-ca4ceb5a033d
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Lullabot_Logo_Vertical-svg.png
+  uri:
+    -
+      value: 'public://2021-05/Lullabot_Logo_Vertical-svg.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 15568
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621514643

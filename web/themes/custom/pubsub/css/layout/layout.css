@@ -1,0 +1,32 @@
+/**
+ * @file
+ * Base Layout.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.container {
+  width: 94%;
+  max-width: var(--layout--max-width);
+  margin-inline: auto;
+}
+
+.grid {
+  --grid-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: var(--grid-gap);
+}
+@media (min-width: 37.5rem) {
+  .grid {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+@media (min-width: 81.25rem) {
+  .grid {
+    --grid-gap: 2rem;
+    grid-template-columns: repeat(14, 1fr);
+  }
+}
+.grid :where(.grid > *) {
+  grid-column: 1/-1;
+}

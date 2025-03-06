@@ -1,0 +1,52 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a6db2012-1b1a-4b18-82be-fd892a05b4cf
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    a3116da0-de85-400b-a3bb-b830562e29f5: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Hotel Discount'
+  created:
+    -
+      value: 1636651781
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /lodging
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<p>We are excited to have a group rate block at the newly remodeled <strong>Best Western Plus</strong>, located 0.7 miles from Florida Technical College. Remodeled in 2022 and formerly a Comfort Inn and Suites, it is close to many places in the UCF area and offers great amenities. <a href="https://www.bestwestern.com/en_US/book/hotels-in-orlando/best-western-plus-orlando-east-ucf-area%C2%A0%C2%A0/propertyCode.10429.html">More info</a></p><p><strong>Best Western Plus</strong></p><ul><li><a href="https://www.google.com/maps/place/12101+Challenger+Pkwy,+Orlando,+FL+32826/@28.5738363,-81.2091926,17z/data=!3m1!4b1!4m6!3m5!1s0x88e767d5574b9937:0xfb827f26cca7fba1!8m2!3d28.5738363!4d-81.2069986!16s%2Fg%2F11bw41m6qv"><span>12101 Challenger Pkwy, Orlando, Florida 32826</span></a></li><li>(407) 737-7303</li><li>1 King or 2 Queen room suites available</li><li>$115/night (+ tax) - 2/20, 2/23, 2/24<br>$129/night (+ tax) - 2/21, 2/22</li><li>FREE Breakfast</li><li>FREE Parking</li><li>FREE Wi-fi</li></ul><p>Use the button below to register. Group rates available 2/20 - 2/25<br><strong>Group rate ends January 20, 2025</strong></p><p><a class="button button--primary" href="https://www.bestwestern.com/en_US/book/hotel-rooms.10429.html?groupId=2H3DV0T0">Book now!</a></p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: a3116da0-de85-400b-a3bb-b830562e29f5
+      alt: 'Best Western Plus'
+      title: ''
+      width: 450
+      height: 300

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 837d486c-1197-4647-bbd3-b666a71a9d03
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    8e2744fa-c580-4fef-8e00-1dd07734d9f8: file
+default:
+  revision_uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: DevPanel
+  created:
+    -
+      value: 1621514672
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsor/devpanel
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Control Panel for Developers. Manage all your clusters/servers/sites across platforms &amp; hosting companies.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 8e2744fa-c580-4fef-8e00-1dd07734d9f8
+      alt: 'DevPanel Logo'
+      title: ''
+      width: 400
+      height: 400
+  field_website_address:
+    -
+      uri: 'https://www.devpanel.com'
+      title: ''
+      options: {  }

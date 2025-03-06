@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 42137b32-c542-4e45-9bcc-9016adcc27c0
+  default_langcode: en
+  depends:
+    20833556-2c19-44e7-845c-299a50c16764: user
+default:
+  uid:
+    -
+      entity: 20833556-2c19-44e7-845c-299a50c16764
+  filename:
+    -
+      value: April_Sides_dcon-2024.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-10/April_Sides_dcon-2024.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 4171107
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730303489

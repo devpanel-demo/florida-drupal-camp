@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: df3ea584-fab5-4d5d-9206-4f992fd0213b
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    7235673a-4783-4833-8ba3-40758d356232: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Aten Design Group'
+  created:
+    -
+      value: 1641581607
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/aten-design-group
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Aten Design Group is a full-service digital strategy, design, and Drupal development agency for the mission driven.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: 7235673a-4783-4833-8ba3-40758d356232
+      alt: 'Aten Design Group'
+      title: ''
+      width: 1000
+      height: 1286
+  field_website_address:
+    -
+      uri: 'http://www.aten.io/'
+      title: ''
+      options: {  }

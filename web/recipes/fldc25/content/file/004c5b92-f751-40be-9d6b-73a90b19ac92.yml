@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 004c5b92-f751-40be-9d6b-73a90b19ac92
+  default_langcode: en
+  depends:
+    e3ca0f18-fc88-463f-8ed6-ca4d276c233f: user
+default:
+  uid:
+    -
+      entity: e3ca0f18-fc88-463f-8ed6-ca4d276c233f
+  filename:
+    -
+      value: Hector.JPG
+  uri:
+    -
+      value: 'public://pictures/2024-11/Hector.JPG'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 21538
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730935165

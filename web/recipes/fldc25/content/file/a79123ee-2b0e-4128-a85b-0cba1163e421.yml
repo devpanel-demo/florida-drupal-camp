@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a79123ee-2b0e-4128-a85b-0cba1163e421
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_April_Sides_trainings.jpg
+  uri:
+    -
+      value: 'public://2024-11/2025_FLDC_April_Sides_trainings.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 61348
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731969629

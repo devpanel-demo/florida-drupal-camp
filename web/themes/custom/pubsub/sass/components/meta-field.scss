@@ -1,0 +1,52 @@
+/**
+ * Meta field show up on sessions, trainings, and job listing nodes.
+ */
+.meta-field {
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-right: 1em;
+  }
+
+  svg {
+    max-width: 20px;
+    max-height: 20px;
+    vertical-align: text-bottom;
+  }
+
+  path {
+    fill: var(--color--night-50);
+  }
+}
+
+.meta-field--field-session-category {
+  svg {
+    margin-bottom: 2px;
+    max-width: 18px;
+    max-height: 18px;
+  }
+
+  path {
+    fill: var(--color--night-60);
+  }
+}
+
+// Add commas for multiple speakers.
+.meta-field--field-speakers .meta-field__items {
+  .meta-field__item {
+    &:after {
+      content: ", ";
+      margin-left: -0.25em;
+      white-space: pre;
+    }
+
+    &:nth-last-child(2):after {
+      content: ", and";
+    }
+
+    &:first-child:last-child:after,
+    &:last-child:after {
+      content: none;
+    }
+  }
+}

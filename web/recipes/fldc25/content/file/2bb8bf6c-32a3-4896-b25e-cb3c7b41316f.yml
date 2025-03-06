@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2bb8bf6c-32a3-4896-b25e-cb3c7b41316f
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_starshaped.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_starshaped.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 54470
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734046443

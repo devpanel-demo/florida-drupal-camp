@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b1e5e589-a15a-4c40-9988-2f7ac0c564a3
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: headshot_iaj.png
+  uri:
+    -
+      value: 'public://pictures/2024-12/headshot_iaj.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 980076
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733169955

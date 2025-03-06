@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 7f4acfe4-a619-4249-923d-d74dc6028293
+  bundle: time_slot
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Fri 1:00pm to 5:00pm (2/21/25)'
+  weight:
+    -
+      value: 2
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 1
+  field_date_time:
+    -
+      value: '2025-02-21T18:00:00'
+      end_value: '2025-02-21T22:00:00'

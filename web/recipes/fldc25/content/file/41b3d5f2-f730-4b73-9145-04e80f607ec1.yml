@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 41b3d5f2-f730-4b73-9145-04e80f607ec1
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 2024-headshot-web-sq.png
+  uri:
+    -
+      value: 'public://pictures/2024-11/2024-headshot-web-sq.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 2079934
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732029825

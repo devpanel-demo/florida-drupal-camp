@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2ed05d70-18b2-42e4-a3b2-7642a55cc002
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 'Josh 2019-2-square.jpg'
+  uri:
+    -
+      value: 'public://pictures/2023-01/Josh 2019-2-square.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 1803428
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673364021

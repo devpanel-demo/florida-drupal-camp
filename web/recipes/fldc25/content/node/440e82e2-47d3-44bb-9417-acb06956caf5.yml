@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 440e82e2-47d3-44bb-9417-acb06956caf5
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    3d913755-3e9d-4ae1-aadb-195f56eb7dd7: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 3d913755-3e9d-4ae1-aadb-195f56eb7dd7
+  title:
+    -
+      value: 'A Look at the Ongoing Efforts to Revitalize Drupal’s Front End'
+  created:
+    -
+      value: 1732283686
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/look-ongoing-efforts-revitalize-drupals-front-end
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p>Many great front end experiences have been built with Drupal and undoubtably many more will be created in the future. Yet it is impossible to deny the feeling that Drupal’s Twig theme engine hasn’t been able to keep up with expectations for modern front end developer experience.</p><p>Luckily, the Drupal community is hard at work trying to change this. In true Drupal style, there are simultaneous efforts tackling this from different (and even sometimes conflicting) angles.</p><ul><li>Home renovations - improving Twig-based theming and making components a core primitive in Drupal.</li><li>If you (page) build it… - meeting the expectations of ambitious site builders with Experience Builder and other existing page building solutions.</li><li>Embracing JavaScript through decoupling - making headless Drupal use cases easier and making the most of modern JavaScript frameworks.</li><li>Forget everything you thought you knew about Drupal front end - experiments with alternative rendering engines, Node, and Web Assembly.</li></ul><p>We’ll dig into what’s really going on during this exciting time in the Drupal community. With any luck, we’ll also reach a few conclusions about how Drupal’s front end can live beyond (or possibly in harmony with) the JavaScript framework flavor of the week.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_speakers:
+    -
+      entity: 3d913755-3e9d-4ae1-aadb-195f56eb7dd7

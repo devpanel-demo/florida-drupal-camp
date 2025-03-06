@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 00313a81-3aab-4326-92e8-15b0b4e56b9c
+  bundle: page
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Thank you!'
+  created:
+    -
+      value: 1637244026
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /thank-you
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Thank you!</p>\r\n\r\n<p>Thank you for purchasing a ticket.</p>\r\n\r\n<p>- The Florida DrupalCamp Organizers</p>\r\n"
+      format: basic_html
+      summary: ''

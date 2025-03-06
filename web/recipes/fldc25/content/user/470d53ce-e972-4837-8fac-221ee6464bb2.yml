@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 470d53ce-e972-4837-8fac-221ee6464bb2
+  default_langcode: en
+  depends:
+    b3339e38-e4b2-4974-ab4d-7b272750d6de: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: dwrodriguez
+  pass:
+    -
+      value: $2y$10$18XuGxloUIXzcHdeIfIAz.QwwHe6MpdSb3B.Kg1dXluAUzXFOfW8.
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: dwrodriguez@demo.edu
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733170262
+  access:
+    -
+      value: 1733404407
+  login:
+    -
+      value: 1733170571
+  init:
+    -
+      value: dwrodriguez@demo.edu
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/dwrodriguez
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Dave Rodriguez (he/him) currently works as the Digital Services Librarian as part of the Web Development team at Florida State University Libraries. His areas of expertise and experience include web accessibility, project management, and digital curation.'
+      format: plain_text
+  field_first_name:
+    -
+      value: Dave
+  field_home_town:
+    -
+      value: 'Tallahassee, FL'
+  field_last_name:
+    -
+      value: Rodriguez
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/dave-rodriguez-29556b2a9/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'Florida State University'
+  field_personal_website_link:
+    -
+      uri: 'https://hidave.info/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Digital Services Librarian'
+  user_picture:
+    -
+      entity: b3339e38-e4b2-4974-ab4d-7b272750d6de
+      alt: ''
+      title: ''
+      width: 1280
+      height: 960

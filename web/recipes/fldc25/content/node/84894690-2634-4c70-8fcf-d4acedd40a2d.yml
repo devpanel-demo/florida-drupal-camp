@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 84894690-2634-4c70-8fcf-d4acedd40a2d
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    c5548727-2dc1-4ff3-a921-283d0b0a55ee: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    becb1f38-1ae9-40a4-84e7-e6fd194d5a19: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    629022cc-35ba-41d8-b187-346009d65ad5: file
+    c59f92f1-5c97-4353-b5c5-2634481a7688: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: c5548727-2dc1-4ff3-a921-283d0b0a55ee
+  title:
+    -
+      value: 'Drupal CMS now and beyond'
+  created:
+    -
+      value: 1731982800
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/drupal-cms-now-and-beyond
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p dir="ltr"><span>With Drupal CMS 1.0 released in January, we''re now well into development of the next version.&nbsp;</span></p><p dir="ltr"><span>So it''s a great opportunity to explain which processes we’ve followed so far, provide updates on how we are tracking and discuss what we have planned next on the roadmap.</span></p><p dir="ltr"><span>Some topics that will be covered:</span></p><ul><li><p dir="ltr"><span>Features and areas we''re working on now</span></p></li><li><p dir="ltr"><span>Plans for future versions ongoing</span></p></li><li><p dir="ltr"><span>What we''re looking for from contributors</span></p></li><li><p dir="ltr"><span>How we defined the strategy and scope</span></p></li><li><p dir="ltr"><span>Which role research played on the product definition</span></p></li><li><p dir="ltr"><span>Using the strategy to define the roadmap and what it looks like now</span></p></li><li><p dir="ltr"><span>How the community has come together to work toward the same goal</span></p></li><li><p dir="ltr"><span>Highlights from the initial work tracks and what we learned from them</span></p></li></ul>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: becb1f38-1ae9-40a4-84e7-e6fd194d5a19
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_social_media_card:
+    -
+      entity: 629022cc-35ba-41d8-b187-346009d65ad5
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: c5548727-2dc1-4ff3-a921-283d0b0a55ee
+  field_time_slot:
+    -
+      entity: c59f92f1-5c97-4353-b5c5-2634481a7688

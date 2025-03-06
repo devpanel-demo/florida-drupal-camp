@@ -1,0 +1,53 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.view-sponsors-sidebar {
+  padding: var(--sp3);
+  background-color: var(--color--sky-94);
+  box-shadow: 50vw 0 0 var(--color--sky-94), -50vw 0 0 var(--color--sky-94);
+}
+@media (min-width: 37.5rem) {
+  .view-sponsors-sidebar {
+    padding: var(--sp);
+    box-shadow: none;
+  }
+}
+@media (min-width: 50rem) {
+  .view-sponsors-sidebar {
+    padding: var(--sp2);
+  }
+}
+@media (min-width: 62.5rem) {
+  .view-sponsors-sidebar {
+    padding: var(--sp3);
+  }
+}
+.view-sponsors-sidebar .sponsor-teaser {
+  margin-bottom: var(--grid-gap);
+}
+.view-sponsors-sidebar .sponsor-teaser:last-child {
+  margin-bottom: 0;
+}
+
+.view-sponsors-sidebar__title {
+  margin-top: 0;
+  border-left: solid 4px var(--pink-dark);
+  padding-left: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: var(--sp);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color--night-20);
+  margin: var(--sp3) 0 var(--grid-gap);
+}
+@media (min-width: 81.25rem) {
+  .view-sponsors-sidebar__title {
+    font-size: 0.875rem;
+    line-height: var(--sp1-5);
+  }
+}
+.view-sponsors-sidebar__title:first-of-type {
+  margin-top: 0;
+}

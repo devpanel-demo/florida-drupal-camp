@@ -1,0 +1,22 @@
+uuid: 35a441a8-d44b-4c09-a91b-a8bf56c42df4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pubsub
+_core:
+  default_config_hash: QCNIAIniGyytPKj2vKCxosJplkodaA3bzv5nxaHviEU
+id: pubsub_messages
+theme: pubsub
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

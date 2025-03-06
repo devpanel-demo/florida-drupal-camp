@@ -1,0 +1,20 @@
+uuid: 04fa1741-1de9-4159-9508-fd2163122a59
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  canonical_url: '[site:url]'
+  og_country_name: 'United States'
+  og_email: info@fldrupalcamp.org
+  og_region: Florida
+  og_site_name: '[site:name]'
+  og_title: '[site:name]'
+  og_url: '[site:url]'
+  shortlink: '[site:url]'
+  title: 'Florida Drupalcamp | February 21-23, 2025'
+  twitter_cards_site: '@fldrupalcamp'
+  twitter_cards_type: summary

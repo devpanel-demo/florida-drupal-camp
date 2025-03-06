@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62c7ff44-a24f-4031-88ce-fa9ebbcacc17
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    e8e116c0-7540-4e35-a9ec-438f813d968f: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    fe05ac85-95a7-4da4-835c-df0c4eb4e29b: file
+    511b544f-a420-4adf-9f7d-813e764b6d47: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e8e116c0-7540-4e35-a9ec-438f813d968f
+  title:
+    -
+      value: 'Drupal Recipes for themers : How to leverage default content among other items.'
+  created:
+    -
+      value: 1730734831
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/drupal-recipes-themers-how-leverage-default-content-among-other-items
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>This session includes a quick intro to recipes and insights on improving the out-of-the-box experience on new themes. Rather than figure out how a site architecture fits together on our own we can reverse engineer a complete example.</p><p>In other words, the WordPress theming experience in Drupal.</p><p>We will follow the YAGNI (You Aren’t Gonna Need It) principle to improve our feedback loop and allow others to get started quickly.</p><p>Be ready for an interactive session, rich in examples and prompts that encourage attendees to wonder and think about the wide array of possibilities this might enable.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: fe05ac85-95a7-4da4-835c-df0c4eb4e29b
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: e8e116c0-7540-4e35-a9ec-438f813d968f
+  field_time_slot:
+    -
+      entity: 511b544f-a420-4adf-9f7d-813e764b6d47

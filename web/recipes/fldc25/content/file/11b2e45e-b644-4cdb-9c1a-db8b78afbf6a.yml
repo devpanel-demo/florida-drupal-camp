@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 11b2e45e-b644-4cdb-9c1a-db8b78afbf6a
+  default_langcode: en
+  depends:
+    da1afa61-02a1-42b5-99e3-d7f621872828: user
+default:
+  uid:
+    -
+      entity: da1afa61-02a1-42b5-99e3-d7f621872828
+  filename:
+    -
+      value: lee.jpg
+  uri:
+    -
+      value: 'public://pictures/2023-12/lee.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 9157
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701742375

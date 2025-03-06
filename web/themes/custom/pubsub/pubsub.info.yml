@@ -1,0 +1,50 @@
+name: pubsub
+type: theme
+base theme: false
+description: 'Florida DrupalCamp 2022 theme'
+alt text: 'chicken tendy sub'
+core_version_requirement: ^10 || ^11
+libraries:
+  - pubsub/global-styling
+regions:
+  primary_menu: 'Primary menu'
+  highlighted: Highlighted
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  footer: 'Footer'
+  modal: 'modal'
+libraries-override:
+  system/admin:
+    css:
+      theme:
+        css/system.admin.css: false
+  core/drupal.checkbox: false
+  core/drupal.element.matches: false
+  core/drupal.element.closest: false
+  core/css.escape: false
+  core/drupal.dropbutton:
+    css:
+      component:
+        misc/dropbutton/dropbutton.css: css/components/drupal/dropbutton.css
+  core/drupal.vertical-tabs:
+    css:
+      component:
+        misc/vertical-tabs.css: css/components/drupal/vertical-tabs.css
+  media/oembed.formatter: false
+libraries-extend:
+  core/drupal.message:
+    - pubsub/messages
+  core/drupal.collapse:
+    - pubsub/details
+  core/drupal.dialog.off_canvas:
+    - pubsub/dialog.off_canvas
+  core/drupal.progress:
+    - pubsub/progress
+  node/drupal.node.preview:
+    - pubsub/drupal.node.preview
+ckeditor_stylesheets:
+  - css/base/css-variables.css
+  - css/base/fonts.css
+  - css/base/base.css
+  - css/base/utility.css

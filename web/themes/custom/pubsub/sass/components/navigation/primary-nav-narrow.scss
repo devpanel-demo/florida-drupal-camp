@@ -1,0 +1,148 @@
+@import "../../global/variables";
+
+@media ($mobile-nav) {
+  .menu--main {
+    --menu-top-padding: 120px;
+    --mobile-menu-hightlight-color: var(--pink-dark);
+
+    position: fixed;
+    top: var(--drupal-displace-offset-top, 0px);
+    left: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    height: 100dvh; // Dynamic viewport height unit used in mobile Safari.
+    width: 100%;
+    max-width: 500px;
+    padding: var(--menu-top-padding) var(--sp2) var(--sp2);
+    background: var(--neutral-dark);
+    color: var(--text-on-neutral-dark);
+    transition: visibility 0.2s, transform 0.2s;
+    visibility: hidden;
+
+    &.is-active {
+      visibility: visible;
+      transform: translateX(-100%);
+      z-index: 102; // Appear below Gin Horizontal toolbar, which has value of 103.
+    }
+  }
+
+  .primary-nav__menu-link {
+    flex-grow: 1;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .primary-nav__button-toggle {
+    color: var(--mobile-menu-hightlight-color);
+  }
+
+  //
+  // Wrapper element
+  //
+  .primary-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+    height: 100%;
+  }
+
+  //
+  // Level 1 Nav
+  //
+  .primary-nav__menu--level-1 {
+    font-size: 24px;
+  }
+
+  .primary-nav__menu-link--level-1 {
+    display: flex;
+    padding: 10px 20px;
+  }
+
+  .primary-nav__menu-link--button {
+    flex-basis: 100%;
+    position: relative;
+    cursor: pointer;
+
+    /* Plus icon for mobile navigation. */
+    &.primary-nav__menu-link--has-children {
+      padding-inline-end: var(--sp3); /* Ensure text does not overlap icon. */
+
+      &:before,
+      &:after {
+        position: absolute;
+        inset-inline-end: 9px;
+        inset-block-start: calc(var(--sp0-5) + 17px); /* Visually align button with menu link text. */
+        width: 18px;
+        height: 0;
+        content: "";
+        /* Intentionally not using CSS logical properties. */
+        border-top: solid 3px var(--mobile-menu-hightlight-color);
+      }
+
+      &:after {
+        transition: opacity 0.2s;
+        transform: rotate(90deg);
+      }
+
+      &[aria-expanded="true"]:after {
+        opacity: 0;
+      }
+    }
+  }
+
+  //
+  // Level 2 Nav
+  //
+  .primary-nav__menu--level-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin-left: var(--sp);
+    padding-left: 20px;
+    visibility: hidden;
+    max-height: 0;
+    border-left: solid 6px var(--mobile-menu-hightlight-color);
+    overflow: clip;
+    transition: max-height 0.2s, visibility 0.2s;
+
+    &.is-active-menu-parent {
+      visibility: visible;
+      max-height: max-content;
+      opacity: 1;
+    }
+  }
+
+  .primary-nav__menu-item--level-2 {
+    margin: var(--sp0-5) 0;
+  }
+
+  .primary-nav__menu-link--level-2 {
+    font-size: 20px;
+  }
+
+  // Account menu item that shows when authenticated.
+  .account-menu-item {
+    button {
+      display: none;
+    }
+
+    .primary-nav__menu--level-2 {
+      visibility: visible;
+      display: flex;
+      flex-direction: row;
+      gap: 1em;
+      align-items: flex-start;
+      max-height: none;
+      margin-top: var(--sp3);
+      margin-left: 0;
+      border-left: 0;
+    }
+
+    .primary-nav__menu-link {
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+  }
+}

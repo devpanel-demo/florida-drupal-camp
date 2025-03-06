@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 086577f8-ca21-4b2a-847f-ad5ebbe6736c
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    65eeaf52-03d4-47da-8757-45bfd755c99c: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Agiledrop
+  created:
+    -
+      value: 1733843706
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/agiledrop
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Agiledrop is a software development company specializing in providing staffing solutions to agencies, IT consultancies, and organizations worldwide.</p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 65eeaf52-03d4-47da-8757-45bfd755c99c
+      alt: 'Agiledrop logo'
+      title: ''
+      width: 3742
+      height: 1000
+  field_website_address:
+    -
+      uri: 'https://www.agiledrop.com/drupal'
+      title: ''
+      options: {  }

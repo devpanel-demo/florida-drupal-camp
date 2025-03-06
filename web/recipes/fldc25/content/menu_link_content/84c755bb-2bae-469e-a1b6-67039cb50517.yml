@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 84c755bb-2bae-469e-a1b6-67039cb50517
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    99ba9fc9-61f5-44a7-818d-29064c311171: menu_link_content
+    b05815e6-f24c-47b1-81a4-82cdf440a466: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Code of Conduct'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: b05815e6-f24c-47b1-81a4-82cdf440a466
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:99ba9fc9-61f5-44a7-818d-29064c311171'
+  revision_translation_affected:
+    -
+      value: true

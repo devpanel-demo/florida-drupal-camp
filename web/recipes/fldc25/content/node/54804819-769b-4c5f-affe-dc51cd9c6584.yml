@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 54804819-769b-4c5f-affe-dc51cd9c6584
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    2d66f0fc-2609-4616-a1ef-12c23eedfdc0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    2a49d5fc-9f2a-47d9-9980-ffc31b24209e: file
+    705a37f2-6aa8-4e18-8f2e-4d94b930ecfa: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 2d66f0fc-2609-4616-a1ef-12c23eedfdc0
+  title:
+    -
+      value: 'Follow the Drupal Brick Road?  Is Drupal Just Complex or Becoming Too Complicated?'
+  created:
+    -
+      value: 1729122742
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/follow-drupal-brick-road-drupal-just-complex-or-becoming-too-complicated
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Users and Admins and Developers, OH MY! &nbsp;Have Drupal's increasing number of third party dependencies become too complicated for new users? &nbsp;Are those dependencies breaking Drupal's more advanced features?<br><br>In this discussion, Drupal is going to be held up to a microscope, dissected, and analyzed from a historical user perspective. &nbsp;Who builds, administers, and ultimately uses Drupal sites, and how has that changed over time? &nbsp;Are all of these changes and added dependencies on outside technology actually for the better, or has Drupal jumped the proverbial shark and alienated its audience? &nbsp;Are we now gatekeeping Drupal from new users?<br><br>Drupal is far more powerful than other CMS solutions. &nbsp;That is its greatest strength. &nbsp;But it is also its greatest weakness. &nbsp;We will talk about the Drupal learning curves and how they're being steepened by the addition of technologies like Drush, Composer, etc. how it has been exacerbated even further by competitor website solutions such as WIX and Squarespace, that flatten their user experience learning curve. &nbsp;Can we maintain the power of Drupal with a simpler, flatter learning curve? &nbsp;Are those additional dependencies giving us enough benefit to justify the additional complications they bring?<br><br>Furthermore, we will discuss how some of these dependencies break some of Drupal's more advanced, but lesser known core functionalities.<br><br>Have we strayed from the yellow brick road by making the Drupal too complicated for anyone but hardcore developers to build and administer?</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: 2a49d5fc-9f2a-47d9-9980-ffc31b24209e
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 2d66f0fc-2609-4616-a1ef-12c23eedfdc0
+  field_time_slot:
+    -
+      entity: 705a37f2-6aa8-4e18-8f2e-4d94b930ecfa

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 21cdf273-2b48-49d1-80d3-fee8b3cc0691
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    00c11f31-997c-4b00-b320-7849b3554920: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Cloud NYNE Design'
+  created:
+    -
+      value: 1639721656
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/cloud-nyne-design
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Drupal, Drupal, Drupal! It's what we know; we're experts.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 00c11f31-997c-4b00-b320-7849b3554920
+      alt: 'Cloud NYNE Design'
+      title: ''
+      width: 450
+      height: 325
+  field_website_address:
+    -
+      uri: 'http://cloudnynedesign.com/'
+      title: ''
+      options: {  }

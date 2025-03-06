@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 1f763b16-7a8c-4cf1-8e06-09c12e09e2b8
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: lauriii.png
+  uri:
+    -
+      value: 'public://2024-10/lauriii.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 77797
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1729027597

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 04872ada-b78a-429d-8afd-0bc2a3d4b492
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_Lee_Walker_trainings.jpg
+  uri:
+    -
+      value: 'public://2024-11/2025_FLDC_Lee_Walker_trainings.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50600
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731969356

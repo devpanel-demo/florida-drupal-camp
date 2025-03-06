@@ -1,0 +1,18 @@
+name: 'FLDC QuickStart 2025'
+description: 'Demo content for FLDC'
+type: 'FLDC starter kit'
+install:
+  # An array of modules or themes to install, if they are not already.
+  # The system will detect if it is a theme or a module.
+  - gin
+  - pubsub
+config:
+  actions:
+    system.site:
+      simpleConfigUpdate:
+        page:
+          front: '/node/134'
+    system.theme:
+      simpleConfigUpdate:
+        default: pubsub
+        admin: gin

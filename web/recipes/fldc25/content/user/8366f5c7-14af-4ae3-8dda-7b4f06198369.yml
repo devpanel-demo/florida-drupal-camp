@@ -1,0 +1,86 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  default_langcode: en
+  depends:
+    5688df9a-7cb9-4bb6-a2ee-a3f0f386dd5e: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: volkswagenchick
+  pass:
+    -
+      value: $2y$10$KVT919a6jNm6mbl1KlQct.OpNmHlLJQJLx9d8LvicWUvC2EQnCo22
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: volkswagenchickamyjune@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621440989
+  access:
+    -
+      value: 1734561532
+  login:
+    -
+      value: 1732564559
+  init:
+    -
+      value: amyjune@kanopistudios.com
+  roles:
+    -
+      target_id: speaker
+    -
+      target_id: administrator
+  path:
+    -
+      alias: /u/volkswagenchick
+      langcode: en
+      pathauto: 0
+  field_biography:
+    -
+      value: "<p>AmyJune currently works with the Linux Foundation as their Certification Community Architect. She is responsible for supporting the Certification team’s efforts in building and maintaining exams and related documentation for exam products in the Linux Foundation’s certification portfolio.</p><p>She is a Drupal Mentor Coordinator, DrupalCamp organizer (Florida DrupalCamp, DrupalCamp Asheville, and MidCamp), and a CWG Community Health Team member. She serves on the board of the Colorado Drupal Association.</p><p>Her ongoing experience as a hospice nurse keeps her in touch with many end-users' challenges. In her continued efforts to make a difference, she helps organize A11yTalks, an online meetup that advocates all things accessibility - one of the core components of building an inclusive web.</p><p>AmyJune helps communities discover how they can contribute and belong in more ways than code.<span> Her ability to eat with her elbows on the table has wowed the world.</span></p>"
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/volkswagenchick'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: AmyJune
+  field_last_name:
+    -
+      value: Hineline
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@volkswagenchick'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'The Linux Foundation'
+  field_title:
+    -
+      value: 'Certification Community Architect'
+  user_picture:
+    -
+      entity: 5688df9a-7cb9-4bb6-a2ee-a3f0f386dd5e
+      alt: ''
+      title: ''
+      width: 1650
+      height: 1168

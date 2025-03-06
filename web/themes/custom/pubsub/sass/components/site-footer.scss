@@ -1,0 +1,112 @@
+@import "../global/variables";
+
+.site-footer {
+  background-color: var(--neutral-dark);
+  color: var(--text-on-neutral-dark);
+  padding: 64px 0;
+
+  @media ($lg) {
+    padding: 96px 0;
+  }
+
+  @media ($grid-max) {
+    padding: 96px 0;
+  }
+
+  .path-frontpage & {
+    box-shadow: 0 -200px 0 var(--neutral-dark);
+  }
+
+  .text-content a,
+  a {
+    color: var(--text-on-neutral-dark-secondary);
+
+    &:hover,
+    &:focus {
+      color: var(--text-on-neutral-dark-primary);
+    }
+  }
+
+  .menu--footer {
+    @media ($md) {
+      grid-column: 2 / -2;
+      grid-row: 1 / span 4; // Ensure that it always takes up entire column.
+    }
+
+    @media ($lg) {
+      grid-column: 1 / 10;
+    }
+
+    @media ($grid-max) {
+      grid-column: 2 / 10;
+    }
+  }
+
+  .block-footer {
+    margin-bottom: 0;
+
+    @media ($md) {
+      grid-column: 2 / -2;
+    }
+
+    @media ($lg) {
+      grid-column: 11 / -1;
+    }
+
+    @media ($grid-max) {
+      grid-column: 11 / -2;
+    }
+  }
+
+  .menu--sites-from-years-past {
+     @media ($md) {
+      grid-column: 2 / -2;
+    }
+
+    @media ($lg) {
+      grid-column: 11 / -1;
+    }
+
+    @media ($grid-max) {
+      grid-column: 11 / -2;
+    }
+  }
+}
+
+.block-footer .text-content {
+  font-size: 16px;
+}
+
+// Social
+
+.block-footer__social {
+  margin: var(--sp2) 0;
+}
+
+.block-footer__social-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.block-footer__social-menu-link[class] {
+  color: var(--text-on-neutral-dark-secondary);
+
+  &[href*="facebook"] svg {
+    width: 19px;
+  }
+
+  svg {
+    width: 30px;
+    max-height: 30px;
+  }
+
+  path {
+    fill: currentColor;
+  }
+}

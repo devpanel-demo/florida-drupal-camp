@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 2000fa37-76ac-4b5d-a508-f2b3de6e2df4
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Day 1'
+  menu_name:
+    -
+      value: schedule-tabs
+  link:
+    -
+      uri: 'internal:/schedule/day-1'
+      title: ''
+      options:
+        container_attributes:
+          data-date: '2025-02-21'
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

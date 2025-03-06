@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: eab5b3d7-59ca-4b60-b6ef-249b1782bfe0
+  default_langcode: en
+  depends:
+    d60496d0-a87f-41ac-8fa7-bc7897a26cef: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: lauriii
+  pass:
+    -
+      value: $2y$10$ma3pNe1cBry.rDjvqbkbteC3imP0zuGELp/KibP.FpCWMB6uyTC.O
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: lauri.timmanee@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731418014
+  access:
+    -
+      value: 1731419122
+  login:
+    -
+      value: 1731418145
+  init:
+    -
+      value: lauri.timmanee@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/lauriii
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Lauri is a product manager with over a decade of experience from open source product development. Currently, he is the Product Lead for the Experience Builder initiative and works on Acquia’s Drupal Acceleration Team.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/lauriii'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Lauri
+  field_home_town:
+    -
+      value: 'Helsinki, Finland'
+  field_last_name:
+    -
+      value: Timmanee
+  field_organization:
+    -
+      value: Acquia
+  field_title:
+    -
+      value: 'Product Manager'
+  user_picture:
+    -
+      entity: d60496d0-a87f-41ac-8fa7-bc7897a26cef
+      alt: ''
+      title: ''
+      width: 2018
+      height: 2000

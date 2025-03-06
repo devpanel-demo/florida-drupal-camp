@@ -1,0 +1,51 @@
+/**
+ * @file
+ * Buttons.
+ */
+
+@import "../global/variables";
+@import "../global/mixins";
+
+.button {
+  @include button;
+}
+
+/* No margin if is part of a menu. */
+.menu .button {
+  margin-block: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.button--primary {
+  @include button--primary;
+}
+
+.button--action,
+.button--highlight {
+  @include button--highlight;
+}
+
+.button--icon-back {
+  display: inline-flex;
+  align-items: center;
+
+  &:before {
+    display: block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-inline-end: 0.5em;
+    content: "";
+    transform: rotate(45deg); /* LTR */
+    border-block-end: solid 2px currentColor;
+    border-inline-start: solid 2px currentColor;
+  }
+}
+
+.button--small {
+  @include button--small;
+}
+
+.button--large {
+  @include button--large;
+}

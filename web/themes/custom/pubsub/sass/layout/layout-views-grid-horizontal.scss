@@ -1,0 +1,14 @@
+/**
+ * @file
+ * Responsive styles for views grid horizontal layout.
+ */
+
+@import "../global/variables";
+
+:root {
+  --views-grid-layout-gap: var(--sp);
+}
+
+.views-view-grid--horizontal {
+
+}

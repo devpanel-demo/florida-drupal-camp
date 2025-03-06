@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 38131a02-0ba4-4d40-a464-d1f3e8bbd25f
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: 'Speaker Headshot (1000 x 1000) (1).png'
+  uri:
+    -
+      value: 'public://pictures/2024-10/Speaker Headshot (1000 x 1000) (1).png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1262519
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1729644564

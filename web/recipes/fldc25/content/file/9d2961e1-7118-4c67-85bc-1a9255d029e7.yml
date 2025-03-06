@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9d2961e1-7118-4c67-85bc-1a9255d029e7
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_morgangiosa.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_morgangiosa.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 65158
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049695

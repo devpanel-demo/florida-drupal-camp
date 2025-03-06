@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b054bc12-ee8b-4fc2-b4d3-98ec9acf5c24
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Submit a Session'
+  created:
+    -
+      value: 1621522172
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /submit-session
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>Here''s what you need to know before submitting a session:</h2><ul><li>If you need your session accepted early (because of travel arrangements or other), please <a href="/contact">let us know</a>.</li><li>We''ll have rolling session acceptance (meaning we''ll accept some early at certain times). So, the earlier you submit, the better your chances!</li><li>General sessions are 45 minutes and may include 10-15 minutes for audience Q+A.</li><li>Session proposal deadline is&nbsp;December 3rd, 2024.</li><li>We''re planning on recording all of the sessions.</li><li><p>All speakers (and attendees) are required to abide by our <a href="/code-conduct">Code of Conduct</a>.</p><p>In our pre-survey of potential attendees, the following topics were the most popular topics specifically requested:</p><ul><li>Local development environments</li><li>Composer</li><li>Git</li><li>Developer/team workflows and DevOps.</li><li>Module development</li><li>PHP</li><li>Security</li><li>Accessibility</li><li>AWS and other cloud services</li></ul><p>We love session submissions on topics other than Drupal including</p><ul><li>JavaScript frameworks (React, Vue, Angular, et al)</li><li>Other CMS’s differences with Drupal (WP, Craft, etc)</li><li>Integrations with Drupal</li><li>Case studies on using Drupal</li><li>General Web topics and technologies (free software, CSS, etc)</li><li>Business related topics</li><li>SysAdmin / DevOps (Containers, etc)</li><li>Being Human (Imposter Syndrome, overcoming adversity, inclusion, etc)</li></ul></li></ul><p>Please also read the <a href="/speaker-info">Speaker Information page.</a></p><p>If you''re new to speaking or are&nbsp;a bit nervous, <a href="/contact">contact us</a>! We can set you up with a mentor to help you out!</p><p><a class="button button--primary" href="/node/add/session">Submit Session</a></p>'
+      format: full_html
+      summary: ''

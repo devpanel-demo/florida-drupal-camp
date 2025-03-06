@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8aa6de9c-e620-4920-9689-01b17ac1fdc2
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_matthews.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_matthews.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 56302
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734047122

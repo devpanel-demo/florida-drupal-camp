@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 90dc52d7-941d-4661-afd0-0dd0abce6be7
+  default_langcode: en
+  depends:
+    f8aced6e-d68e-47a4-8a34-41d2a3f2b6ca: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: JDDoesDev
+  pass:
+    -
+      value: $2y$10$OYvIuFTY0KttoyhG7tv5muHrkw53BdUg7gAUy9H3YeLjjI2dKcIhW
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: jflynn8@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639670856
+  access:
+    -
+      value: 1732029510
+  login:
+    -
+      value: 1731945648
+  init:
+    -
+      value: jflynn8@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/jddoesdev
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "<p>JD Flynn has had mental illness most of his life, but didn't admit it until his early 30s&nbsp;when he decided it was time to do something about it. After a decade-long career in emergency services as a paramedic, JD made the jump from the ambulance to the text editor. Since then, JD has climbed to Principal Drupal Software Engineer in his current position.</p><p>His life was changed by OSMH (Open Sourcing Mental Health), a 501(c)(3) non-profit focused on opening the conversation on mental illness, which led him to telling his own story to as many people who would&nbsp;listen. As someone with mental illness who is not afraid to talk about it, JD has presented on the topic of Mental Illness in the Tech Community to local user groups, regional conferences, and national level events at locations such as MIT, UC Berkeley, Washington State Convention Center, Guaranteed Rate Field, and DePaul University.</p><p>More recently, JD has started streaming development on Twitch and has been learning new tools and languages on stream. &nbsp;He streams under the name JDDoesDev and is desperate for your approval and attention.</p><p>When not speaking or coding, JD plays baritone saxophone in Windiana, a professional level wind ensemble out of Valparaiso, IN, and Michigan City Municipal Band, the oldest municipal band in Indiana.</p>"
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/dorficus'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: JD
+  field_home_town:
+    -
+      value: 'LaPorte, IN'
+  field_last_name:
+    -
+      value: Flynn
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@jddoesdev'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: HeroDevs
+  field_personal_website_link:
+    -
+      uri: 'https://twitch.tv/jddoesdev'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Senior Software Engineer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/jddoesdev'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: f8aced6e-d68e-47a4-8a34-41d2a3f2b6ca
+      alt: ''
+      title: ''
+      width: 1920
+      height: 1080

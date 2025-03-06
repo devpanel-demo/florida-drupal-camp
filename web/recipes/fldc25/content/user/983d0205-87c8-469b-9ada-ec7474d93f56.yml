@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 983d0205-87c8-469b-9ada-ec7474d93f56
+  default_langcode: en
+  depends:
+    da1be79f-47fb-4ae8-a745-2fcbe07d50ec: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: katannshaw
+  pass:
+    -
+      value: $2y$10$cKPcSn7dwX5hE9UZMMygZOZRaE6o8pXCUKmyUqHK/1vhgGWycI45C
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: kat.shaw@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639601881
+  access:
+    -
+      value: 1731597176
+  login:
+    -
+      value: 1731476726
+  init:
+    -
+      value: kat.shaw@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/katannshaw
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Kat is a CPACC-certified Lead Engineer who’s continued her work as an advocate of digital accessibility with her team at Lullabot. She started her time at Lullabot as a Senior Frontend Developer. She’s been working in web development since 1999, and developing and maintaining Drupal sites since 2012, with a focus on remediating accessibility issues, including in Drupal. Kat has worked on several accessibility projects including assisting with accessibility testing for the Olivero and Claro themes, as well as the Starshot initiative. She's also a member of A11yTalks, a virtual meet-up featuring speakers and conversations around digital accessibility."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/katannshaw'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Kat
+  field_home_town:
+    -
+      value: 'Perry, KS'
+  field_last_name:
+    -
+      value: Shaw
+  field_organization:
+    -
+      value: Lullabot
+  field_personal_website_link:
+    -
+      uri: 'https://www.lullabot.com/about/kat-shaw'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Lead Engineer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/katannshaw'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: da1be79f-47fb-4ae8-a745-2fcbe07d50ec
+      alt: ''
+      title: ''
+      width: 300
+      height: 300

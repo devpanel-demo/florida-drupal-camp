@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a042af1d-a86b-44c6-8364-60e61b1a291c
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: 021a65c2-5360-4652-a301-f02b330c780c.png
+  uri:
+    -
+      value: 'public://2023-11/021a65c2-5360-4652-a301-f02b330c780c.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 13130
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1700847785

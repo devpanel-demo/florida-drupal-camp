@@ -1,0 +1,97 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 50635cae-bdb5-430e-aa0e-35c5de281402
+  default_langcode: en
+  depends:
+    a5afda45-3a75-4637-968e-66623725f1bc: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: jmolivas
+  pass:
+    -
+      value: $2y$10$4ya171vHaz1YQQtx6qLvE.heAOQSY1.ZxNPj/nfKljUDq1ECdeUxC
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: jmolivas@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733269326
+  access:
+    -
+      value: 1733269511
+  login:
+    -
+      value: 1733269511
+  init:
+    -
+      value: jmolivas@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/jmolivas
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "CEO and Co-founder at Octahedroid and Composabase\r\n"
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/jmolivas'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: 'Jesus Manuel'
+  field_home_town:
+    -
+      value: 'El Centro'
+  field_last_name:
+    -
+      value: Olivas
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/jmolivas/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Octahedroid
+  field_personal_website_link:
+    -
+      uri: 'https://jmolivas.com/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'CEO and Co-founder'
+  field_twitter_profile_link:
+    -
+      uri: 'https://x.com/jmolivas'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: a5afda45-3a75-4637-968e-66623725f1bc
+      alt: ''
+      title: ''
+      width: 1024
+      height: 1024

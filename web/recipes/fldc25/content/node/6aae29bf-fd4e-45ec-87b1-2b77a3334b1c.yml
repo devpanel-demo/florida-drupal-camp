@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6aae29bf-fd4e-45ec-87b1-2b77a3334b1c
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    bbf5174b-909d-4414-9061-d3faa016f5cf: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    2cad09e1-7c2d-4fd2-9210-343c52d7f586: file
+    54a015b4-e99e-4a11-bfde-9cdb72b4ec5a: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: bbf5174b-909d-4414-9061-d3faa016f5cf
+  title:
+    -
+      value: 'Mastering the Gutenberg Experience in Drupal: Setup, Customization, and Beyond'
+  created:
+    -
+      value: 1733197827
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/mastering-gutenberg-experience-drupal-setup-customization-and-beyond
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p dir="ltr"><span>This session offers an in-depth guide to installing configuring, and mastering the Gutenberg editor within Drupal. Gutenberg, a modern block-based editor, revolutionizes the content creation experience compared to Drupal’s traditional editing interface. You will learn the essentials of setting up Gutenberg, customizing its interface, and creating custom blocks tailored to your site’s needs.</span></p><p dir="ltr"><span>You’ll gain a comprehensive understanding of the pros and cons of using Gutenberg in Drupal.&nbsp; This session details both the improved flexibility for content creators and the technical considerations for developers. You’ll see coding workflows for building custom Gutenberg blocks, showcasing how they can extend Drupal’s content architecture. By the end of the session, you’ll have the practical knowledge to implement and customize Gutenberg in your own Drupal projects, whether as a supplement or a replacement for Drupal’s default editor.</span><br><br>L<span>earn to install, configure, and customize the Gutenberg editor in Drupal. We will explore the pros and cons of using Gutenberg, compare it to traditional Drupal editing, and demonstrate coding techniques for creating custom blocks.</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: 2cad09e1-7c2d-4fd2-9210-343c52d7f586
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: bbf5174b-909d-4414-9061-d3faa016f5cf
+  field_time_slot:
+    -
+      entity: 54a015b4-e99e-4a11-bfde-9cdb72b4ec5a

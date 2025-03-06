@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: afb79210-7fc7-4d20-b6ce-23e0bc5d6464
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    b0fcdc01-3b54-4762-adec-7834f2c0c1b2: menu_link_content
+    5e9826a6-9907-4a9b-a2ec-f72dbdca8571: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'After Party'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: 5e9826a6-9907-4a9b-a2ec-f72dbdca8571
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:b0fcdc01-3b54-4762-adec-7834f2c0c1b2'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,54 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu--level-1 {
+  font-size: 1.25rem;
+  line-height: var(--sp1-5);
+}
+@media (min-width: 31.25rem) {
+  .footer-menu--level-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--grid-gap);
+  }
+}
+
+.footer-menu__heading {
+  margin-top: 0;
+  border-left: solid 4px var(--pink-dark);
+  padding-left: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: var(--sp);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color--night-20);
+  margin: var(--sp3) 0 var(--sp2);
+  color: inherit;
+}
+@media (min-width: 81.25rem) {
+  .footer-menu__heading {
+    font-size: 0.875rem;
+    line-height: var(--sp1-5);
+  }
+}
+@media (min-width: 31.25rem) {
+  .footer-menu__heading {
+    margin-top: 0;
+  }
+}
+
+.footer-menu__link {
+  text-decoration: none;
+}
+
+.footer-menu__item--level-2 {
+  margin-bottom: var(--sp1-5);
+}

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 52d97c2c-58c8-40f9-bbf5-e3488449f60a
+  bundle: page
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'About Florida Drupal Camp'
+  created:
+    -
+      value: 1621446528
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /about
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>When is Florida DrupalCamp?</h2><p>This year, Florida DrupalCamp 2025 will be held Friday, February 21st through Sunday, February 23rd at the Florida technical College campus in Orlando, Florida. Friday will be&nbsp;trainings. Saturday will be&nbsp;sessions, and Sunday will be sessions in the morning and contributions in the afternoon.</p><h2>What is Drupal?</h2><p>Drupal is a popular free content management system (CMS). It is used to build everything from personal blogs to enterprise applications. Millions of websites are powered by Drupal, including</p><ul><li><a href="http://www.grammy.com/">Grammys.com</a></li><li><a href="http://Weather.com">Weather.com</a></li><li><a href="http://stanford.edu/">Stanford University</a></li><li><a href="http://www.economist.com/">The Economist</a></li><li><a href="https://www.drupal.com/showcases">...and millions more</a></li></ul><p>Drupal is constantly being improved by the hundreds of thousands of dedicated developers that are part of the Drupal Community.</p><h2>Who organizes this?</h2><p>Florida DrupalCamp is organized by an all-volunteer team! We''re always looking for help. Our goals for organizing Florida DrupalCamp are</p><ol><li>We want to learn and teach about Drupal and other web technologies</li><li>Provide networking opportunities</li><li>We want to have fun!</li></ol><h2>The agenda will include a day of presentations, an after-hours party, and these session tracks:</h2><ul><li>Design, Theming, and Usability</li><li>Development &amp; Performance</li><li>Site Building</li><li>Project Management, Sales &amp; Consulting</li><li>Sessions off the Drupal Island</li></ul><h2>What does all this cost?</h2><p>The cost to attend is $50 early bird / $75 full price. Besides a full day of Drupal sessions, you also get access to trainings for $10! If you would like to support our local Drupal community further, you can become an Individual Sponsor for only $100. The sponsorship includes a shout-out on our sponsor page. All proceeds will go to offset expenses, help to deter no-shows and make donations to the Florida Drupal User Group or Drupal Association.</p><h2>What to Bring:</h2><ul><li>Yourself!!</li><li>An unhealthy love for all things Drupal, open-source,&nbsp;and web</li></ul>'
+      format: basic_html
+      summary: ''

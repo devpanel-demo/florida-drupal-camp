@@ -1,0 +1,14 @@
+services:
+  http_middleware.cleantalk:
+    class: Drupal\cleantalk\EventSubscriber\BootSubscriber
+    tags:
+      - { name: http_middleware, priority: 210, responder: true }
+  cleantalk.request_subscriber:
+    class: Drupal\cleantalk\EventSubscriber\RequestSubscriber
+    tags:
+      - { name: event_subscriber }
+  cleantalk.finish_response_subscriber:
+    class: Drupal\cleantalk\EventSubscriber\RespondSubscriber
+    arguments: [ '@language_manager', '@config.factory', '@page_cache_request_policy', '@page_cache_response_policy', '@cache_contexts_manager', '%http.response.debug_cacheability_headers%' ]
+    tags:
+      - { name: event_subscriber, priority: -100, responder: true  }

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 83d2e0d3-ccf1-420f-97f2-3570b0fc0aa9
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    49a3347d-41ca-4e09-8749-ba77f20477b0: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Platform.sh
+  created:
+    -
+      value: 1642190222
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/platformsh
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Platform.sh—a polyglot, multicloud PaaS, with continuous deployment built in—takes care of your infrastructure, from hosting and technology to global deployment and support.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: 49a3347d-41ca-4e09-8749-ba77f20477b0
+      alt: 'Platform.sh logo'
+      title: ''
+      width: 2044
+      height: 718
+  field_website_address:
+    -
+      uri: 'https://platform.sh/'
+      title: ''
+      options: {  }

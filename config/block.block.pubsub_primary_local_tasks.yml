@@ -1,0 +1,28 @@
+uuid: 543a189a-b0b8-4a7b-81ee-618df7dbc3c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pubsub
+_core:
+  default_config_hash: c0EJ1DshQicGWv98nyEh6m-1ArDsTsu0XbWjQ4AGFqY
+id: pubsub_primary_local_tasks
+theme: pubsub
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/user/login\r\n"

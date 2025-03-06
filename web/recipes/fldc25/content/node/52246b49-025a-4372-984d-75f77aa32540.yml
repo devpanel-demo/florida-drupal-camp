@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 52246b49-025a-4372-984d-75f77aa32540
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    a6cdca05-eca4-4ca2-936a-21520d638b82: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+    ae43d28c-240d-4dd2-9d98-6f76545e76f3: file
+    c59f92f1-5c97-4353-b5c5-2634481a7688: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: a6cdca05-eca4-4ca2-936a-21520d638b82
+  title:
+    -
+      value: 'Grokking Git'
+  created:
+    -
+      value: 1732814518
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/grokking-git
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: '<p>Git can be confusing, with plenty of sharp edges to cut yourself on, but it gets a lot easier once you understand How Git Works. Luckily, understanding Git is a lot less daunting than it sounds. Join us for a Git deep dive, while keeping our feet firmly planted on the floor. No jargon, no assumptions. We may even have some fun.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_social_media_card:
+    -
+      entity: ae43d28c-240d-4dd2-9d98-6f76545e76f3
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: a6cdca05-eca4-4ca2-936a-21520d638b82
+  field_time_slot:
+    -
+      entity: c59f92f1-5c97-4353-b5c5-2634481a7688

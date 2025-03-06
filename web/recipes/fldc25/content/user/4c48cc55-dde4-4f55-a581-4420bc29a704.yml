@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4c48cc55-dde4-4f55-a581-4420bc29a704
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: keiserjb
+  pass:
+    -
+      value: $2y$10$kDd1TPsK4LEbCz.0eN4QheEaL5M/OZyVdkFslQxNdmP1UK.fLkHse
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: keiserjb@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732327855
+  access:
+    -
+      value: 1732551300
+  login:
+    -
+      value: 1732551086
+  init:
+    -
+      value: keiserjb@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/keiserjb
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Justin Keiser is a Drupal Web Programmer at the Academy of Model Aeronautics in Muncie, Indiana. With a background in library science and web development, he manages multiple websites using Drupal, Backdrop CMS, and WordPress. An active contributor to the Backdrop CMS community, Justin has ported and maintains several modules, reflecting his commitment to open-source development and improving tools for site builders.</p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/keiserjb'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Justin
+  field_home_town:
+    -
+      value: 'Muncie,  IN'
+  field_last_name:
+    -
+      value: Keiser
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/keiserjb/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@keiserjb'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'Academy of Model Aeronautics'
+  field_personal_website_link:
+    -
+      uri: 'https://keiserjb.com/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Drupal Web Programmer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/keiserjb'
+      title: ''
+      options: {  }

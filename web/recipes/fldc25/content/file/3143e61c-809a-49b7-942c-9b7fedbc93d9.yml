@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3143e61c-809a-49b7-942c-9b7fedbc93d9
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  filename:
+    -
+      value: conference-catalysts-logo_color_rgb_web_01_0.png
+  uri:
+    -
+      value: 'public://2021-12/conference-catalysts-logo_color_rgb_web_01_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 7546
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639492022

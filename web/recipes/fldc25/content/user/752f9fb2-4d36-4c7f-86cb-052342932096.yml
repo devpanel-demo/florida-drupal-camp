@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 752f9fb2-4d36-4c7f-86cb-052342932096
+  default_langcode: en
+  depends:
+    2ed05d70-18b2-42e4-a3b2-7642a55cc002: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: joshfabean
+  pass:
+    -
+      value: $2y$10$qpPrmDxeWQDESoExLoYwgOKqDVftZoBWCtCNt6Uyle4GjZ/7kFyRO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: me@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673364021
+  access:
+    -
+      value: 1732112122
+  login:
+    -
+      value: 1732024162
+  init:
+    -
+      value: me@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/joshfabean
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/joshfabean'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Josh
+  field_home_town:
+    -
+      value: 'Palm Coast, FL'
+  field_last_name:
+    -
+      value: Fabean
+  field_organization:
+    -
+      value: 'Code Koalas'
+  field_personal_website_link:
+    -
+      uri: 'https://joshfabean.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Technical Director'
+  user_picture:
+    -
+      entity: 2ed05d70-18b2-42e4-a3b2-7642a55cc002
+      alt: ''
+      title: ''
+      width: 2544
+      height: 2138

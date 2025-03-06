@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 747466e9-10cd-4cf1-a0cd-30549f33a922
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    2b12d595-b93e-4e44-8727-9ba3413a9435: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    a6a55b10-1c80-4a95-a485-deaa7217cb9c: file
+    d88d416b-fd24-40ba-8b47-67992c633f5d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 2b12d595-b93e-4e44-8727-9ba3413a9435
+  title:
+    -
+      value: 'From Fear to Freedom: Mastering Drupal Updates with a Structured Approach'
+  created:
+    -
+      value: 1731085716
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/fear-freedom-mastering-drupal-updates-structured-approach
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Are your Drupal updates a source of stress? Drawing from nearly a decade of experience as a Technical Account Manager, this session transforms the often-dreaded update process into a reliable, repeatable workflow that any team can implement. Through a combination of best practices, live demonstrations, and practical tools, attendees will learn how to confidently manage their Drupal updates, including how to prepare their custom code for version changes and avoid common API pitfalls.</p><h2>Learning Objectives</h2><p>This session will introduce attendees to:</p><ul><li>A structured approach for planning and executing Drupal updates</li><li>Best practices for maintaining composer.json files</li><li>Effective use of configuration management during updates</li><li>Methods for tracking custom code dependencies and API usage</li><li>Strategies for monitoring API changes that affect custom modules</li><li>Practical use of the Upgrade Status module</li><li>Real-world testing and deployment workflows</li></ul>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: a6a55b10-1c80-4a95-a485-deaa7217cb9c
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 2b12d595-b93e-4e44-8727-9ba3413a9435
+  field_time_slot:
+    -
+      entity: d88d416b-fd24-40ba-8b47-67992c633f5d

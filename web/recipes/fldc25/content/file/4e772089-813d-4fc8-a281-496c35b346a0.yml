@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4e772089-813d-4fc8-a281-496c35b346a0
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_cosmicdreams.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_cosmicdreams.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 49700
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734046706

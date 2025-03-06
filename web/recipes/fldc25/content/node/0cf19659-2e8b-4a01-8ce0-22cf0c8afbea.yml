@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0cf19659-2e8b-4a01-8ce0-22cf0c8afbea
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    9c74adbb-b6cb-4153-9648-80fd9d0ad982: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: SearchStax
+  created:
+    -
+      value: 1639467822
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/searchstax
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>SearchStax&nbsp;offers end-to-end search solutions for better search - Managed Solr infrastructure on the backend and SearchStudio on the frontend.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: 9c74adbb-b6cb-4153-9648-80fd9d0ad982
+      alt: 'SearchStax logo'
+      title: ''
+      width: 600
+      height: 228
+  field_website_address:
+    -
+      uri: 'https://www.searchstax.com'
+      title: ''
+      options: {  }

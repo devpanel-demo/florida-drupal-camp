@@ -1,0 +1,102 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: a6cdca05-eca4-4ca2-936a-21520d638b82
+  default_langcode: en
+  depends:
+    8b5af1e1-637f-43a9-94c4-fe1fa10d388b: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: bronzehedwick
+  pass:
+    -
+      value: $2y$10$a7kKTzRdif4CzP31mxtpf.akyh07pD.NyORF5D./W9H0ZHlx.uSJq
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: signups@demo.me
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732813271
+  access:
+    -
+      value: 1733068185
+  login:
+    -
+      value: 1732813876
+  init:
+    -
+      value: signups@demo.me
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/bronzehedwick
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Chris is a front end software developer working with Drupal for around 15 years. He's interested in CSS layout, Git, terminals, lean JS, and the intersection between development and design. In this spare time, he writes and performs comedy, and is involved in community efforts in beautiful Astoria, Queens."
+      format: plain_text
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/www.chrisdeluca.me'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/bronzehedwick'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Chris
+  field_home_town:
+    -
+      value: Astoria
+  field_last_name:
+    -
+      value: DeLuca
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/christopherdeluca'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://micro.blog/chrisd?remote_follow=1'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Lullabot
+  field_personal_website_link:
+    -
+      uri: 'https://www.chrisdeluca.me/'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Senior front end developer'
+  user_picture:
+    -
+      entity: 8b5af1e1-637f-43a9-94c4-fe1fa10d388b
+      alt: ''
+      title: ''
+      width: 1714
+      height: 1714

@@ -1,0 +1,35 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.primary-nav__menu-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.primary-nav__menu-link {
+  color: var(--color--night-5);
+}
+
+body:not(.user-logged-in) .account-menu-item {
+  display: none;
+}
+
+.primary-nav__register-link {
+  display: block;
+  margin-top: var(--sp2);
+  width: 100%;
+  padding: var(--sp2) var(--sp3);
+  background-color: var(--secondary);
+  color: var(--text-on-secondary);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: var(--sp1-5);
+  text-decoration: none;
+}
+@media (min-width: 68.75rem) {
+  .primary-nav__register-link {
+    display: none;
+  }
+}
+.primary-nav__register-link:hover {
+  color: var(--color--white);
+}

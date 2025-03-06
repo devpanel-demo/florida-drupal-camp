@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7ea6957f-d78f-4418-9769-8cf6e07d00ca
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    3143e61c-809a-49b7-942c-9b7fedbc93d9: file
+default:
+  revision_uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: 'Conference Catalysts'
+  created:
+    -
+      value: 1639491827
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/conference-catalysts
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Conference Catalysts provides flexible solutions for professional associations to improve communication, organize efficiently, and run world-class events.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: 3143e61c-809a-49b7-942c-9b7fedbc93d9
+      alt: 'Conference Catalysts logo'
+      title: ''
+      width: 691
+      height: 213
+  field_website_address:
+    -
+      uri: 'https://conferencecatalysts.com/'
+      title: ''
+      options: {  }

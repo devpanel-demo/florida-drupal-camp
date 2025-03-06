@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b59bcf3-f7ed-4f4e-b381-3cea4c982e88
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    a0baa11f-de1f-4c01-b7cf-e91d6cd72834: taxonomy_term
+    ddbc3b81-9c09-4933-93c5-2e399f752ccc: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Digital Polygon'
+  created:
+    -
+      value: 1673796060
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/digital-polygon
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>We help organizations large and small deliver the next generation of high quality, secure, accessible and engaging digital experiences.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: a0baa11f-de1f-4c01-b7cf-e91d6cd72834
+  field_sponsor_logo:
+    -
+      entity: ddbc3b81-9c09-4933-93c5-2e399f752ccc
+      alt: 'Digital Polygon logo'
+      title: ''
+      width: 4739
+      height: 1544
+  field_website_address:
+    -
+      uri: 'https://www.digitalpolygon.com/'
+      title: ''
+      options: {  }

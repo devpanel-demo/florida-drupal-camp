@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7235673a-4783-4833-8ba3-40758d356232
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: D-4vCpkQ.jpeg
+  uri:
+    -
+      value: 'public://2022-01/D-4vCpkQ.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 64263
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1641581644

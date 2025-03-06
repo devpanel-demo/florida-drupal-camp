@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 495f8bf1-289d-44b3-a265-b780306d5c34
+  bundle: session
+  default_langcode: en
+  depends:
+    562f40ba-b770-49df-bf04-ea4ff3260b2e: user
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    99030c72-dce0-484c-a208-1776a0ae2093: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e
+  title:
+    -
+      value: 'Content strategy in world of multi experience marketing'
+  created:
+    -
+      value: 1731694535
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/content-strategy-world-multi-experience-marketing
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p><span>The future of digital experiences will be driven by the intersection of content and context, with context taking the lead.</span><br><br><span>In this talk, we will explore how multi-experience marketing across web, mobile, wearables, voice, and digital displays becomes an integral part of a marketer's daily tasks and how AI is accelerating this trend.</span><br><br><span>Traditional content-building practices have transitioned from a focus on topics and keywords to a sophisticated, holistic approach where content and context are intertwined.</span><br><br><span>Consider this:</span><br><span>--&gt; By 2026, it's predicted that 91.4 million American consumers will use voice-enabled smart speakers for inquiries.</span><br><span>--&gt; Also by 2026, 38.8 million people in the U.S. will use smart speakers for shopping-related activities, accounting for 13.6% of the population.</span><br><span>--&gt; The wearable market is expected to reach USD 265.4 billion by 2026, growing at a CAGR of 18.0%. By 2029, there will be 1.2 billion wearable devices in use.</span><br><br><span>The web as we know it today will quickly become a smaller subset of a much larger digital ecosystem. Marketers worldwide are recognizing this shift and are rushing to adapt their content strategies to incorporate more context.</span><br><br><span>What does this mean? How will it impact marketers globally? These questions are at the heart of this talk!</span></p><p><span>Here are some key takeaways:</span><br><span>--&gt; Why a contextual content strategy is critical for marketers in today’s world</span><br><span>--&gt; Examples of Multi Experience marketing in the enterprises</span><br><span>--&gt; How the shape of content and marketing campaigns would change in the multi-experience world?</span><br><span>--&gt; The basics of optimizing your campaigns &amp; content for voice, wearables and digital displays</span><br><span>--&gt; How and Why to make your content future proof</span><br><span>--&gt; Why AI ready content should be your next strategic investment</span></p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 99030c72-dce0-484c-a208-1776a0ae2093
+  field_speakers:
+    -
+      entity: 562f40ba-b770-49df-bf04-ea4ff3260b2e

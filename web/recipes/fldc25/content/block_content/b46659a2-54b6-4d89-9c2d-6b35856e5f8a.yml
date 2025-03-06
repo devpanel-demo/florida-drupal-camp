@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: b46659a2-54b6-4d89-9c2d-6b35856e5f8a
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Florida DrupalCamp 2025'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: '<p>Save the date! Florida DrupalCamp 2025 will be in person February 21-23 in Orlando College at the Florida Technical College. 3 days of training, sessions, contributions and social events.</p><p><a class="button button--primary" href="https://camp.us4.list-manage.com/subscribe?u=e7875ed8ccafb228670ba3056&amp;id=e1f67f7ef3">Sign up for our mailing list</a></p>'
+      format: full_html
+      summary: ''

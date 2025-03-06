@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 0494773d-8857-4aa0-8104-6eda9fc628d4
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Job Posting Info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"highlight-box\" style=\"display: flex; flex-wrap:wrap; align-items:center; justify-content: space-between\">Want to post a job? Sponsor Florida DrupalCamp today! <a class=\"button button--primary button--highlight\" href=\"/become-sponsor\">Become a Sponsor!</a></div>\r\n"
+      format: full_html
+      summary: ''

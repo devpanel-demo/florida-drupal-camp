@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: afcc18b0-ab89-4f37-aff8-1c6e939136d8
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    30b07840-7761-479c-89a6-fd81b482b823: menu_link_content
+    8b89c0fc-95e9-4735-bcf3-83644212cad9: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Speaker Info'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 8b89c0fc-95e9-4735-bcf3-83644212cad9
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -43
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:30b07840-7761-479c-89a6-fd81b482b823'
+  revision_translation_affected:
+    -
+      value: true

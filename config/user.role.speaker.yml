@@ -1,0 +1,21 @@
+uuid: a0f7085b-1313-4973-bab5-a8ddf157a493
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.mini_session
+    - node.type.session
+  module:
+    - file
+    - node
+id: speaker
+label: Speaker
+weight: -8
+is_admin: null
+permissions:
+  - 'create session content'
+  - 'delete own files'
+  - 'edit own mini_session content'
+  - 'edit own session content'
+  - 'revert session revisions'
+  - 'view session revisions'

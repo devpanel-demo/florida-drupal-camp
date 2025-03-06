@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: a3e9dd2e-6f96-4fcb-9e3d-ca2398ff40d8
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    5caf0761-41ef-4979-9c76-ba9f1f424b64: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Gravity Works Design'
+  created:
+    -
+      value: 1642168675
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/gravity-works-design
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Gravity Works is changing the way businesses large and small use technology to get ahead. We solve business problems by looking for the right solution instead of the easy one.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: 5caf0761-41ef-4979-9c76-ba9f1f424b64
+      alt: 'Gravity Works Design logo'
+      title: ''
+      width: 1149
+      height: 273
+  field_website_address:
+    -
+      uri: 'https://www.gravityworksdesign.com'
+      title: ''
+      options: {  }

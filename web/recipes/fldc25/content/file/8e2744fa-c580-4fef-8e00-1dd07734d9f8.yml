@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8e2744fa-c580-4fef-8e00-1dd07734d9f8
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: devpanel.png
+  uri:
+    -
+      value: 'public://2021-05/devpanel.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 36437
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621514684

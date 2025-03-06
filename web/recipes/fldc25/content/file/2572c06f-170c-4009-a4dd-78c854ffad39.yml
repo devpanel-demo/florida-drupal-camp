@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 2572c06f-170c-4009-a4dd-78c854ffad39
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: photo_2024-07-05_10-08-57.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-11/photo_2024-07-05_10-08-57.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 210195
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730487302

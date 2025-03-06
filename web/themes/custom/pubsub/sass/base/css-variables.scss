@@ -1,0 +1,117 @@
+@import "../global/variables";
+
+:root {
+  --font-sans: 'general-sans', sans-serif;
+
+  /* Drupal administrative toolbar heights and width. */
+  --toolbar-height: 39px;
+  --toolbar-tray-height: 40px;
+  --toolbar-tray-vertical-width: 239px;
+
+  /* Layout */
+  --layout--max-width: 1400px;
+  --scrollbar-width: 16px;
+
+
+  /* Layout helpers */
+  --sp: 1rem; // 16px.
+  --sp0-25: calc(0.25 * var(--sp));
+  --sp0-5: calc(0.5 * var(--sp));
+  --sp0-75: calc(0.75 * var(--sp));
+  --sp1: calc(1 * var(--sp));
+  --sp1-5: calc(1.5 * var(--sp));
+  --sp2: calc(2 * var(--sp));
+  --sp2-5: calc(2.5 * var(--sp));
+  --sp3: calc(3 * var(--sp));
+  --sp4: calc(4 * var(--sp));
+  --sp5: calc(5 * var(--sp));
+
+// FLDC 25
+  --color-black: black;
+  --color-white: white;
+  --teal: #93E7FF;
+  --pink-lightest: #FFEBF5;
+  --pink-light: #FFA7D5;
+  --pink-dark: #E70077;
+
+  --neutral-white: var(--color-white);
+  --text-on-neutral-white: var(--color-black);
+  --text-on-neutral-primary: var(--pink-dark);
+
+  --neutral-dark: var(--color-black);
+  --text-on-neutral-dark: var(--color-white);
+  --text-on-neutral-dark-primary: var(--pink-light);
+  --text-on-neutral-dark-secondary: var(--teal);
+
+
+  --primary: var(--pink-light);
+  --text-on-primary: var(--color-black);
+
+
+  --secondary: var(--teal);
+  --text-on-secondary: var(--color-black);
+
+
+
+  // Night
+  --color--night-0: hsla(0, 0%, 0%, 1);
+  --color--night-5: hsla(200, 75%, 5%, 1);
+  --color--night-15: hsla(200, 29%, 13%, 1);
+  --color--night-20: hsla(201, 20%, 21%, 1);
+  --color--night-30: hsla(202, 12%, 29%, 1);
+  --color--night-35: hsla(202, 9%, 36%, 1);
+  --color--night-40: hsla(202, 6%, 43%, 1);
+  --color--night-50: hsla(202, 5%, 52%, 1);
+  --color--night-60: hsla(202, 5%, 60%, 1);
+  --color--night-70: hsla(202, 6%, 72%, 1);
+  --color--night-90: hsla(202, 6%, 90%, 1);
+
+  // Sky
+  --color--sky-50: hsla(194, 66%, 50%, 1);
+  --color--sky-80: hsla(194, 66%, 80%, 1);
+  --color--sky-86: hsla(194, 54%, 86%, 1);
+  --color--sky-90: hsla(193, 65%, 90%, 1);
+  --color--sky-94: hsla(195, 67%, 94%, 1);
+  --color--sky-97: hsla(195, 86%, 97%, 1);
+
+  // Ocean
+  --color--ocean-10: hsla(200, 59%, 13%, 1);
+  --color--ocean-15: hsla(201, 100%, 16%, 1);
+  --color--ocean-30: hsla(201, 100%, 29%, 1);
+  --color--ocean-35: hsla(201, 100%, 37%, 1); // 4.59 against white.
+  --color--ocean-40: hsla(202, 100%, 42%, 1);
+  --color--ocean-55: hsla(201, 100%, 55%, 1);
+
+  // Sun
+  --color--sun-30: hsla(18, 95%, 30%, 1); // 7.81 against white.
+  --color--sun-40: hsla(18, 95%, 41%, 1); // 4.85 against white.
+  --color--sun-45: hsla(18, 95%, 46%, 1); // 3.97 against white.
+  --color--sun-55: hsla(19, 95%, 55%, 1);
+  --color--sun-70: hsla(18, 95%, 71%, 1);
+  --color--sun-80: hsla(18, 95%, 83%, 1);
+  --color--sun-90: hsla(18, 96%, 91%, 1);
+
+  ::backdrop {
+    --color-backdrop: hsla(200, 29%, 13%, 1);
+  }
+
+  // Named colors
+  --color--white: #fff;
+  --color--red: red;
+  --color--gold: gold;
+  --color--green: green;
+  --color--blue: blue;
+
+  // Layouts
+  --grid-gap: var(--sp1-5);
+
+  @media ($grid-max) {
+    --grid-gap: var(--sp2);
+  }
+
+  // Forms
+  --form-element-border: var(--color--night-50);
+
+  // Misc
+  --focus-ring-color: currentColor;
+}

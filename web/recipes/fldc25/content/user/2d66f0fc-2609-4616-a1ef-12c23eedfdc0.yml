@@ -1,0 +1,66 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 2d66f0fc-2609-4616-a1ef-12c23eedfdc0
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: platypustheory
+  pass:
+    -
+      value: $2y$10$KD/BzP4Zwx3cvHyFT.peFul4KA79mLPrsS0GBLitBuMSYDV290bcy
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: michael@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1729115804
+  access:
+    -
+      value: 1732598300
+  login:
+    -
+      value: 1732598300
+  init:
+    -
+      value: michael@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/platypustheory
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/ixlr8'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Michael
+  field_home_town:
+    -
+      value: 'Spring Hill'
+  field_last_name:
+    -
+      value: Goldsmith
+  field_organization:
+    -
+      value: 'Platypus Media, LLC'

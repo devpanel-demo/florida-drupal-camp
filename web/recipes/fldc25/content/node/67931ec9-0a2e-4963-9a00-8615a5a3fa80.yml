@@ -1,0 +1,74 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 67931ec9-0a2e-4963-9a00-8615a5a3fa80
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    becb1f38-1ae9-40a4-84e7-e6fd194d5a19: taxonomy_term
+    8deb6b1e-e289-4ea6-a4bc-0a62e3cca062: taxonomy_term
+    f8394c91-867f-48cd-80a0-4deeb03f919d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Lightning Talks⚡️⚡️⚡️ and Closing Session'
+  created:
+    -
+      value: 1642348772
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/lightning-talks-and-closing-session
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<p>Lightning Talks are short (5min-ish) impromptu sessions on anything you want. Do you have something you’re proud of? Do you have a new technique that’s saving you time? Have you learned about something cool? Get up and share!</p>\r\n"
+      format: full_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: becb1f38-1ae9-40a4-84e7-e6fd194d5a19
+  field_session_category:
+    -
+      entity: 8deb6b1e-e289-4ea6-a4bc-0a62e3cca062
+  field_speakers:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  field_time_slot:
+    -
+      entity: f8394c91-867f-48cd-80a0-4deeb03f919d

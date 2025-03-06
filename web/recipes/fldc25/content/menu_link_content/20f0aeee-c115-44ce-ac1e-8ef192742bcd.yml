@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 20f0aeee-c115-44ce-ac1e-8ef192742bcd
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    25706525-2a16-4be4-95b8-b4c307cb3919: menu_link_content
+    3c34fa1f-ff29-4cbf-8a7a-c091bdd1646f: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Contribution Day'
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      target_uuid: 3c34fa1f-ff29-4cbf-8a7a-c091bdd1646f
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -45
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:25706525-2a16-4be4-95b8-b4c307cb3919'
+  revision_translation_affected:
+    -
+      value: true

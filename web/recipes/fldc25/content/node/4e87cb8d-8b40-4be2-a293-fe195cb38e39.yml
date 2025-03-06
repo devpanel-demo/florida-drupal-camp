@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4e87cb8d-8b40-4be2-a293-fe195cb38e39
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    11f502cb-f087-404f-b96e-efac763055ee: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    a4b45727-d683-4a7b-9856-e467976b2451: file
+    6febf1c9-b585-4219-8385-6bcdd6313993: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 11f502cb-f087-404f-b96e-efac763055ee
+  title:
+    -
+      value: 'Rapid Prototyping with Vercel’s v0.dev'
+  created:
+    -
+      value: 1733277297
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/rapid-prototyping-vercels-v0dev
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>In today’s fast-paced development environment, swiftly transforming ideas into functional prototypes is crucial. Vercel’s v0, an AI-powered generative UI tool, enables developers to create user interfaces from simple text prompts, producing React components styled with Tailwind CSS and shadcn UI.&nbsp;</p><p>This session will cover:</p><ul><li><strong>Introduction to Vercel’s v0:</strong> Understanding its capabilities and how it integrates with modern web technologies.</li><li><strong>Live Demonstration:</strong> Building a UI component from a text prompt, showcasing the tool’s efficiency in rapid prototyping.</li><li><strong>Best Practices:</strong> Tips for effectively utilizing v0 in development workflows, including prompt engineering and integrating generated components into existing projects.</li><li><strong>Case Studies:</strong> Examples of successful applications built using v0, highlighting its impact on development speed and collaboration.</li></ul><p>Attendees will gain hands-on knowledge of leveraging AI in UI development, enabling them to accelerate their prototyping processes and enhance collaboration between design and development teams.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: a4b45727-d683-4a7b-9856-e467976b2451
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 11f502cb-f087-404f-b96e-efac763055ee
+  field_time_slot:
+    -
+      entity: 6febf1c9-b585-4219-8385-6bcdd6313993

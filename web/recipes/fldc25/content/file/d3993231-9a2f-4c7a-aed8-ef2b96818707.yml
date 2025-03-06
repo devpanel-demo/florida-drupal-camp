@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d3993231-9a2f-4c7a-aed8-ef2b96818707
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: jimmy.PNG
+  uri:
+    -
+      value: 'public://pictures/2024-11/jimmy.PNG'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 704666
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730993802

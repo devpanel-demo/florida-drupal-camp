@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5caf0761-41ef-4979-9c76-ba9f1f424b64
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: gravity-works-design.png
+  uri:
+    -
+      value: 'public://2022-01/gravity-works-design.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 25297
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642168768

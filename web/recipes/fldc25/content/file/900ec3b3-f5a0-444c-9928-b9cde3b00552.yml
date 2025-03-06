@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 900ec3b3-f5a0-444c-9928-b9cde3b00552
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: herodevs-logo-gradient-light.png
+  uri:
+    -
+      value: 'public://2024-08/herodevs-logo-gradient-light.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 16968
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1723049837

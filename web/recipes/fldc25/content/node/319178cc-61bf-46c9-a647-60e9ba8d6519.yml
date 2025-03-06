@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 319178cc-61bf-46c9-a647-60e9ba8d6519
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    d4e6edf4-bb0f-4a68-ab79-ca4ceb5a033d: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Lullabot
+  created:
+    -
+      value: 1621514628
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/lullabot
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<p>Lullabot is an employee-owned strategy, design, and development company that creates and supports some of the largest Drupal sites on the web.</p>\r\n"
+      format: basic_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: d4e6edf4-bb0f-4a68-ab79-ca4ceb5a033d
+      alt: 'Lullabot Logo'
+      title: ''
+      width: 500
+      height: 474
+  field_website_address:
+    -
+      uri: 'https://www.lullabot.com'
+      title: ''
+      options: {  }

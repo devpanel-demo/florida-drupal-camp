@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a4b45727-d683-4a7b-9856-e467976b2451
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_shrop.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_shrop.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 51153
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734046909

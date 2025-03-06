@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: f5366e40-1fdd-4a7a-b942-a93317069a8c
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: itt-digital-logo-blue.png
+  uri:
+    -
+      value: 'public://2022-12/itt-digital-logo-blue.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 14294
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1672344246

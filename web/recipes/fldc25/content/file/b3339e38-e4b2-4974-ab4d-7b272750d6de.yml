@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b3339e38-e4b2-4974-ab4d-7b272750d6de
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: DRodriguez_headshot(1).jpg
+  uri:
+    -
+      value: 'public://pictures/2024-12/DRodriguez_headshot(1).jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 244401
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733170262

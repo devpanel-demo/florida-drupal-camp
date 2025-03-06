@@ -1,0 +1,83 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.block-views-blockfeatured-speakers-block-1 {
+  --color-background: var(--neutral-dark);
+  --color-text: var(--color-white);
+  grid-column: 2/-2;
+  background-color: var(--color-background);
+  border-image-source: linear-gradient(var(--color-background), var(--color-background));
+  border-image-outset: 0 50vw;
+  border-image-slice: fill 0;
+}
+
+.view-featured-speakers__content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: calc(2 * var(--grid-gap));
+  row-gap: var(--grid-gap);
+  padding: var(--sp3) 0;
+}
+@media (min-width: 37.5rem) {
+  .view-featured-speakers__content > *:nth-child(1) {
+    flex-basis: 100%;
+  }
+  .view-featured-speakers__content > *:nth-child(2) {
+    flex: 1;
+  }
+  .view-featured-speakers__content > *:nth-child(3) {
+    flex: 1;
+  }
+}
+@media (min-width: 50rem) {
+  .view-featured-speakers__content {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: var(--grid-gap);
+    padding: var(--sp4) 0;
+  }
+  .view-featured-speakers__content .view-featured-speakers__title {
+    grid-column: 1/-1;
+  }
+  .view-featured-speakers__content .view-featured-speakers__item {
+    grid-column: span 6;
+  }
+  .view-featured-speakers__content:has(:nth-child(3 of .view-featured-speakers__item)) .view-featured-speakers__item {
+    grid-column: span 4;
+  }
+}
+@media (min-width: 62.5rem) {
+  .view-featured-speakers__content {
+    margin-top: var(--sp3);
+    padding: var(--sp5) 0;
+  }
+  .view-featured-speakers__content .view-featured-speakers__title,
+.view-featured-speakers__content .view-featured-speakers__item {
+    grid-column: span 4;
+  }
+  .view-featured-speakers__content:has(:nth-child(3 of .view-featured-speakers__item)) .view-featured-speakers__title {
+    grid-column: 1/-1;
+  }
+}
+
+.view-featured-speakers__title {
+  margin-top: 0;
+  border-left: solid 4px var(--pink-dark);
+  padding-left: 1.25rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: var(--sp);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color--night-20);
+  align-self: flex-start;
+  margin-bottom: 0;
+  color: var(--color-text);
+}
+@media (min-width: 81.25rem) {
+  .view-featured-speakers__title {
+    font-size: 0.875rem;
+    line-height: var(--sp1-5);
+  }
+}

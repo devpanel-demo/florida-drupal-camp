@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b386d38e-ad8f-48de-926f-3e60ea575506
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8b704b8c-51a8-4737-9b45-8133af51b76d: taxonomy_term
+    a151b227-0fa6-47b5-860f-c82e958244cc: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: Palantir.net
+  created:
+    -
+      value: 1641660324
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/palantirnet
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Palantir.net is your partner for complex digital solutions. We use open source technologies and agile methodologies to bring your vision to life.</p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8b704b8c-51a8-4737-9b45-8133af51b76d
+  field_sponsor_logo:
+    -
+      entity: a151b227-0fa6-47b5-860f-c82e958244cc
+      alt: 'Palantir.net logo'
+      title: ''
+      width: 469
+      height: 91
+  field_website_address:
+    -
+      uri: 'https://www.palantir.net/about-us'
+      title: ''
+      options: {  }

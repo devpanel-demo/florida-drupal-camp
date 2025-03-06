@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ff600f6c-accb-4fd6-b79d-a3f5fa1f763f
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    5354a1d6-e0d6-4f8f-9581-47d06f42a791: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    df63a107-65ef-4725-ba19-57e1cd70e75d: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+    9d2961e1-7118-4c67-85bc-1a9255d029e7: file
+    54a015b4-e99e-4a11-bfde-9cdb72b4ec5a: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 5354a1d6-e0d6-4f8f-9581-47d06f42a791
+  title:
+    -
+      value: 'Stepping Outside the Box: Diversity in the Workplace Includes Employing Individuals who Identify as Autistic'
+  created:
+    -
+      value: 1731349333
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/stepping-outside-box-diversity-workplace-includes-employing-individuals-who-identify
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Did you know that around 1 in 68 people are diagnosed with an autism spectrum disorder? People with autism and Asperger''s are becoming a growing part of civilization, and a growing part of the tech workforce, yet in spite of their high intelligence and remarkable creativity and passion, they often go unemployed and underemployed within our society.</p><p>This presentation will attempt to debunk myths around autism and present autistic strengths and challenges, while also sharing why we believe it is important for Drupal firms and other employers to start considering accommodating potential employees with autism spectrum disorders.</p><p>The presentation will cover the following topics/issues:</p><p>1. Debunking the Myths surrounding the Autism diagnosis, which would include providing information about this diagnosis and how it might present in the workplace or in general, which would include providing statistics as to the percentage of autistic individuals who are in the tech field and what tech employers, including Microsoft, are offering them.</p><p>2. Covering the challenges and strengths of an individual on the spectrum and how his or her participation in the tech workforce could be a very good fit for this individual and the tech employer.</p><p>3. How does the Americans with Disabilities Act (ADA) impact the tech employer when it is considering employing an individual who is on the Autism Spectrum.</p><p>What are some examples of reasonable accommodations that an employer should legally offer an employee or potential employee with autism under the ADA?</p><p>What are potential modifications to the workplace that the individual with autism wants an employer to offer even if the employer is not legally required to do so under the ADA.</p><p>Presenters:</p><p>Lynne Knox, JD. As a retired Administrative Law Judge who headed the Employment Security Division of the Connecticut Labor Department, Attorney Knox specialized in labor law, including the Americans with Disabilities Act. She is also the mother of her co-presenter, Morgan Giosa, who has been diagnosed with Asperger’s Syndrome and is a Drupal web developer.</p><p>Morgan Giosa. Morgan has studied extensively with Dr. Mark A. Friedman, who is a Drupal specialist who taught at both Trinity College and Central Connecticut State University. Morgan has also been employed as subcontractor for Redfin Solutions and has developed websites independently for his clients, including Andres Forero, who is currently drumming in the Broadway musical, Hamilton. He is also an accomplished blues guitarist and visual artist.</p><p>Speakers</p><p>Lynne Knox<br>Connecticut Department of Labor (Retired)<br>Retired Administrative Law Judge</p><p>Morgan Giosa<br>Tempera Solutions (<a href="https://www.temperasolutions.com">www.temperasolutions.com</a>)</p><p>Morgan Giosa has studied Drupal web development and computer science extensively with Dr. Mark A. Friedman, a Drupal specialist who taught at both Trinity College and Central Connecticut State University. Morgan has also been employed as subcontractor for Redfin Solutions and has developed websites independently for his clients using both Drupal and WordPress, including Andres Forero, who is currently drumming in the Broadway musical, Hamilton. He is also an accomplished blues guitarist and visual artist, who has recorded and released multiple albums of original music, his latest of which, “Feelin’ Fine Today”, has received airplay on college radio stations throughout New England including WESU 88.1 FM and WCNI 90.9 FM, and has performed at blues clubs throughout New England, including the prestigious Black-Eyed Sally’s in downtown Hartford, CT. He also produced and created an autobiographical documentary film, "Outside the Box", which has been screened in New Haven International Film Festival and Mystic Film Festival in 2019, and has exhibited his paintings and photographs in galleries throughout Connecticut.</p><p>For more information on Morgan or to see his work, please visit the following websites:</p><p><a href="https://www.temperasolutions.com">temperasolutions.com</a> (partial Drupal/WordPress portfolio)</p><p><a href="https://www.morgangiosa.com">morgangiosa.com</a> (visual art/music website)</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: df63a107-65ef-4725-ba19-57e1cd70e75d
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_social_media_card:
+    -
+      entity: 9d2961e1-7118-4c67-85bc-1a9255d029e7
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 5354a1d6-e0d6-4f8f-9581-47d06f42a791
+  field_time_slot:
+    -
+      entity: 54a015b4-e99e-4a11-bfde-9cdb72b4ec5a

@@ -1,0 +1,14 @@
+{{ attach_library('pubsub/view-featured-speakers') }}
+{%
+  set classes = [
+    'view-featured-speakers',
+  ]
+%}
+<div{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+  <div class="view-featured-speakers__content">
+    <h2 class="view-featured-speakers__title">Featured Speakers</h2>
+    {{ rows }}
+  </div>
+</div>

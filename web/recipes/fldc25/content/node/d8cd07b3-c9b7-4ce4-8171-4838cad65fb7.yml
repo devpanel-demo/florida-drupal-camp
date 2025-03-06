@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d8cd07b3-c9b7-4ce4-8171-4838cad65fb7
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Accessibility Commitment'
+  created:
+    -
+      value: 1641825178
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /accessibility-commitment
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>The Drupal community is composed of and fully reliant on the amazing diverse people who choose to participate. We value each of you and your perspectives. To show our respect, we strive to be as inclusive and, therefore, as accessible as we can be. For this event, we will ensure reasonable accommodations are made to ensure an accessible environment as much as possible. To facilitate this, we are providing a list of accommodations:</p>\r\n\r\n<p>These are a few potential options, please edit this list as your event allows:</p>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>The event website meets WCAG AA standards.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Event presenters are accountable (via the speaker agreement) for their presentations meeting WCAG AA standards.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>This in-person event (the main event and/or socials) will be held in a building that meets local governmental regulations for accessible design.&nbsp;</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Accessibility options for the event venue will be communicated to attendees and attendees will be able to communicate their accessibility needs to event organizers.</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Videos posted after the event will have captions or a transcript available.</p>\r\n\t</li>\r\n</ol>\r\n\r\n<p>We recognize that these accommodations may not meet every individual's needs, even if based on internationally accepted processes, and we want every member to feel welcome. If given several weeks notice of a specific need or request our organizers will make every effort to accommodate the additional needs. Efforts may include finding resources within the event budget for additional accommodations or soliciting for sponsors to help meet the request. We cannot commit to providing all additional accommodations but we are dedicated to making our best effort. As a member of our community, when submitting a request for additional resources (via our <a href=\"/contact\">contact page</a>), you can help by providing an example or resources to help meet the request.</p>\r\n\r\n<p>Each member's unique perspective makes our global community stronger. Thank you for growing with us.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''

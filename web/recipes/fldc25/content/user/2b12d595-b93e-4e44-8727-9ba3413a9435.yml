@@ -1,0 +1,76 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 2b12d595-b93e-4e44-8727-9ba3413a9435
+  default_langcode: en
+  depends:
+    738428a0-594a-4be4-a03e-47f97d6cf4d0: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: camoa
+  pass:
+    -
+      value: $2y$10$/2mpDPWOV.6Dip7jR2Jw6OhcKhOv61TZsX0HaFapWH1LSqvKbKIgm
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: camoa@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1702932687
+  access:
+    -
+      value: 1731085716
+  login:
+    -
+      value: 1731084905
+  init:
+    -
+      value: camoa@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/camoa
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p><span>Carlos is a computer engineer with over 25 years of experience. Working in the Drupal community for the past 10 years and with open source since 1996. Currently working as a Technical Account Manager for Acquia, since 2015.</span><br><br><span>Carlos has joined efforts with the Drupal community to help organize events, speak in different Drupal camps in both the English and Spanish communities in the US and Latin America.</span><br><br><span>D.O: </span><a href="https://www.drupal.org/u/camoa">https://www.drupal.org/u/camoa</a><br><span>Linkedin: </span><a href="https://www.linkedin.com/in/camoa/">https://www.linkedin.com/in/camoa/</a></p>'
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/camoa'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Carlos
+  field_home_town:
+    -
+      value: 'Houston, TX'
+  field_last_name:
+    -
+      value: Ospina
+  user_picture:
+    -
+      entity: 738428a0-594a-4be4-a03e-47f97d6cf4d0
+      alt: ''
+      title: ''
+      width: 2268
+      height: 4032

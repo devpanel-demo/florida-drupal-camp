@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 11f502cb-f087-404f-b96e-efac763055ee
+  default_langcode: en
+  depends:
+    edb7319f-84c4-45ec-bcf4-34a5f80b31b7: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: shrop
+  pass:
+    -
+      value: $2y$10$K./Vdilb4zqoVNAjFz9QweHOAXxDTySRzoEglrfK5sWEa8fmypdAK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mdshrops@demo.net
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639931152
+  access:
+    -
+      value: 1733277342
+  login:
+    -
+      value: 1733171401
+  init:
+    -
+      value: mdshrops@demo.net
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/shrop
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'I love helping individuals reach their potential and building highly successful teams through leadership and mentorship. I work at Mediacurrent, a full-service digital agency, as a Senior Director of Development where I empower leaders and coach teams to deliver best-in-class projects with open source technology. Most importantly, I am continuously striving to be the best father, husband, and human being I can.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/shrop'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Mark
+  field_home_town:
+    -
+      value: 'Concord, NC'
+  field_last_name:
+    -
+      value: Shropshire
+  field_organization:
+    -
+      value: Mediacurrent
+  field_personal_website_link:
+    -
+      uri: 'https://shrop.dev'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Senior Director of Development'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/shrop'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: edb7319f-84c4-45ec-bcf4-34a5f80b31b7
+      alt: ''
+      title: ''
+      width: 2081
+      height: 2081

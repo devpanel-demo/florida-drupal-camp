@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b52fbcf2-5c88-47c9-b845-77f69f8a5d1e
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Submit a mini-session!'
+  created:
+    -
+      value: 1672952286
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /submit-mini-session
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>What is a mini-session?&nbsp;</h2>\r\n\r\n<p>Mini-sessions are short and sweet 5, 10, and 15 minute long sessions on something practical. This could be something like a live demonstration of a module, how to use a certain feature within Views, etc.</p>\r\n\r\n<h2>When will mini-sessions be given?</h2>\r\n\r\n<p>Mini-sessions will take place in the auditorium Sunday morning.</p>\r\n\r\n<p><a class=\"button button--primary\" href=\"/node/add/mini_session\">Submit Session</a></p>\r\n"
+      format: full_html
+      summary: ''

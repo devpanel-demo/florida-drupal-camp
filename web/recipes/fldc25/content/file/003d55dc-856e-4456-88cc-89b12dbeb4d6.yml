@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 003d55dc-856e-4456-88cc-89b12dbeb4d6
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_jddoesdev.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_jddoesdev.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 57097
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049799

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 9b10594c-5d6c-4c6c-9c89-f73107e34f26
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: IMG_0703.jpeg
+  uri:
+    -
+      value: 'public://pictures/2022-11/IMG_0703.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 263907
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1669754025

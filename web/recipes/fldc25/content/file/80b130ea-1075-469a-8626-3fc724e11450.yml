@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 80b130ea-1075-469a-8626-3fc724e11450
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: 'mg_horizontal_transparent background.png'
+  uri:
+    -
+      value: 'public://2022-02/mg_horizontal_transparent background.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 25530
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1643731888

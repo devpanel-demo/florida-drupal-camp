@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8c77022d-4e70-41de-9be5-59b3d6a0c815
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: OST-logo-color-url-vert-trans.png
+  uri:
+    -
+      value: 'public://2023-01/OST-logo-color-url-vert-trans.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 606919
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1672684977

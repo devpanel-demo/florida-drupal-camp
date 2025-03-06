@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 30458570-81a5-4575-8bb3-1ee65ce6c23c
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    8d263ff3-a60e-480b-986b-9c1aae344923: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: Optasy
+  created:
+    -
+      value: 1637359285
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/optasy
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>Where Drupal innovation meets digital excellence. We add digital value to online businesses through technical expertise and innovation.</p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 8d263ff3-a60e-480b-986b-9c1aae344923
+      alt: 'Optasy Logo'
+      title: ''
+      width: 312
+      height: 84
+  field_website_address:
+    -
+      uri: 'https://optasy.com/landing/award-winning-drupal-partner-agency?utm_source=referral&utm_medium=sponsor&utm_campaign=drupalcamp_florida'
+      title: ''
+      options: {  }

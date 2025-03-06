@@ -1,0 +1,109 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  default_langcode: en
+  depends:
+    97ad8a5f-bc2b-4b77-8fbf-f3b6d4b92930: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: mherchel
+  pass:
+    -
+      value: $2y$10$/jdx.Ea5X3pBLLF44s3jH.sS78XvvLy591P1xw7HcCJ0rASYj.IUO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: mike@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1621439768
+  access:
+    -
+      value: 1735435757
+  login:
+    -
+      value: 1735435757
+  init:
+    -
+      value: mike@demo.com
+  roles:
+    -
+      target_id: speaker
+    -
+      target_id: administrator
+  path:
+    -
+      alias: /u/mherchel
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "<p>Mike Herchel is a front-end developer that’s been developing with Drupal for over 15 years. He is the primary maintainer and lead developer for Drupal's new default theme called Olivero, as well as Drupal core's CSS. Mike is also the maintainer of the Drupal&nbsp;<a href=\"https://www.drupal.org/project/quicklink\">Quicklink module</a>, and is a primary organizer for&nbsp;<a href=\"https://www.fldrupal.camp/\">Florida DrupalCamp</a>. Outside of all of that, he has a teenage daughter, two dogs, and enjoys camping, hiking, and hammocking.&nbsp;</p>\r\n"
+      format: basic_html
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/mike.herchel.com'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/mherchel'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Mike
+  field_home_town:
+    -
+      value: 'Gainesville, FL'
+  field_last_name:
+    -
+      value: Herchel
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/mherchel/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://mastodon.social/@mherchel'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Agileana
+  field_personal_website_link:
+    -
+      uri: 'https://herchel.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Senior Front-end Developer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/mikeherchel'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 97ad8a5f-bc2b-4b77-8fbf-f3b6d4b92930
+      alt: ''
+      title: ''
+      width: 1070
+      height: 1039

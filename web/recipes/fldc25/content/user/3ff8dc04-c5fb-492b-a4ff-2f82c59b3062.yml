@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 3ff8dc04-c5fb-492b-a4ff-2f82c59b3062
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: lhridley
+  pass:
+    -
+      value: $2y$10$IF4jtmlbc3hxt/jKlvAL1.L7iH2WSPSlWxY1U0a.eUSRdseoEUAtu
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: lisa@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1673967228
+  access:
+    -
+      value: 1733890695
+  login:
+    -
+      value: 1733890458
+  init:
+    -
+      value: lisa@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/lhridley
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>Lisa is a long-time member of the Drupal community, having first gotten involved with Drupal in 2010 as a front-end developer on a Drupal 6 to Drupal 7 migration and upgrade project for a non-profit out of Alexandria Virginia.&nbsp; Prior to a career in web development, she was a health benefits consultant and project manager for several major employee benefits consulting firms, focused on designing and administering comprehensive employee benefits programs for Fortune 500 companies.</p><p>After working as a front-end developer for a few years, she made the transition to back-end development and site architecture, and eventually operating as a tech team lead and technical project manager for a digital agency out of Chicago Illinois, where she honed her development and Drupal chops as well as her DevOps expertise on crafting and maintaining continuous delivery pipelines for the development team.</p><p>In her capacity as a Developer / Tech Team Lead, she works with projects from their inception to their delivery to clients, which includes the design process.&nbsp; She has worked with both the design and the development teams to facilitate an efficient, scalable design and development process that maximizes client value through efficient use of tools and processes for both the design team as well as the developer team.</p><p>Lisa holds several professional certifications, including Certified Scrum Master and Certified Scrum Product Owner certifications from the Scrum Alliance, has completed a Human Centered Design consultative program and most recently completed a FIGMA MasterClass certification.</p><p>She lives in Chattanooga TN with her pint-sized Yorkie companions, Sassy Britches and Daisy, and in her spare time loves SEC college football, college basketball and is a long-time NASCAR race fan.</p>'
+      format: basic_html
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/lisaraeblue.bsky.social'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/lhridley'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Lisa
+  field_home_town:
+    -
+      value: 'Chattanooga TN'
+  field_last_name:
+    -
+      value: Ridley
+  field_organization:
+    -
+      value: Vardot
+  field_title:
+    -
+      value: 'Tech Team Lead, Customer Support'

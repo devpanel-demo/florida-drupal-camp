@@ -1,0 +1,92 @@
+uuid: 46d874ec-2edc-4713-b1b9-e39d88e8d431
+langcode: en
+status: true
+dependencies:
+  config:
+    - config_pages.type.camp_details
+    - core.entity_view_mode.config_pages.full
+    - field.field.config_pages.camp_details.field_camp_location_short_
+    - field.field.config_pages.camp_details.field_camp_name
+    - field.field.config_pages.camp_details.field_camp_year
+    - field.field.config_pages.camp_details.field_dates
+    - field.field.config_pages.camp_details.field_header_cta
+    - field.field.config_pages.camp_details.field_homepage_media_cta
+    - field.field.config_pages.camp_details.field_hompage_description_text
+    - field.field.config_pages.camp_details.field_session_submission_deadlin
+  module:
+    - datetime_range
+    - link
+    - text
+id: config_pages.camp_details.full
+targetEntityType: config_pages
+bundle: camp_details
+mode: full
+content:
+  field_camp_location_short_:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_camp_name:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_camp_year:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_dates:
+    type: daterange_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_header_cta:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_homepage_media_cta:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_hompage_description_text:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 6
+    region: content
+hidden:
+  field_session_submission_deadlin: true

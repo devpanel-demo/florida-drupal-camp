@@ -1,0 +1,48 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 604b4f14-54e2-4fac-8f2e-ecf6d42f70f9
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    ac4f01eb-430f-4dee-a094-6beb72fd97a2: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Florida Technical College'
+  created:
+    -
+      value: 1637713300
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /location
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: "<h2>Florida DrupalCamp's home is Florida Technical College</h2>\r\n\r\n<p>Centrally located, this campus is within minutes of both downtown Orlando and Winter Park. Restaurants, shopping centers, and ample hotel accommodations are within easy access of the campus.</p>\r\n\r\n<p><strong>Florida Technical College</strong><br />\r\n12900 Challenger Parkway<br />\r\nOrlando, Florida 32826&nbsp;<a href=\"https://www.google.com/maps/preview#!data=!1m4!1m3!1d8678!2d-81.1964907!3d28.5732081!4m38!3m16!1m0!1m5!1sFlorida+Technical+College%2C+12900+Challenger+Pkwy%2C+Orlando%2C+FL+32826!2s0x88e767d6096d0c7b%3A0x7882939b03691e3c!3m2!3d28.573206!4d-81.196514!3m8!1m3!1d8678!2d-81.1964907!3d28.5732081!3m2!1i1765!2i951!4f13.1!5m18!2m17!1m15!1s0x0%3A0x7882939b03691e3c!2sFlorida+Technical+College!3m8!1m3!1d8678!2d-81.1964907!3d28.5732081!3m2!1i1765!2i951!4f13.1!4m2!3d28.5732063!4d-81.1965139!5e4!6sFLORIDA+TECHNICAL+COLLEGE+12900+CHALLENGER+PKWY+ORLANDO%2C+FL!7m1!3b1&amp;fid=0\">Click for Directions</a></p>\r\n\r\n<h2>Directions to Campus</h2>\r\n\r\n<h3>From downtown Orlando</h3>\r\n\r\n<p>Take FL-408 East. FL-408 East will turn into Challenger Parkway. Make a U-turn at Ingenuity Drive. Go approximately 0.1 miles to 12900 Challenger Parkway.</p>\r\n\r\n<h3>From Orlando International Airport</h3>\r\n\r\n<p>Head east on Airport Blvd. Slight right onto Airport Blvd E. Continue onto Jeff Fuqua Blvd.Merge onto FL-528 E via the ramp to Cocoa/Kennedy Space Center/Florida 417 Toll/Sanford Ucf/Port Canaveral. Take exit 16 for FL-417 N (Toll road). Merge onto FL-417 Toll N (Toll road). Take exit 33A to merge onto FL-408 E toward Titusville (Toll road). Continue onto Challenger Pkwy (Partial toll road). Make a U-turn at Ingenuity Dr. Go to 12900 Challenger Pkwy, Orlando, FL 32826.</p>\r\n\r\n<h3>From Cocoa, FL</h3>\r\n\r\n<p>Merge onto FL-528 West (Partial toll road). Take exit 31 to merge onto FL-520 W (Partial toll road). Keep left at the fork, follow signs for FL-50 W and merge onto FL-50 W/E Colonial Dr. Turn right onto FL-434 W/N Alafaya Trail/E State Road 434 W. Take the 2nd right onto Challenger Pkwy. Destination will be on the right</p>\r\n\r\n<h3>From Daytona, FL</h3>\r\n\r\n<p>Merge onto I-4 W. Take exit 101B toward Sanford. Merge onto FL-417 Toll South (Partial toll road). Take exit 37 for University Blvd (Partial toll road). Turn left onto University Blvd. Turn right onto FL-434 E/N Alafaya Trail/E State Road 434 E. Turn left onto Challenger Pkwy. Destination will be on the right</p>\r\n\r\n<h3>From Jacksonville, FL</h3>\r\n\r\n<p>Merge onto I-95 South. Take exit 260B to merge onto I-4 W toward Orlando. Take exit 101B toward Sanford. Merge onto FL-417 Toll South (Partial toll road). Take exit 37 for University Blvd (Partial toll road). Turn left onto University Blvd. Turn right onto FL-434 E/N Alafaya Trail/E State Road 434 E. Turn left onto Challenger Pkwy. Destination will be on the right.</p>\r\n\r\n<h3>From Miami, Ft Lauderdale, FL</h3>\r\n\r\n<p>Merge onto I-95 North. Take exit 205 to merge onto FL-528 West toward Orlando (Partial toll road). Take exit 31 to merge onto FL-520 West (Partial toll road). Keep left at the fork, follow signs for FL-50 W and merge onto FL-50 W/E Colonial Dr. Turn right onto FL-434 W/N Alafaya Trail/E State Road 434 W. Take the 2nd right onto Challenger Pkwy. Destination will be on the right</p>\r\n\r\n<h3>From Tampa, Lakeland, FL</h3>\r\n\r\n<p>Merge onto I-4 E toward Orlando. Take exit 82A to merge onto FL-408 East (Toll road). Continue onto Challenger Pkwy (Partial toll road). Make a U-turn at Ingenuity Dr. Destination will be on the right.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: ac4f01eb-430f-4dee-a094-6beb72fd97a2
+      alt: 'Front view of Florida Technical College with palm trees under a blue sky'
+      title: ''
+      width: 777
+      height: 525

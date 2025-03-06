@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: b5f05769-803a-4e04-933c-7c381721c043
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    6a0863de-c2ae-4005-9fe3-8cce1afc3c4b: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    c28bb6a6-4434-4a6a-9e91-6c6284f302be: file
+    9126d2d6-d3e5-47d7-9d05-4297f6c99372: user
+    a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 6a0863de-c2ae-4005-9fe3-8cce1afc3c4b
+  title:
+    -
+      value: 'Collaborative Editing in Drupal with EditTogether'
+  created:
+    -
+      value: 1733153851
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/collaborative-editing-drupal-edittogether
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p dir="ltr"><span>The team that developed content moderation in Drupal 7 is back with collaborative editing for Drupal 10. Using open-source tools, the Edit Together module provides secure, real-time collaboration inside the Drupal editorial interface. Editors may update content simultaneously and leave threaded comments requesting clarifications or changes. And it all works with content moderation workflows!</span></p><p dir="ltr"><span>Like content moderation, collaboration is a game-changing feature for Drupal as a Content Management System.</span></p><p dir="ltr"><span>In this workshop, we''ll cover the following elements:</span></p><ul><li dir="ltr"><span>A quick demo of collaboration features</span><ul><li dir="ltr"><span>Editing</span></li><li dir="ltr"><span>Commenting</span></li><li dir="ltr"><span>Versioning</span></li></ul></li><li dir="ltr"><span>Introducing the tools required for collaboration</span><ul><li dir="ltr"><span>Yjs as a stable dependency</span></li><li dir="ltr"><span>ProseMirror and the need for end-to-end data integrity</span></li><li dir="ltr"><span>WebRTC and signaling servers</span></li></ul></li><li dir="ltr"><span>Current state of the Edit Together module</span><ul><li dir="ltr"><span>Installation requirements</span></li><li dir="ltr"><span>Core workarounds for Edit module assumptions</span></li><li dir="ltr"><span>Test scenarios and support</span></li></ul></li><li dir="ltr"><span>Open question and answer</span></li></ul><p><span>By the end, you’ll have an understanding of how EditTogether looks and feels, what sorts of configuration options it offers, and how you can use it to streamline your content workflows. EditTogether is built to serve the Drupal community, so bring your thoughts and let’s chat about them!</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: c28bb6a6-4434-4a6a-9e91-6c6284f302be
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 6a0863de-c2ae-4005-9fe3-8cce1afc3c4b
+    -
+      entity: 9126d2d6-d3e5-47d7-9d05-4297f6c99372
+  field_time_slot:
+    -
+      entity: a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c

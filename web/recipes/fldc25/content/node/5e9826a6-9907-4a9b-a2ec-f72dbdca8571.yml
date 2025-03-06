@@ -1,0 +1,51 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5e9826a6-9907-4a9b-a2ec-f72dbdca8571
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    d3817d18-1251-4c7c-915e-1f118d9ac0c9: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'After Party'
+  created:
+    -
+      value: 1637240591
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /after-party
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p>This year''s after party is still to be determined, but will likely take place at <a href="https://www.thekegsocial.com/">The Keg Social</a>, just down the road from the Camp.</p><p>&nbsp;</p>'
+      format: full_html
+      summary: ''
+  field_image:
+    -
+      entity: d3817d18-1251-4c7c-915e-1f118d9ac0c9
+      alt: 'People hanging at an outside patio at Keg Social'
+      title: ''
+      width: 2415
+      height: 1813

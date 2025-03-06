@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 1b774622-1e95-401f-ab6f-70c34995db32
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    99030c72-dce0-484c-a208-1776a0ae2093: taxonomy_term
+    a79123ee-2b0e-4128-a85b-0cba1163e421: file
+    20833556-2c19-44e7-845c-299a50c16764: user
+    b152a9a0-9074-4342-838d-661c0a769945: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  title:
+    -
+      value: 'Introduction to Agile and Git Workflows for Web Developers'
+  created:
+    -
+      value: 1730844261
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/introduction-agile-and-git-workflows-web-developers
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: '<p>Developing websites within a team is a very different experience than building a site alone or with one or two other developers. This hands-on training aims to build surface-level understanding of Agile and Gitflow, two common web development workflows for teams, from a developer’s perspective. You’ll learn about tips and tools to get you started, as well as resources for deeper exploration.</p><h2>Synopsis</h2><p>This hands-on training aims to build surface-level understanding of Agile and Gitflow, two common web development workflows for teams, from a developer’s perspective. You’ll learn about tips and tools to get you started, as well as resources for deeper exploration.</p><h2>Learning Objectives</h2><ul><li>Define necessary project management and web development terminology.</li><li>Follow the process from task creation to completion.</li><li>Contribute to code in a collaborative way.</li></ul><h2>Target Audience</h2><p>Developers interested in joining or contracting with an agency or organization that practices common team-based, collaborative workflows, Agile and Gitflow.</p><h2>Prerequisites</h2><p>I am somewhat familiar with Git version control commands clone, add, commit, and push.<br>Some familiarity with creating a website driven by code, like static HTML pages, Drupal, etc.<br>To participate in hands-on activities bring a laptop and a register for a free GitHub account.</p>'
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: true
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: 99030c72-dce0-484c-a208-1776a0ae2093
+  field_social_media_card:
+    -
+      entity: a79123ee-2b0e-4128-a85b-0cba1163e421
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 20833556-2c19-44e7-845c-299a50c16764
+  field_time_slot:
+    -
+      entity: b152a9a0-9074-4342-838d-661c0a769945

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 49a3347d-41ca-4e09-8749-ba77f20477b0
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: Platformsh_logo_black.png
+  uri:
+    -
+      value: 'public://2022-12/Platformsh_logo_black.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20968
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1671699727

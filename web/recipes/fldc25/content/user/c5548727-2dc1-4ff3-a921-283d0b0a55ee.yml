@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: c5548727-2dc1-4ff3-a921-283d0b0a55ee
+  default_langcode: en
+  depends:
+    e1fbb64e-b520-4e8b-8d2b-8a3df965173f: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: ckrina
+  pass:
+    -
+      value: $2y$10$Ec14uS.wt5G6/dUZOUgbWOp9co.IqNKTfEdPrw8joio.470fZLmYK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: cristina@demo.cat
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637140328
+  access:
+    -
+      value: 1731982800
+  login:
+    -
+      value: 1731981769
+  init:
+    -
+      value: cristina@demo.cat
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_biography:
+    -
+      value: "<p><span>Lead Engineer at Lullabot, Drupal CMS UX Lead, Drupal core Front-end framework manager, UX, new core Navigation and Claro co-maintainer. Involved in Barcelona's local community organizing Drupal and other tech-related events.</span></p>"
+      format: basic_html
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/ckrina'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Cristina
+  field_home_town:
+    -
+      value: Barcelona
+  field_last_name:
+    -
+      value: Chumillas
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/cristinachumillas/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@ckrina'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Lullabot
+  field_title:
+    -
+      value: 'Lead Engineer'
+  user_picture:
+    -
+      entity: e1fbb64e-b520-4e8b-8d2b-8a3df965173f
+      alt: ''
+      title: ''
+      width: 400
+      height: 400

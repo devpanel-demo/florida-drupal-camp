@@ -1,0 +1,14 @@
+{
+    "name": "Florida Drupal Camp theme recipe",
+    "description": "Showcases all the features included with the pubsub theme",
+    "authors": [
+        {
+            "name": "Bernardo Martinez",
+            "email": "israelm28@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "type": "drupal-recipe",
+    "license": ["GPL-2.0-or-later"],
+    "version": "1.x"
+}

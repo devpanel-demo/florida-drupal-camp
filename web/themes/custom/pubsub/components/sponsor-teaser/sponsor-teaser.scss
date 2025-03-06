@@ -1,0 +1,109 @@
+@import "../../sass/global/variables";
+
+.sponsor-teaser {
+  display: grid;
+  align-items: center;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: drop-shadow(0 0 5px var(--color--sky-80));
+  }
+
+  // Special full width and text treatment for platinum sponsors within the sponsors view.
+  :is(.job-listing-full &, .page-node-type-sponsor .region--content &, .views-all-sponsors__sponsor.Platinum &) {
+    background-color: var(--color--sky-86);
+    border-radius: 0 16px 0 0;
+
+    .sponsor-teaser__link {
+      grid-template-columns: 1fr;
+      grid-column-gap: var(--grid-gap);
+
+      @media ($grid-1-2) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+
+      @media ($grid-2-3) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .sponsor-teaser__first {
+      @media ($grid-1-2) {
+        border-radius: 0;
+      }
+    }
+
+    .field--name-body {
+      display: flex;
+      align-items: center;
+      padding: var(--grid-gap);
+      line-height: var(--sp2);
+
+      @media ($grid-1-2) {
+        padding-left: 0;
+      }
+
+      @media ($grid-2-3) {
+        grid-column: 2 / -1;
+      }
+    }
+  }
+
+  .field--name-body {
+    display: none;
+  }
+}
+
+.sponsor-teaser__link {
+  display: grid;
+  align-self: stretch;
+  flex-basis: 100%;
+  text-decoration: none;
+  color: var(--color--night-30);
+
+  &:hover {
+    color: var(--color--night-30);
+  }
+}
+
+.sponsor-teaser__first {
+  position: relative; // Anchor hover effect psuedo-element.
+  display: grid;
+  align-items: center;
+  background-color: var(--color--white);
+  border: solid 1px var(--color--sky-86);
+  border-radius: 0 16px 0 0;
+
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: var(--pink-dark);
+    transform: scalex(0);
+    transform-origin: left;
+    transition: transform 0.3s;
+
+    .sponsor-teaser__link:hover & {
+      transform: scalex(1);
+    }
+  }
+}
+
+.sponsor-teaser__img-wrapper {
+  position: relative;
+  display: grid;
+  align-items: center; // place-content not working properly in mobile Safari.
+  justify-items: center;
+  padding: var(--grid-gap);
+  aspect-ratio: 256 / 200;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+
+  .sponsor-teaser__link:hover & {
+    filter: grayscale(0%);
+  }
+}

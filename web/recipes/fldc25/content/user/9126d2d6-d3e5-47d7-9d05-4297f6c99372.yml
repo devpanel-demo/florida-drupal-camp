@@ -1,0 +1,87 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 9126d2d6-d3e5-47d7-9d05-4297f6c99372
+  default_langcode: en
+  depends:
+    b1e5e589-a15a-4c40-9988-2f7ac0c564a3: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: iajon
+  pass:
+    -
+      value: $2y$10$2HMyi92mukLaX6I1Nty02epnGVrxy9sh8Tn5Slrv7nyeg.dmnhGMO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: alex.jones@demo.net
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733169955
+  access:
+    -
+      value: 1733171339
+  login:
+    -
+      value: 1733170526
+  init:
+    -
+      value: alex.jones@demo.net
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/iajon
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Alex designs reusable solutions to complex problems. He’s also the technical architect for Edit Together, the open-source solution to real-time collaborative editing built for Drupal 10 and 11.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/iajon'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Alex
+  field_home_town:
+    -
+      value: 'Chicago, IL'
+  field_last_name:
+    -
+      value: Jones
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/alex-jones-67859b241/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Palantir.net
+  field_title:
+    -
+      value: 'Senior Technical Architect'
+  user_picture:
+    -
+      entity: b1e5e589-a15a-4c40-9988-2f7ac0c564a3
+      alt: ''
+      title: ''
+      width: 1024
+      height: 1024

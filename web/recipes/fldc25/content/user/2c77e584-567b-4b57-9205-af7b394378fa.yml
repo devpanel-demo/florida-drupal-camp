@@ -1,0 +1,93 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 2c77e584-567b-4b57-9205-af7b394378fa
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: rfay
+  pass:
+    -
+      value: $2y$10$47gQtd0utRhpaHpU1MEkcOXgc.Lm1..yqdRSMuKN7NteBjvf.Nh6G
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: randy@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730823140
+  access:
+    -
+      value: 1733197818
+  login:
+    -
+      value: 1733193228
+  init:
+    -
+      value: randy@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/rfay
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Maintainer of DDEV, traveler on bicycle, long-time Drupal hanger-onner.'
+      format: plain_text
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/ddev.bsky.social'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/rfay'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Randy
+  field_home_town:
+    -
+      value: 'Palisade, CO USA'
+  field_last_name:
+    -
+      value: Fay
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/randyfay/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://fosstodon.org/@ddev'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'DDEV Foundation'
+  field_personal_website_link:
+    -
+      uri: 'https://ddev.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'DDEV Maintainer'

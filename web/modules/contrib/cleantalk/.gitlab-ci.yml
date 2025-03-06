@@ -1,0 +1,17 @@
+# This file is a template, and might need editing before it works on your project.
+# Select image from https://hub.docker.com/_/php/
+image: drupalci/php-7.4-apache:production
+
+before_script:
+  - composer require phpunit/phpunit 7.*
+  - composer require squizlabs/php_codesniffer
+  - composer require phpcompatibility/php-compatibility
+  - ./vendor/bin/phpcs --config-set installed_paths vendor/phpcompatibility/php-compatibility
+
+job1:
+  script:
+    - ./vendor/bin/phpunit --configuration tests/phpunit.xml --coverage-text --colors=never
+
+job2:
+  script:
+    - ./vendor/bin/phpcs --standard=tests/.phpcs.xml

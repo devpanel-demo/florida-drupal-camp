@@ -1,0 +1,30 @@
+uuid: 362e362f-8f7f-4c8e-9fe9-d235e4708d31
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:85361dcf-6755-4ab3-a15f-6868282f6b1d'
+  module:
+    - block_content
+    - system
+  theme:
+    - pubsub
+id: day3scheduleinfo
+theme: pubsub
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:85361dcf-6755-4ab3-a15f-6868282f6b1d'
+settings:
+  id: 'block_content:85361dcf-6755-4ab3-a15f-6868282f6b1d'
+  label: 'Day 3 Schedule Info'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /schedule/day-3

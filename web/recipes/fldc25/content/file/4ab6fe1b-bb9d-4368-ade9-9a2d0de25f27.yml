@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4ab6fe1b-bb9d-4368-ade9-9a2d0de25f27
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: logo-with-text--2final.png
+  uri:
+    -
+      value: 'public://2021-12/logo-with-text--2final.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 307031
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1638456558

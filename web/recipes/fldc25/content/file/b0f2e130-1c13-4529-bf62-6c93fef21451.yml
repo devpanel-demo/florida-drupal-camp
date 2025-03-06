@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: b0f2e130-1c13-4529-bf62-6c93fef21451
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: Logo_BLK.png
+  uri:
+    -
+      value: 'public://2021-11/Logo_BLK.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 15768
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636287559

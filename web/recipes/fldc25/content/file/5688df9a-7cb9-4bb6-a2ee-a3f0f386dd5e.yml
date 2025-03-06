@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 5688df9a-7cb9-4bb6-a2ee-a3f0f386dd5e
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  filename:
+    -
+      value: AJ_DCASVL_2021.jpg
+  uri:
+    -
+      value: 'public://pictures/2021-12/AJ_DCASVL_2021.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 391497
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1640968096

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7b91d29c-db46-4e7c-8735-4d870aafbe86
+  default_langcode: en
+  depends:
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+default:
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  filename:
+    -
+      value: twd-square-logo_0.png
+  uri:
+    -
+      value: 'public://2021-12/twd-square-logo_0.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 23096
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1639332341

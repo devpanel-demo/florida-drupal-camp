@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 0ab5c21a-acdb-493e-9098-0ed3df9fd871
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    e8e116c0-7540-4e35-a9ec-438f813d968f: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: e8e116c0-7540-4e35-a9ec-438f813d968f
+  title:
+    -
+      value: 'Choose your battle: trade-offs when building a website'
+  created:
+    -
+      value: 1730736318
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/choose-your-battle-trade-offs-when-building-website
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>You may have heard this before:</p><ul><li>I need a website, could you help me?</li><li>How long will it take to build my website?</li><li>What tech stack would you recommend for my website?</li><li>What will a website cost me?</li></ul><p>This session has different items one should consider when building a website. &nbsp;Some that we will take into consideration are:&nbsp;</p><ul><li>The type of websites:<ul><li>Marketing landing page.</li><li>Family and friends website.</li><li>Small business</li><li>Medium size business.</li></ul></li><li>The requirements of their site:&nbsp;<ul><li>Number of editors</li><li>Number of pages</li><li>Average number of visitors.&nbsp;</li></ul></li><li>The different forms a website can take:<ul><li>Static websites</li><li>CRUD apps vs Websites.</li><li>CMS websites: WordPress and Drupal.</li></ul></li><li>Their budget, market, and long-term maintenance goals<ul><li>1k - portfolio project to play with new tech.</li><li>3k-5k - Small websites, basic needs. Likely set it and forget it.</li><li>10k - Includes one or more editors. Maybe a set it and forget it.</li><li>50k - Includes multiple editors and likely includes ongoing maintenance and support.</li><li>100k+ - Agency style websites. Multiple editors.&nbsp;</li></ul></li></ul><p>This session aims to help answer those questions for them and help you as the developer find the fastest, simplest solution for each type of challenge.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_speakers:
+    -
+      entity: e8e116c0-7540-4e35-a9ec-438f813d968f

@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 741376d8-6dbf-41ed-8eb3-da3dac9899bc
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    74e09078-a7ab-48a3-9534-1b262d00b0eb: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: Vaultes
+  created:
+    -
+      value: 1641524844
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/vaultes
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Vaultes is a premier cyber security and IT services company with offices in Reston, VA and Ponte Vedra, FL.&nbsp; We provide superior solutions to both federal and commercial clients by leveraging our technical expertise, trusted methodologies, and specialized training. As a Cyber Security Inspection Body and ISO17020 accredited organization, Vaultes adheres to the strictest quality standards ensuring top-notch technical delivery and customer service standards.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: 74e09078-a7ab-48a3-9534-1b262d00b0eb
+      alt: 'Vaultes Logo'
+      title: ''
+      width: 390
+      height: 64
+  field_website_address:
+    -
+      uri: 'https://www.vaultes.com'
+      title: ''
+      options: {  }

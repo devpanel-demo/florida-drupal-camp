@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 02552842-3430-4f5b-8386-102478215740
+  bundle: page
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Frequently Asked Questions'
+  created:
+    -
+      value: 1621446367
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  path:
+    -
+      alias: /faq
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>When is Florida DrupalCamp?</h2><p>Florida DrupalCamp will be held on February 21, 22, and 23, 2025 at <a href="https://www.ftccollege.edu/">Florida Technical College</a> in Orlando, Florida.</p><h2>Where is Florida DrupalCamp?</h2><p>Florida DrupalCamp takes place at Florida Technical College. FTC is located at 12900 Challenger Parkway, Orlando, Florida 32826</p><h2>What are your COVID-19 policies?</h2><p>Please see our <a href="/covid">COVID 19 policies page</a>.&nbsp;</p><h2>Will there be coffee, lunch, food?</h2><p>Yes! We''ll have catered coffee Saturday morning, with a continental breakfast including pastries and fruit. For Saturday''s lunch, Gringos Locos will be catering and providing vegetarian and vegan options.&nbsp;</p><p>On Sunday, we provide Dunkin Donuts "Box of Joe" coffee in the morning and order pizza/salads for lunch.&nbsp;</p><h2>What is a DrupalCamp?</h2><p>DrupalCamps are community sharing + training events for Drupal enthusiasts and newbies alike. Florida DrupalCamp is an attendee-driven, completely volunteer initiative. Most of the content will Drupal-specific, but there will also be presentations related to more general web technologies such as HTML5, JavaScript, and PHP.</p><h2>Why is the event a Camp?</h2><p>Florida DrupalCamp is called a “camp” to emphasize the&nbsp;<a href="http://en.wikipedia.org/wiki/Unconference">unconference</a>&nbsp;style of the event. Unconferences are more casual than most conferences and are usually organized and attended by members of a local community. The name originates from&nbsp;<a href="http://en.wikipedia.org/wiki/BarCamp">BarCamp</a>, a popular community-driven unconference. Please do not bring your tent :)</p><h2>What''s the goal of Florida DrupalCamp?</h2><p>Our mission and purpose behind organizing a Florida DrupalCamp is as follows:</p><ol><li>Learn and educate about Drupal and web development in general</li><li>Provide networking opportunities for all of us</li></ol><h2>Do you have a Code of Conduct policy?</h2><p>Yes! Please see our <a href="/code-conduct">code of conduct page</a>.</p><h2>Who can I speak with about my accessibility needs?</h2><p>Please <a href="/contact">contact us</a> and we''ll do our best to assist with any accessibility needs.</p><h2>How much does Florida DrupalCamp cost?</h2><p>The cost to attend is $75 ($50 earlybird) and includes access to training, sessions, and contribution day. If you would like to support our local Drupal community further, you can become an Individual Sponsor for only $100. The sponsorship includes your registration and a shout-out on our sponsor page. All proceeds will go to offset expenses and make donations to the Orlando Drupal User Group or Drupal Association.</p><h2>How many attendees are you expecting?</h2><p>In normal years, we get 150+ attendees.</p><h2>Will I receive any tickets in the mail?</h2><p>No, everything is handled online through Eventbrite. Show up with an ID that matches your registration.<br>We’ll send you a few emails leading up to the conference, but that’s it. Then when you sign in at Florida DrupalCamp, all you need to do is provide your registration information.</p><h2>Can I pay with check/cash?</h2><p>We can only accept credit cards.</p><h2>Is Florida DrupalCamp an event friendly to newbies?</h2><p>Absolutely! We have a special Beginner’s track for those who are just familiarizing themselves with Drupal.</p><h2>Can I be a sponsor of Florida DrupalCamp?</h2><p>Yes! Check out "<a href="/become-sponsor">Become a Sponsor</a>" on the Sponsors page for full details.</p><h2>What if I signed up, but now have a conflict?</h2><p>Contact us and we will help you to transfer your ticket. We don''t offer refunds for tickets.</p><h2>How can I help?</h2><p>We are glad you asked – we need a lot of volunteer assistance! Please&nbsp;<a href="/contact">contact us</a>&nbsp;and we will get in touch with you.</p>'
+      format: basic_html
+      summary: ''

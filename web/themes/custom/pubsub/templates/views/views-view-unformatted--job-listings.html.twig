@@ -1,0 +1,21 @@
+{{ attach_library('pubsub/view-job-listings') }}
+
+{% set sponsor_level = title|render|striptags('<drupal-render-placeholder>') %}
+
+  <hr class="view-job-listings__divider">
+  {% if title %}
+    <h2 class="view-job-listings__title">{{ sponsor_level|replace({'Sponsors': 'Sponsor'}) }} Listings</h2>
+  {% endif %}
+  <div class="view-job-listings__sponsor-group view-job-listings__sponsor-group--{{ sponsor_level|clean_class }}">
+  {% for row in rows %}
+    {%
+      set row_classes = [
+        'view-job-listings__item',
+        'view-job-listings__item--' ~ sponsor_level|clean_class,
+      ]
+    %}
+    <div{{ row.attributes.addClass(row_classes) }}>
+      {{- row.content -}}
+    </div>
+  {% endfor %}
+</div>

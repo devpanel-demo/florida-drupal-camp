@@ -1,0 +1,416 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the pubsub theme.
+ */
+
+use Drupal\pubsub\pubsubPreRender;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Link;
+use Drupal\Core\Url;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Template\Attribute;
+use Drupal\Core\Render\Element;
+use Drupal\user\UserInterface;
+
+/**
+ * Implements hook_preprocess_HOOK() for all document templates.
+ */
+function pubsub_preprocess(array &$variables, $hook) {
+  // So fonts can be preloaded from base theme in the event pubsub is used as a subtheme.
+  $variables['pubsub_path'] = \Drupal::request()->getBasePath() . '/' . \Drupal::service('extension.list.theme')->getPath('pubsub');
+
+  $camp_details = \Drupal\config_pages\Entity\ConfigPages::config('camp_details');
+  $variables['camp_details'] = $camp_details;
+  $variables['camp_details_homepage_description_text'] = $camp_details?->field_hompage_description_text->view('full');
+
+  // Used on the session list page to display session submission button.
+  if ($camp_details?->field_session_submission_deadlin?->value) {
+    $variables['camp_details_session_submission_deadline'] = strtotime($camp_details->field_session_submission_deadlin?->value);
+    $variables['camp_details_now'] = strtotime('now');
+  }
+
+  $variables['#cache']['tags'][] = 'config_pages:' . $camp_details?->id();
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ *
+ * Adds body classes if certain regions have content.
+ */
+function pubsub_preprocess_html(&$variables) {
+  // So fonts can be preloaded from base theme in the event pubsub is used as a subtheme.
+  $query_string = \Drupal::state()->get('system.css_js_query_string') ?: '0';
+
+  // Create render array with noscript tag to output non-JavaScript
+  // stylesheet for primary menu.
+  $variables['noscript_styles'] = [
+    '#type' => 'html_tag',
+    '#noscript' => TRUE,
+    '#tag' => 'link',
+    '#attributes' => [
+      'rel' => 'stylesheet',
+      'href' => $variables['pubsub_path'] . '/css/components/navigation/nav-primary-no-js.css?' . $query_string,
+    ],
+  ];
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for maintenance-page.html.twig.
+ */
+function pubsub_preprocess_maintenance_page(&$variables) {
+  // By default, site_name is set to Drupal if no db connection is available
+  // or during site installation. Setting site_name to an empty string makes
+  // the site and update pages look cleaner.
+  // @see template_preprocess_maintenance_page
+  if (!$variables['db_is_active']) {
+    $variables['site_name'] = '';
+  }
+
+  // pubsub has custom styling for the maintenance page.
+  $variables['#attached']['library'][] = 'pubsub/maintenance-page';
+}
+
+/**
+ * Implements hook_preprocess_HOOK()
+ */
+function pubsub_preprocess_menu__schedule_tabs(&$variables) {
+  foreach ($variables['items'] as $idx => &$item) {
+    if (!empty($item['attributes']->storage()) && !empty($item['attributes']->storage()['data-date'])) {
+      $item['date_data_attribute'] = $item['attributes']->storage()['data-date']->value();
+    }
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for menu.
+ */
+function pubsub_theme_suggestions_menu_alter(&$suggestions, array $variables) {
+  if (isset($variables['attributes']['region'])) {
+    $suggestions[] = 'menu__' . $variables['attributes']['region'];
+  }
+}
+
+/**
+ * Implements hook_form_alter() for adding classes and placeholder text to the search forms.
+ */
+function pubsub_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (isset($form['actions']['submit']) && (count($form['actions'])) <= 2) {
+    $form['actions']['submit']['#attributes']['class'][] = 'button--primary';
+  }
+
+  if ($form_id == 'user_login_form' ) {
+    unset($form['name']['#description']);
+    unset($form['pass']['#description']);
+
+    $form['actions']['submit']['#value'] = 'Login';
+    $form['#attached']['library'][] = 'pubsub/user-login-form';
+
+    $password_link = Link::fromTextAndUrl(t('Forgot password?'), Url::fromRoute('user.pass'))->toString();
+
+    $form['#prefix'] = '<h1>Login</h1>';
+
+    $register_setting = \Drupal::config('user.settings')->get('register');
+    $register_link = '';
+
+    if ($register_setting === 'visitors') {
+      $register_link = '<div class="user-login-form__register-link">' . Link::fromTextAndUrl(t('Create Account'), Url::fromRoute('user.register'))->toString() . '</div>';
+    }
+    $form['#suffix'] = '<div class="user-login-form__links">' . $register_link . '<div class="user-login-form__pass-link">' . $password_link . '</div></div>';
+  }
+
+  if ($form_id == 'node_session_form') {
+    $form['#attached']['library'][] = 'pubsub/node-add-session-form';
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter() for block().
+ */
+function pubsub_theme_suggestions_block_alter(&$suggestions, array $variables) {
+  if (!empty($variables['elements']['#id'])) {
+
+    /** @var \Drupal\block\BlockInterface $block */
+    $block = \Drupal::entityTypeManager()
+      ->getStorage('block')
+      ->load($variables['elements']['#id']);
+    if ($block) {
+
+      // Add region-specific block theme suggestions.
+      $region = $block
+        ->getRegion();
+
+      $suggestions[] = 'block__' . $region;
+      $suggestions[] = 'block__' . $region . '__' . 'plugin_id' . '__' . $variables['elements']['#plugin_id'];
+      $suggestions[] = 'block__' . $region . '__' . 'id' . '__' . $variables['elements']['#id'];
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for menu-local-tasks templates.
+ */
+function pubsub_preprocess_menu_local_tasks(&$variables) {
+  foreach (Element::children($variables['primary']) as $key) {
+    $variables['primary'][$key]['#level'] = 'primary';
+  }
+  foreach (Element::children($variables['secondary']) as $key) {
+    $variables['secondary'][$key]['#level'] = 'secondary';
+  }
+}
+
+/**
+ * Implements hook_preprocess_form_element().
+ */
+function pubsub_preprocess_form_element(&$variables) {
+  if (in_array($variables['element']['#type'] ?? FALSE, ['checkbox', 'radio'], TRUE)) {
+    $variables['attributes']['class'][] = 'form-type-boolean';
+  }
+
+  if (!empty($variables['description']['attributes'])) {
+    $variables['description']['attributes']->addClass('form-item__description');
+  }
+
+  if ($variables['disabled']) {
+    $variables['label']['#attributes']['class'][] = 'is-disabled';
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_form_element_label(&$variables) {
+  $variables['attributes']['class'][] = 'form-item__label';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_input(&$variables) {
+  if (
+    !empty($variables['element']['#title_display']) &&
+    $variables['element']['#title_display'] === 'attribute' &&
+    !empty((string) $variables['element']['#title'])
+  ) {
+    $variables['attributes']['title'] = (string) $variables['element']['#title'];
+  }
+
+  $type_api = $variables['element']['#type'];
+  $type_html = $variables['attributes']['type'];
+  $text_types_html = [
+    'text',
+    'email',
+    'tel',
+    'number',
+    'search',
+    'password',
+    'date',
+    'time',
+    'file',
+    'color',
+    'datetime-local',
+    'url',
+    'month',
+    'week',
+  ];
+
+  if (in_array($type_html, $text_types_html, TRUE)) {
+    $variables['attributes']['class'][] = 'form-element';
+    $variables['attributes']['class'][] = Html::getClass('form-element--type-' . $type_html);
+    $variables['attributes']['class'][] = Html::getClass('form-element--api-' . $type_api);
+
+    // This logic is functioning as expected, but there is nothing in the theme that renders the result.
+    // As a result it can't currently be covered by a functional test.
+    if (!empty($variables['element']['#autocomplete_route_name'])) {
+      $variables['autocomplete_message'] = t('Loading…');
+    }
+  }
+
+  if (in_array($type_html, ['checkbox', 'radio'], TRUE)) {
+    $variables['attributes']['class'][] = 'form-boolean';
+    $variables['attributes']['class'][] = Html::getClass('form-boolean--type-' . $type_html);
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_textarea(&$variables) {
+  $variables['attributes']['class'][] = 'form-element';
+  $variables['attributes']['class'][] = 'form-element--type-textarea';
+  $variables['attributes']['class'][] = 'form-element--api-textarea';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_select(&$variables) {
+  $variables['attributes']['class'][] = 'form-element';
+  $variables['attributes']['class'][] = $variables['element']['#multiple'] ?
+    'form-element--type-select-multiple' :
+    'form-element--type-select';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_checkboxes(&$variables) {
+  $variables['attributes']['class'][] = 'form-boolean-group';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_radios(&$variables) {
+  $variables['attributes']['class'][] = 'form-boolean-group';
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_field(&$variables) {
+  $rich_field_types = ['text_with_summary', 'text', 'text_long'];
+
+  if (in_array($variables['field_type'], $rich_field_types, TRUE)) {
+    $variables['attributes']['class'][] = 'text-content';
+  }
+
+  // When displaying speakers within sessions and mini-sessions, display the speakers' first and last names instead of their username.
+  if ($variables["field_name"] == 'field_speakers') {
+    foreach ($variables["items"] as &$item) {
+      if (array_key_exists("#type", $item["content"]) && $item["content"]["#type"] == 'link') {
+        $user = user_load_by_name($item["content"]["#title"]);
+        $first_name = $user->field_first_name->value;
+        $last_name = $user->field_last_name->value;
+
+        $item["content"]["#title"] = $first_name . " " . $last_name;
+      }
+    }
+  }
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for menu-local-task templates.
+ */
+function pubsub_preprocess_menu_local_task(&$variables) {
+  $variables['link']['#options']['attributes']['class'][] = 'tabs__link';
+  $variables['link']['#options']['attributes']['class'][] = 'js-tabs-link';
+
+  // Ensure is-active class is set when the tab is active. The generic active
+  // link handler applies stricter comparison rules than what is necessary for
+  // tabs.
+  if (isset($variables['is_active']) && $variables['is_active'] === TRUE) {
+    $variables['link']['#options']['attributes']['class'][] = 'is-active';
+  }
+
+  if (isset($variables['element']['#level'])) {
+    $variables['level'] = $variables['element']['#level'];
+  }
+}
+
+/**
+ * Implements template_preprocess_HOOK() for fieldset.
+ */
+function pubsub_preprocess_fieldset(&$variables) {
+  $element = $variables['element'];
+  $composite_types = ['checkboxes', 'radios'];
+
+  if (!empty($element['#type']) && in_array($element['#type'], $composite_types) && !empty($variables['element']['#children_errors'])) {
+    $variables['legend_span']['attributes']->addClass('has-error');
+  }
+
+  if (!empty($element['#disabled'])) {
+    $variables['legend_span']['attributes']->addClass('is-disabled');
+
+    if (!empty($variables['description']) && !empty($variables['description']['attributes'])) {
+      $variables['description']['attributes']->addClass('is-disabled');
+    }
+  }
+
+  // Remove 'container-inline' class from the main attributes and add a flag
+  // instead.
+  // @todo remove this after https://www.drupal.org/node/3059593 has been
+  //   resolved.
+  if (!empty($variables['attributes']['class'])) {
+    $container_inline_key = array_search('container-inline', $variables['attributes']['class']);
+
+    if ($container_inline_key !== FALSE) {
+      unset($variables['attributes']['class'][$container_inline_key]);
+      $variables['inline_items'] = TRUE;
+    }
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function pubsub_theme_suggestions_user_alter(&$suggestions, $variables) {
+  $suggestions[] = 'user__' . $variables['elements']['#view_mode'];
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function pubsub_theme_suggestions_field_alter(&$suggestions, $variables) {
+  $element = $variables['element'];
+  $field_name = $element['#field_name'];
+
+  $bare_fields = [
+    'field_sponsor_logo',
+    'user_picture',
+    'field_image',
+    'field_badge',
+    'field_cta_link',
+    'field_slides',
+    'field_length',
+  ];
+
+  if (in_array($field_name, $bare_fields)) {
+    $suggestions[] = 'field__bare';
+  }
+
+  $suggestions[] = 'field__' . $element['#entity_type'] . '__' . $element['#field_name'] . '__' . $element['#bundle'] . '__' . $element['#view_mode'];
+}
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function pubsub_preprocess_field__node__created(&$variables) {
+  foreach (Element::children($variables['items']) as $item) {
+    unset($variables['items'][$item]['content']['#prefix']);
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function pubsub_form_node_preview_form_select_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $form['backlink']['#options']['attributes']['class'][] = 'button';
+  $form['backlink']['#options']['attributes']['class'][] = 'button--small';
+  $form['backlink']['#options']['attributes']['class'][] = 'button--icon-back';
+  $form['backlink']['#options']['attributes']['class'][] = 'button--primary';
+  $form['view_mode']['#attributes']['class'][] = 'form-element--small';
+}
+
+/**
+ * Implements hook_form_views_exposed_form_alter().
+ */
+function pubsub_form_views_exposed_form_alter(&$form) {
+  $form['#attributes']['class'][] = 'form--inline';
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ *
+ * This is necessary for proper CSS classes for the Gin Admin Toolbar module.
+ */
+function pubsub_theme_suggestions_container_alter(&$suggestions, $variables) {
+  if (!empty($variables["element"]) && !empty($variables["element"]["administration_menu"])) {
+    $menu_name = $variables["element"]["administration_menu"]["#menu_name"];
+
+    if (!empty($menu_name)) {
+      $suggestions[] = 'container__' . $menu_name . '_menu';
+    }
+  }
+}

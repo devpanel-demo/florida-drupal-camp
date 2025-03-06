@@ -1,0 +1,38 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 7ad220c9-ab26-4377-964c-1d7174a867ec
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Day 3'
+  menu_name:
+    -
+      value: schedule-tabs
+  link:
+    -
+      uri: 'internal:/schedule/day-3'
+      title: ''
+      options:
+        container_attributes:
+          data-date: '2025-02-23'
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

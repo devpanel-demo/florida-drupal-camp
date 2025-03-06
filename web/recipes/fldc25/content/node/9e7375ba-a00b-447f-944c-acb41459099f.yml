@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9e7375ba-a00b-447f-944c-acb41459099f
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    ac9c7a35-d1e4-4f1b-913c-b553b53a9f2a: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Tag 1 Consulting'
+  created:
+    -
+      value: 1671216953
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/tag-1-consulting
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Tag1 Consulting, specializes in architecting, optimizing, securing and delivering large-scale high-availability systems.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: ac9c7a35-d1e4-4f1b-913c-b553b53a9f2a
+      alt: 'Tag 1 Consulting logo'
+      title: ''
+      width: 159
+      height: 65
+  field_website_address:
+    -
+      uri: 'https://www.tag1consulting.com/'
+      title: ''
+      options: {  }

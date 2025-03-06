@@ -1,0 +1,34 @@
+uuid: effe28e5-82c5-440b-b37b-1c9292ecc1ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.time_slot.field_date_time
+    - taxonomy.vocabulary.time_slot
+  module:
+    - datetime_range
+    - text
+id: taxonomy_term.time_slot.default
+targetEntityType: taxonomy_term
+bundle: time_slot
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_date_time:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

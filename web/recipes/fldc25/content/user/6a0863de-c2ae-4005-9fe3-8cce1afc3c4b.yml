@@ -1,0 +1,82 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 6a0863de-c2ae-4005-9fe3-8cce1afc3c4b
+  default_langcode: en
+  depends:
+    fc79dc78-6e3c-4f2f-8584-b068bc422fba: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: agentrickard
+  pass:
+    -
+      value: $2y$10$pX1XXSLuUJ8tVXMyTyxRvetIYUQrbpcZHCwjgqiNTL8TBmdIimCmO
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: rickard@demo.net
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730837053
+  access:
+    -
+      value: 1733240292
+  login:
+    -
+      value: 1733153710
+  init:
+    -
+      value: rickard@demo.net
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/agentrickard
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: 'Ken connects clients to strategic and technical solutions to solve complex business challenges. He has helped develop corporate online strategies and served on the planning and development teams for some of the first large-scale sites built with Drupal. He attended his first DrupalCON in 2006.'
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/agentrickard'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Ken
+  field_home_town:
+    -
+      value: 'Augusta, GA'
+  field_last_name:
+    -
+      value: Rickard
+  field_organization:
+    -
+      value: Palantir.net
+  field_title:
+    -
+      value: 'Sr. Director of Consulting'
+  user_picture:
+    -
+      entity: fc79dc78-6e3c-4f2f-8584-b068bc422fba
+      alt: ''
+      title: ''
+      width: 240
+      height: 240

@@ -1,0 +1,64 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: f643aa3f-fe7f-4ac1-b43f-7c4a597570ae
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    470d53ce-e972-4837-8fac-221ee6464bb2: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 470d53ce-e972-4837-8fac-221ee6464bb2
+  title:
+    -
+      value: "ADA Title II and You: what you need to know about the major updates to the ADA for managing public entities' websites"
+  created:
+    -
+      value: 1733172438
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/ada-title-ii-and-you-what-you-need-know-about-major-updates-ada-managing-public-entities
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>On April 24, 2024, the Federal Register published the Department of Justice’s final rule updating its regulations for Title II of the Americans with Disabilities Act (ADA). The final rule has specific requirements about how to ensure that web content is accessible to people with disabilities and represents a significant change to the federal law. Any website that falls under the purview of Title II (e.g. sites related to state and local governments and services, municipalities, libraries, schools/colleges/universities, and other publicly-funded institutions) must meet or exceed Web Content Accessibility Guidelines (WCAG) version 2.1, Level AA by 2026 or 2027 (depending on the size of the entity).&nbsp;</p><p>Considering the volume and scope of content that will be subject to these updates, it will be a daunting task for developers managing these sites to evaluate, remediate, and ensure continued compliance with ADA Title II moving forward. Recognizing this reality, this session will provide an overview of key accessibility concepts and terminology relevant to ADA Title II, a breakdown of the (at times) confusing "exceptions" baked into the law, and provide attendees with practical guidance on how to approach this work using on-going accessibility-related initiatives with Florida State University Libraries'' Drupal sites as an example. Attendees will receive an eye-level, non-legalese explanation of ADA Title II and gain insight into how they might approach similar issues with their own sites.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_speakers:
+    -
+      entity: 470d53ce-e972-4837-8fac-221ee6464bb2

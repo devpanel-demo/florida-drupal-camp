@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 8eb3d99b-f195-4b33-996a-5542ddac9585
+  default_langcode: en
+  depends:
+    a89ed15d-a79e-41ba-bf7a-f36b8e4049a6: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: hbaillio
+  pass:
+    -
+      value: $2y$10$Zm9v2zU/mInjEMSNKNiIOuLv6IJu0PqTwfvrdN2IcSXtZJdhqUAVi
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: hayden@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731947295
+  access:
+    -
+      value: 1731948380
+  login:
+    -
+      value: 1731947364
+  init:
+    -
+      value: hayden@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/hbaillio
+      langcode: en
+      pathauto: 1
+  field_first_name:
+    -
+      value: Hayden
+  field_home_town:
+    -
+      value: Austin
+  field_last_name:
+    -
+      value: Baillio
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/hgbaillio/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: HeroDevs
+  field_title:
+    -
+      value: 'Head of Marketing'
+  user_picture:
+    -
+      entity: a89ed15d-a79e-41ba-bf7a-f36b8e4049a6
+      alt: ''
+      title: ''
+      width: 1600
+      height: 1600

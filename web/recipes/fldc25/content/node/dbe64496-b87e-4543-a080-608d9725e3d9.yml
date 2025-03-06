@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dbe64496-b87e-4543-a080-608d9725e3d9
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    bbf5174b-909d-4414-9061-d3faa016f5cf: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    dec134a0-27f8-46fe-9a21-6f3ed4e35e7c: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: bbf5174b-909d-4414-9061-d3faa016f5cf
+  title:
+    -
+      value: 'Decoupling Drupal and Building Seamless Digital Experiences with JSON:API and GraphQL'
+  created:
+    -
+      value: 1733197355
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/decoupling-drupal-and-building-seamless-digital-experiences-jsonapi-and-graphql
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: dec134a0-27f8-46fe-9a21-6f3ed4e35e7c
+  field_description:
+    -
+      value: '<p dir="ltr"><span>This session invites you to explore the power of headless Drupal using JSON:API and GraphQL backends. It will help you to unlock a more flexible and dynamic content delivery for decoupled front-ends especially evaluating when to use JSON:API versus GraphQL. You will gain insight into how these APIs provide powerful options for managing and delivering content to a variety of front-end applications. You will dive into the architecture, understand the strengths and trade-offs of each API, and discover how they can complement your modern front-end development efforts.</span></p><p dir="ltr"><span>We will also discuss the differences between a monolithic Drupal setup—where built-in features like menus, user authentication, and form handling come out of the box—and a decoupled architecture where such functionalities require custom front-end development.</span></p><p dir="ltr"><span>Attendees will gain strategic insights into setting up and optimizing JSON:API and GraphQL for a truly decoupled Drupal experience. While we won’t engage in hands-on coding, we will share code samples to illustrate implementation strategies, best practices, and potential real-world use cases.</span><br><br><span>Join us to explore how JSON:API and GraphQL empower headless Drupal architectures to deliver content seamlessly across digital channels. This session will cover architectural considerations, API setup, and front-end integration while comparing the built-in advantages of monolithic Drupal to the flexibility of a decoupled approach.</span></p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_speakers:
+    -
+      entity: bbf5174b-909d-4414-9061-d3faa016f5cf

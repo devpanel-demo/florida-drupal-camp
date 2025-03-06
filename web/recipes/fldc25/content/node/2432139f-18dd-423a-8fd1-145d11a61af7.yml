@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 2432139f-18dd-423a-8fd1-145d11a61af7
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    643f0607-508e-4b38-920f-fc05bae9253f: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: Kalamuna
+  created:
+    -
+      value: 1637787136
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/kalamuna
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Kalamuna is driven by a civic spirit to help socially impactful institutions, nonprofits, and governments better communicate with constituents and do right by the people they serve.&nbsp;</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 643f0607-508e-4b38-920f-fc05bae9253f
+      alt: Kalamuna
+      title: ''
+      width: 878
+      height: 1072
+  field_website_address:
+    -
+      uri: 'https://www.kalamuna.com/'
+      title: ''
+      options: {  }

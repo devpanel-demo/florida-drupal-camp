@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 7241fcdc-437b-4f97-8835-f0469dbb2190
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    8fb4f6e1-1d74-4b21-9255-ecbf59fe6d24: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: Drupalize.me
+  created:
+    -
+      value: 1639332397
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/drupalizeme
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Drupalize.Me has written and video tutorials that cover a full range of Drupal topics so you can get answers when you need them.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 8fb4f6e1-1d74-4b21-9255-ecbf59fe6d24
+      alt: 'Drupalize.me logo'
+      title: ''
+      width: 800
+      height: 800
+  field_website_address:
+    -
+      uri: 'https://drupalize.me/'
+      title: ''
+      options: {  }

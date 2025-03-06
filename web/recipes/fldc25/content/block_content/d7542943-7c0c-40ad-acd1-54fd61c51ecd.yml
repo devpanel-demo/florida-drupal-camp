@@ -1,0 +1,24 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: d7542943-7c0c-40ad-acd1-54fd61c51ecd
+  bundle: basic
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Trainings View Info'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  body:
+    -
+      value: "<div class=\"highlight-box\">Day one of Florida DrupalCamp brings a mix of full and half day trainings. You must register for trainings during the camp registration process. Space is extremely limited, so please be sure to only register if you are positive you will attend the class.&nbsp;</div>\r\n"
+      format: basic_html
+      summary: ''

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: de16b637-6202-4a68-b99d-95851ed86dab
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 'specbee logo.png'
+  uri:
+    -
+      value: 'public://2021-11/specbee logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3978
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636287712

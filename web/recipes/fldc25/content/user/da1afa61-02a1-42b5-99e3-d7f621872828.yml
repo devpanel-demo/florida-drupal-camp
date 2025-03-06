@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: da1afa61-02a1-42b5-99e3-d7f621872828
+  default_langcode: en
+  depends:
+    11b2e45e-b644-4cdb-9c1a-db8b78afbf6a: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: LeeWalker
+  pass:
+    -
+      value: $2y$10$ojgDoH3Me7LjtfH3V1Xz2eEfT0y3iYq6Qd44So0ACitiO/ny5eACS
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: lee@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1701741522
+  access:
+    -
+      value: 1728065392
+  login:
+    -
+      value: 1728065392
+  init:
+    -
+      value: lee@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/leewalker
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Software engineer of 30+ years.\r\nDrupaller for 15 of those years.\r\nI currently live in Chattanooga TN and organize the DUG and Drupal Camp there."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/mr_scumbag'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Lee
+  field_home_town:
+    -
+      value: Chattanooga
+  field_last_name:
+    -
+      value: Walker
+  field_organization:
+    -
+      value: 'Code Journeymen LLC'
+  field_personal_website_link:
+    -
+      uri: 'https://www.codejourneymen.com'
+      title: ''
+      options: {  }
+  field_title:
+    -
+      value: 'Principal Engineer'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/DrupalNooga'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 11b2e45e-b644-4cdb-9c1a-db8b78afbf6a
+      alt: ''
+      title: ''
+      width: 280
+      height: 280

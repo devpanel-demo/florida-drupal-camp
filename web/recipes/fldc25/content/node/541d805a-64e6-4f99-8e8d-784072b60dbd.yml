@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 541d805a-64e6-4f99-8e8d-784072b60dbd
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    8e6ee9f1-611d-4a64-ac62-7eebf30fb872: taxonomy_term
+    900ec3b3-f5a0-444c-9928-b9cde3b00552: file
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: HeroDevs
+  created:
+    -
+      value: 1723049810
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/herodevs
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: '<p><span class="field-content">HeroDevs is the official Drupal 7 Extended Long-Term Support partner of the Drupal Association. If you can''t migrate away from Drupal 7 before end of life, you can get Drupal 7 Never-Ending Support (NES) to ensure your site stays secure and supported. Servicing both large enterprises and small businesses, HeroDevs keeps open source tech stacks secure and compliant into the future.</span></p>'
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 8e6ee9f1-611d-4a64-ac62-7eebf30fb872
+  field_sponsor_logo:
+    -
+      entity: 900ec3b3-f5a0-444c-9928-b9cde3b00552
+      alt: 'HeroDevs Logo'
+      title: ''
+      width: 480
+      height: 114
+  field_website_address:
+    -
+      uri: 'https://www.herodevs.com/'
+      title: ''
+      options: {  }

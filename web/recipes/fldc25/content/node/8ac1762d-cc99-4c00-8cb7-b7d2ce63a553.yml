@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 8ac1762d-cc99-4c00-8cb7-b7d2ce63a553
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    cb38928e-ec53-4533-8da5-8dc6e9b2dcb4: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+    4e772089-813d-4fc8-a281-496c35b346a0: file
+    705a37f2-6aa8-4e18-8f2e-4d94b930ecfa: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: cb38928e-ec53-4533-8da5-8dc6e9b2dcb4
+  title:
+    -
+      value: 'The Big Shift: Prepare for new Drupal today'
+  created:
+    -
+      value: 1730733437
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/big-shift-prepare-new-drupal-today
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: "<p>For the past few years, an internal revolution has been brewing in Drupal. The more I see of how our initiatives are evolving the more I'm convince that the way we build Drupal sites are about to fundamentally change. &nbsp;Let's me make the case for:</p><ul><li>How new solutions emerging in Drupal invite you to rethink how to build sites</li><li>What you are your team can do to get the most out of these new tools</li><li>The benefits for clients if you do</li></ul><p>In my day job, I provide long term support for Drupal sites built many different ways. &nbsp;I support sites built with Acquia Site Studio, Layout Builder, Paragraphs and a couple of unique builds. &nbsp;I'm seeing a convergence of ideas on how best to build these sites. &nbsp;Let me share with you a strategy for getting your sites ready for the future.</p>"
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_social_media_card:
+    -
+      entity: 4e772089-813d-4fc8-a281-496c35b346a0
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: cb38928e-ec53-4533-8da5-8dc6e9b2dcb4
+  field_time_slot:
+    -
+      entity: 705a37f2-6aa8-4e18-8f2e-4d94b930ecfa

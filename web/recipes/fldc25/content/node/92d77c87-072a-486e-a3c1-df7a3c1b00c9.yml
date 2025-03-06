@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 92d77c87-072a-486e-a3c1-df7a3c1b00c9
+  bundle: session
+  default_langcode: en
+  depends:
+    295e710b-0891-4f06-ac4d-dca9dff3ebc9: user
+    ebfd2733-770b-4f49-b5f8-40f0abf74f72: taxonomy_term
+    d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 295e710b-0891-4f06-ac4d-dca9dff3ebc9
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 295e710b-0891-4f06-ac4d-dca9dff3ebc9
+  title:
+    -
+      value: 'Must Try Modules'
+  created:
+    -
+      value: 1733155545
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/must-try-modules
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: ebfd2733-770b-4f49-b5f8-40f0abf74f72
+  field_description:
+    -
+      value: '<p>We all have our favorite modules we use on the sites we build (I sure do). &nbsp;Over the past 6 months I’ve built 20 new Drupal sites - some pretty straightforward, some downright tricky. &nbsp;Whenever I’ve faced a challenge - there’s almost always been “a module for that”.</p><p>In this session we’re going to explore some of the “lesser” known modules that are incredibly helpful. &nbsp;We’ll skip the ones that everyone uses - but feel free to bring your list of favorites too! &nbsp;We’ll compile a master list and send it out to anyone who asks for it</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: d3c4d7d0-1e6f-4454-a5cc-d4edf50ce2e2
+  field_speakers:
+    -
+      entity: 295e710b-0891-4f06-ac4d-dca9dff3ebc9

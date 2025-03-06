@@ -1,0 +1,110 @@
+/**
+ * @file
+ * Button that expands second level nav when clicked.
+ */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+@media (max-width: 68.75rem) {
+  .primary-nav__button-toggle {
+    position: relative;
+    overflow: hidden;
+    width: var(--sp2);
+    height: var(--sp2);
+    margin-left: var(--sp0-5);
+    /* Visually align button with menu link text. */
+    margin-right: 2px;
+    padding-block: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    cursor: pointer;
+    text-indent: -62.4375rem;
+    border: 0;
+    background: transparent;
+    -webkit-appearance: none;
+    /* aria-hidden attribute is removed by JS. Button is non-functional
+      until JS is enabled.
+    */
+  }
+  .primary-nav__button-toggle .icon--menu-toggle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.125rem;
+    height: 1.125rem;
+    transition: background-color 0.2s;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+  }
+  .primary-nav__button-toggle .icon--menu-toggle:before, .primary-nav__button-toggle .icon--menu-toggle:after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1.125rem;
+    height: 0;
+    content: "";
+    transform: translate(-50%, -50%);
+    border-top: solid 3px currentColor;
+  }
+  .primary-nav__button-toggle .icon--menu-toggle:after {
+    transition: opacity 0.2s;
+    transform: translate(-50%, -50%) rotate(90deg);
+  }
+  .primary-nav__button-toggle[aria-expanded=true] .icon--menu-toggle:after {
+    opacity: 0;
+  }
+  .primary-nav__button-toggle[aria-hidden=true] {
+    pointer-events: none;
+  }
+}
+@media (min-width: 68.75rem) {
+  .primary-nav__button-toggle {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    align-self: stretch;
+    width: calc(var(--sp2) + 0.5rem);
+    height: auto;
+    margin-block-start: 0;
+    margin-inline-end: calc(-1 * var(--sp2));
+    padding-block: 0;
+    padding-inline-start: 0;
+    padding-inline-end: 0;
+    cursor: pointer;
+    text-indent: -62.4375rem;
+    border: 0;
+    background: transparent;
+    -webkit-appearance: none;
+  }
+  .primary-nav__button-toggle:active {
+    /* Necessary for Safari. */
+    color: currentColor;
+  }
+  .primary-nav__button-toggle[aria-expanded=true] .icon--menu-toggle:after {
+    opacity: 0.8;
+  }
+  .primary-nav__button-toggle .icon--menu-toggle {
+    position: absolute;
+    top: 50%;
+    left: 0.1875rem;
+    width: 1.125rem;
+    height: var(--sp);
+    transition: background-color 0.2s;
+    transform: translateY(-50%);
+    border-radius: 0.25rem;
+    background-color: var(--color--white);
+  }
+  .primary-nav__button-toggle .icon--menu-toggle:after {
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 0.1875rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    content: "";
+    transform: translateY(-50%) rotate(45deg);
+    opacity: 0.8;
+    border-top: none;
+    border-right: solid 2px currentColor;
+    border-bottom: solid 2px currentColor;
+    background: transparent;
+  }
+}

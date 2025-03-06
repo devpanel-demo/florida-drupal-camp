@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 53c12745-0ccc-4ced-8596-920c49a4f5c5
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: 'FTC vertical.jpg'
+  uri:
+    -
+      value: 'public://2024-12/FTC vertical.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 116311
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734378505

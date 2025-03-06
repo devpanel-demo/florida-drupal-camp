@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: config_pages
+  uuid: a4242579-a81a-415e-bdd7-40221dc0e6fd
+  bundle: camp_details
+default:
+  label:
+    -
+      value: 'Camp Details'
+  context:
+    -
+      value: 'a:0:{}'
+  field_camp_location_short_:
+    -
+      value: 'Orlando, FL'
+  field_camp_name:
+    -
+      value: 'Florida DrupalCamp'
+  field_camp_year:
+    -
+      value: '2025'
+  field_dates:
+    -
+      value: '2025-02-21'
+      end_value: '2025-02-23'
+  field_header_cta:
+    -
+      uri: 'https://www.eventbrite.com/e/florida-drupalcamp-2025-tickets-980392940677#tickets'
+      title: 'Register Now!'
+      options: {  }
+  field_homepage_media_cta:
+    -
+      uri: 'internal:/schedule/day-2'
+      title: 'View the schedule!'
+      options: {  }
+  field_hompage_description_text:
+    -
+      value: '<p>Three days of Drupal <a href="/trainings">trainings</a>, <a href="/session-list">sessions</a>, and&nbsp;<a href="/contribution-day">contributions</a>&nbsp;with peers from around the world.</p>'
+      format: basic_html
+  field_session_submission_deadlin:
+    -
+      value: '2024-12-03'

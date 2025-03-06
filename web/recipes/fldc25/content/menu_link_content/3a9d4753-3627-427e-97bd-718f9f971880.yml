@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 3a9d4753-3627-427e-97bd-718f9f971880
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Session Admin'
+  menu_name:
+    -
+      value: admin
+  link:
+    -
+      uri: 'internal:/admin/content/sessions'
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: system.admin_content
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,55 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e82b8194-e152-4ce2-b6c5-3f98e4815e10
+  bundle: job_listing
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    2432139f-18dd-423a-8fd1-145d11a61af7: node
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Senior Architect'
+  created:
+    -
+      value: 1705870378
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /job/kalamuna/senior-architect
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p><span><strong>Senior Architect</strong></span></p><p><em><span>Build the internet of tomorrow, today.</span></em></p><p>The Senior Architect contributes to technical strategy and practices of the Kalamuna team, proposes architectural direction and implementation strategy, and often acts as a technical lead on web development projects. You’ll lead technical discovery and work with the design team in early project phases to build a bridge to implementation. You will consider technology ecosystems, integrations, and the general solutioning of problems with an eye towards scope and a goal to provide value to our mission-driven clients. You will lead technical requirements gathering and define implementation strategies.</p><p>&nbsp;</p><p>You are an advocate for standardizing processes and solutions so that we can deliver impactful solutions, achieve the benefits of automation, and excel as a team. You are helping assess and adopt new technologies, and deprecate old ones. You are an innovator, both in project spaces and outside of them, by participating in research and development activities. You engage in continuous learning, enjoy teamwork, collaboration, and mentoring teammates. This role reports to the Director of Technology.</p><h2><span><strong>Responsibilities</strong></span></h2><ul><li>Collaborate with team members and clients to understand needs and define the most appropriate solutions. Gather and document requirements.</li><li>Lead development efforts in implementing composable solutions.</li><li>Help to break down requirements into epics and Jira tasks and implement CMS architecture solutions that meet our clients' business needs. Create clear, concise, and easy-to-interpret technical documentation.</li><li>Ensure system documentation is developed, maintained, and readily accessible to the team.</li><li>Communicate complex technical issues to non-technical stakeholders in a professional manner.</li><li>Prioritize and estimate work to be done alongside designers and project managers to help ensure projects are delivered on time and on budget</li><li>Provide CMS architecture expertise and support to clients and the team at large</li><li>Stay up-to-date with emerging trends and technologies in the CMS and DXP space</li><li>Provide mentorship and training opportunities to our team of developers and clients: provide mentorship sessions, training sessions and lightning talks.</li><li>Work with project management and account management to plan upgrades of existing components.</li><li>Research and implement new components (third-party applications and/or contributed modules).</li><li>Recommend and implement technical architecture changes to optimize application security, stability, flexibility, and scalability.</li><li>Provide expertise in developing standards, architectural governance, design patterns, and practices.</li><li>Perform site-building activities, including creating and modifying views, contexts, layouts, and blocks to match functionality specified in wireframes and designs.</li><li>Conduct code reviews, security audits and technical design approval.</li><li>Participate in the pre-sales process.</li><li>Help evaluate the opportunities, challenges, and strategic technology directions. Provide pre-sales estimates on implementation and product mix service fees.</li><li>Engage with the community by giving talks and writing blog posts.</li></ul><h2><span><strong>Qualifications</strong></span></h2><ul><li>Excellent communication skills. Not only do we like talking, you’ll also be speaking with our wonderful clients. Able to work independently while staying in sync with the rest of the team.</li><li>Able to help, brainstorm and find solutions that fit not only client needs but also needs of your team.</li><li>Attention to detail.</li><li>Strong accountability and work ethic are a must.</li><li>Understand Agile methodologies and be able to scope tasks and estimate the anticipated effort that solves problems within the project budget.</li><li>Mastery of web fundamentals. You must know how to bend the internet to your will using our basic tech (HTML, CSS, JS, PHP).</li><li>Please give us work samples (projects, code, URLs) so we can admire your masterpieces. While those are fundamentals, you should be able to demonstrate in-depth knowledge of them.</li><li>You’re a strong believer in open source and an established Drupal community member. Live, dream, and breathe Drupal, but know when we need to leverage other technologies like React, Gatsby, and WordPress. Deep expertise with the Drupal (7,8,9,10 and beyond) API and module development. You know when to site build and when to get deep into code.</li><li>Understanding of how to architect for different Drupal cloud hosting providers (Pantheon, Acquia, Platform.sh). A breadth of experience integrating technologies via APIs and web services.</li><li>Employed DevOps strategies, including continuous integration, testing, deployment, and truly owning the toolchain.</li><li>Excellent Git skills and branching wizardry.</li><li>Familiarity with local development tools. You are comfortable setting up and maintaining your own development environment.</li><li>Understanding of Drupal and PHP coding standards and best practices.</li><li>Deep expertise and understanding of component-based development and architectural patterns.</li><li>Experience employing best practices to meet accessibility guidelines and testing for them. In-depth understanding of website security, performance, and scalability. Understanding of browser testing.</li></ul><p><br><span><strong>Bonus points if you know about</strong></span></p><ul><li>CRM integrations</li><li>Frontend development and frameworks such as React, Angular, or Vue Node.js (at minimum as a compiler) Other platforms like WordPress, Laravel, and static site generators such as …</li><li>Experience with style guides and design systems: Pattern Lab, Emulsify, etc.</li><li>Decoupled models and architectures</li><li>Search technologies like SOLR and Elastic Search</li><li>SEO concepts and methodologies for improving organic search ranking Digital analytics, particularly Google Analytics and Tag Manager QA practices, including automated testing and regression testing</li><li>Experience working with AI Collaborating with designers in Figma and FigJam</li></ul>"
+      format: basic_html
+      summary: ''
+  field_company:
+    -
+      entity: 2432139f-18dd-423a-8fd1-145d11a61af7
+  field_location:
+    -
+      value: Remote
+  field_url:
+    -
+      uri: 'https://kalamuna.applytojob.com/apply/JiutnxHxf9'
+      title: ''
+      options: {  }

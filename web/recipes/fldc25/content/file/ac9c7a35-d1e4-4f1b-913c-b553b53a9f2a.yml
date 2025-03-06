@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ac9c7a35-d1e4-4f1b-913c-b553b53a9f2a
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: tag1.png
+  uri:
+    -
+      value: 'public://2022-12/tag1.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 3008
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1671235320

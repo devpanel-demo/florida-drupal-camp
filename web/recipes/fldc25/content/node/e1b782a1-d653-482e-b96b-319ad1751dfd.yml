@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e1b782a1-d653-482e-b96b-319ad1751dfd
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    478cc48e-ac60-4704-947a-41fe7b074d7f: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: JetBrains
+  created:
+    -
+      value: 1640176603
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/jetbrains
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Essential tools for software developers and teams.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 478cc48e-ac60-4704-947a-41fe7b074d7f
+      alt: 'JetBrains logo'
+      title: ''
+      width: 960
+      height: 960
+  field_website_address:
+    -
+      uri: 'https://www.jetbrains.com'
+      title: ''
+      options: {  }

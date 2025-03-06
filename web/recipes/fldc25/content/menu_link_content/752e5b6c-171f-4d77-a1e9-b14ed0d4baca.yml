@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 752e5b6c-171f-4d77-a1e9-b14ed0d4baca
+  bundle: menu_link_content
+  default_langcode: en
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: '2022'
+  description:
+    -
+      value: 'Archive of 2022 website'
+  menu_name:
+    -
+      value: sites-from-years-past
+  link:
+    -
+      uri: 'http://2022.fldrupal.camp/'
+      title: ''
+      options:
+        attributes:
+          target: _blank
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true

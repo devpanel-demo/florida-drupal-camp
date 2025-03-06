@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: a5afda45-3a75-4637-968e-66623725f1bc
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: avatar_cropped_image.png
+  uri:
+    -
+      value: 'public://pictures/2024-12/avatar_cropped_image.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 1009292
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733269335

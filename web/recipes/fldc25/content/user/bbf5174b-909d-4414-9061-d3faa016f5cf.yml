@@ -1,0 +1,78 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: bbf5174b-909d-4414-9061-d3faa016f5cf
+  default_langcode: en
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: alinademi
+  pass:
+    -
+      value: $2y$10$WaO/X1CU4tEvr55TpZPqSeAgpSfTri9Cmbjb7hzndZUawma3CgQpK
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: nademi@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1733196343
+  access:
+    -
+      value: 1733198069
+  login:
+    -
+      value: 1733196949
+  init:
+    -
+      value: nademi@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/alinademi
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "With a background in design, Ali is equipped as our Senior Fullstack Developer to create beautiful digital products. He crafts frontend and backend experiences for our partners and is happy to collaborate throughout the product cycle. When he is not mentoring novice developers or building internal tools, Ali is busy handling the development of our client’s websites. You can dream big when Ali is on your side developing websites, as he artfully creates Javascript and React apps and custom Gutenberg blocks and is passionate about purposeful automation, linting, continuous integration, and deployment. In his spare time, Ali enjoys bike rides with his family in the North Shore Mountains of British Columbia. \r\n\r\nSkills + Experience\r\nProficient in JavaScript, React.js, state management tools, and testing libraries\r\nProficient in Headless WordPress, Headless Drupal, Next js.\r\nSkilled in HTML, CSS, SASS, PHP, REST and GraphQL APIs, and Databases\r\nTrilingual in English, French, and Persian\r\nOutside Work\r\nHe adores playing music, improvising, and composing, with a specialty in Persian classical music\r\nStaying active is important to Ali, too, so he is often outside playing pickleball and tennis. "
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/alxdemi'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Ali
+  field_home_town:
+    -
+      value: 'Vancouver, BC, Canada'
+  field_last_name:
+    -
+      value: Nademi
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/alinademi/'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Kalamuna
+  field_title:
+    -
+      value: 'Senior Fullstack Developer'

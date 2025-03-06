@@ -1,0 +1,31 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: c59f92f1-5c97-4353-b5c5-2634481a7688
+  bundle: time_slot
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'Sat 11:00am to 11:45am (2/22/25)'
+  weight:
+    -
+      value: 6
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+      pathauto: 0
+  field_date_time:
+    -
+      value: '2025-02-22T16:00:00'
+      end_value: '2025-02-22T16:45:00'

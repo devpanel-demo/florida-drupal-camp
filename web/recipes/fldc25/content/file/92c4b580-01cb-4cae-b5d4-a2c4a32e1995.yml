@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 92c4b580-01cb-4cae-b5d4-a2c4a32e1995
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: plan-left-clr-tag-logo.png
+  uri:
+    -
+      value: 'public://2024-01/plan-left-clr-tag-logo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 42537
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1706456442

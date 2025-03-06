@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 629a2eb1-9fd7-4e2d-baac-143d8e03758f
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_Rod_Martin_trainings.jpg
+  uri:
+    -
+      value: 'public://2024-11/2025_FLDC_Rod_Martin_trainings.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 47677
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731969685

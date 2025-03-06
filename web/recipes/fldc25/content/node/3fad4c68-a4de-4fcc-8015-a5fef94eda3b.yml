@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 3fad4c68-a4de-4fcc-8015-a5fef94eda3b
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    3d913755-3e9d-4ae1-aadb-195f56eb7dd7: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    154cdff2-b881-4e8f-b445-18e8830b0b22: file
+    d88d416b-fd24-40ba-8b47-67992c633f5d: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 3d913755-3e9d-4ae1-aadb-195f56eb7dd7
+  title:
+    -
+      value: 'My Single Directory Components Workflow'
+  created:
+    -
+      value: 1732283795
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/my-single-directory-components-workflow
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p>I recently found myself returning to traditional Drupal theming after multiple years working primarily in decoupled front ends. While I was admittedly nervous about losing access to some of my go-to tools, I was excited to put Single Directory Components (SDCs) through their paces to understand what impact they would have on my theming workflow.</p><p>Spoiler alert: SDCs are pretty great. In many ways they exceeded my expectations, providing a sturdy bridge to the techniques I learned in my time away from Twig. But at the same time, they still face some of the constraints I bumped up against in past Drupal themes.</p><p>In this session I will walk through the workflow I used to build a custom Drupal theme that relies heavily on Single Directory Components. Together we’ll look at the good and the bad, and also pick up some tips and tricks along the way, including:</p><ul><li>SDC friendly approaches to prototyping outside of Drupal.</li><li>Mapping concepts from JavaScript components to Single Directory Components.</li><li>Leveraging SDCs to simplify your build process.</li><li>Mapping SDCs to Paragraphs and other Drupal entities.</li><li>Indispensable SDC related tools from the contrib ecosystem.</li><li>Where SDCs fall short and my dreams for the future of SDCs and Drupal theming.</li></ul>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: 154cdff2-b881-4e8f-b445-18e8830b0b22
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 3d913755-3e9d-4ae1-aadb-195f56eb7dd7
+  field_time_slot:
+    -
+      entity: d88d416b-fd24-40ba-8b47-67992c633f5d

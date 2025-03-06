@@ -1,0 +1,17 @@
+{{ attach_library('pubsub/views-all-sponsors') }}
+
+<div class="views-category-grid grid">
+  {% if title %}
+    <div class="views-category-grid__label">
+      <h3 class="views-category-grid__title">{{ title }}</h3>
+    </div>
+  {% endif %}
+
+  <div class="views-sponsor-grid">
+    {% for row in rows %}
+      <div{{ row.attributes.addClass(row_classes) }}>
+        {{- row.content -}}
+      </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,0 +1,41 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 8f201cf9-1db9-4772-ba85-5965673ca2ad
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    b0fcdc01-3b54-4762-adec-7834f2c0c1b2: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: Newsletter
+  menu_name:
+    -
+      value: footer
+  link:
+    -
+      uri: 'https://camp.us4.list-manage.com/subscribe?u=e7875ed8ccafb228670ba3056&id=e1f67f7ef3'
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: 0
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:b0fcdc01-3b54-4762-adec-7834f2c0c1b2'
+  revision_translation_affected:
+    -
+      value: true

@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4933be4b-fb6f-432e-8348-32647949f6ff
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_katannshaw.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_katannshaw.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50329
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734046526

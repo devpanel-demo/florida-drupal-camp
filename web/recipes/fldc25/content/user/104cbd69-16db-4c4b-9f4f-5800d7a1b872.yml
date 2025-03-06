@@ -1,0 +1,92 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 104cbd69-16db-4c4b-9f4f-5800d7a1b872
+  default_langcode: en
+  depends:
+    94dceb10-2eb9-47f4-bb1a-26ae7ad3963e: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: markie
+  pass:
+    -
+      value: $2y$10$z1Et4uPDLtplpKzLfdJSAueuXu53RbTA.tprf4R9k1URErnkZiufS
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: markie@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1636993445
+  access:
+    -
+      value: 1734556477
+  login:
+    -
+      value: 1734556271
+  init:
+    -
+      value: markie@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/markie
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: '<p>AmyJune writes:</p><p>Hailing from Albuquerque New Mexico,&nbsp;<span>Mark "Markie" Casias has been developing with Drupal since 2009 and remains an active member of the community. He participates in several working groups and frequently contributes as a speaker, trainer, and mentor at community events. You’ll find evidence of his contributions to Drupal Core and multiple contributed modules on Drupal.org.</span></p><p><span>He is a Drupal Developer at Lullabot.</span></p><p>Outside of Drupal, he’s an active hockey and golf player, and rocks out on the bass in his band, <a href="https://www.therandomatics.com">The Randomatics</a>.</p>'
+      format: basic_html
+  field_bluesky_profile_link:
+    -
+      uri: 'https://bsky.app/profile/markie.bsky.social'
+      title: ''
+      options: {  }
+  field_drupal_org_profile:
+    -
+      uri: 'https://drupal.org/u/markie'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Mark
+  field_home_town:
+    -
+      value: Albuquerque
+  field_last_name:
+    -
+      value: Casias
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/markie'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: Lullabot
+  field_title:
+    -
+      value: 'Senior Drupal Developer'
+  user_picture:
+    -
+      entity: 94dceb10-2eb9-47f4-bb1a-26ae7ad3963e
+      alt: ''
+      title: ''
+      width: 2314
+      height: 2314

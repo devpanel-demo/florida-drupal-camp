@@ -1,0 +1,183 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.form-item__label--multiple-value-form {
+  text-align: left;
+}
+
+.draggable a.tabledrag-handle {
+  height: 3.125rem;
+  width: 3.125rem;
+  margin: 0;
+}
+
+a.tabledrag-handle .handle {
+  height: 3.125rem;
+  width: 3.125rem;
+  margin: 0;
+  background-position: center;
+}
+
+input.field-add-more-submit {
+  --button-color-bg: var(--color--white);
+  --button-color-primary: var(--pink-dark);
+  --button-color-primary-dark: var(--pink-dark);
+  --button-border-radius: 0.1875rem;
+  --button-line-height: 1.125rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--sp3);
+  margin-block: var(--sp1);
+  margin-inline-start: 0;
+  margin-inline-end: var(--sp1);
+  padding: 1px var(--sp1-5);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-color-primary);
+  border: solid 2px var(--button-color-primary);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-color-bg);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: var(--button-line-height);
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  --button-color-bg: var(--pink-dark);
+  --button-color-primary: var(--color-white);
+  --button-color-primary-dark: var(--pink-light);
+  height: var(--sp2-5);
+  padding-inline: var(--sp);
+  font-size: 16px;
+  line-height: normal;
+}
+input.field-add-more-submit:where(:hover), input.field-add-more-submit:where(:focus) {
+  text-decoration: none;
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+input.field-add-more-submit:where(:active) {
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+input.field-add-more-submit:where(:disabled), input.field-add-more-submit.is-disabled {
+  cursor: default;
+  color: var(--color--gray-70);
+  border-color: var(--color--gray-70);
+}
+input.field-add-more-submit:where(:hover), input.field-add-more-submit:where(:focus) {
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  background-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 80%);
+  color: var(--button-color-primary);
+  filter: saturate(400%);
+}
+input.field-add-more-submit:where(:active) {
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  background-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: var(--button-color-primary);
+  filter: saturate(200%);
+}
+
+.tabledrag-toggle-weight {
+  --button-color-bg: var(--color--white);
+  --button-color-primary: var(--pink-dark);
+  --button-color-primary-dark: var(--pink-dark);
+  --button-border-radius: 0.1875rem;
+  --button-line-height: 1.125rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: var(--sp3);
+  margin-block: var(--sp1);
+  margin-inline-start: 0;
+  margin-inline-end: var(--sp1);
+  padding: 1px var(--sp1-5);
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: var(--button-color-primary);
+  border: solid 2px var(--button-color-primary);
+  border-radius: var(--button-border-radius);
+  background-color: var(--button-color-bg);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: var(--button-line-height);
+  -webkit-appearance: none;
+          appearance: none;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+  height: var(--sp2-5);
+  padding-inline: var(--sp);
+  font-size: 16px;
+  line-height: normal;
+  margin-bottom: 0;
+  padding-inline: var(--sp0-5);
+  height: var(--sp1-5);
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+.tabledrag-toggle-weight:where(:hover), .tabledrag-toggle-weight:where(:focus) {
+  text-decoration: none;
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.tabledrag-toggle-weight:where(:active) {
+  color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+  border-color: color-mix(in lab, var(--button-color-primary-dark) 80%, black 20%);
+}
+.tabledrag-toggle-weight:where(:disabled), .tabledrag-toggle-weight.is-disabled {
+  cursor: default;
+  color: var(--color--gray-70);
+  border-color: var(--color--gray-70);
+}
+
+tr.drag {
+  background-color: var(--color--sky-94);
+}
+
+abbr.warning {
+  text-decoration: none;
+}
+
+.field-multiple-table th {
+  text-align: left;
+}
+.field-multiple-table th h4 {
+  margin: 0;
+}
+
+.js input.form-autocomplete,
+.js input.form-autocomplete.ui-autocomplete-loading {
+  background-position: right 20px center;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  display: block;
+  padding: var(--sp);
+}
+
+.form-item-url {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.01;
+  pointer-events: none;
+}
+
+.region-meta > *,
+.region-meta .region > * {
+  margin-block-end: 0;
+}
+.region-meta .breadcrumb__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.region-meta .breadcrumb__item {
+  display: inline;
+}

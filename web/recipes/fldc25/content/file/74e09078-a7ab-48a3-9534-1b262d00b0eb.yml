@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 74e09078-a7ab-48a3-9534-1b262d00b0eb
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: vaultes-logo-darker.png
+  uri:
+    -
+      value: 'public://2022-01/vaultes-logo-darker.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 11036
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1641524857

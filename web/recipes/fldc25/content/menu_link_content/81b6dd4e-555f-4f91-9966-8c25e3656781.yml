@@ -1,0 +1,44 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 81b6dd4e-555f-4f91-9966-8c25e3656781
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    99ba9fc9-61f5-44a7-818d-29064c311171: menu_link_content
+    52d97c2c-58c8-40f9-bbf5-e3488449f60a: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'About FLDC'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: 52d97c2c-58c8-40f9-bbf5-e3488449f60a
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:99ba9fc9-61f5-44a7-818d-29064c311171'
+  revision_translation_affected:
+    -
+      value: true

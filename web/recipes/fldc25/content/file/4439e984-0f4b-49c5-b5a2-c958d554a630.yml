@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 4439e984-0f4b-49c5-b5a2-c958d554a630
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_laryn.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_laryn.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 45350
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049172

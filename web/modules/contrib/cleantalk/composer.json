@@ -1,0 +1,42 @@
+{
+  "name": "cleantalk/drupalantispam",
+  "description": "Cloud antispam solution without captcha.",
+  "type": "drupal-module",
+  "homepage": "https://cleantalk.org",
+  "authors": [
+    {
+      "name": "CleanTalk inc."
+    }
+  ],
+  "support": {
+    "issues": "https://cleantalk.org/my/suport",
+    "support_forum": "https://community.cleantalk.org/viewforum.php?f=31&sid=7b6d4323aa6e39b1e0db7ee06a1d71e4",
+    "faq": "https://cleantalk.org/help"
+  },
+  "license": "GPL-2.0+",
+  "require-dev": {
+      "vimeo/psalm": "^4.8",
+      "phpunit/phpunit": "^9.5",
+      "yoast/phpunit-polyfills": "^1.0",
+      "squizlabs/php_codesniffer": "3.*",
+      "phpcompatibility/php-compatibility": "^9.3",
+      "drupal/coder": "*",
+      "cleantalk/antispam": "*",
+      "cleantalk/firewall": "*",
+      "cleantalk/storage-handler": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "cleantalk/apbct-installer": true
+    }
+  },
+  "scripts": {
+    "test": [
+      "vendor/bin/phpunit --configuration tests/phpunit.xml",
+      "vendor/bin/phpcs --config-set installed_paths vendor/phpcompatibility/php-compatibility,vendor/drupal/coder/coder_sniffer,vendor/slevomat/coding-standard/SlevomatCodingStandard",
+      "vendor/bin/phpcs --standard=tests/.phpcs.xml",
+      "vendor/bin/psalm --no-cache --config=psalm.xml"
+    ]
+  }
+}

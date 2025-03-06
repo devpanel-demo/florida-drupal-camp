@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: d4d86c9f-c3d5-4a75-87eb-b1d1779e9fe1
+  bundle: page
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: 'Inclusion For All'
+  created:
+    -
+      value: 1684419628
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /inclusion-all
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>In 2023, Governor Ron DeSantis and the Florida Legislature signed into law a number of bills that directly impact the every day rights and abilities to simply exist for people of color, the LGBTQIA+ community and other minorities throughout the state of Florida. These include loosening/tightening of restrictions on performances by adult performers, the carrying of weapons and the ability for people within the trans community to use the restroom of their choice in any public space, government building or educational institution.</p>\r\n\r\n<p><strong>We, the organizers of Florida DrupalCamp, strongly condemn these actions taken by the Florida government.</strong></p>\r\n\r\n<p>For over 15 years, Florida DrupalCamp has striven to be a welcoming event for people from all over the world to come enjoy our sunshine, amazing theme parks, gorgeous beaches, spaceship launches and yes, 🐊, while coming to learn about Drupal, connect with others in the open source community and enhance their personal and professional knowledge. In light of these new laws and changes, that welcoming atmosphere has been darkened by a cloud of hate and intolerance that we, as native Floridians did not want nor ask for but are unfortunately forced to reckon with as we plan for current and future Camps.</p>\r\n\r\n<p>Florida DrupalCamp is an event put together by tireless, unpaid volunteers, that relies on the support of sponsors and attendees to ensure that we can have one of the best Camps in the world (and we think that we do!). We don't make any money on the Camp and in fact, any income earned from sponsorships or ticket sales that is not used for that year's Camp is funneled directly back into the Camp, for use in the following year's Camp.</p>\r\n\r\n<p>As such the Camp can only be as great as the budget afforded us by that financial support can allow. Fewer people means a lesser Camp, and our fear with these new laws is a total dismissal of Florida as a venue for tech and other events which not only hurts the economy of the state but also directly impacts that quality of speakers, venue and other things that we can bring in each year.</p>\r\n\r\n<p>We urge anyone who might feel like Florida DrupalCamp is not an event to attend due to these new laws, to please re-consider, but we completely understand if you do not.</p>\r\n\r\n<h2><em>Everyone</em> is Welcome and Included at Florida DrupalCamp</h2>\r\n\r\n<p>As organizers of the Camp, <strong>we pledge to offer our full and 100% support and accommodations for any person, regardless of their community</strong>. While we must legally operate the Camp under any rules set forth by the State and our venue (Florida Technical College), the organizers of Florida DrupalCamp are committed to finding any way possible to assist the needs of any group of persons. This includes assistance with facilities, transportation, providing proper accommodations for any physical challenges an attendee might have, and anything else that we can reasonably assist with. We urge anyone with concerns to email the organizers directly at <a href=\"mailto:info@fldrupalcamp.org\">info@fldrupalcamp.org</a> and we can discuss how we can assist you in a private, professional manner.</p>\r\n\r\n<p>Florida DrupalCamp has always been for everyone, and we will continue to ensure that it stays that way. We look forward to seeing you in 2024 and beyond!</p>\r\n"
+      format: full_html
+      summary: ''

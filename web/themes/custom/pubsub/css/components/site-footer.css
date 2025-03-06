@@ -1,0 +1,111 @@
+/* Navigation related breakpoints */
+/* Grid related breakpoints */
+.site-footer {
+  background-color: var(--neutral-dark);
+  color: var(--text-on-neutral-dark);
+  padding: 4rem 0;
+}
+@media (min-width: 62.5rem) {
+  .site-footer {
+    padding: 6rem 0;
+  }
+}
+@media (min-width: 81.25rem) {
+  .site-footer {
+    padding: 6rem 0;
+  }
+}
+.path-frontpage .site-footer {
+  box-shadow: 0 -200px 0 var(--neutral-dark);
+}
+.site-footer .text-content a,
+.site-footer a {
+  color: var(--text-on-neutral-dark-secondary);
+}
+.site-footer .text-content a:hover, .site-footer .text-content a:focus,
+.site-footer a:hover,
+.site-footer a:focus {
+  color: var(--text-on-neutral-dark-primary);
+}
+@media (min-width: 43.75rem) {
+  .site-footer .menu--footer {
+    grid-column: 2/-2;
+    grid-row: 1/span 4;
+  }
+}
+@media (min-width: 62.5rem) {
+  .site-footer .menu--footer {
+    grid-column: 1/10;
+  }
+}
+@media (min-width: 81.25rem) {
+  .site-footer .menu--footer {
+    grid-column: 2/10;
+  }
+}
+.site-footer .block-footer {
+  margin-bottom: 0;
+}
+@media (min-width: 43.75rem) {
+  .site-footer .block-footer {
+    grid-column: 2/-2;
+  }
+}
+@media (min-width: 62.5rem) {
+  .site-footer .block-footer {
+    grid-column: 11/-1;
+  }
+}
+@media (min-width: 81.25rem) {
+  .site-footer .block-footer {
+    grid-column: 11/-2;
+  }
+}
+@media (min-width: 43.75rem) {
+  .site-footer .menu--sites-from-years-past {
+    grid-column: 2/-2;
+  }
+}
+@media (min-width: 62.5rem) {
+  .site-footer .menu--sites-from-years-past {
+    grid-column: 11/-1;
+  }
+}
+@media (min-width: 81.25rem) {
+  .site-footer .menu--sites-from-years-past {
+    grid-column: 11/-2;
+  }
+}
+
+.block-footer .text-content {
+  font-size: 1rem;
+}
+
+.block-footer__social {
+  margin: var(--sp2) 0;
+}
+
+.block-footer__social-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.block-footer__social-menu-link[class] {
+  color: var(--text-on-neutral-dark-secondary);
+}
+.block-footer__social-menu-link[class][href*=facebook] svg {
+  width: 1.1875rem;
+}
+.block-footer__social-menu-link[class] svg {
+  width: 1.875rem;
+  max-height: 1.875rem;
+}
+.block-footer__social-menu-link[class] path {
+  fill: currentColor;
+}

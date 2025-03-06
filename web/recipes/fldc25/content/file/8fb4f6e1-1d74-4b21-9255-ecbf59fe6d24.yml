@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 8fb4f6e1-1d74-4b21-9255-ecbf59fe6d24
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: drupalizeme-by-osiolabs-color-square.png
+  uri:
+    -
+      value: 'public://2021-12/drupalizeme-by-osiolabs-color-square.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 29644
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1640094482

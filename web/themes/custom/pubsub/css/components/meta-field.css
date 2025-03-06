@@ -1,0 +1,38 @@
+/**
+ * Meta field show up on sessions, trainings, and job listing nodes.
+ */
+.meta-field {
+  align-items: center;
+}
+.meta-field:not(:last-child) {
+  margin-right: 1em;
+}
+.meta-field svg {
+  max-width: 1.25rem;
+  max-height: 1.25rem;
+  vertical-align: text-bottom;
+}
+.meta-field path {
+  fill: var(--color--night-50);
+}
+
+.meta-field--field-session-category svg {
+  margin-bottom: 2px;
+  max-width: 1.125rem;
+  max-height: 1.125rem;
+}
+.meta-field--field-session-category path {
+  fill: var(--color--night-60);
+}
+
+.meta-field--field-speakers .meta-field__items .meta-field__item:after {
+  content: ", ";
+  margin-left: -0.25em;
+  white-space: pre;
+}
+.meta-field--field-speakers .meta-field__items .meta-field__item:nth-last-child(2):after {
+  content: ", and";
+}
+.meta-field--field-speakers .meta-field__items .meta-field__item:first-child:last-child:after, .meta-field--field-speakers .meta-field__items .meta-field__item:last-child:after {
+  content: none;
+}

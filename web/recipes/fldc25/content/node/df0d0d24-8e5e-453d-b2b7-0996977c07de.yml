@@ -1,0 +1,70 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: df0d0d24-8e5e-453d-b2b7-0996977c07de
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    2c77e584-567b-4b57-9205-af7b394378fa: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 2c77e584-567b-4b57-9205-af7b394378fa
+  title:
+    -
+      value: 'Work with DDEV inside the container with VS Code'
+  created:
+    -
+      value: 1733193717
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/work-ddev-inside-container-vs-code
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>The traditional way of working with DDEV is from the host side, where you can <code>ddev ssh</code> or <code>ddev exec</code> but you''re kind of on the outside looking in.</p><p>But with <a href="https://code.visualstudio.com/docs/devcontainers/containers">VS Code''s Dev Containers extension</a> you can actually work inside the container, which is just like working on your server. Instead of <code>ddev drush</code> you just do <code>drush</code>.</p><p><a href="https://www.drupaleasy.com/users/ultimike">Mike Anello </a>has long taught this technique, but it has a few rough edges. We''ll work on those rough edges and show the whole thing.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_speakers:
+    -
+      entity: 2c77e584-567b-4b57-9205-af7b394378fa
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c

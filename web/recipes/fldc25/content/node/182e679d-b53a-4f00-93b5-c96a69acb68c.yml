@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 182e679d-b53a-4f00-93b5-c96a69acb68c
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    8ce532b3-700d-42cb-b714-44e6205e4e71: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    27cab40c-1aa8-4a4f-8c03-3e4b87b8b255: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    02e3bc79-2f8c-410a-a38f-597825b72454: file
+    511b544f-a420-4adf-9f7d-813e764b6d47: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8ce532b3-700d-42cb-b714-44e6205e4e71
+  title:
+    -
+      value: 'The Unique Challenges of Design Systems at Scale'
+  created:
+    -
+      value: 1732212767
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/unique-challenges-design-systems-scale
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Setting up a design system can help create consistency and guardrails for authors, designers, strategists, developers, and all involved in creating and maintaining websites or applications.</p><p>But what happens when that design system needs to expand to support numerous applications and websites, each with a different purpose and audience?</p><p>In this session, we’ll share some challenges we’ve encountered when working with large design systems that need to scale. We’ll discuss the following challenges:</p><p>- scaling and maintaining design patterns<br>- naming systems at scale<br>- maintaining a “system of systems.”<br>- governance and adoption at scale<br>- component content flexibility and guidance at scale</p><p>This session is for those already familiar with design systems but unsure how to scale them to multiple websites and applications.</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 27cab40c-1aa8-4a4f-8c03-3e4b87b8b255
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: 02e3bc79-2f8c-410a-a38f-597825b72454
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: 8ce532b3-700d-42cb-b714-44e6205e4e71
+  field_time_slot:
+    -
+      entity: 511b544f-a420-4adf-9f7d-813e764b6d47

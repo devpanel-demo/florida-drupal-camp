@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: eae3fbc7-d6b0-4663-b0e1-503b7d9775ff
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    322a027a-9bee-4e25-9985-60ba9ce83fb6: taxonomy_term
+    3ffaf851-a920-42c0-b539-1dff4c03e030: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Mythic Digital'
+  created:
+    -
+      value: 1672764401
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/mythic-digital
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>We're a marketing technology partner with over a decade of experience combining our talents in strategy, design, &amp; development. We craft customized web applications from design to delivery. Our specialty lies in Drupal, but we have lots of technologies in our toolkit. We're proud to partner with top-quality brands such as Acquia, Stacker, BoatTest.com &amp; more.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 322a027a-9bee-4e25-9985-60ba9ce83fb6
+  field_sponsor_logo:
+    -
+      entity: 3ffaf851-a920-42c0-b539-1dff4c03e030
+      alt: 'Mythic Digital logo'
+      title: ''
+      width: 1000
+      height: 376
+  field_website_address:
+    -
+      uri: 'http://mythicdigital.io/'
+      title: ''
+      options: {  }

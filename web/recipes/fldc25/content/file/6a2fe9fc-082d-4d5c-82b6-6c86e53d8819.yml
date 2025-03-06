@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 6a2fe9fc-082d-4d5c-82b6-6c86e53d8819
+  default_langcode: en
+  depends:
+    4fe3fec0-1c14-4e55-8ff8-8937ec826cc2: user
+default:
+  uid:
+    -
+      entity: 4fe3fec0-1c14-4e55-8ff8-8937ec826cc2
+  filename:
+    -
+      value: swirt.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-11/swirt.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 11795
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732657236

@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: d60496d0-a87f-41ac-8fa7-bc7897a26cef
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 0
+  filename:
+    -
+      value: LtLauri.jpg
+  uri:
+    -
+      value: 'public://pictures/2024-11/LtLauri.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 6012069
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1731418024

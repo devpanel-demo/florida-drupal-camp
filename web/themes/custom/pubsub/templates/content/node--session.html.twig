@@ -1,0 +1,60 @@
+{{ attach_library('pubsub/session-full') }}
+
+{% set is_training = node.field_is_training.value %}
+{% set speaker_label = is_training ? 'Trainer' : 'Speaker' %}
+{% set is_non_session = node.field_is_non_session.value %}
+
+{%
+  set classes = [
+    'session',
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+  ]
+%}
+
+{# Fields that are in the display mode, but should no be printed with content variable. #}
+{% set special_field_theming = [
+    'field_session_category',
+    'field_r',
+    'field_audience',
+    'field_time_slot',
+    'field_description',
+    'field_speakers',
+    'field_is_training',
+    'field_is_non_session',
+    'field_slides',
+  ]
+%}
+
+<article{{ attributes.addClass(classes) }}>
+  <div class="session__meta">
+    {% if not is_non_session %}
+      {{ content.field_session_category }}
+    {% endif %}
+    {{ content.field_r }}
+    {% if not is_non_session %}
+      {{ content.field_audience }}
+    {% endif %}
+    {{ content.field_time_slot }}
+  </div>
+  <div class="session__desc">
+    {{ content.field_description }}
+  </div>
+
+  {{ content|without(special_field_theming) }}
+
+  {% if content.field_slides.0 %}
+    <div class="highlight-box session__slides">
+      Slides <img class="session__slide-icon" width="25" height="25" loading="lazy" src="{{ pubsub_path }}/images/pdf.svg" alt="PDF format">: {{ content.field_slides }}
+    </div>
+  {% endif %}
+
+  {% if not is_non_session and content.field_speakers.0 %}
+    <h2>About the {{ speaker_label -}} {%- if content.field_speakers.1 %}s{% endif %}</h2>
+    {{ content.field_speakers }}
+  {% endif %}
+</article>

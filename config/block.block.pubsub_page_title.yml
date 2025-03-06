@@ -1,0 +1,26 @@
+uuid: 0072592b-2cf8-40df-95f2-246cf5369c70
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pubsub
+_core:
+  default_config_hash: '-JrMLqQLQQsuTv7Js5wTDa1lhbxXL2aNBRfOFJ8pbHk'
+id: pubsub_page_title
+theme: pubsub
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: "<front>\r\n/user/*"

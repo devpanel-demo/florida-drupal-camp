@@ -1,0 +1,81 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 479c9558-c523-44d8-880a-9af554964f4d
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    f36a0eda-477e-4793-a844-c63d8ae61057: file
+    ed42963b-0eaa-4781-a0f7-3461ecfe6477: user
+    f21dc89a-aeb9-4458-91c0-c0b180f6b941: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  title:
+    -
+      value: 'Learn Drupal Forge: The #1 Platform to Develop, Deploy, and Distribute your Drupal Sites'
+  created:
+    -
+      value: 1730843634
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/learn-drupal-forge-1-platform-develop-deploy-and-distribute-your-drupal-sites
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<h2>Are you ready to revolutionize your Drupal development experience?</h2><p>Join us for an exciting three-hour hands-on workshop where we’ll explore Drupal Forge, a powerful cloud-based platform that makes developing, deploying, and distributing Drupal sites easier than ever. Whether you're a beginner with some Drupal knowledge or have a bit more experience, this workshop is perfect for you—just bring along your laptop, and let’s get started!</p><p>With Drupal Forge, you can launch your projects in mere seconds and develop right in your browser using a fully functional VS Code Cloud IDE. Imagine effortlessly collaborating with fellow developers from around the globe and pausing your projects whenever you need to. And the best part? It's all completely free, thanks to the OPS Association, a nonprofit committed to empowering developers like you!</p><h2>What You'll Learn:</h2><p>By the end of this workshop, you'll walk away with the ability to:</p><ul><li>Launch a Drupal site (Drupal CMS, Drupal 7 - 11, Backdrop, CiviCRM, etc.) in under five seconds!</li><li>Develop and manage your site directly in the cloud using a user-friendly browser-based IDE.</li><li>Share secure URLs with clients for easy feedback.</li><li>Collaborate efficiently with other developers to debug faster.</li><li>Pause and unpause your development environments, allowing for unlimited projects.</li><li>Deploy your development sites to your own affordable production servers.</li></ul><h2>Agenda:</h2><p>Here’s a quick look at what we’ll cover:</p><ol><li><strong>Create a Site from Scratch</strong> - Launch a fully functional Drupal site in just seconds.</li><li><strong>Site Building in the Cloud</strong> - Set up your site using essential tools and modules.</li><li><strong>Introduction to the Cloud IDE </strong>- Get comfortable using VS Code in your browser.</li><li><strong>Development Tools Overview</strong> - Dive into Composer, Drush, SSH, and SCP.</li><li><strong>Collaborate with Developers</strong> - Discover how to work effectively with your team.</li><li><strong>Backup and Download</strong> - Learn how to protect and save your work easily.</li><li><strong>Pausing/Unpausing Environments</strong> - Manage your projects effortlessly.</li><li><strong>Connect to a Production Server </strong>- Get your site ready for launch.</li><li><strong>Deploy Your Site </strong>- Seamlessly deploy to production.</li><li><strong>Connect Your Site to a Custom Domain</strong> - Bring your site online with CloudFlare CDN.</li></ol><h2>Who Should Attend:</h2><p>This workshop is designed for a diverse audience, including:</p><ul><li>Drupal Developers:<br>- <strong>Beginners: </strong>Learn the basics of launching and developing Drupal sites in the cloud, getting started with powerful tools without the need for complex setups.<br>- <strong>Intermediate Developers:</strong> Gain insights into advanced site building, effective collaboration techniques, and best practices for deploying projects efficiently.<br>- <strong>Advanced Developers:</strong> Discover how to streamline your workflow, manage multiple projects, and leverage the full potential of Drupal Forge for faster debugging and deployment.</li><li><strong>Project Managers:</strong><br>Learn how to oversee projects from development to deployment, ensuring timely delivery. You'll discover how to debug faster and onboard developers or contractors globally in minutes instead of hours, days, or weeks.</li><li><strong>Marketing Managers:</strong><br>Find out how to enhance your team’s productivity and streamline processes, ultimately saving money on project delivery and resource management.</li><li><strong>Agency Owners:</strong><br>Explore how to build and distribute Drupal Recipes, generate leads, and sell support and hosting effectively, enabling you to grow your agency and improve client satisfaction.</li></ul><h2>Key Takeaways:</h2><p>By attending this workshop, you will learn how to:</p><ul><li><strong>Get Started Quickly:</strong> Learn to launch your Drupal sites in under a minute, allowing you to hit the ground running.</li><li><strong>Simplify Your Development Process:</strong> Discover how to use cloud-based tools to streamline your workflow and reduce setup time.</li><li><strong>Boost Your Productivity:</strong> With faster debugging and collaboration capabilities, you’ll be able to complete projects more efficiently.</li><li><strong>Save Time and Money: </strong>Eliminate the need for expensive local development environments and high-spec hardware, making your development process more cost-effective.</li><li><strong>Enhance Security: </strong>Keep your code secure in the cloud with a complete audit trail, ensuring peace of mind throughout your development cycle.</li><li><strong>Master Deployment:</strong> Gain the skills to deploy your sites with ease and connect them to custom domains, ensuring a smooth transition from development to production.</li></ul><h2>Prerequisites:</h2><p>To get the most out of this workshop, you should have some familiarity with Drupal or Backdrop and a working laptop—no fancy specs required!</p><h3>Come Join Us!</h3><p>Grab your laptop and get ready to jump into a hands-on experience – launch, design, and deploy your very own Drupal site. This workshop is all about interaction and practical learning. You’ll be applying your new skills in real time. We can't wait to see what you forge!</p>"
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: true
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: f36a0eda-477e-4793-a844-c63d8ae61057
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: ed42963b-0eaa-4781-a0f7-3461ecfe6477
+  field_time_slot:
+    -
+      entity: f21dc89a-aeb9-4458-91c0-c0b180f6b941

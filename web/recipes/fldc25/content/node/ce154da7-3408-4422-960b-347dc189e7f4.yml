@@ -1,0 +1,59 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ce154da7-3408-4422-960b-347dc189e7f4
+  bundle: session
+  default_langcode: en
+  depends:
+    4b919385-94b4-47ed-9817-e126d519d386: user
+    df17328d-2a03-48cc-9107-648f786be119: taxonomy_term
+    99030c72-dce0-484c-a208-1776a0ae2093: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 4b919385-94b4-47ed-9817-e126d519d386
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 4b919385-94b4-47ed-9817-e126d519d386
+  title:
+    -
+      value: 'Maximizing Project Success: High-Value Partnerships'
+  created:
+    -
+      value: 1729650030
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/maximizing-project-success-high-value-partnerships
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: df17328d-2a03-48cc-9107-648f786be119
+  field_description:
+    -
+      value: '<p>The contract is signed, the project team is defined, and goals are set. So you’re probably thinking, let’s kick the project off. Although it’s exciting to jump in and make progress on a new project, there’s a lot to think about before getting started.</p><p>Successful projects are a result of great partnerships, and it’s important to establish a strong project team and be on the same page from the start. In this session, we’ll cover the importance of:</p><ul><li>Business and client team building</li><li>Encouraging Trust through transparency and delivery</li><li>Empowering decision-makers with a discovery-first approach</li><li>Performing phased projects to deliver success when dealing with high-risk and uncertainty\</li></ul><h2>Synopsis</h2><p>In the tech agency space, agencies may perform poorly because they act as a "middle man" instead of a "facilitator". Whether you’re an agency or work with one, join us to learn the best practices for successful project management and a successful agency partnership.</p><p><strong>Learning objectives</strong></p><p>At the end of this session, attendees will be able to host valuable and transparent team-building activities with their partner businesses and produce successful projects</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 99030c72-dce0-484c-a208-1776a0ae2093
+  field_speakers:
+    -
+      entity: 4b919385-94b4-47ed-9817-e126d519d386

@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: cd150083-5186-47b1-8b61-3431f8506e84
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    30b07840-7761-479c-89a6-fd81b482b823: menu_link_content
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Session Schedule'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      uri: 'internal:/schedule/day-2'
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: true
+  weight:
+    -
+      value: -50
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:30b07840-7761-479c-89a6-fd81b482b823'
+  revision_translation_affected:
+    -
+      value: true

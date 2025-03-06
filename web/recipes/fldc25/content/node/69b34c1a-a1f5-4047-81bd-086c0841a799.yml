@@ -1,0 +1,80 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 69b34c1a-a1f5-4047-81bd-086c0841a799
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    fb25457a-3727-4e10-99e1-a231440ebaeb: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    ff1b9e54-f1fb-42da-a329-4301873a750a: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+    2bb8bf6c-32a3-4896-b25e-cb3c7b41316f: file
+    a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: fb25457a-3727-4e10-99e1-a231440ebaeb
+  title:
+    -
+      value: 'What a front of the front end developer brings to your team'
+  created:
+    -
+      value: 1733145866
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/what-front-front-end-developer-brings-your-team
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Are you a front of the front end developer who focuses on CSS, semantic HTML, and presentational Javascript, and do you wonder if your skillset matters in the world of modern web development? Do you think about the best way to mark up an SVG to be as accessible as possible, and write Twig templates with (relative) ease? You’re not alone and your front of the front end development knowledge is still important today.</p><p>This session discusses why your front of the front end development skills are still relevant in today’s web development ecosystem, how to convince your team that a front of the front end developer is a valuable asset, and how front of the front and back of the front end developers can work together to develop powerful front end solutions in Drupal and beyond.</p><p>Let’s show the web development community that front of the front end developers contribute so much to a team!</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: ff1b9e54-f1fb-42da-a329-4301873a750a
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_social_media_card:
+    -
+      entity: 2bb8bf6c-32a3-4896-b25e-cb3c7b41316f
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: fb25457a-3727-4e10-99e1-a231440ebaeb
+  field_time_slot:
+    -
+      entity: a931ae7b-1ab1-4bf3-b6c2-9b40b844a88c

@@ -1,0 +1,67 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: dff70091-ff93-49bc-b914-a900679e52b1
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    8366f5c7-14af-4ae3-8dda-7b4f06198369: user
+    3da0ca52-ef6b-42d7-bb66-89bc516d051c: taxonomy_term
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    7025eb14-76e7-4ffe-9053-eb52d839b9c9: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  revision_log:
+    -
+      value: 'Bulk updated fields: field_acceptance'
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369
+  title:
+    -
+      value: 'Captchas and other gotchas: Make sure your security measures are accessible'
+  created:
+    -
+      value: 1731025754
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/captchas-and-other-gotchas-make-sure-your-security-measures-are-accessible
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 3da0ca52-ef6b-42d7-bb66-89bc516d051c
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: '<p>Security measures and accessibility don’t always play nice. Captchas, timed logins, alert pop-ups, gated content, and modals are often used for security, but not all users and assistive technology can get their users past the barriers.<br>We’ll look at practical and straightforward ways to implement open-source solutions that are both secure and accessible, keeping folks from abandoning ship.</p><h2>Objectives</h2><ul><li>You will learn how some security efforts can be barriers to those who use assistive technology</li><li>Learn how different user agents interact with digital assets</li><li>You will walk away with accessible solutions to generally inaccessible 3rd party options</li></ul><p>We’ll look at practical and straightforward ways to implement solutions that are open source, secure and accessible, keeping folks from abandoning your digital assets.<br>&nbsp;</p>'
+      format: full_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_session_category:
+    -
+      entity: 7025eb14-76e7-4ffe-9053-eb52d839b9c9
+  field_speakers:
+    -
+      entity: 8366f5c7-14af-4ae3-8dda-7b4f06198369

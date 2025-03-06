@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e6079779-a6a9-4acd-93ff-fd0d3c30e5c1
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    53c12745-0ccc-4ced-8596-920c49a4f5c5: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Florida Technical College'
+  created:
+    -
+      value: 1643127150
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/florida-technical-college
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>FTC provides the right environment for learning with individual student attention, experienced faculty, and career services.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 53c12745-0ccc-4ced-8596-920c49a4f5c5
+      alt: 'Logo for Florida Technical College'
+      title: ''
+      width: 2046
+      height: 1292
+  field_website_address:
+    -
+      uri: 'https://www.ftccollege.edu/'
+      title: ''
+      options: {  }

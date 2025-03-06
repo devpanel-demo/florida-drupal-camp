@@ -1,0 +1,43 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9f19486c-1ada-4c82-8426-f072331f908a
+  bundle: page
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Become a Sponsor'
+  created:
+    -
+      value: 1621447174
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /become-sponsor
+      langcode: en
+      pathauto: 0
+  body:
+    -
+      value: '<h2>Fast Facts</h2><p><strong>Date:</strong> February 21-23, 2025<br><br><strong>Location</strong>:<br>Florida Technical College<br>12900 Challenger Pkwy<br>Orlando, FL 32826</p><p><strong>Estimated Attendance:</strong> ~ 150 techies with vast interest in Drupal ranging from newbies to seasoned professionals.<br><br><strong>Program Plan</strong>:</p><ul><li>Friday - full- and half-day paid trainings</li><li>Saturday - full-day 4-5 tracks of sessions</li><li>Sunday - half-day single track of mini-sessions, first-time contribution workshop&nbsp;and contribution day</li></ul><p><strong>Registration fee</strong>: $50 (early-bird), $75 (normal)<br><br><strong>Total event budget</strong>: ~ $15,000</p><p>The <strong>seventeenth</strong> annual Florida DrupalCamp will be in-person! The 2024 event will continue to build on the successes of previous events, which have drawn hundreds of attendees each year from across Florida, the US, and the world.</p><p>We are extremely cognizant of the need for our sponsors to receive a positive return on investment for their sponsorship dollars. If your organization would like to discuss additional methods to assist with your ROI, please let us know..</p><p><a href="/contact">Let us know</a> if you are interested!</p><hr><h2>Sponsorship Levels</h2><h3>Platinum - $3,000</h3><ul><li>Logo placement on every page of Florida DrupalCamp&nbsp;web site.</li><li>Table in exhibition area (30”x72”).</li><li>5-minute block during one of the featured sessions to introduce your company.</li><li>1 sponsor-labeled session during the event to present a Drupal-related topic. You may promote a project or organization you are working on if it is relevant, but please no sales pitches.</li><li>Copy of non-opted-out attendee names, companies and email addresses (upon request).</li><li>3 text ad placements in attendee emails sent out prior to the event by FLDC volunteers.</li><li>Naming rights to one of the event rooms.</li><li>Option to place advertising materials in attendee swag bag.</li><li>Exposure on @fldrupalcamp twitter feed and other social media accounts.</li><li>Exposure in any press releases.</li><li>Unlimited job postings.</li><li>Camp admission for 5 people.</li><li>Limited to 1 sponsor.</li></ul><hr><h3>Gold - $1,000</h3><ul><li>Logo placement on every page of Florida DrupalCamp&nbsp;web site.</li><li>Table in exhibition area (30”x72”).</li><li>Your company''s logo on a slide by itself introduced during one of the featured sessions.</li><li>1 sponsor-labeled session during the event to present a Drupal-related topic. You may promote a project or organization you are working on if it is relevant, but please no sales pitches.</li><li>Copy of non-opted-out attendee names, companies and email addresses (upon request).</li><li>2 text ad placements in attendee emails sent out prior to the event by FLDC volunteers.</li><li>Naming rights to one of the event rooms.</li><li>Option to place advertising materials in attendee swag bag.</li><li>Exposure on @fldrupalcamp twitter feed and other social media accounts.</li><li>Exposure in any press releases.</li><li>Camp admission for 2 people.</li><li>5 job postings.</li></ul><hr><h3>Video - $2,000</h3><ul><li>All Gold benefits</li><li>Your company''s logo at the beginning of every FLDC 2024 session video posted on our YouTube channel.</li><li>Limited to 1 sponsor.</li></ul><hr><h3>Silver - $750</h3><ul><li>Logo placement on the home page and sponsors page of Florida DrupalCamp&nbsp;web site.</li><li>Table in exhibition area (30”x72”).</li><li>1 text ad placement in attendee emails sent out prior to the event by FLDC volunteers.</li><li>Option to place advertising materials in attendee swag bag.</li><li>Exposure on @fldrupalcamp twitter feed and other social media accounts.</li><li>Camp admission for 1 person.</li><li>3 job postings.</li></ul><hr><h3>Bronze - $500</h3><ul><li>Logo placement on the home page and sponsors page of Florida DrupalCamp&nbsp;web site.</li><li>Your company''s logo on a shared slide during one of the featured sessions.</li><li>Option to place advertising materials in attendee swag bag.</li><li>One job posting.</li></ul><hr><h3>Individual - $100</h3><ul><li>Your name on the individual sponsors page on the Florida DrupalCamp&nbsp;web site.</li><li>Your name on a shared slide during one of the featured sessions.</li></ul><hr><h3>In-kind - a minimum of $500 in in-kind services/goods</h3><ul><li>Logo placement on the home page and sponsors page of Florida DrupalCamp&nbsp;web site.</li><li>Your company''s logo on a shared slide during one of the featured sessions.</li><li>Option to place advertising materials in attendee swag bag.</li><li>Exposure on @fldrupalcamp twitter feed and other social media accounts.</li><li>Camp admission for 1 person</li></ul><p><a class="button button--primary" href="/contact">Contact us to sponsor today!</a></p>'
+      format: full_html
+      summary: ''

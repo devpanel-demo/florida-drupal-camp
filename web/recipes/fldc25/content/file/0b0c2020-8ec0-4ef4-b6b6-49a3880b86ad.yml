@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 0b0c2020-8ec0-4ef4-b6b6-49a3880b86ad
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+default:
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  filename:
+    -
+      value: 'Logo drupalORG.png'
+  uri:
+    -
+      value: 'public://2024-01/Logo drupalORG.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 20877
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1705336513

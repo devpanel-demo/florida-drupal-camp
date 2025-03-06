@@ -1,0 +1,72 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  default_langcode: en
+  depends:
+    2572c06f-170c-4009-a4dd-78c854ffad39: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: melnychukmy
+  pass:
+    -
+      value: $2y$10$J/M8Achi1.jjTv1lgpxh/e6wizf1s47LX0noKlCcAJwtr1usuD6..
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: melnychuk.my@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1730486524
+  access:
+    -
+      value: 1734369738
+  login:
+    -
+      value: 1733339893
+  init:
+    -
+      value: melnychuk.my@demo.com
+  roles:
+    -
+      target_id: administrator
+  path:
+    -
+      alias: /u/melnychukmy
+      langcode: en
+      pathauto: 1
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/melnychukmy'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: Anastasiia
+  field_home_town:
+    -
+      value: 'Roseville, CA'
+  field_last_name:
+    -
+      value: Mostepaniuk
+  user_picture:
+    -
+      entity: 2572c06f-170c-4009-a4dd-78c854ffad39
+      alt: ''
+      title: ''
+      width: 924
+      height: 1279

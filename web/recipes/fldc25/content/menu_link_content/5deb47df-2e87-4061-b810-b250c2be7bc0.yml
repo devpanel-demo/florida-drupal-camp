@@ -1,0 +1,42 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 5deb47df-2e87-4061-b810-b250c2be7bc0
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    99ba9fc9-61f5-44a7-818d-29064c311171: menu_link_content
+    d4d86c9f-c3d5-4a75-87eb-b1d1779e9fe1: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'Inclusion For All'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: d4d86c9f-c3d5-4a75-87eb-b1d1779e9fe1
+      title: ''
+      options: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -48
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:99ba9fc9-61f5-44a7-818d-29064c311171'
+  revision_translation_affected:
+    -
+      value: true

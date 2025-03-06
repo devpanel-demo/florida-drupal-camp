@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 7c154072-db70-4d0a-b845-f86441f4393b
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: mcbluelogo.png
+  uri:
+    -
+      value: 'public://2022-01/mcbluelogo.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 18058
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1642520599

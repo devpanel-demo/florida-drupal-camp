@@ -1,0 +1,47 @@
+_meta:
+  version: '1.0'
+  entity_type: menu_link_content
+  uuid: 1bd727bd-0a9b-47a0-9854-6e941d6d6f3f
+  bundle: menu_link_content
+  default_langcode: en
+  depends:
+    ab1e9ff4-2d22-4934-8ab1-781b4dd996d4: menu_link_content
+    b0e1157c-8766-4109-b919-228b03a7c72d: node
+default:
+  enabled:
+    -
+      value: true
+  title:
+    -
+      value: 'COVID Policies'
+  description:
+    -
+      value: 'Florida Technical College COVID protocols'
+  menu_name:
+    -
+      value: main
+  link:
+    -
+      target_uuid: b0e1157c-8766-4109-b919-228b03a7c72d
+      title: ''
+      options:
+        container_attributes:
+          class: {  }
+  external:
+    -
+      value: false
+  rediscover:
+    -
+      value: false
+  weight:
+    -
+      value: -49
+  expanded:
+    -
+      value: false
+  parent:
+    -
+      value: 'menu_link_content:ab1e9ff4-2d22-4934-8ab1-781b4dd996d4'
+  revision_translation_affected:
+    -
+      value: true

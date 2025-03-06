@@ -1,0 +1,102 @@
+@import "../../global/variables";
+@import "../../global/mixins";
+
+//
+// Misc Drupal stuff too little to warrant its own stylesheet.
+//
+
+//
+// TableDrag
+//
+.form-item__label--multiple-value-form {
+  text-align: left;
+}
+
+.draggable a.tabledrag-handle {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+}
+
+a.tabledrag-handle .handle {
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  background-position: center;
+}
+
+input.field-add-more-submit {
+  @include button--primary;
+  @include button--small;
+}
+
+.tabledrag-toggle-weight {
+  @include button;
+  @include button--small;
+
+  margin-bottom: 0;
+  padding-inline: var(--sp0-5);
+  height: var(--sp1-5);
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+tr.drag {
+  background-color: var(--color--sky-94);
+}
+
+abbr.warning {
+  text-decoration: none;
+}
+
+.field-multiple-table {
+  th {
+    text-align: left;
+
+    h4 {
+      margin: 0;
+    }
+  }
+}
+
+//
+// Autocomplete
+//
+.js input.form-autocomplete,
+.js input.form-autocomplete.ui-autocomplete-loading {
+  background-position: right 20px center;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  display: block;
+  padding: var(--sp);
+}
+
+//
+// Hide extra form field that is part of antispam
+//
+.form-item-url {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.01;
+  pointer-events: none;
+}
+
+
+// Extra styling for "region meta" that the Gin toolbar is inserting.
+.region-meta {
+  > *,
+  .region > * {
+    margin-block-end: 0;
+  }
+
+  .breadcrumb__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .breadcrumb__item {
+    display: inline;
+  }
+}

@@ -1,0 +1,75 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 9587e19b-07b0-4aee-927f-b81ae4eb0dff
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    63770343-62c3-43d9-a9b6-3ac1dfc810ec: taxonomy_term
+    becb1f38-1ae9-40a4-84e7-e6fd194d5a19: taxonomy_term
+    936dd2a1-d1dd-4c15-85cd-bd20a731e14c: taxonomy_term
+    b925b54b-3dba-497a-ae8b-5fd2759cbcad: file
+    6febf1c9-b585-4219-8385-6bcdd6313993: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  title:
+    -
+      value: 'Mini-sessions Extravaganza '
+  created:
+    -
+      value: 1674134537
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/mini-sessions-extravaganza
+      langcode: en
+      pathauto: 1
+  field_audience:
+    -
+      entity: 63770343-62c3-43d9-a9b6-3ac1dfc810ec
+  field_description:
+    -
+      value: "<h2>What is a mini-session?&nbsp;</h2>\r\n\r\n<p>Mini-sessions are short and sweet 5, 10, and 15 minute long sessions on something practical. This could be something like a live demonstration of a module, how to use a certain feature within Views, etc.</p>\r\n\r\n<h2>When will mini-sessions be given?</h2>\r\n\r\n<p>Mini-sessions will take place in the auditorium Sunday morning.</p>\r\n"
+      format: full_html
+  field_is_non_session:
+    -
+      value: true
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: becb1f38-1ae9-40a4-84e7-e6fd194d5a19
+  field_session_category:
+    -
+      entity: 936dd2a1-d1dd-4c15-85cd-bd20a731e14c
+  field_social_media_card:
+    -
+      entity: b925b54b-3dba-497a-ae8b-5fd2759cbcad
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      target_id: 4
+  field_time_slot:
+    -
+      entity: 6febf1c9-b585-4219-8385-6bcdd6313993

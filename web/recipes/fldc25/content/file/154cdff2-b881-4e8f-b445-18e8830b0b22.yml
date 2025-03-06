@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 154cdff2-b881-4e8f-b445-18e8830b0b22
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_brianperry.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_brianperry.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 50389
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734047054

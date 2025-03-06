@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: ac4f01eb-430f-4dee-a094-6beb72fd97a2
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+default:
+  uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  filename:
+    -
+      value: FTC-Orlando-Campus-Photo-2-1-min.jpeg
+  uri:
+    -
+      value: 'public://2021-11/FTC-Orlando-Campus-Photo-2-1-min.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 89539
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1637713316

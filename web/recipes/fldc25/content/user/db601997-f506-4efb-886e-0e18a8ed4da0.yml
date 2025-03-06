@@ -1,0 +1,94 @@
+_meta:
+  version: '1.0'
+  entity_type: user
+  uuid: db601997-f506-4efb-886e-0e18a8ed4da0
+  default_langcode: en
+  depends:
+    41b3d5f2-f730-4b73-9145-04e80f607ec1: file
+default:
+  preferred_langcode:
+    -
+      value: en
+  preferred_admin_langcode:
+    -
+      value: en
+  name:
+    -
+      value: q0rban
+  pass:
+    -
+      value: $2y$10$pFgt6zH7AtPM2RPGEmtsi.sOFG6y12oLZcCf4TkV2lSc/.0UB4.na
+      existing: ''
+      pre_hashed: false
+  mail:
+    -
+      value: james@demo.com
+  timezone:
+    -
+      value: America/New_York
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1732029825
+  access:
+    -
+      value: 1732134522
+  login:
+    -
+      value: 1732030072
+  init:
+    -
+      value: james@demo.com
+  roles:
+    -
+      target_id: speaker
+  path:
+    -
+      alias: /u/q0rban
+      langcode: en
+      pathauto: 1
+  field_biography:
+    -
+      value: "Like many in the web development world, James came to programming through the side door. After graduating with a degree in music performance, he decided in 2004 to start a record label and began searching for tools to help him build websites for the bands he was working with. A recommendation from a fellow nerd landed him on the Drupal homepage. Drupal 4.5 was the current release at the time, and while he got a lot for free from the community, he soon found that he had quite a bit to learn in order to be able to build the simple yet unique websites his musicians wanted.\r\n\r\nJames took to web development quickly. As his skills increased and interest grew, he began learning other technologies, and built one of the first decoupled Drupal websites using a Drupal 5 backend that fed XML to a Flash frontend website. It wasn't long before James realized that he was receiving more compliments on the websites he was building than for the music, and so he hung up his record label hat and pursued a full time career in web development.\r\n\r\nAfter working as the Drupal developer for Sprocket, a web design agency based in metro Atlanta, he was hired as a part-time Drupal trainer for Lullabot, then as a developer, senior developer, and then architect—all for some of the world's biggest brands. James has worked on large data migrations for The Recording Academy, engaging editorial experiences for MSNBC, and helped create a fast and stable development and deployment process for Cisco's Support Forum. He architected a decoupled user experience for Martha Stewart, and a continuous integration and deployment process for Intel, which later became Tugboat.\r\n\r\nIn his role as Director of Product for Tugboat, James leverages his years of experience as a technical architect for Lullabot to support the biggest brands on the web with their digital platforms."
+      format: plain_text
+  field_drupal_org_profile:
+    -
+      uri: 'https://www.drupal.org/u/q0rban'
+      title: ''
+      options: {  }
+  field_first_name:
+    -
+      value: James
+  field_last_name:
+    -
+      value: Sansbury
+  field_linkedin_profile_link:
+    -
+      uri: 'https://www.linkedin.com/in/james-sansbury/'
+      title: ''
+      options: {  }
+  field_mastodon_profile_link:
+    -
+      uri: 'https://drupal.community/@q0rban'
+      title: ''
+      options: {  }
+  field_organization:
+    -
+      value: 'Tugboat QA'
+  field_title:
+    -
+      value: 'Director of Product'
+  field_twitter_profile_link:
+    -
+      uri: 'https://twitter.com/q0rban/'
+      title: ''
+      options: {  }
+  user_picture:
+    -
+      entity: 41b3d5f2-f730-4b73-9145-04e80f607ec1
+      alt: ''
+      title: ''
+      width: 1251
+      height: 1252

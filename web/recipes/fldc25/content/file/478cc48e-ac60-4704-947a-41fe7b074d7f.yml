@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 478cc48e-ac60-4704-947a-41fe7b074d7f
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+default:
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  filename:
+    -
+      value: jb_beam.png
+  uri:
+    -
+      value: 'public://2021-12/jb_beam.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 153152
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1640176632

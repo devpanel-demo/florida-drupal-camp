@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ab5d800d-7156-4dac-b204-ccf0ce769684
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    75ebf32c-d7b3-4d7d-85ed-86bb6044908c: user
+    0847f857-cb2c-45c1-843f-d4e8ed04aa98: taxonomy_term
+    07c862f5-13ad-476e-a6d9-d1fa6c653247: file
+default:
+  revision_uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  status:
+    -
+      value: false
+  uid:
+    -
+      entity: 75ebf32c-d7b3-4d7d-85ed-86bb6044908c
+  title:
+    -
+      value: 'Bailey Glasser LLP - My Mesothelioma'
+  created:
+    -
+      value: 1674001493
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/bailey-glasser-llp-my-mesothelioma
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>Bailey Glasser’s Asbestos and Lung Disease Group represents men and women who have been diagnosed with various forms of cancer caused by exposure to asbestos.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 0847f857-cb2c-45c1-843f-d4e8ed04aa98
+  field_sponsor_logo:
+    -
+      entity: 07c862f5-13ad-476e-a6d9-d1fa6c653247
+      alt: 'Bailey Glasser LLP logo'
+      title: ''
+      width: 1000
+      height: 1000
+  field_website_address:
+    -
+      uri: 'https://www.mymesothelioma.com/'
+      title: ''
+      options: {  }

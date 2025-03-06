@@ -1,0 +1,29 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3478fcb4-964c-40e6-a97c-41031c777bee
+  default_langcode: en
+  depends:
+    4dd9a625-c8e8-483c-afb6-f9108bfdb2a0: user
+default:
+  uid:
+    -
+      entity: 4dd9a625-c8e8-483c-afb6-f9108bfdb2a0
+  filename:
+    -
+      value: 2025_FLDC_session_lauriii.jpg
+  uri:
+    -
+      value: 'public://2024-12/2025_FLDC_session_lauriii.jpg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 59067
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1734049576

@@ -1,0 +1,60 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 62fbe938-0402-4448-94de-ddfdaa97350f
+  bundle: sponsor
+  default_langcode: en
+  depends:
+    635ea647-5c5e-4fa7-a651-188a93cd903b: user
+    18370fb8-2d23-47e6-9e27-a43d0895d189: taxonomy_term
+    25d82706-948c-4ca3-9855-585752fb3724: file
+default:
+  revision_uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: 635ea647-5c5e-4fa7-a651-188a93cd903b
+  title:
+    -
+      value: TheDropTimes
+  created:
+    -
+      value: 1673359393
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /sponsors/thedroptimes
+      langcode: en
+      pathauto: 1
+  body:
+    -
+      value: "<p>TheDropTimes is a news website started with the vision of contributing to the growth of a vibrant community of users and contributors around Drupal through the process of covering and promoting everything happening around Drupal.</p>\r\n"
+      format: full_html
+      summary: ''
+  field_sponsor_level:
+    -
+      entity: 18370fb8-2d23-47e6-9e27-a43d0895d189
+  field_sponsor_logo:
+    -
+      entity: 25d82706-948c-4ca3-9855-585752fb3724
+      alt: 'The Drop Times'
+      title: ''
+      width: 126
+      height: 56
+  field_website_address:
+    -
+      uri: 'https://www.thedroptimes.com/'
+      title: ''
+      options: {  }

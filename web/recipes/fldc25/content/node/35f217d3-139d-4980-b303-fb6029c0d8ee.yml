@@ -1,0 +1,83 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 35f217d3-139d-4980-b303-fb6029c0d8ee
+  bundle: session
+  default_langcode: en
+  depends:
+    61ecd73f-5d74-43b7-adc5-39535ddb13a0: user
+    c186f9a1-2c4c-4a86-968a-65ece78ef666: user
+    77da8865-9ffe-4350-99d0-2d41374490b7: taxonomy_term
+    dec134a0-27f8-46fe-9a21-6f3ed4e35e7c: taxonomy_term
+    71b5705b-eabb-40e7-9d4a-42c9de9e7fd2: taxonomy_term
+    c3b54601-ac80-4009-ae30-96fa1d71f98b: taxonomy_term
+    ef4df36d-e434-4a44-8317-0462429dedbf: file
+    50635cae-bdb5-430e-aa0e-35c5de281402: user
+    c59f92f1-5c97-4353-b5c5-2634481a7688: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: 61ecd73f-5d74-43b7-adc5-39535ddb13a0
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: c186f9a1-2c4c-4a86-968a-65ece78ef666
+  title:
+    -
+      value: 'Modern web development with headless Drupal - an opinionated guide'
+  created:
+    -
+      value: 1733289579
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /session/modern-web-development-headless-drupal-opinionated-guide
+      langcode: en
+      pathauto: 1
+  field_acceptance:
+    -
+      entity: 77da8865-9ffe-4350-99d0-2d41374490b7
+  field_audience:
+    -
+      entity: dec134a0-27f8-46fe-9a21-6f3ed4e35e7c
+  field_description:
+    -
+      value: '<p>It''s no secret Drupal has been around for long enough to have a huge fanbase, tons of maturity, and more than one existential crisis. While Drupal is undergoing its marketing positioning with Drupal CMS, as easy to use for marketers and small businesses, Drupal &nbsp;"the framework" is consistently proving its value with a mature ecosystem, the best open source community, and the most advanced feature set. There is only one problem, and it''s not a new one.</p><p>Drupal has not been the pick for the younger generation of web developers, be it due to the steep learning curve with the theming system, or the move to modern JS frameworks, the fact is undeniable: frontend devs crave a modern stack, and it''s not something Drupal can provide or has an opinion on.</p><p>Luckily, the Drupal community has been cooking solutions in contrib space for a while now. And one such opinionated stack will be the point of discussion here.</p><p><a href="https://www.drupal.org/u/asgorobets">asgorobets</a> will be joined by <a href="https://www.drupal.org/u/jmolivas">jmolivas</a> to share their thoughts on best-in-class full-stack development workflow with Next.js and headless Drupal with GraphQL</p><p><span>We will discuss how to make Drupal shine at what it is best at, content management, but also deliver the content to your front end in the most efficient way, maybe even better than cloud-native SaaS solutions out there.</span></p><p>Be prepared for demos, this is going to be a show and tell session</p><p><span>We will explore problems such as:</span></p><ul><li><span>Modern preview and visual editing capabilities</span></li><li><span>Type-safe data fetching with Typescript and GraphQL</span></li><li><span>Component-based landing page building with layout support</span></li><li><span>I</span>ncremental Static Revalidation (ISR) and API caching considerations</li></ul><p>&nbsp;</p>'
+      format: basic_html
+  field_is_non_session:
+    -
+      value: false
+  field_is_training:
+    -
+      value: false
+  field_r:
+    -
+      entity: 71b5705b-eabb-40e7-9d4a-42c9de9e7fd2
+  field_session_category:
+    -
+      entity: c3b54601-ac80-4009-ae30-96fa1d71f98b
+  field_social_media_card:
+    -
+      entity: ef4df36d-e434-4a44-8317-0462429dedbf
+      alt: ''
+      title: ''
+      width: 960
+      height: 540
+  field_speakers:
+    -
+      entity: c186f9a1-2c4c-4a86-968a-65ece78ef666
+    -
+      entity: 50635cae-bdb5-430e-aa0e-35c5de281402
+  field_time_slot:
+    -
+      entity: c59f92f1-5c97-4353-b5c5-2634481a7688
