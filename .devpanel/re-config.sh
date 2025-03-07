@@ -34,7 +34,6 @@ if [[ -f "$WEB_ROOT/composer.json" ]]; then
   cd $WEB_ROOT && composer install
 fi
 
-
 cd $WEB_ROOT && git submodule update --init --recursive
 
 #== Create settings files
@@ -47,7 +46,6 @@ fi
 echo 'Generate hash salt ...'
 DRUPAL_HASH_SALT=$(openssl rand -hex 32);
 sudo sed -i -e "s/^\$settings\['hash_salt'\].*/\$settings\['hash_salt'\] = '$DRUPAL_HASH_SALT';/g" $SETTINGS_FILES_PATH
-
 
 # #Securing file permissions and ownership
 # #https://www.drupal.org/docs/security-in-drupal/securing-file-permissions-and-ownership
