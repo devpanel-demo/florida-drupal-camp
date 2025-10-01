@@ -59,15 +59,15 @@ jobs:
         docker exec ${{ job.services.webserver.id }} bash -c "sudo rm -rf \$APP_ROOT && sudo mkdir -p \$APP_ROOT"
         docker exec ${{ job.services.webserver.id }} bash -c "sudo cp -r /app/. \$APP_ROOT/."
         docker exec ${{ job.services.webserver.id }} bash -c "sudo chown -R www:www \$APP_ROOT"
-        docker exec ${{ job.services.webserver.id }} bash -c "cd \$APP_ROOT && rm -rf .git"
         docker exec ${{ job.services.webserver.id }} bash -c "export && cd \$APP_ROOT && ls -al"
         echo "INSTALL CUSTOM PACKAGE"
         docker exec ${{ job.services.webserver.id }} bash -c "sudo chmod +x \$APP_ROOT/.devpanel/custom_package_installer.sh"
         docker exec ${{ job.services.webserver.id }} bash -c "\$APP_ROOT/.devpanel/custom_package_installer.sh"
         echo "INSTALL DRUPAL"
-        docker exec ${{ job.services.webserver.id }} bash -c "cd \$APP_ROOT && ls -al"
         docker exec ${{ job.services.webserver.id }} bash -c "sudo chmod +x \$APP_ROOT/.devpanel/re-config.sh"
         docker exec ${{ job.services.webserver.id }} bash -c "\$APP_ROOT/.devpanel/re-config.sh"
+        docker exec ${{ job.services.webserver.id }} bash -c "cd \$APP_ROOT && ls -al"
+        docker exec ${{ job.services.webserver.id }} bash -c "cd \$APP_ROOT && rm -rf .git"
 
     - name: Set env to testing environment
       run: |
